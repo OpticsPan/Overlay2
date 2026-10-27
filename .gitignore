@@ -1,0 +1,16 @@
+# Agent scratch files and generated deliverables
+/work/
+/outputs/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Common operating-system debris
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Add language-specific build/cache patterns after the stack is selected.
