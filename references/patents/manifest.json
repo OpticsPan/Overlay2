@@ -1,0 +1,3626 @@
+{
+  "date": "2026-10-27",
+  "scope": "Original PDFs and corresponding MinerU Markdown for the 45 cited patent publications; embedded figure assets included",
+  "publications": 45,
+  "physical_pages": 1114,
+  "semantic_fidelity_certified": false,
+  "records": [
+    {
+      "publication": "CN117234040A",
+      "title": "方法和更换工具",
+      "pages": 29,
+      "original_pdf": "CN117234040A/original.pdf",
+      "markdown": "CN117234040A/mineru.md",
+      "source_sha256": "7d3ef60ee1f5a79bd33cb1a73be7616a7438156321194d2a7a256c639ff56f10",
+      "source_urls": [
+        "https://patents.google.com/patent/CN117234040A/en",
+        "https://patentimages.storage.googleapis.com/71/45/d3/c3830cbd9f7a43/CN117234040A.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "b969d27840af0eb0cee754cecbd373c769dfc3a0fc33db5f55bd6e36a068ff1c",
+      "figures": 13,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 16218,
+          "sha256": "57772bb02b117de81dc042028fdb8dce4f766e76f9a6c171b6a5fc537df8f6c6"
+        },
+        "figures/p0019-0002.png": {
+          "bytes": 104555,
+          "sha256": "ac7059db7c24092f2a170a0e0d53ad97866b574dc3967d4f33b5021ad9819733"
+        },
+        "figures/p0020-0003.png": {
+          "bytes": 180001,
+          "sha256": "348d062a5cc811cc666a2ca4c9e8840f2b6d9bd67e7e6e0692a1eda584829db3"
+        },
+        "figures/p0021-0004.png": {
+          "bytes": 257290,
+          "sha256": "bfc79c73c85460ee264646d13eaf653da5b43ca4aa2be9057ae58fb46ec63893"
+        },
+        "figures/p0022-0005.png": {
+          "bytes": 139092,
+          "sha256": "233fd4798e8126287ff06943086a345ae0243a9e9694bf99a7d5036930f4d2d7"
+        },
+        "figures/p0023-0006.png": {
+          "bytes": 106247,
+          "sha256": "c6148c1edd97644439b5b33eb52633df9e9dffb0943760c186c60f07366190d3"
+        },
+        "figures/p0024-0007.png": {
+          "bytes": 91803,
+          "sha256": "ce446fff8149971e6e9f167776cc8bba4abc10deae330b490eaa2264d65ead5d"
+        },
+        "figures/p0025-0008.png": {
+          "bytes": 87746,
+          "sha256": "e040333c2e002af2bd6ab0a26d671f875988f19ef03cbad978388efd7289c622"
+        },
+        "figures/p0025-0009.png": {
+          "bytes": 68577,
+          "sha256": "64d1f92b993cc713a8f8619a1bcf19904bb2d54a7db43091436b0778e1aeaeab"
+        },
+        "figures/p0026-0010.png": {
+          "bytes": 49831,
+          "sha256": "42eb6217c17f91796a8a64fb128dae34fc063b3521af9549a157a55563f0a95b"
+        },
+        "figures/p0027-0011.png": {
+          "bytes": 43297,
+          "sha256": "1da271c49cc7cc1717da3d3c2a32d8639b466a9fcd711be10fab98dda7b8b6ea"
+        },
+        "figures/p0028-0012.png": {
+          "bytes": 62200,
+          "sha256": "7fdbc9699605973028db4f032711cefe6b77509602de7c8a58779d152b899493"
+        },
+        "figures/p0029-0013.png": {
+          "bytes": 57357,
+          "sha256": "242970ae5147b8f9382b7ff6ab5b5cff05f33001a644ac4554cb6ac7db0e9bdb"
+        },
+        "mineru.md": {
+          "bytes": 57134,
+          "sha256": "d76e44df0fe526d3771f557381bc57a53293a6a00ec1edd0afc53f5c52fd5ff5"
+        },
+        "original.pdf": {
+          "bytes": 703486,
+          "sha256": "7d3ef60ee1f5a79bd33cb1a73be7616a7438156321194d2a7a256c639ff56f10"
+        }
+      }
+    },
+    {
+      "publication": "CN120344910A",
+      "title": "基于掩模版形状测量来推断和估计掩模版温度的方法",
+      "pages": 26,
+      "original_pdf": "CN120344910A/original.pdf",
+      "markdown": "CN120344910A/mineru.md",
+      "source_sha256": "8522703e5b194f57f414c2645b32492c756630c1f4b4db9f58eca712395244a7",
+      "source_urls": [
+        "https://patents.google.com/patent/CN120344910A/zh"
+      ],
+      "acquisition": "Original PDF supplied by the user on 2026-10-27; publication and title visually verified on the first page",
+      "conversion": "Local MinerU 4.0.12, standard / auto, 4-page processing window, image_analysis=False",
+      "mineru_mode": {
+        "tier": "standard",
+        "parse_mode": "txt"
+      },
+      "raw_conversion_sha256": "af7e0ef69477bebca087dd02e4e12da527c727630ae961ce1f3ef0d55d01736c",
+      "figures": 14,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 114527,
+          "sha256": "b0d18987a4e932a47557adc065ca636fd4903754dc2714a220c05308ae5cdbbd"
+        },
+        "figures/p0018-0002.png": {
+          "bytes": 130643,
+          "sha256": "6737dc3463dae04dd0af017fb95ed4f29d93f2eece9e2348c8a2311a0526adc1"
+        },
+        "figures/p0018-0003.png": {
+          "bytes": 117303,
+          "sha256": "9c4f85d02b65136a6b6b9fdf71caeb8d89e449aeee56b4a7342bc1c1d8bf3a57"
+        },
+        "figures/p0019-0004.png": {
+          "bytes": 158827,
+          "sha256": "bbacc08762efef936403815cd27151030682b1831e7e3d2d761dea91eed311df"
+        },
+        "figures/p0019-0005.png": {
+          "bytes": 195849,
+          "sha256": "9ea9398cdad55cca735ba8242323e52f1925889a04a2f0dbed6114d0bf0ef034"
+        },
+        "figures/p0020-0006.png": {
+          "bytes": 198090,
+          "sha256": "5e1a9b7f9d137d34b25bf37e8e86bfca4230278519b489a0139c65eedca88995"
+        },
+        "figures/p0021-0007.png": {
+          "bytes": 183638,
+          "sha256": "9bac2177fea04b3fd01fd7b01413dea83b25983c3e9baffe55cf3b8a677a8dd6"
+        },
+        "figures/p0021-0008.png": {
+          "bytes": 97208,
+          "sha256": "d57717139eced66016cd7aef378ea08ab783ac5bc8d8ec417c96e4b4e2072a3a"
+        },
+        "figures/p0022-0009.png": {
+          "bytes": 40545,
+          "sha256": "9fd1d54023ec7701e527a5545fe855cef2aae8884cd01abd0181324302db3df6"
+        },
+        "figures/p0022-0010.png": {
+          "bytes": 41675,
+          "sha256": "6274b98a3090f6d0c45d3e415e617f6ae8bd17ed263daed0c0117d6d4dbaa2ae"
+        },
+        "figures/p0023-0011.png": {
+          "bytes": 44650,
+          "sha256": "17fef79965cb9bd89137a3af3f5da441eb5a7b21b329083be34014f8ca02df66"
+        },
+        "figures/p0024-0012.png": {
+          "bytes": 515641,
+          "sha256": "ab7a632d4b21820c685d0bd46786ede0a20a83367558ebf96ca30d7b467c2640"
+        },
+        "figures/p0025-0013.png": {
+          "bytes": 355242,
+          "sha256": "80354d7079a0f29aca140b6fc78de6a09f9826ee8ca2a40253e773565fcdf7c5"
+        },
+        "figures/p0026-0014.png": {
+          "bytes": 355321,
+          "sha256": "585d0f695934469e673fe09119e67a998282777dd3f4ed3c584d42b8a5155e8d"
+        },
+        "mineru.md": {
+          "bytes": 61162,
+          "sha256": "690ec4fa68148a0874cfbe3b21f2cea933c0f8f88184c0a9312b05503c4871b4"
+        },
+        "original.pdf": {
+          "bytes": 3509396,
+          "sha256": "8522703e5b194f57f414c2645b32492c756630c1f4b4db9f58eca712395244a7"
+        }
+      }
+    },
+    {
+      "publication": "DE102016205618A1",
+      "title": "Projektionsobjektiv mit Wellenfrontmanipulator, Projektionsbelichtungsverfahren und Projektionsbelichtungsanlage",
+      "pages": 72,
+      "original_pdf": "DE102016205618A1/original.pdf",
+      "markdown": "DE102016205618A1/mineru.md",
+      "source_sha256": "b0d416ca7fd787ceb9b076ed7f011d53b3460fa343f661df09d147d9707ed30e",
+      "source_urls": [
+        "https://patents.google.com/patent/DE102016205618A1/en",
+        "https://patentimages.storage.googleapis.com/fe/e2/5f/e68d4de995892e/DE102016205618A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "0ce336a0a6ff254dfc9388fbb1c763864aa8babcfae0a94a5cc92f389dbf5841",
+      "figures": 31,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 2971,
+          "sha256": "a0b9d5f93a98f78d7cdf1a614b1ceba8483e5e416ff75a410a984f079e2d139a"
+        },
+        "figures/p0001-0002.png": {
+          "bytes": 1661,
+          "sha256": "c9ee6d1cc25f5651fdffc841bfda4fe680ee542cd60349d6660e2bd6a8c42853"
+        },
+        "figures/p0001-0003.png": {
+          "bytes": 61765,
+          "sha256": "8bbea1ca1fd636430df9895dac0c7e310beda1b8cb34008884f9d122b97a37b4"
+        },
+        "figures/p0056-0004.png": {
+          "bytes": 108962,
+          "sha256": "f656a6bf1bc5716c13688908b2695520ef93b744f75c1abbf6c80a7803d8225f"
+        },
+        "figures/p0057-0005.png": {
+          "bytes": 65551,
+          "sha256": "298a545a4994b012329a404f9d08baa44627227a28bfd4fac53c00243c47b78c"
+        },
+        "figures/p0057-0006.png": {
+          "bytes": 26695,
+          "sha256": "d5d5daeff80a487d5d70d632202234dee3bb3a49ba164747c28a5cbc26090f46"
+        },
+        "figures/p0060-0007.png": {
+          "bytes": 90434,
+          "sha256": "2b49ee2f4a3972ab3af6b6a80fca7bfea339fb6ff9caeee73f522993f601d853"
+        },
+        "figures/p0060-0008.png": {
+          "bytes": 66772,
+          "sha256": "4d0fcb7798e8951d82edbd3f93dfbc6e7498c3f2057a4734081eaf92e73a8fe6"
+        },
+        "figures/p0061-0009.png": {
+          "bytes": 66565,
+          "sha256": "0d88fb99f92034d2a93dce3226703752ad3b3cd7b67796ebff56535eb0a438f7"
+        },
+        "figures/p0061-0010.png": {
+          "bytes": 64428,
+          "sha256": "9ac49ff4eb903fa159d54f89cd7e7439bd44563c01570cfb88831bbc601e96b4"
+        },
+        "figures/p0062-0011.png": {
+          "bytes": 90586,
+          "sha256": "f5b3dc499dffa466aed8141f33a2bc8a24656727e5cffcaabaec977af5ed7011"
+        },
+        "figures/p0062-0012.png": {
+          "bytes": 61905,
+          "sha256": "bd2511b70957075e6438e6679cac1a9fd96e61f28c9f1163bd788e444f52723f"
+        },
+        "figures/p0063-0013.png": {
+          "bytes": 78609,
+          "sha256": "0ff0c32e8a6c3fa2a829e83d50671d31407f9949f515c433accf35b34052b32d"
+        },
+        "figures/p0063-0014.png": {
+          "bytes": 68205,
+          "sha256": "3e11df27ded7a4a69b2d8226b476921936855f0f77d1dfe00f37e80768787f2c"
+        },
+        "figures/p0064-0015.png": {
+          "bytes": 104284,
+          "sha256": "65834bdccc829d9311ff55f4c2abab4ff3c504500c9379ba111ac1f4d85965f4"
+        },
+        "figures/p0064-0016.png": {
+          "bytes": 64535,
+          "sha256": "d0e0b00e1226bbb6dc69dbc029296d03db13b0952097421d30104e088269fc47"
+        },
+        "figures/p0065-0017.png": {
+          "bytes": 96572,
+          "sha256": "87c75cd5a48a2e58045c043b09ffd1db91ebb2a1ee11eaa71040278452932bda"
+        },
+        "figures/p0065-0018.png": {
+          "bytes": 71153,
+          "sha256": "f40376edc09b700373daabb026bb8affedd6d56d6794d0a7ef39f3147338c8c1"
+        },
+        "figures/p0066-0019.png": {
+          "bytes": 110405,
+          "sha256": "767702c695f4b668be4f6af24a7c30366fc084c0e9e103ba29048e8068507934"
+        },
+        "figures/p0066-0020.png": {
+          "bytes": 64470,
+          "sha256": "fe23037ef3e4fee2ce67bff12e04a4cac43d2c9be7a43bacf0afe87015126efe"
+        },
+        "figures/p0067-0021.png": {
+          "bytes": 98751,
+          "sha256": "86c1f6b1987347f3e734ff6ad7a5ed42808516e8e13602b21894e0eb92d77c69"
+        },
+        "figures/p0067-0022.png": {
+          "bytes": 59530,
+          "sha256": "228c3865dde4dbb3995d6b1ad73217f520d0543bbfd5318ffe9685731a837cd4"
+        },
+        "figures/p0068-0023.png": {
+          "bytes": 102396,
+          "sha256": "a49cbc9f6a59edb71e1f4249169c172d63f65494346b23fe8bf6aa0f0500fde2"
+        },
+        "figures/p0068-0024.png": {
+          "bytes": 65826,
+          "sha256": "a3f31bf5213700b3164522c901dcd7ce49f84f7253c5b70b391a6942cef4e137"
+        },
+        "figures/p0069-0025.png": {
+          "bytes": 92314,
+          "sha256": "7758d7ab3c283305dea9c72ca7c0708e104adba3e48bc33843245493b32c5127"
+        },
+        "figures/p0069-0026.png": {
+          "bytes": 63907,
+          "sha256": "27b637d05811fb33aded9ca5f859c70151a42926d56bfdfe62f85f50b0641853"
+        },
+        "figures/p0070-0027.png": {
+          "bytes": 99619,
+          "sha256": "c6e17695c6da3ba534710c7c86aded4f6e4c673e77b938cf0c655c5407775333"
+        },
+        "figures/p0070-0028.png": {
+          "bytes": 70334,
+          "sha256": "3702a56047e0330ecde946de14d834fc255a85e00c4700c9b364651aa6c7cfc4"
+        },
+        "figures/p0071-0029.png": {
+          "bytes": 98585,
+          "sha256": "0849eff185bc8fbf7565979af8ec8f2e9ea10f01699f760c8872776485f7acdb"
+        },
+        "figures/p0071-0030.png": {
+          "bytes": 73773,
+          "sha256": "0db8a9540751526ff80d42f5985e0f1767b132f976d5297760c072bf33e31f5b"
+        },
+        "figures/p0072-0031.png": {
+          "bytes": 200295,
+          "sha256": "3e0bb1302b7d3851b0d0b919c4baef9ba988ccf85ff4d9c801fbb31da8b3a722"
+        },
+        "mineru.md": {
+          "bytes": 237285,
+          "sha256": "c46acadd11edb2c3c03fca1400e88ce91f09451f2959a963733b9e5812ac927e"
+        },
+        "original.pdf": {
+          "bytes": 2429006,
+          "sha256": "b0d416ca7fd787ceb9b076ed7f011d53b3460fa343f661df09d147d9707ed30e"
+        }
+      }
+    },
+    {
+      "publication": "EP4632488A1",
+      "title": "EP4632488A1 - A method of lithography and associated apparatuses",
+      "pages": 23,
+      "original_pdf": "EP4632488A1/original.pdf",
+      "markdown": "EP4632488A1/mineru.md",
+      "source_sha256": "36000e7dabeed804e504ff362a75684e8634abb1c8dc73e66da2fce1f1e9ae73",
+      "source_urls": [
+        "https://patents.google.com/patent/EP4632488A1/en",
+        "https://data.epo.org/publication-server/rest/v1.0/publication-dates/20251015/patents/EP4632488NWA1/document.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "95a33058f90d34216a471beb2f01e55cc5c79f0394db8ec102a2b832f73e3718",
+      "figures": 9,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 11074,
+          "sha256": "48475d8643fa6c492474c4f67a2fab718c884da2990538a956f34bc5d575a3bb"
+        },
+        "figures/p0001-0002.png": {
+          "bytes": 1548,
+          "sha256": "0c911d650117b833c30192ea7220b63eb0c8c783fd96512ab1516e62efb22749"
+        },
+        "figures/p0001-0003.png": {
+          "bytes": 133658,
+          "sha256": "44d224f7aadc8a0c635aa9f1f471ec7e3fb1dee9eb7a2f150fb0fa4ad7c5550a"
+        },
+        "figures/p0016-0004.png": {
+          "bytes": 135424,
+          "sha256": "1afef1c9e6f8cfb40cb6f6e4986941e43789199069143b7f80f0d346b46ed94b"
+        },
+        "figures/p0017-0005.png": {
+          "bytes": 149685,
+          "sha256": "2c489612f600f20a63193424d334cd495b8aa46846e82b39b5851b169cdba5c0"
+        },
+        "figures/p0018-0006.png": {
+          "bytes": 205446,
+          "sha256": "16899170e9400263dd8525e9cc329fb1ad51845aa25e4d9423e12b12ab249eaa"
+        },
+        "figures/p0019-0007.png": {
+          "bytes": 11723,
+          "sha256": "43750ed4bb4c52ee4fcfd8e35a5b21d869ecb8693963fc826b2137ed3a47c029"
+        },
+        "figures/p0019-0008.png": {
+          "bytes": 9760,
+          "sha256": "cb22b655c24fd5ad2c4cb19792b56d0a01d5f3df9640e3e4575229e3ef718cde"
+        },
+        "figures/p0020-0009.png": {
+          "bytes": 201275,
+          "sha256": "2fae237d0783077b78aad19dc47c2906f672bb27ca36e225612f851e06f959b1"
+        },
+        "mineru.md": {
+          "bytes": 92008,
+          "sha256": "0f400f01e24f5f864068e18138477d347c49281680c16de08a287a2b1cd15303"
+        },
+        "original.pdf": {
+          "bytes": 598307,
+          "sha256": "36000e7dabeed804e504ff362a75684e8634abb1c8dc73e66da2fce1f1e9ae73"
+        }
+      }
+    },
+    {
+      "publication": "JP5809458B2",
+      "title": "Reticle clamp system",
+      "pages": 19,
+      "original_pdf": "JP5809458B2/original.pdf",
+      "markdown": "JP5809458B2/mineru.md",
+      "source_sha256": "6667deed44c1f8f1263c69f02ebfe7b94a1482f2e9925e80846d0d292fe4f125",
+      "source_urls": [
+        "https://patents.google.com/patent/JP5809458B2/en",
+        "https://patentimages.storage.googleapis.com/52/73/c1/eda95210ed139b/JP5809458B2.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "df3eb999ab0412198dc455837d5505e02ee9431833fcb9cdb47ff4bef89f8186",
+      "figures": 13,
+      "artifacts": {
+        "figures/p0016-0001.png": {
+          "bytes": 29590,
+          "sha256": "1f221153f7764f2503a7d9ae2344bfd98815defc0b0697ec1497cbc5febdf59d"
+        },
+        "figures/p0016-0002.png": {
+          "bytes": 14278,
+          "sha256": "6270ecfce305ce4000962acf6b1252cb7e82dc8de67b66edc437c48644efc8fd"
+        },
+        "figures/p0016-0003.png": {
+          "bytes": 9421,
+          "sha256": "a3939d102ddad9b54b2b3a3c9da1695c9d7f97b0068d540692475715b5c6afac"
+        },
+        "figures/p0016-0004.png": {
+          "bytes": 30165,
+          "sha256": "70ef78472de63932e9d9e08c9d429448ec8cba52fc2d145c6d4e733a0d21deb4"
+        },
+        "figures/p0016-0005.png": {
+          "bytes": 11349,
+          "sha256": "cea48ebe50f4178ed472e825e467138dfd8d0149cda4d066f37bc378dca9d3da"
+        },
+        "figures/p0017-0006.png": {
+          "bytes": 6064,
+          "sha256": "d5cb1e9e399a5f5ffc1184b3150739c73ee39b32a225c6e7af21828a55f3adfa"
+        },
+        "figures/p0017-0007.png": {
+          "bytes": 7612,
+          "sha256": "51ffc92119adf2188e42510408c9e3c52090a1bd1d454d8e783ac38082a1cc26"
+        },
+        "figures/p0017-0008.png": {
+          "bytes": 8749,
+          "sha256": "73f6f4036f71a748e1a23f5f97d9531f0c984b8cbcdbbb0552c030a6aa043356"
+        },
+        "figures/p0017-0009.png": {
+          "bytes": 16890,
+          "sha256": "66b2fb4a1ec8b2acccf29d541979317a519a94fd3d5569af6022baf8bee8a4ee"
+        },
+        "figures/p0017-0010.png": {
+          "bytes": 10788,
+          "sha256": "755334d7416263a5a543facc094a9fc14eb71c04d7d7881db4fea87d0230dcb5"
+        },
+        "figures/p0017-0011.png": {
+          "bytes": 14925,
+          "sha256": "d3ed911b836e0d915e828e67936f38ae8eece6249c441effe4a5e2e59ac76169"
+        },
+        "figures/p0018-0012.png": {
+          "bytes": 31490,
+          "sha256": "21cee9fa9d441db482d1e9519348deb4f7f80f5e385fc574772bf9ab9e381762"
+        },
+        "figures/p0018-0013.png": {
+          "bytes": 82259,
+          "sha256": "d3e5bf7e5b9d9e3d8a412cc70e5ab60bacadbcc3a73ed9e94abc8620909707b2"
+        },
+        "mineru.md": {
+          "bytes": 73957,
+          "sha256": "e1b50f84f2c44699515a6bffbdd8c0c7b45045622399e452c05a267ed50cb990"
+        },
+        "original.pdf": {
+          "bytes": 260484,
+          "sha256": "6667deed44c1f8f1263c69f02ebfe7b94a1482f2e9925e80846d0d292fe4f125"
+        }
+      }
+    },
+    {
+      "publication": "US10120292B2",
+      "title": "Support apparatus, lithographic apparatus and device manufacturing method",
+      "pages": 35,
+      "original_pdf": "US10120292B2/original.pdf",
+      "markdown": "US10120292B2/mineru.md",
+      "source_sha256": "a9be4a6b81461def227426351e3495eea4d444ce771a04b33fe94c7500342fac",
+      "source_urls": [
+        "https://patents.google.com/patent/US10120292B2/en"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "8a5c575b9badf8a50d5576386590e40daa7aeab15e18b8924b3847bc68ec22ae",
+      "figures": 26,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 97509,
+          "sha256": "85cfd698ce978be7428e582432e39de252d40c4529392710bc1517bcb2f95e1d"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 166915,
+          "sha256": "f9e560555fec9058893bad6ea46694ce80abb53d73743849de0deb0ac3331b70"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 38250,
+          "sha256": "594c3e299c9f762b2a0b33c2cd2b6cd9f10b618a8a58008a0b82578b5c5a49ee"
+        },
+        "figures/p0004-0004.png": {
+          "bytes": 67884,
+          "sha256": "12a8bfef157fed9176daba7d33baea5295036a3b759c80d73f233085a5777317"
+        },
+        "figures/p0004-0005.png": {
+          "bytes": 55747,
+          "sha256": "bce22fad81c236f48a179263892fa32a91aa561d2e4552a2aaa71a02ec925b82"
+        },
+        "figures/p0005-0006.png": {
+          "bytes": 61063,
+          "sha256": "b69ca6901e8c78a7561700f2333ead1a07e7915b4f05843e3fcf5ebe62cb7644"
+        },
+        "figures/p0005-0007.png": {
+          "bytes": 202123,
+          "sha256": "5af92a1d784f697b1f389e9117766f9e193b30b3070b7c97b164179a58d4edb7"
+        },
+        "figures/p0006-0008.png": {
+          "bytes": 280049,
+          "sha256": "3e3ec0c544b690c426ee004e9c6108957b625b07207b2a66fa9c192b8aa6fed9"
+        },
+        "figures/p0006-0009.png": {
+          "bytes": 471226,
+          "sha256": "54d3ed33294be00dde707c2626a5c1a9dd91af8bd6a9fa1395a4b2c2e3e5bc2d"
+        },
+        "figures/p0007-0010.png": {
+          "bytes": 283679,
+          "sha256": "590479877e88581656457604e21fb8993afe6bc18c8faf274091a83a599a4baa"
+        },
+        "figures/p0007-0011.png": {
+          "bytes": 275287,
+          "sha256": "d631f58160938e1c6cb4c3184e1973d3722b93717d40d21a2f20ccfd3e3a4ed6"
+        },
+        "figures/p0008-0012.png": {
+          "bytes": 275479,
+          "sha256": "bf0481bb400c054e56e53ee5d0c31fbfaada33abd5e92422c3b52590434e1567"
+        },
+        "figures/p0008-0013.png": {
+          "bytes": 521651,
+          "sha256": "087d64d7e4f2f2f1aa52d4cd5cb16a6dad4851079b71366de628346a5517685a"
+        },
+        "figures/p0009-0014.png": {
+          "bytes": 277601,
+          "sha256": "ad2c20e1b66eaa7d9443b1f5cb8a19602e994637fd2ae73b37910590ff97a4e6"
+        },
+        "figures/p0009-0015.png": {
+          "bytes": 285768,
+          "sha256": "144418e1bb69b96c1b720cc184c28bc20a4343324e25c78a9c21998a143a2d5f"
+        },
+        "figures/p0010-0016.png": {
+          "bytes": 155290,
+          "sha256": "cdfb037858e8cbd90f10ea5b14ef077cec94a3086ca35a3133f643a067fc0730"
+        },
+        "figures/p0010-0017.png": {
+          "bytes": 140493,
+          "sha256": "c21ab37779b8a0db0aa926276dbfc4df59967afe7d06555005785b516410c644"
+        },
+        "figures/p0011-0018.png": {
+          "bytes": 229031,
+          "sha256": "ad43aba144085a125f81cb0ae31ad740167b1bb7263464f75f2f921dc044dff3"
+        },
+        "figures/p0011-0019.png": {
+          "bytes": 149490,
+          "sha256": "f191cc12ebca8f3862302bb83a03eb5f8d5f5c7a94254b460b65eff59a05a7ac"
+        },
+        "figures/p0012-0020.png": {
+          "bytes": 157361,
+          "sha256": "23532cf6710598fb42f2d657bdd2d34737ef3a2b955f3a38439fa94432d50da6"
+        },
+        "figures/p0012-0021.png": {
+          "bytes": 274089,
+          "sha256": "997205b41cb4d79e803b5d5820abad92636167617ca0f9d4c0c5412e653fffc3"
+        },
+        "figures/p0013-0022.png": {
+          "bytes": 1053896,
+          "sha256": "874732712147cb5f418b2c1c6d705d126771af5973ff426ca228003859f9357f"
+        },
+        "figures/p0014-0023.png": {
+          "bytes": 1053308,
+          "sha256": "1e1ef873890e416c22898949ce624c36cf6ed5a68c5658b5136588398c41a6e6"
+        },
+        "figures/p0015-0024.png": {
+          "bytes": 1064948,
+          "sha256": "41afc5023250076f855165476817dd2e797366b7de599952a615558db97bc8c6"
+        },
+        "figures/p0016-0025.png": {
+          "bytes": 911534,
+          "sha256": "c99670e0e034e7a043a689352979c6bb43a7047a9171e9f7ee86b40d41d80bd3"
+        },
+        "figures/p0017-0026.png": {
+          "bytes": 350451,
+          "sha256": "0a360a00141290a85017a910b2027dfa030ec19232ee25657f2d5259517e4fd2"
+        },
+        "mineru.md": {
+          "bytes": 141285,
+          "sha256": "3da130399de1ad2438bf98cfde1f23c445a0c094cdc2f29f139fad5662590195"
+        },
+        "original.pdf": {
+          "bytes": 6015800,
+          "sha256": "a9be4a6b81461def227426351e3495eea4d444ce771a04b33fe94c7500342fac"
+        }
+      }
+    },
+    {
+      "publication": "US10429749B2",
+      "title": "Method of reducing effects of reticle heating and/or cooling in a lithographic process",
+      "pages": 16,
+      "original_pdf": "US10429749B2/original.pdf",
+      "markdown": "US10429749B2/mineru.md",
+      "source_sha256": "bbe3698aa7c87715689e2571d6e818c5504d8817f15031290d65cc32d9e3fca9",
+      "source_urls": [
+        "https://patents.google.com/patent/US10429749B2/en",
+        "https://patentimages.storage.googleapis.com/ad/47/c2/89f73936af512e/US10429749.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "e856e787f413e2e3abaa8573ac765673a46f6dc586077a3235065aa255228e9b",
+      "figures": 6,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 17712,
+          "sha256": "ba42c12934408b7d0a7dfea7281e22a921c826dad7c0bfc1ff6741cc5a1d7277"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 102288,
+          "sha256": "49ae25b8329d0ec8a969f0882841c2bff2980338030249c8841b54cebcbb3b1a"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 43046,
+          "sha256": "2be6ea4bfc032a9feac4efa62a451539cf0d89b7c0ea6bf23bc28f1bcb440a3f"
+        },
+        "figures/p0005-0004.png": {
+          "bytes": 60484,
+          "sha256": "d6e504e7429f77dd85050e709115bfecc80ac667b3ce94b3f6f35c52cc73d8b4"
+        },
+        "figures/p0006-0005.png": {
+          "bytes": 211218,
+          "sha256": "7fbdad1ac1ad7441233197a6aafe4203b1734a212864b27c2ca1c90a1c8b76d6"
+        },
+        "figures/p0006-0006.png": {
+          "bytes": 215484,
+          "sha256": "a06605ea945bac49a31c400647a211dc5c76a74b7353671e4796b4e528b07976"
+        },
+        "mineru.md": {
+          "bytes": 74847,
+          "sha256": "6115cd060d99e7c4049632052f0d2805a264c619731af07688fb35c709a5288b"
+        },
+        "original.pdf": {
+          "bytes": 2153112,
+          "sha256": "bbe3698aa7c87715689e2571d6e818c5504d8817f15031290d65cc32d9e3fca9"
+        }
+      }
+    },
+    {
+      "publication": "US10747126B2",
+      "title": "Support table for a lithographic apparatus, lithographic apparatus and device manufacturing method",
+      "pages": 30,
+      "original_pdf": "US10747126B2/original.pdf",
+      "markdown": "US10747126B2/mineru.md",
+      "source_sha256": "4f18e1111c8781c44a4a8052b9ce269112583f0d1c2ba214d443df9fcb549dd1",
+      "source_urls": [
+        "https://patents.google.com/patent/US10747126B2/en"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "c6c661878c196fa10872e7ffb1d6cefd7ef0957f995399e35fc001d771021807",
+      "figures": 23,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 30756,
+          "sha256": "6b29fd43b16c988a59ead73f2d5d3d2bb0626998be85db4c5c5a692168a31562"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 92617,
+          "sha256": "da7643aa53c3767cb7b4b68a4e6cbe46f6aab4272c8fcdbfe5cc2a134e18f7d0"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 81856,
+          "sha256": "3238c1a7b2e1410507bd9b828b0fbea704872f7e268608999999688298d3ed10"
+        },
+        "figures/p0005-0004.png": {
+          "bytes": 103224,
+          "sha256": "166bcf0979e04e2c516b077fa59100e83b51e8dc6d54a8847469525f6a2cbae1"
+        },
+        "figures/p0006-0005.png": {
+          "bytes": 27893,
+          "sha256": "ba8a6b0f9b935bd19afe1809b09114a7a2f01987c178e24aca3ea0cc0da5c551"
+        },
+        "figures/p0006-0006.png": {
+          "bytes": 30562,
+          "sha256": "2e53d56ec631dad6abeb33dc38767fac282c3cd920da666b3eb02c045ad31efe"
+        },
+        "figures/p0007-0007.png": {
+          "bytes": 36456,
+          "sha256": "e55bc84944f836c7219113cab900c234cee6d38f5b76b444efb8d0ea59d94420"
+        },
+        "figures/p0007-0008.png": {
+          "bytes": 27186,
+          "sha256": "cf9baa2223180a58bd67ad504a23cdf30119d900ae475ed0aa731d085313a967"
+        },
+        "figures/p0007-0009.png": {
+          "bytes": 28890,
+          "sha256": "ff39520d50a029ddb54af76cfe10cb719a847d7ec1cea15f3efa18f1dabeb106"
+        },
+        "figures/p0008-0010.png": {
+          "bytes": 23777,
+          "sha256": "7c491222c478cf9c0f3804a9ca233537746230439ff019a6eaee593b85562e42"
+        },
+        "figures/p0008-0011.png": {
+          "bytes": 22215,
+          "sha256": "956882d200d76cf19f6b47ff75b74a31674ad7306e8a4aa9b1309ddd31b31dc0"
+        },
+        "figures/p0008-0012.png": {
+          "bytes": 27749,
+          "sha256": "eb2c1412b04c1966eefdbeaf3defdb1b1a0855f5b4a8c6291188403ea4e49b4c"
+        },
+        "figures/p0009-0013.png": {
+          "bytes": 18285,
+          "sha256": "0bfdfea48c9065a93368104bfb71a2cbeb6f16835c700888199ae5620acc26dc"
+        },
+        "figures/p0009-0014.png": {
+          "bytes": 16759,
+          "sha256": "87bc5d41b916e03c45470f6610dd46640041d877dd08ff3aa152b3e57cac3bee"
+        },
+        "figures/p0009-0015.png": {
+          "bytes": 18663,
+          "sha256": "ec2344a17af7fee398e054a2d2e5695588c5b579f62400dba540cbb6ff163d05"
+        },
+        "figures/p0010-0016.png": {
+          "bytes": 19814,
+          "sha256": "66cfa3b2b592ebb2d4be049ca3307854329b435de0b009fd1af48e311141d14c"
+        },
+        "figures/p0010-0017.png": {
+          "bytes": 18544,
+          "sha256": "924107ffd1ebf7c4446900b2643a2e26fc0e1c614aa5c661f2255d41040d0951"
+        },
+        "figures/p0010-0018.png": {
+          "bytes": 20759,
+          "sha256": "f5b781216ec2c8c9846bec5f2623ff535bb0dbf385491c674127f1ec2168a83e"
+        },
+        "figures/p0011-0019.png": {
+          "bytes": 18184,
+          "sha256": "70acf347db6c34e238079aba07ac08dbf2c7a112789441fe2923c5f7b86218b7"
+        },
+        "figures/p0011-0020.png": {
+          "bytes": 25469,
+          "sha256": "112dbcbf0b91b0b4f441a3d81bd7e77e3213e0ab39324e8c67b509f98e955572"
+        },
+        "figures/p0012-0021.png": {
+          "bytes": 28253,
+          "sha256": "0d4c748d442f11e9526ef1d4af9f9e5b505dba45546f296d31e2db8a8fbd353f"
+        },
+        "figures/p0012-0022.png": {
+          "bytes": 20534,
+          "sha256": "4a8fd0e2f2f2e107bbc60555d9110047920d1d58b39deade3571dd6f2da2eaee"
+        },
+        "figures/p0012-0023.png": {
+          "bytes": 29213,
+          "sha256": "2f9fd68946f4f6405cc164104320da3e0a910fd715f0c67e1dd85501b64860f8"
+        },
+        "mineru.md": {
+          "bytes": 144077,
+          "sha256": "1cea07065cd68d48bb1e18480f8a53db21bf3a8416d47e7d84586f15b6007edd"
+        },
+        "original.pdf": {
+          "bytes": 3484974,
+          "sha256": "4f18e1111c8781c44a4a8052b9ce269112583f0d1c2ba214d443df9fcb549dd1"
+        }
+      }
+    },
+    {
+      "publication": "US10884345B2",
+      "title": "Calibration method for a lithographic apparatus",
+      "pages": 22,
+      "original_pdf": "US10884345B2/original.pdf",
+      "markdown": "US10884345B2/mineru.md",
+      "source_sha256": "e78f39b295b45a5aec1a7163d19339d7729b9f64dd4fe1407cd40cd420b0f49c",
+      "source_urls": [
+        "https://patents.google.com/patent/US10884345B2/en",
+        "https://patentimages.storage.googleapis.com/ec/a1/1d/3b66eec724b6ff/US10884345.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "148e3f4d9587373a9dadd0ee50bfa502d249dfa710b8eece1022b98fb58c49b2",
+      "figures": 10,
+      "artifacts": {
+        "figures/p0002-0001.png": {
+          "bytes": 119367,
+          "sha256": "5961b34740c43c369b2c0dded89b76a2e03b74456bf1c7816da163fcc03d4cba"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 530082,
+          "sha256": "e1956dcdf4a643edfd67e52762a59eb13d2e9e793faa2175038f6e3d6e8aafcb"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 101051,
+          "sha256": "554c544383f4f6c8fac55c515ed3771f5b2d0a0696625b709554fd0e1e75ed0c"
+        },
+        "figures/p0005-0004.png": {
+          "bytes": 32723,
+          "sha256": "022211c1b83d83cbbae40a2ee008ac9cd258fda9becf7a51bf6d61625ed9ef40"
+        },
+        "figures/p0006-0005.png": {
+          "bytes": 302355,
+          "sha256": "24c7eba7b9b61f20529fd44d17631192069c02c2272f7af75b692db4c95661aa"
+        },
+        "figures/p0007-0006.png": {
+          "bytes": 154690,
+          "sha256": "cc209c55507674b82bdedcf35d1072b235ebce3610b0d36381d4f99b3961c610"
+        },
+        "figures/p0007-0007.png": {
+          "bytes": 143219,
+          "sha256": "054db290af436902ac78e958bbab5598bd62c121f066da86914d6c9d6a68e6ec"
+        },
+        "figures/p0008-0008.png": {
+          "bytes": 323056,
+          "sha256": "a3c2f2c99570178feef8d68ce145536fa6bf8b6deb557ca8e6603caede154da7"
+        },
+        "figures/p0009-0009.png": {
+          "bytes": 311441,
+          "sha256": "abfcb35226cf3b891b4da44f7e45557edc46b6e2c3c29c8cb1f24928f8c6b0cd"
+        },
+        "figures/p0010-0010.png": {
+          "bytes": 441465,
+          "sha256": "0f4361588c8bdce943c67f1b7b2d8b4a247f31658c0f516969cfdf988824d710"
+        },
+        "mineru.md": {
+          "bytes": 91400,
+          "sha256": "1dfd9215c3ba54f401cd5fe0f7f78ebf8ce6699b6e5384323652ccfe138264c6"
+        },
+        "original.pdf": {
+          "bytes": 2630307,
+          "sha256": "e78f39b295b45a5aec1a7163d19339d7729b9f64dd4fe1407cd40cd420b0f49c"
+        }
+      }
+    },
+    {
+      "publication": "US11175593B2",
+      "title": "Alignment sensor apparatus for process sensitivity compensation",
+      "pages": 41,
+      "original_pdf": "US11175593B2/original.pdf",
+      "markdown": "US11175593B2/mineru.md",
+      "source_sha256": "72a88475a34e8da50642ea78fecdec801067448b4750fbefa7e87e3b5ec365da",
+      "source_urls": [
+        "https://patents.google.com/patent/US11175593B2/en",
+        "https://patentimages.storage.googleapis.com/a2/c8/02/2038aeda0c83d4/US11175593.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "84f7e6281ea96990890ec729ec55e9e8a1c90f982a7869c6cb665487d6aeb211",
+      "figures": 21,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 22634,
+          "sha256": "a7676445999e2250679d91ac6d1e6f7a24cba9565d9bdbdb2ad2ce92f8f86143"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 88761,
+          "sha256": "5f398e825e649d95a65a23c34847b3c888d005aed5ddabfdea3623ebe313cc4d"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 149504,
+          "sha256": "ee372089a42befe0ce5191a92b37b0c808858d04b96fb52bbdbc121d3b86eb8e"
+        },
+        "figures/p0005-0004.png": {
+          "bytes": 145925,
+          "sha256": "04b10c3d1b4859946a36254fce183197ec201cdfdd5b87641e8c398e312660cf"
+        },
+        "figures/p0005-0005.png": {
+          "bytes": 79372,
+          "sha256": "e41b7edda4c5ab1c762b5610efe2ea4a9148247a8e50d0241d7f5caba74b9b99"
+        },
+        "figures/p0006-0006.png": {
+          "bytes": 84962,
+          "sha256": "ce537a31bad5ae8746f89512096363fd367c765585c6373940ec42bc64f599f1"
+        },
+        "figures/p0007-0007.png": {
+          "bytes": 92868,
+          "sha256": "c9ec80322632a76c913c7182bb423e0742d41914f086e4cf58ab085e40fd6497"
+        },
+        "figures/p0008-0008.png": {
+          "bytes": 297850,
+          "sha256": "c3e612840909ecb176532d5befb64f4396994c5176237ff0da00c5623b9a1ef3"
+        },
+        "figures/p0009-0009.png": {
+          "bytes": 181967,
+          "sha256": "276ffdf122c46141767185da977f54024906ca2bc0240b4d4a2a33d24202fa33"
+        },
+        "figures/p0010-0010.png": {
+          "bytes": 134207,
+          "sha256": "9743e4fa293f22eb79ac217ed2e247cc00e67e43b2c5879dee562ca50ad30ce1"
+        },
+        "figures/p0011-0011.png": {
+          "bytes": 148282,
+          "sha256": "51e2776b2ab9f0c812f87e8258bdce55f2fd1ef33f3bcec795c1430791224fc2"
+        },
+        "figures/p0012-0012.png": {
+          "bytes": 153125,
+          "sha256": "5f3cfcaf413a922c61335ea7c60a81883829c42a0730332085011fad6c96874c"
+        },
+        "figures/p0013-0013.png": {
+          "bytes": 27116,
+          "sha256": "2a795f6f1109c769fa59ec17ba27d0455aa5cc43ee561982136836ff17aea974"
+        },
+        "figures/p0013-0014.png": {
+          "bytes": 25267,
+          "sha256": "5c4aa15b5ac42d7ae3c892fd9022eb9a2c021cc2e090af933eda3fd995264c2c"
+        },
+        "figures/p0013-0015.png": {
+          "bytes": 29282,
+          "sha256": "8df5f811c0fcec063a9182a633c9835f27ce700bce5499a147dea03690ecfaf0"
+        },
+        "figures/p0014-0016.png": {
+          "bytes": 88016,
+          "sha256": "e162b03d8b609e7fb20a0040cc398c2137eb144febfcfadec79017949126c814"
+        },
+        "figures/p0014-0017.png": {
+          "bytes": 84747,
+          "sha256": "4544c0cd9e60d9a3da3d06392d01be4ca4d232db194c33cd560a8fbf18256d4e"
+        },
+        "figures/p0015-0018.png": {
+          "bytes": 83989,
+          "sha256": "3b02e48c645e922faf2099854f8c7ea3db45c5e293f5a98f42f5f29d0499c3fe"
+        },
+        "figures/p0015-0019.png": {
+          "bytes": 89896,
+          "sha256": "a33e70d92c198affe27737fc3fffe2a68d6418e1ed1387f5fd28baaff1b29eb7"
+        },
+        "figures/p0016-0020.png": {
+          "bytes": 119009,
+          "sha256": "3c972071128bb807c91080a835721a68de97bc5daa34257f76da0c3fae6f475d"
+        },
+        "figures/p0017-0021.png": {
+          "bytes": 460279,
+          "sha256": "d4fda9fd0bce9a7368f9b5fba39581047b4e93e5710d32f7e2c166655033b56b"
+        },
+        "mineru.md": {
+          "bytes": 187210,
+          "sha256": "d1a3644b674828fd2eb72507391c6c094300d078ea0277bc8b77c536f9da1cd4"
+        },
+        "original.pdf": {
+          "bytes": 5435905,
+          "sha256": "72a88475a34e8da50642ea78fecdec801067448b4750fbefa7e87e3b5ec365da"
+        }
+      }
+    },
+    {
+      "publication": "US11300886B2",
+      "title": "Method of adapting feed-forward parameters",
+      "pages": 13,
+      "original_pdf": "US11300886B2/original.pdf",
+      "markdown": "US11300886B2/mineru.md",
+      "source_sha256": "8101c8e9dc903c57b3b57219d3e49d0475a0d8a559fe40d14261fad1a1dfc09e",
+      "source_urls": [
+        "https://patents.google.com/patent/US11300886B2/en",
+        "https://patentimages.storage.googleapis.com/82/4d/74/d569c21cf23a34/US11300886.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "f966edd5279344d9354ec602d17a005d7989b410c666405c6135dea4530a2b05",
+      "figures": 7,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 34270,
+          "sha256": "f9e954ecdb7cea07dde391ad696018ba3aaf2d167af7142f699cd834e9d2b220"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 171445,
+          "sha256": "8cb9a1b74368b9f83cb8052129321cc4c49e09626ce012dcdf0257778f8ec515"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 30941,
+          "sha256": "974aba8acb99833fa0f1b9e24d649f72231344396b6d2545f41b14517baa2de1"
+        },
+        "figures/p0005-0004.png": {
+          "bytes": 101432,
+          "sha256": "ebb10f1d40c672466bbc38e73272d58dba1ec4343c91af4c42f7da89055011ac"
+        },
+        "figures/p0005-0005.png": {
+          "bytes": 113007,
+          "sha256": "c7cb77ea84a7561c3c7d9e9a31201ed813dcf4a0139c9a89b9a3fca0d042e2a3"
+        },
+        "figures/p0006-0006.png": {
+          "bytes": 160338,
+          "sha256": "bd03cae6990195878fe9dc481319e2e218b5c1666ed97833ce58372cb36d670d"
+        },
+        "figures/p0007-0007.png": {
+          "bytes": 133781,
+          "sha256": "6a684b3e7be049d4d52591ea87386fce11e03f8b5a0e40ab93bb91d14b8a38ac"
+        },
+        "mineru.md": {
+          "bytes": 47089,
+          "sha256": "b38b5285a1d20515663768a1dd7579669b8ca0ab19aa6302ad7e0d56d573871b"
+        },
+        "original.pdf": {
+          "bytes": 1302591,
+          "sha256": "8101c8e9dc903c57b3b57219d3e49d0475a0d8a559fe40d14261fad1a1dfc09e"
+        }
+      }
+    },
+    {
+      "publication": "US11513444B2",
+      "title": "Noise reduction for overlay control",
+      "pages": 17,
+      "original_pdf": "US11513444B2/original.pdf",
+      "markdown": "US11513444B2/mineru.md",
+      "source_sha256": "cc6fdf4ad59e375746e1b15fddaf89a1274149af6b3b6f481b6519f11a656a10",
+      "source_urls": [
+        "https://patents.google.com/patent/US11513444B2/en",
+        "https://patentimages.storage.googleapis.com/2b/90/9c/868bd832aff234/US11513444B2.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "4074332eaa9e117c94ad23b9d2efcbeb9111bfc74dfc3b7bd1aeeb05b4275c40",
+      "figures": 13,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 111674,
+          "sha256": "040dbc2b62c274bf4a15d217b3dedd4435c88b034f7a1a137f49c00b52c647a1"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 81790,
+          "sha256": "11ae808fae030cdd86a3e5baa5c210a65d4988779c02b5c7015789fbd71a52d5"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 200931,
+          "sha256": "bc137e1b213e9905d33e9623e7676256c28532973e10ed86eb060a9e9583e8b5"
+        },
+        "figures/p0005-0004.png": {
+          "bytes": 258832,
+          "sha256": "6e3c30060593ae96011d9697165de97dcb45c84049cb9aab83567ae6109c9121"
+        },
+        "figures/p0006-0005.png": {
+          "bytes": 33232,
+          "sha256": "9200b22a727acac482aec06c694de0fad4a248cad6aa402c8577ebed33f91357"
+        },
+        "figures/p0007-0006.png": {
+          "bytes": 319433,
+          "sha256": "7a2b53c61465f18066e0cf07fa69b6f6bd84ce560dd90ef6a805ed3b9b77df60"
+        },
+        "figures/p0008-0007.png": {
+          "bytes": 36124,
+          "sha256": "851ab65dccfe1ac5083b4be62235f28466b54d6bb2972b041c0ecbe597a03da8"
+        },
+        "figures/p0008-0008.png": {
+          "bytes": 28392,
+          "sha256": "7162d8d63304a194b141b2f3d2c9aac8b2c197cd8d1fe8aa04607072b4037f96"
+        },
+        "figures/p0008-0009.png": {
+          "bytes": 32548,
+          "sha256": "10ed93057a08d5f42e2fbe6033d5b48b8a003d60433154debe6a6cc405925cac"
+        },
+        "figures/p0008-0010.png": {
+          "bytes": 26443,
+          "sha256": "7f5589c97677f420603718d7b175920b9fdc9570c97b3d2c8eb2245e2239870b"
+        },
+        "figures/p0008-0011.png": {
+          "bytes": 39859,
+          "sha256": "01b719270cf2616cfbec78cdbf99ccd48cd1c98cab405d69df60a8bcada5d800"
+        },
+        "figures/p0008-0012.png": {
+          "bytes": 35387,
+          "sha256": "621087f5414bfd41f82759fb27d868910b1c24924612d04748257a3166043242"
+        },
+        "figures/p0009-0013.png": {
+          "bytes": 63137,
+          "sha256": "5d13df8a1e49b49969474a82601c5d809d21f693d614390152dcf0418d40ff60"
+        },
+        "mineru.md": {
+          "bytes": 62699,
+          "sha256": "6aa3a0544e857a5e46e23360ed3d0c23846457d4713d3b46585524fbaf37df6e"
+        },
+        "original.pdf": {
+          "bytes": 1176840,
+          "sha256": "cc6fdf4ad59e375746e1b15fddaf89a1274149af6b3b6f481b6519f11a656a10"
+        }
+      }
+    },
+    {
+      "publication": "US11599027B2",
+      "title": "Lithographic process and apparatus and inspection process and apparatus",
+      "pages": 19,
+      "original_pdf": "US11599027B2/original.pdf",
+      "markdown": "US11599027B2/mineru.md",
+      "source_sha256": "4fa17973c3a056aee22f350f3b54824bc584df29a959260fe6b78a1c242febbf",
+      "source_urls": [
+        "https://patents.google.com/patent/US11599027B2/en",
+        "https://patentimages.storage.googleapis.com/4b/cf/35/d6f53c92dc454d/US11599027.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "e473011b07a441ee15329742a712062f80989bc447ba7ed3e121eb1cb91bb194",
+      "figures": 9,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 47366,
+          "sha256": "e4813f0bfe9fb66d8b67fa87028c0bc22de6a339e5f2a6c031e7906f3c2749a3"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 219361,
+          "sha256": "ae3572f349dd33b95773625a01c9ba5b165fded614f30717f98d3f764cfeafbe"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 222992,
+          "sha256": "b175215f73ab077935fc63efbc0cab84d122a5c576705b497f1b8da715aeefcd"
+        },
+        "figures/p0005-0004.png": {
+          "bytes": 169033,
+          "sha256": "e2e1f118f0d24fc6fe97b34db58ff49652901b4e02fe14aea38c4c74e36f39a4"
+        },
+        "figures/p0006-0005.png": {
+          "bytes": 276280,
+          "sha256": "ce4500ab9eb22b09de5bb994c230b61f7cc13a16cd33ac8b2ef1129c6f79c500"
+        },
+        "figures/p0006-0006.png": {
+          "bytes": 346844,
+          "sha256": "5fbc1a7fe58282a35e32dec962d7f2e2c890f878b9eb0d855c07d27cd1b75fa6"
+        },
+        "figures/p0007-0007.png": {
+          "bytes": 650235,
+          "sha256": "a5561148a6872b3565543574db54c8b3b26db29b75ff2ef1068c14a4ac6522b9"
+        },
+        "figures/p0008-0008.png": {
+          "bytes": 68137,
+          "sha256": "b690dafbb27aece74a4fe165f3d96527c511928255f523b764ba218e232bce3a"
+        },
+        "figures/p0008-0009.png": {
+          "bytes": 27965,
+          "sha256": "a7ca322dc81c941f5ca3b073bbdd5b0abdf16e5481ce9f9cde0a33e04aa37844"
+        },
+        "mineru.md": {
+          "bytes": 81476,
+          "sha256": "97b7155848206f4085f500b67201b7f7a8d08d2cb9b938582195655d9106f8a1"
+        },
+        "original.pdf": {
+          "bytes": 1865489,
+          "sha256": "4fa17973c3a056aee22f350f3b54824bc584df29a959260fe6b78a1c242febbf"
+        }
+      }
+    },
+    {
+      "publication": "US11703772B2",
+      "title": "Recipe selection based on inter-recipe consistency (US11703772B2)",
+      "pages": 36,
+      "original_pdf": "US11703772B2/original.pdf",
+      "markdown": "US11703772B2/mineru.md",
+      "source_sha256": "a872556312daea80ec13881b7dd9f41403a2bb4b7c44606c895e86e34ae96ebf",
+      "source_urls": [
+        "https://patentimages.storage.googleapis.com/b2/5c/60/71c8632a051bba/US11703772.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "b68d86eb7ec8fc1b1ab18d027647afe4b97713538bd72a7bb42cd5fc1ce090fe",
+      "figures": 24,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 84936,
+          "sha256": "173027d308672daf9f001a9887b824a6f5df0fc6e11039812e7ac5a4d1dfa6c1"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 67718,
+          "sha256": "74b172f6fe5f548c83675e8e6e2248a5d21772e23e274b0d45fbf2e73d27482b"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 115144,
+          "sha256": "cf7eff4e6467b4ef3277f4cf6f16a9f862c13102a498afdefabed4048150067d"
+        },
+        "figures/p0005-0004.png": {
+          "bytes": 147264,
+          "sha256": "1b9995330931c80bb377412ab4a78f135cff435b095fb74d40e91a57f7a44ac1"
+        },
+        "figures/p0006-0005.png": {
+          "bytes": 21026,
+          "sha256": "470af5bfad6c4d0ae37793db6c074e236f946b1fc0b5d883985df7345622bb20"
+        },
+        "figures/p0006-0006.png": {
+          "bytes": 62170,
+          "sha256": "07f85ce6fea6c6370ea3f3d3a7f33ff302f5b8ffe3cce4797f54942b87610b31"
+        },
+        "figures/p0006-0007.png": {
+          "bytes": 63509,
+          "sha256": "12c63824f21cbf27033e459b2f494a984468cec0aca7552879a0160f12771277"
+        },
+        "figures/p0007-0008.png": {
+          "bytes": 41597,
+          "sha256": "5b3b44e03f17099082a65be44f096099fc84450e2f2e21443eb1d3911283fe19"
+        },
+        "figures/p0007-0009.png": {
+          "bytes": 195410,
+          "sha256": "db80129243ff631fb458a8d4ef75882fabd64c4e32c2f51feeb1e472a1a6064f"
+        },
+        "figures/p0008-0010.png": {
+          "bytes": 88690,
+          "sha256": "9499ef5e85fdc4a6773405c83c4d58361e991301ba4dbed9b307e4ed436c133d"
+        },
+        "figures/p0009-0011.png": {
+          "bytes": 145967,
+          "sha256": "d0df221ee7c1c64b19aeba592dcd905865a482fb0734eaaa841cd1880e79e93c"
+        },
+        "figures/p0010-0012.png": {
+          "bytes": 126575,
+          "sha256": "d5031e0affbe481c320d9504bc05bb7a6d9dc1e5e21b8f947c57d456270862f4"
+        },
+        "figures/p0011-0013.png": {
+          "bytes": 159036,
+          "sha256": "3a15379b0f060a7f2f6e95fedbc664e51d15a5482d1fdbed3e4b9dae1ed1e446"
+        },
+        "figures/p0011-0014.png": {
+          "bytes": 155881,
+          "sha256": "749308e826ff344f8847e8b8a89feacf956f1b8201b36a2bc2396c4d0a04fb16"
+        },
+        "figures/p0012-0015.png": {
+          "bytes": 41656,
+          "sha256": "db1f909269968169d76743868060d7d5aad84646b7b3f16006b5a8d808ef3382"
+        },
+        "figures/p0013-0016.png": {
+          "bytes": 88217,
+          "sha256": "74294acf8d235fbe461bf7207e76b129290a47fee4623f17f28bd00f8e012c3b"
+        },
+        "figures/p0014-0017.png": {
+          "bytes": 51066,
+          "sha256": "3b7e224c192a77b83932c9564898d8b8b386a8751d12cb65647fafddc67d448f"
+        },
+        "figures/p0015-0018.png": {
+          "bytes": 162657,
+          "sha256": "17f3836d1e43ea33900cced271b0fabf5d20ccd172e41175f31c9741761ea0c8"
+        },
+        "figures/p0016-0019.png": {
+          "bytes": 75789,
+          "sha256": "bbd9ee08ee9cd3ac5e8fb04808bf11130a683f25364bd8dc7dd429b757c96203"
+        },
+        "figures/p0017-0020.png": {
+          "bytes": 24754,
+          "sha256": "92fe1205c2d57813bdacf6aba1704d30a3f6330e81de0bb14f1cb30f77b4310d"
+        },
+        "figures/p0018-0021.png": {
+          "bytes": 98196,
+          "sha256": "b3ab6812ca6ccd2eccfc6bf00cb246448a24dff365944833d7da0427a8b73500"
+        },
+        "figures/p0019-0022.png": {
+          "bytes": 146066,
+          "sha256": "5b30869516a33731f4c46b40a8d25d9f1e11f834c767718f59cb0479bb86760e"
+        },
+        "figures/p0020-0023.png": {
+          "bytes": 93284,
+          "sha256": "677de1faa3aac3c6653b95f90cb947b9bc71dc252c9a44a05e9d686181cb1a39"
+        },
+        "figures/p0021-0024.png": {
+          "bytes": 178976,
+          "sha256": "c913a775561199e410cbff60e81cbbce936bf328be7e651382c612d2e351c3a6"
+        },
+        "mineru.md": {
+          "bytes": 118602,
+          "sha256": "5514e04d692a31a4ed82c4017a1f8ab9bd4f3a69f2dfe75f9375284a9eabc7e3"
+        },
+        "original.pdf": {
+          "bytes": 2399602,
+          "sha256": "a872556312daea80ec13881b7dd9f41403a2bb4b7c44606c895e86e34ae96ebf"
+        }
+      }
+    },
+    {
+      "publication": "US11754931B2",
+      "title": "US11754931B2 - Method for determining corrections for lithographic apparatus",
+      "pages": 20,
+      "original_pdf": "US11754931B2/original.pdf",
+      "markdown": "US11754931B2/mineru.md",
+      "source_sha256": "decd80102deee9ae1432c7a63f9abbad169a4913de039f3d7325a07bec957aa8",
+      "source_urls": [
+        "https://patents.google.com/patent/US11754931B2/en",
+        "https://patentimages.storage.googleapis.com/01/e9/a4/02e0a37d2099e5/US11754931.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "e864cfff78a078a036748aaece4992f71b3dc3bb3bd5ab00ea605b8eeadae1cd",
+      "figures": 7,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 38505,
+          "sha256": "ec7c37038eb2c8df21c27e1f40f8fb63438ee633fd8c584e3796354a160d9bd6"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 147395,
+          "sha256": "eecb4c9470adf80dfb0ebac89657739e74239d78d965a5aadc6540384517ed10"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 89937,
+          "sha256": "31e1c29a5f80eca6b4978cefc4b1c21845ffcbbbd9a1180386cc327abf6f44d9"
+        },
+        "figures/p0004-0004.png": {
+          "bytes": 256746,
+          "sha256": "2fa64900bb9f0da0ce3b5eec0e3b861bbfef2341ccb2d9607351ac84af7740e0"
+        },
+        "figures/p0005-0005.png": {
+          "bytes": 84940,
+          "sha256": "67d598e493ed9a923b738e04f2e873b5eae536aec194a0f39d963e13b44fb6b1"
+        },
+        "figures/p0005-0006.png": {
+          "bytes": 93920,
+          "sha256": "ca31451d5dca06c080db68c9355a9cb4616918dd19beb20af25f8588e72c5a43"
+        },
+        "figures/p0006-0007.png": {
+          "bytes": 40798,
+          "sha256": "ab0ec7619e77765e2a947362576bbd7d3f5f7fa89ad05fa1888551761ad5ab75"
+        },
+        "mineru.md": {
+          "bytes": 104293,
+          "sha256": "5d673c3d1a73c8a88ba50173a00792087aea75d2b3924795d0d2d3d9d784efa5"
+        },
+        "original.pdf": {
+          "bytes": 1865964,
+          "sha256": "decd80102deee9ae1432c7a63f9abbad169a4913de039f3d7325a07bec957aa8"
+        }
+      }
+    },
+    {
+      "publication": "US11886124B2",
+      "title": "Flows of optimization for patterning processes",
+      "pages": 50,
+      "original_pdf": "US11886124B2/original.pdf",
+      "markdown": "US11886124B2/mineru.md",
+      "source_sha256": "b21ee29dc652fe4ed73f4f550cd10e94016b3f47a9515f78103c989141c72cf5",
+      "source_urls": [
+        "https://patents.google.com/patent/US11886124B2/en",
+        "https://patentimages.storage.googleapis.com/59/2e/81/a2acbb01e7261b/US11886124.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "2d8f6c82629f570481f11b668fc767f1165143b0c854935981316fdfe7ea00ce",
+      "figures": 27,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 67293,
+          "sha256": "6b23ff2f258351d2476c7b6ab65558caa281f21877b0c2bdc3541af6315694e3"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 214562,
+          "sha256": "7be1444f8ba206a3d3eb052a293f9717e1dbb02f665ee4c6fc3b6843847ea1f3"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 52025,
+          "sha256": "ef16f6bc7b2f7bde54bb2bc854733b35be5113ed0081bc93f61478b7d30832eb"
+        },
+        "figures/p0005-0004.png": {
+          "bytes": 57663,
+          "sha256": "7f343ae5e97df21ca8bbeb02f887977163a15a1d95855b5a2518260b42aff7b7"
+        },
+        "figures/p0006-0005.png": {
+          "bytes": 46870,
+          "sha256": "db44f8117eed92bade6849d4a238cf563889ab1d7364ebcd65912b9df1260add"
+        },
+        "figures/p0007-0006.png": {
+          "bytes": 73566,
+          "sha256": "1af672a94419f9bce88c1b55c6efac4d6a6ef3879d7e4281f2d35bb924ca1bc2"
+        },
+        "figures/p0008-0007.png": {
+          "bytes": 59701,
+          "sha256": "3138aff73cf4f7d1f4bda707987023483fa5a0c2f327d526854b08e5839ba8b4"
+        },
+        "figures/p0008-0008.png": {
+          "bytes": 78108,
+          "sha256": "2b325ed2e75e367bf0aad1e0b2ecd9db09734dd3b26e033f66ac448c5f26a31f"
+        },
+        "figures/p0009-0009.png": {
+          "bytes": 53660,
+          "sha256": "85dd683d504b917bc677c5c24becf50887f396c7c53b1e8c41a001782d8c1544"
+        },
+        "figures/p0009-0010.png": {
+          "bytes": 69328,
+          "sha256": "87f2d8d5f6a81e014b40efe293c88d6c20f59fcba5b9353dd92a1792b20806b7"
+        },
+        "figures/p0010-0011.png": {
+          "bytes": 76742,
+          "sha256": "94513786cd51277ba3b088eef2639cb76e88c26b87eaed6027ede4e98b69d8a1"
+        },
+        "figures/p0010-0012.png": {
+          "bytes": 57666,
+          "sha256": "8888d9736cc64cf872e833d74e11e58b61e8fefcc6b3a76e56a93cb13466350b"
+        },
+        "figures/p0010-0013.png": {
+          "bytes": 38099,
+          "sha256": "139d3ef1dc62ac80c820a90b9aaf950b10100e7f23afc33ad221894095f16a86"
+        },
+        "figures/p0011-0014.png": {
+          "bytes": 47401,
+          "sha256": "490072c3455604ac210e969e3b67d1a85a823378130ef54e6d8027a6b96a268b"
+        },
+        "figures/p0012-0015.png": {
+          "bytes": 57994,
+          "sha256": "781572a352e52b314e66047d8699adf819991ba380cb984de00c69b4b65dca08"
+        },
+        "figures/p0013-0016.png": {
+          "bytes": 50839,
+          "sha256": "19ee8accacd82581fcbb6bd617c3e8dd0a2457ea261484ac751caa6ff39d5bc8"
+        },
+        "figures/p0014-0017.png": {
+          "bytes": 56965,
+          "sha256": "54ac3bae6d0d867f40d18fc6b8198ce704eac2e3a020755fd22f48a01abf32ee"
+        },
+        "figures/p0015-0018.png": {
+          "bytes": 43079,
+          "sha256": "92fab081015becdb969748ad787b0b121afc44e551b5ddff1e07199f7cd40b12"
+        },
+        "figures/p0016-0019.png": {
+          "bytes": 41291,
+          "sha256": "b18d6912744be57c864b184b65f933f51b877102d4c97b20c32f879be22e64ec"
+        },
+        "figures/p0017-0020.png": {
+          "bytes": 40831,
+          "sha256": "571198f09ca74f95128788f89d6d58d4081b24f96b01994d190e2e7ee2e76fd0"
+        },
+        "figures/p0017-0021.png": {
+          "bytes": 61476,
+          "sha256": "03a95eb001aaec14c000e069bcc72d044ffccc9dedbd420484ab5cf521624a75"
+        },
+        "figures/p0018-0022.png": {
+          "bytes": 152713,
+          "sha256": "623878c0742e934cca288629eb2279e468546a6189f20d8b35ed0f8c11871172"
+        },
+        "figures/p0019-0023.png": {
+          "bytes": 133477,
+          "sha256": "bfca65bbece8df2796b2883480dc9c6361fbb361f1bd09d435ee801ac74d01b1"
+        },
+        "figures/p0020-0024.png": {
+          "bytes": 83405,
+          "sha256": "686efc5561c81ef69c85bfdb5be42f7746b591090ebd285df6d5fe4fb388a51a"
+        },
+        "figures/p0021-0025.png": {
+          "bytes": 78544,
+          "sha256": "cbd388c8da5fc4615fc35ad6b02d9b19f852dd61dc8e7f495bf580ebd42e8790"
+        },
+        "figures/p0022-0026.png": {
+          "bytes": 105768,
+          "sha256": "d733ca138f5a513665200018ff52eefd17f9813ae1ba27b872e124e701f5e854"
+        },
+        "figures/p0023-0027.png": {
+          "bytes": 32643,
+          "sha256": "ecb102f4e2b5344e78f8d9970620dd42e35ba3356faf7b3da4aaaa89eb07c140"
+        },
+        "mineru.md": {
+          "bytes": 215663,
+          "sha256": "86c475c0da3daebf4bacf41ab7fe3079773f84d03834e27e3fd53fbab96d0384"
+        },
+        "original.pdf": {
+          "bytes": 3775390,
+          "sha256": "b21ee29dc652fe4ed73f4f550cd10e94016b3f47a9515f78103c989141c72cf5"
+        }
+      }
+    },
+    {
+      "publication": "US12663725B2",
+      "title": "Methods and systems to calibrate reticle thermal effects (US12663725B2)",
+      "pages": 26,
+      "original_pdf": "US12663725B2/original.pdf",
+      "markdown": "US12663725B2/mineru.md",
+      "source_sha256": "a3a83fc84b12a81765a65774e324efbe813d548b7fc74d2ba5f073b9c4a89db4",
+      "source_urls": [
+        "https://patents.google.com/patent/US12663725B2/en"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "f4c3cad8d6224a45a2d150116c35314bd5ce10893ec141672f52fad45738aaf5",
+      "figures": 14,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 62641,
+          "sha256": "c897dd70d834985763b995fcf4d8c8fb40708df2ef052f7bb96e8e218b5a3bfc"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 109041,
+          "sha256": "ec8fb6a92a0dbd68eb49adfaca82695f45e9e60224c3033871f07dfd818199e6"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 84295,
+          "sha256": "82ae9662949e10ea7b25029588e70dc998a6a455b09581fb441c246fcaa72cd5"
+        },
+        "figures/p0004-0004.png": {
+          "bytes": 325998,
+          "sha256": "9bc97f8c59289b2e09a3369c0a46299931bd651ce0554adc2847d39874052fd7"
+        },
+        "figures/p0005-0005.png": {
+          "bytes": 178913,
+          "sha256": "9253efc843f9c4d368a0f2d30e0b1ef036ea91ad8da8c44f125d4b880d029ee8"
+        },
+        "figures/p0005-0006.png": {
+          "bytes": 104635,
+          "sha256": "4cf5aafc94bdf035b25f0739309f3ad998d835f87ea67e80fd46bfc83ef54cb3"
+        },
+        "figures/p0006-0007.png": {
+          "bytes": 228415,
+          "sha256": "55951697e2813b15d79bd74a647fe58babc9dfa7d04dafb1ea17cef13dc6d389"
+        },
+        "figures/p0006-0008.png": {
+          "bytes": 143372,
+          "sha256": "b862be7951ed8adcb1dcbbcf97ed5895bbe5f42720cc32018729585305679129"
+        },
+        "figures/p0007-0009.png": {
+          "bytes": 104472,
+          "sha256": "d6c51d985061515a3d1ba5db12f4559fd6919e0d1491504227ff9f98e2c648ca"
+        },
+        "figures/p0007-0010.png": {
+          "bytes": 150821,
+          "sha256": "b46499eb46c46f35dfec8b709e234b5cfd22b1cad61e067cde908e2d47f37925"
+        },
+        "figures/p0008-0011.png": {
+          "bytes": 182676,
+          "sha256": "cfb24ae45be155c8bd35d8e79c72783fc2d1dc5ea4a199c1833a947a61fbf9c8"
+        },
+        "figures/p0008-0012.png": {
+          "bytes": 184501,
+          "sha256": "3ee28234259021310df0c1661eb2c6b088e982344a2ec1de012a8352ce5a6d33"
+        },
+        "figures/p0009-0013.png": {
+          "bytes": 110120,
+          "sha256": "229430951022cb9f5330ff1070b5ca0e84cc54a9fbdab2069bf7e1a090f2be42"
+        },
+        "figures/p0010-0014.png": {
+          "bytes": 198834,
+          "sha256": "7a208efe06b2dde401d1bd8b680f5047117f82f1d6616ea034730b138596e219"
+        },
+        "mineru.md": {
+          "bytes": 125783,
+          "sha256": "8f1c03a83863823c60ad55dd4b16153ae30e37c3ceb61aa696e8208ae38b5fa5"
+        },
+        "original.pdf": {
+          "bytes": 2191158,
+          "sha256": "a3a83fc84b12a81765a65774e324efbe813d548b7fc74d2ba5f073b9c4a89db4"
+        }
+      }
+    },
+    {
+      "publication": "US20020008861A1",
+      "title": "Projection lens, in particular for microlithography",
+      "pages": 14,
+      "original_pdf": "US20020008861A1/original.pdf",
+      "markdown": "US20020008861A1/mineru.md",
+      "source_sha256": "4d01d12a77f57efc6c8f11595406269311c720d102b7b4723d4be1746d0913eb",
+      "source_urls": [
+        "https://patents.google.com/patent/US20020008861A1/en",
+        "https://patentimages.storage.googleapis.com/44/43/ab/9f29e6e5502675/US20020008861A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "1b130b8784427a686a3ae55e41b43f5e229852021eab841f35177795ff3c6edd",
+      "figures": 7,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 57113,
+          "sha256": "c6f86f744ba5c7d9f474fb432a889e46219bf0a75e40dbff54101ae3edd83bb5"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 83146,
+          "sha256": "e33623d808a817224d583a26d1e5ad36ce85edf707873b308c5b2214a34537a3"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 27610,
+          "sha256": "f17337d17c258aa73eee2333d0e67208941b6dd048c27c74711543ab0aba86b1"
+        },
+        "figures/p0003-0004.png": {
+          "bytes": 36320,
+          "sha256": "db3213463146c597ba6ea2ec2e155d398d65abe6222f2cb7366189dd0ce63f14"
+        },
+        "figures/p0003-0005.png": {
+          "bytes": 41544,
+          "sha256": "0e6579f47f4ac39cc3def4785601cfafac2cec8545b7e138a13f1ca4c11599c7"
+        },
+        "figures/p0004-0006.png": {
+          "bytes": 196647,
+          "sha256": "d3e7e5c81500df06190f56706cd2de39486eed989a1afc3d69d51b817ff63a3b"
+        },
+        "figures/p0005-0007.png": {
+          "bytes": 186072,
+          "sha256": "7bd11f921b1f0aad7db9f70c687f87a2502bb0d4df115da956037f5eecacd7f9"
+        },
+        "mineru.md": {
+          "bytes": 54908,
+          "sha256": "343f1434e87e76f5e1b10cdeecff7a767a6371f8d10c1c2e1a990ca35f029e33"
+        },
+        "original.pdf": {
+          "bytes": 1190596,
+          "sha256": "4d01d12a77f57efc6c8f11595406269311c720d102b7b4723d4be1746d0913eb"
+        }
+      }
+    },
+    {
+      "publication": "US20090207511A1",
+      "title": "Assembly for adjusting an optical element",
+      "pages": 20,
+      "original_pdf": "US20090207511A1/original.pdf",
+      "markdown": "US20090207511A1/mineru.md",
+      "source_sha256": "c180459af2f461b8c9f5a1dfc90bab38895e0dc3a28c1e4c4097066b21a310f0",
+      "source_urls": [
+        "https://patents.google.com/patent/US20090207511A1/en",
+        "https://patentimages.storage.googleapis.com/48/57/e3/cd836afb7e87e1/US20090207511A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "84cbff5e30a27a21f560a9e8acca004be40ec3816fbb5f3658cd923d0436fb4e",
+      "figures": 18,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 105334,
+          "sha256": "e356a43491a304651dec287e07679aa313078ca451b68aa462c2c386bea4d47e"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 158814,
+          "sha256": "27d3881e10521d8711d9fa91a85d0566884b9564aa97369fb2c8ad1f80ac8223"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 133799,
+          "sha256": "fc05fbd5989537ab30e1e279895d6982500a36d228d84137d987a6033704e852"
+        },
+        "figures/p0004-0004.png": {
+          "bytes": 154991,
+          "sha256": "17589aa5c7762637756d4054c771f449657acf1a4d31dd6f2b2be11b2ca0749d"
+        },
+        "figures/p0005-0005.png": {
+          "bytes": 137311,
+          "sha256": "ec6bd7c187c866890b2c05a297f6ede7658243285f894afeafb8f119da898632"
+        },
+        "figures/p0006-0006.png": {
+          "bytes": 133519,
+          "sha256": "2183ad303dec336905741032af5e83b6fafc868b98bda6d8ed9ad27ed5924519"
+        },
+        "figures/p0007-0007.png": {
+          "bytes": 205880,
+          "sha256": "f9037c7963a6f9af9ce1c5400c11f82c741869a18ca1f5e11499d7500d89cea9"
+        },
+        "figures/p0008-0008.png": {
+          "bytes": 92929,
+          "sha256": "7095c82d5e331e80b6ff2dadee09c6f36b9100ae27c05cbe013cc4b095351f36"
+        },
+        "figures/p0008-0009.png": {
+          "bytes": 28093,
+          "sha256": "54151d92579a018f601ad08a3b459e6ada5c66c4f9e9f01b6b3b4b2b350b6fdf"
+        },
+        "figures/p0008-0010.png": {
+          "bytes": 32936,
+          "sha256": "196a6be51cad08578d7754e03262080fc5d229b67a0cdca73d0a0849fd748efc"
+        },
+        "figures/p0009-0011.png": {
+          "bytes": 72896,
+          "sha256": "97873e14982598e56847d24f4008db4692b9c5e1ca7471c95e877bfc5dc823de"
+        },
+        "figures/p0009-0012.png": {
+          "bytes": 45352,
+          "sha256": "90469e305cccd5b5467b1aec4543ac6b7bd96ff4312f2f6ea07077b69e8184ac"
+        },
+        "figures/p0010-0013.png": {
+          "bytes": 21521,
+          "sha256": "226492cec3d08ed735abdfa87525ab4adbae4a28fdc10b49d83e62494529ce3d"
+        },
+        "figures/p0010-0014.png": {
+          "bytes": 58106,
+          "sha256": "01f94048d1bf7b27ca5caf2815a3dfadc5be5d07cbf48fd3b2fe3cd00f43bf81"
+        },
+        "figures/p0011-0015.png": {
+          "bytes": 94703,
+          "sha256": "153ecb6e5dd147a951f9e54039876391a6b9ad690f1f8410f2c832e89aaf71c5"
+        },
+        "figures/p0011-0016.png": {
+          "bytes": 84873,
+          "sha256": "3c29062192efe8f6f74d7a3c78cc84e0b6ca74547ee454e3cb3ee084de9a31a7"
+        },
+        "figures/p0012-0017.png": {
+          "bytes": 97862,
+          "sha256": "d392e6bd6a96e4e0589674919ae8133c4c7e6a8c504239a3241ded3be8a6dc96"
+        },
+        "figures/p0012-0018.png": {
+          "bytes": 36268,
+          "sha256": "862a4a31896ed0872b21e6159f654a994f34b6d7a7810e0f6c2270d153b61fdf"
+        },
+        "mineru.md": {
+          "bytes": 55629,
+          "sha256": "2c804343126664232c9919c1d2dabc8813d9c7f6d6442dda4a00327b122e9fb5"
+        },
+        "original.pdf": {
+          "bytes": 1484771,
+          "sha256": "c180459af2f461b8c9f5a1dfc90bab38895e0dc3a28c1e4c4097066b21a310f0"
+        }
+      }
+    },
+    {
+      "publication": "US20130188160A1",
+      "title": "Optical System of a Microlithographic Projection Exposure Apparatus and Method of Reducing Image Placement Errors",
+      "pages": 22,
+      "original_pdf": "US20130188160A1/original.pdf",
+      "markdown": "US20130188160A1/mineru.md",
+      "source_sha256": "ab3b6ee8f89967e7492a9dbd8eb7e746b90354c5db6e67e43350ef801579fdb3",
+      "source_urls": [
+        "https://patents.google.com/patent/US20130188160A1/en"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "cacb933e6cb3e8ab48ccf6f32c4e18f2c8f87326c5447e1f458cea3627c52b46",
+      "figures": 21,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 68335,
+          "sha256": "80c150a55704df3714c8ca5f2d50d0656fae2afb245f3538f826d7a962f45d6b"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 129079,
+          "sha256": "43e412703e81274efb85ae1820617635f1439e7550cd1dee777e499ed6fe068b"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 114659,
+          "sha256": "34d7d94aafc17fea0ea30d990972cd2418457476da045305e027dc26023dd2a8"
+        },
+        "figures/p0004-0004.png": {
+          "bytes": 19849,
+          "sha256": "8a2196b64f4855114928b6dd827c260dd614adc36635c74d5775687d241d3de6"
+        },
+        "figures/p0004-0005.png": {
+          "bytes": 52059,
+          "sha256": "8441982773f67f5cdb79814b20eff0f17f0cbc95557fa87921d3a6d0a0881c01"
+        },
+        "figures/p0004-0006.png": {
+          "bytes": 23330,
+          "sha256": "85caf40d5e678ab14c1fc727c4505b5a0b40bef37e1c703f7104c080b767d5b8"
+        },
+        "figures/p0004-0007.png": {
+          "bytes": 20763,
+          "sha256": "199fc7ed428a51881bc488a316089a24c7bcf3b83a8a5d3f3bbd3168d7f7c2a8"
+        },
+        "figures/p0005-0008.png": {
+          "bytes": 63733,
+          "sha256": "344cb00e09e835be91faa98e07fbf2d6397d5820c66e3750aa96dccca3931265"
+        },
+        "figures/p0005-0009.png": {
+          "bytes": 55630,
+          "sha256": "57167ffd05aaf8accc144167e39bee4c98a79ac0a2ecc887a47ff54dfbe43821"
+        },
+        "figures/p0006-0010.png": {
+          "bytes": 35076,
+          "sha256": "f9967808cab51d99157fae0e85d9797b5994dda50838c8b156f67a051dd69851"
+        },
+        "figures/p0006-0011.png": {
+          "bytes": 22648,
+          "sha256": "c0aee740ef1a22c8406e8c99dbb36acd5b67de5f9c1a48a01f8be235a66edd0d"
+        },
+        "figures/p0007-0012.png": {
+          "bytes": 16686,
+          "sha256": "7a16fe1f510d9a80b5bf45783691bd70bf3f654db06e5880c8334a7e619a7abe"
+        },
+        "figures/p0007-0013.png": {
+          "bytes": 31622,
+          "sha256": "ef069f594dd99b1a3bccdf7b24ba6e8aff5348261926e7093e5272d99d1cce2c"
+        },
+        "figures/p0008-0014.png": {
+          "bytes": 77347,
+          "sha256": "921505a886616965a1a1029ebea1564de89d869c999d3e420ae4e6f335e4ca05"
+        },
+        "figures/p0008-0015.png": {
+          "bytes": 17175,
+          "sha256": "1ee3d9893da9b2710b095f4f11989648192ca81a17804e772e8e3f6b1e3c7412"
+        },
+        "figures/p0008-0016.png": {
+          "bytes": 23689,
+          "sha256": "355429b1712117437ed14c89bcf2fcd337b3ae5b90bb25beb1e61476629621aa"
+        },
+        "figures/p0009-0017.png": {
+          "bytes": 29531,
+          "sha256": "baefc9de7dd758eca51f8ab85968b226411b2ac90454bcda32b2bdf5cda4f09f"
+        },
+        "figures/p0009-0018.png": {
+          "bytes": 29877,
+          "sha256": "6905c6f5067f4839dd0eb9e64bacf2288836387d088de47645b7024a47ec1bc3"
+        },
+        "figures/p0010-0019.png": {
+          "bytes": 104713,
+          "sha256": "7c73e7f89beae8b6f3889add84ff8fff68b9c5ceccde6c5434e2a0e414df2d3c"
+        },
+        "figures/p0011-0020.png": {
+          "bytes": 38832,
+          "sha256": "386c526f859f75fba0d4e721654826ec6efe9ee27bf57945538606d559c382fa"
+        },
+        "figures/p0012-0021.png": {
+          "bytes": 102785,
+          "sha256": "57bf9b96b169708b081fa3e7993fec07cceb4747fa579dd5fb927498a013809e"
+        },
+        "mineru.md": {
+          "bytes": 71954,
+          "sha256": "b3ce362efe912417754ba8806f89524ba1e0b6cfe59bd7bc71e22191d11330e7"
+        },
+        "original.pdf": {
+          "bytes": 1697282,
+          "sha256": "ab3b6ee8f89967e7492a9dbd8eb7e746b90354c5db6e67e43350ef801579fdb3"
+        }
+      }
+    },
+    {
+      "publication": "US20180081281A1",
+      "title": "Projection lens with wave front manipulator and related method and apparatus",
+      "pages": 20,
+      "original_pdf": "US20180081281A1/original.pdf",
+      "markdown": "US20180081281A1/mineru.md",
+      "source_sha256": "73b882eed695041d52eaa2eb86e3738648da70ba6619855af7bb57dc2bf376a4",
+      "source_urls": [
+        "https://patents.google.com/patent/US20180081281A1/en",
+        "https://patentimages.storage.googleapis.com/a6/07/a2/98ae2cefc2c5f8/US20180081281A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "2b6943d41fdaba53391e460058a01e49ea002e505f61f2badfd4a64904a531f0",
+      "figures": 10,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 97852,
+          "sha256": "db75425a5217b91beadc3427f5a00158fc630c3ca08e43b29e6c32508418e401"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 148171,
+          "sha256": "69c3df36fd3c04b910cf7fb334ee0afd9674224a9ea550abb40fe8275a3af2f7"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 85133,
+          "sha256": "a8989e8ee36552996f49456f9d61960c5fcd0c6f103fedba08e4c9abfbc279fb"
+        },
+        "figures/p0003-0004.png": {
+          "bytes": 35859,
+          "sha256": "e7653bb53ca9ac66c014e013bf1f2e70c46235a0d3c54ab29d7a9b6ab2c8db81"
+        },
+        "figures/p0004-0005.png": {
+          "bytes": 122424,
+          "sha256": "4f9ab09818d812095c0be78cc86dc8d81c063823144d06c8a1f63434aa7362c9"
+        },
+        "figures/p0005-0006.png": {
+          "bytes": 44561,
+          "sha256": "9cf97275809e42ae758163ff960487bff544f5a107e208f648700e9276e539b5"
+        },
+        "figures/p0005-0007.png": {
+          "bytes": 38001,
+          "sha256": "96dc2fd430c0c732da93705d1d02c52b1ffb07d0df46bd30e66136ce397216ef"
+        },
+        "figures/p0005-0008.png": {
+          "bytes": 48835,
+          "sha256": "726951abb9f1da8fa75cd23bb48b9df5af34a4b290fa886af3be832b2d20653e"
+        },
+        "figures/p0005-0009.png": {
+          "bytes": 44009,
+          "sha256": "c6352f5b8eed66761de1c823157fb6468380841b32ba886bb9eead8c420a8121"
+        },
+        "figures/p0007-0010.png": {
+          "bytes": 85556,
+          "sha256": "083b0f5d1297d0009be78302f73884c36bb02ca5324359a8f0c7d4cb918e379f"
+        },
+        "mineru.md": {
+          "bytes": 97568,
+          "sha256": "31accb5cf5d5ea642a84ec9c40d173ee6fe07597f3ac2a166fccbf99278e25fe"
+        },
+        "original.pdf": {
+          "bytes": 2467639,
+          "sha256": "73b882eed695041d52eaa2eb86e3738648da70ba6619855af7bb57dc2bf376a4"
+        }
+      }
+    },
+    {
+      "publication": "US20190041758A1",
+      "title": "Methods of determining a mechanical property of a layer applied to a substrate, control system for a lithographic apparatus and lithographic apparatus",
+      "pages": 14,
+      "original_pdf": "US20190041758A1/original.pdf",
+      "markdown": "US20190041758A1/mineru.md",
+      "source_sha256": "8293b7e808d497bb5a8563e65ae2c8ad46fdaaa2f42cf2ac6730cd76734701ad",
+      "source_urls": [
+        "https://patents.google.com/patent/US20190041758A1/en"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "84bf582329e6fdf39bb5ccfe0ceb54c1e8b130607b34cd043d1078c677f51bc0",
+      "figures": 8,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 112854,
+          "sha256": "06634b4d947038952b48658d88a4cf5baa457723a9fe145ff0c92f95bd4c526c"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 272846,
+          "sha256": "4ca3aa1e65a4a074091f5ef39ea2a8226174aceb3411634ff3bddb97492900a5"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 158822,
+          "sha256": "37e87eed1a9aa574587bad9470fe9703a0e7693beda6dcf9f20ce6fb71e097d0"
+        },
+        "figures/p0003-0004.png": {
+          "bytes": 102343,
+          "sha256": "938a47f74d1205590bd6cb7cd6582d03efaa105ecdeadba3c9b0be6c464e0fec"
+        },
+        "figures/p0004-0005.png": {
+          "bytes": 18102,
+          "sha256": "84c0753eecbdad72d50a0bf9d7b5d2680a35ba94fc922467d9cc5953d950e1dd"
+        },
+        "figures/p0004-0006.png": {
+          "bytes": 19951,
+          "sha256": "904060dbb4417480b7c27b5f9692012132932a173b3d0641f66db8747aeab21e"
+        },
+        "figures/p0004-0007.png": {
+          "bytes": 18192,
+          "sha256": "b0062b8ab4a21ae08dae1a9abfe2cee098817daa16eb6d078452ba46634f3e73"
+        },
+        "figures/p0005-0008.png": {
+          "bytes": 363918,
+          "sha256": "77cc75d3a701cc3ca50b97d1b21862de7988fb28ce2691431e3495d532d38ddf"
+        },
+        "mineru.md": {
+          "bytes": 62081,
+          "sha256": "9953dfc37b7031d0a1f71823eaff849ce1d73c33d95be616eadef121106831d7"
+        },
+        "original.pdf": {
+          "bytes": 1732661,
+          "sha256": "8293b7e808d497bb5a8563e65ae2c8ad46fdaaa2f42cf2ac6730cd76734701ad"
+        }
+      }
+    },
+    {
+      "publication": "US20200089127A1",
+      "title": "Projection exposure method and projection exposure apparatus for microlithography",
+      "pages": 24,
+      "original_pdf": "US20200089127A1/original.pdf",
+      "markdown": "US20200089127A1/mineru.md",
+      "source_sha256": "9a5dc19e862541d6c0788138cfb2e3f01071f05c2753b9762f5106980cbdd4cf",
+      "source_urls": [
+        "https://patents.google.com/patent/US20200089127A1/en",
+        "https://patentimages.storage.googleapis.com/a7/d9/b7/233c6bdb9cd0b7/US20200089127A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "f7931135b52991dc8ded2caa851b62087df8711c51c13059270b2af1b531eeae",
+      "figures": 11,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 105547,
+          "sha256": "56310981596ef402b6c9fccef4b02fe2bbea9f1677355258a4bd5e0e29a03565"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 196196,
+          "sha256": "5c89329fac6c7689955aa8bea574caa3c534f7c081e6254f4e9ed321b953fc53"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 260391,
+          "sha256": "9fb3c16f1b76aa8feb497323df149bfdc75d19862f1e0a1e1d6450055e60f760"
+        },
+        "figures/p0004-0004.png": {
+          "bytes": 135701,
+          "sha256": "0939c4fdac82c698631a70a2e72e2579ee1d3523cfe466bcb84f7ba7d816fda9"
+        },
+        "figures/p0004-0005.png": {
+          "bytes": 73722,
+          "sha256": "25fe36fb357aeec9254b077c926440fb867f94a479d46fd2f22d42e733a1727a"
+        },
+        "figures/p0005-0006.png": {
+          "bytes": 193246,
+          "sha256": "400b340a322854333ac405317f6a2bf72b48ebe719e09d3f9b4b615816dd1833"
+        },
+        "figures/p0006-0007.png": {
+          "bytes": 78945,
+          "sha256": "b199512fd1be546c1efb89f9d866486c6c4a48203f46f816fd4476e2aa9bb477"
+        },
+        "figures/p0006-0008.png": {
+          "bytes": 77436,
+          "sha256": "84c3020405b781e1c483d34b3cc54547e1fa3f01fb606f2a98d7ee8466763e8f"
+        },
+        "figures/p0007-0009.png": {
+          "bytes": 118294,
+          "sha256": "f925f0455f87ca51fd744217e13f6940706f0d38fd2fe713a2ec3f364b4ec307"
+        },
+        "figures/p0008-0010.png": {
+          "bytes": 87791,
+          "sha256": "571e1716e74dedb7296b118d948744fcacdd174a8c4e9a4c3a1672b69f7d55a9"
+        },
+        "figures/p0009-0011.png": {
+          "bytes": 184411,
+          "sha256": "80e647fbed781ba8da64a5ad334d952ca7433a618317aa99b9aa0e077d6558eb"
+        },
+        "mineru.md": {
+          "bytes": 104208,
+          "sha256": "96c955f94981e65736bc51e19f2c513078f0bbc66cce5e02e164868a5d650595"
+        },
+        "original.pdf": {
+          "bytes": 2686886,
+          "sha256": "9a5dc19e862541d6c0788138cfb2e3f01071f05c2753b9762f5106980cbdd4cf"
+        }
+      }
+    },
+    {
+      "publication": "US20210096472A1",
+      "title": "US20210096472A1 - Control method for a scanning exposure apparatus",
+      "pages": 15,
+      "original_pdf": "US20210096472A1/original.pdf",
+      "markdown": "US20210096472A1/mineru.md",
+      "source_sha256": "3527aebf901e3bb258df2ba86aada2bc248799035bea2c7d71dda06ffe74b3d1",
+      "source_urls": [
+        "https://patents.google.com/patent/US20210096472A1/en",
+        "https://patentimages.storage.googleapis.com/a6/c3/d6/873f10a559da99/US20210096472A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "b238c258204c27b09d21b0e4c15e0b9fd02c1361c22ed928646a87623730b6a5",
+      "figures": 6,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 72498,
+          "sha256": "75f19150c79371d2eac9ab80475d51da347c3d0b9bfbb353df7fb30e6bfc96df"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 127895,
+          "sha256": "27b25e3a4ab819471c03f8306489ed69b2486d5c53aba5b14c9437e8eae758ff"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 113251,
+          "sha256": "0fcbcbd8123e40e99e35892f11a114de3e390572a4559bf5dd3939f501da6191"
+        },
+        "figures/p0004-0004.png": {
+          "bytes": 87698,
+          "sha256": "c590269be78eb44dc5665508e951a741bca1127c01e4d004f2c34f6b07d0277a"
+        },
+        "figures/p0004-0005.png": {
+          "bytes": 14843,
+          "sha256": "f887d3fea776faf2873fd86511e0241946e53762163098efe7c588d19fcb7344"
+        },
+        "figures/p0004-0006.png": {
+          "bytes": 16824,
+          "sha256": "59b8b820b5d531c5b4e5411d342127a8a4a9c299c142622261056c8f9ea1fbb8"
+        },
+        "mineru.md": {
+          "bytes": 81036,
+          "sha256": "1b7a0c3c8e76183c7991430ceea67825179cc56b79b92d52ea831cfa420fb72a"
+        },
+        "original.pdf": {
+          "bytes": 2000006,
+          "sha256": "3527aebf901e3bb258df2ba86aada2bc248799035bea2c7d71dda06ffe74b3d1"
+        }
+      }
+    },
+    {
+      "publication": "US20220146946A1",
+      "title": "Method for controlling a lithographic apparatus and associated apparatuses",
+      "pages": 20,
+      "original_pdf": "US20220146946A1/original.pdf",
+      "markdown": "US20220146946A1/mineru.md",
+      "source_sha256": "d7b88b0b703c544dc952c7c3a11386b026e609e1dab7d4bebe83f88c709eeb72",
+      "source_urls": [
+        "https://patents.google.com/patent/US20220146946A1/en",
+        "https://patentimages.storage.googleapis.com/2a/f3/01/9a8b640b9e5e0c/US20220146946A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "afbcb7bb7dd3a113cf903d73907d9b2f1e890683ac1afe40c950516b915fe7c3",
+      "figures": 7,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 80055,
+          "sha256": "6d06124a1ed31c2814042555cc883f71c91d0f301a33b432d691a3dac93fdada"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 132214,
+          "sha256": "06c22ca6c099418842c68f95a5ebbedc99d326c8fd256556de6240cfe00d7de8"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 147306,
+          "sha256": "df19cdc5a99488af3f3841672c538068cb31f4496441dd123ae38017e9f4f096"
+        },
+        "figures/p0004-0004.png": {
+          "bytes": 181505,
+          "sha256": "75e1fa781301524e1e3a3350bd837776951764828acee19e54c307bd19262c48"
+        },
+        "figures/p0005-0005.png": {
+          "bytes": 26590,
+          "sha256": "97311a23e0659bf4e78185a55e284d409238ddff4ca5a03461657a29933e2f94"
+        },
+        "figures/p0006-0006.png": {
+          "bytes": 43998,
+          "sha256": "98d5da7b0e0a76e33ddb51b7c6c4056f3fe8636d6951d96be36907310f78b53c"
+        },
+        "figures/p0006-0007.png": {
+          "bytes": 59225,
+          "sha256": "b4215f45ec0f55285b9dd93304e7b28e2c72c9b372613d4a3a2d777dc7c5c670"
+        },
+        "mineru.md": {
+          "bytes": 98543,
+          "sha256": "91ceb30b5e89a1eb7220610181af1fa1f3b9921e764056dcc525f62985194b85"
+        },
+        "original.pdf": {
+          "bytes": 2474321,
+          "sha256": "d7b88b0b703c544dc952c7c3a11386b026e609e1dab7d4bebe83f88c709eeb72"
+        }
+      }
+    },
+    {
+      "publication": "US20230077090A1",
+      "title": "Magnification adjustable projection system using deformable lens plates",
+      "pages": 23,
+      "original_pdf": "US20230077090A1/original.pdf",
+      "markdown": "US20230077090A1/mineru.md",
+      "source_sha256": "1e7592445397c47c9ea8330e165d0acc62fd3675f6b11e8ffdab15ef8c0a2f72",
+      "source_urls": [
+        "https://patents.google.com/patent/US20230077090A1/en",
+        "https://patentimages.storage.googleapis.com/a0/0c/f6/c2ba85c7c1b711/US20230077090A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "2842518c5446a10daf70306e5e18e4a9d3bbf8ceb1e8eb623aac338febc6bce2",
+      "figures": 18,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 98438,
+          "sha256": "5d9a5ab3aa36384660f011f30f77690a88d88f720e69ab801379fb352df8c03b"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 111342,
+          "sha256": "970500df18c82564f0da7950ca61c34d826db07ef1c4577119b86b391de7b235"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 26024,
+          "sha256": "bdcc805719d5d68de5e99e6752be9a36896b0d6c7c40c4170393be8a69ada6e7"
+        },
+        "figures/p0003-0004.png": {
+          "bytes": 26973,
+          "sha256": "8e3af84d65a2af7f689cda1441e40e18b668fc7fbf80ff34bdc53b9bb9656c5c"
+        },
+        "figures/p0004-0005.png": {
+          "bytes": 181302,
+          "sha256": "5efcf39332f476954ef5dec4745178a60671e7eed772f0e64200a3bc298fe329"
+        },
+        "figures/p0005-0006.png": {
+          "bytes": 115691,
+          "sha256": "3094f103a59db51880760a884bf74d1bd52ad6ec4dce1433dc44bb22e5f775e6"
+        },
+        "figures/p0006-0007.png": {
+          "bytes": 31670,
+          "sha256": "96954fd112b9340d672adef41e5fc8a8b4a3bf712d75240a4dbd53d54ef534a4"
+        },
+        "figures/p0006-0008.png": {
+          "bytes": 31484,
+          "sha256": "ac83cc19a7087fc395f6bebfe8e8d838fceeb7cdd3f103b2c8f11321e566eaca"
+        },
+        "figures/p0007-0009.png": {
+          "bytes": 56848,
+          "sha256": "7bf775eb1216590bd4ce83a37a152da7023c4fef570050e90428153e4cae88ef"
+        },
+        "figures/p0008-0010.png": {
+          "bytes": 57704,
+          "sha256": "bb8505d356181dfe5f393480b8071759f037e48b59fa81a69d61528b82f5c56c"
+        },
+        "figures/p0009-0011.png": {
+          "bytes": 62777,
+          "sha256": "1ab4718292f41c8c31721b29108c40e5ad1ee60da294c2f68bb304567f5a3ddb"
+        },
+        "figures/p0010-0012.png": {
+          "bytes": 69274,
+          "sha256": "1a55c4db2cc5685e0b8ec986a0fca8254cc7b9b18511ba0bd7bd28ca28e1a77b"
+        },
+        "figures/p0011-0013.png": {
+          "bytes": 59698,
+          "sha256": "715690386af0400f0c843215753e7bc98c95899e2ccf66c7a951d7be96f4e3af"
+        },
+        "figures/p0012-0014.png": {
+          "bytes": 63109,
+          "sha256": "4a685bfdd000bd3fab7e66324f65f687cac82976d10b2a2ceef1624084b2efaa"
+        },
+        "figures/p0013-0015.png": {
+          "bytes": 66385,
+          "sha256": "22b28e8142b3fac5370864cd0f74ad47c1964518505da61a074fad19bd75f10e"
+        },
+        "figures/p0014-0016.png": {
+          "bytes": 80195,
+          "sha256": "cc40ff60078727bec0d66c46febcf0930cb3c4e5b67fb4a73aa13d5e6ffe2c9c"
+        },
+        "figures/p0015-0017.png": {
+          "bytes": 50395,
+          "sha256": "bd25885500f4e833422c3cb5de92284f8d9e899fb33b900e8c7e4aede8272137"
+        },
+        "figures/p0016-0018.png": {
+          "bytes": 58599,
+          "sha256": "324caeb64c1cc8015c7b1ef8abef51db87ae47d29e4a9cd9658e946889fdda20"
+        },
+        "mineru.md": {
+          "bytes": 54908,
+          "sha256": "a21cf686b214e8046b9b005ea4928b9712860323ce918b54038195c9890562a7"
+        },
+        "original.pdf": {
+          "bytes": 1039181,
+          "sha256": "1e7592445397c47c9ea8330e165d0acc62fd3675f6b11e8ffdab15ef8c0a2f72"
+        }
+      }
+    },
+    {
+      "publication": "US20230400772A1",
+      "title": "Method and swapping tool",
+      "pages": 24,
+      "original_pdf": "US20230400772A1/original.pdf",
+      "markdown": "US20230400772A1/mineru.md",
+      "source_sha256": "b931cde5bfbb8e71210707606464a5d8f9a0c2cc971de19cb8a461b7e4a4f153",
+      "source_urls": [
+        "https://patents.google.com/patent/US20230400772A1/en",
+        "https://patentimages.storage.googleapis.com/54/29/42/7fff683790f902/US20230400772A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "eb68bcc839a4a9f7822018cdd1111ff2bde426b535f17d578fe5cea9095a8c93",
+      "figures": 13,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 35785,
+          "sha256": "c3ba0384fa7d3419fdb82eec628beb43e90dbab9672338bd3c2301461413ea91"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 40009,
+          "sha256": "23a99bcaa581131b4c00c99f5c1e92896abc805e1fab58c3b9ade29c799f603a"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 72185,
+          "sha256": "13513197bb7a559eada4944538cbc817c4f5bb170f3e3557c3a21ec59265c87c"
+        },
+        "figures/p0004-0004.png": {
+          "bytes": 95399,
+          "sha256": "bb93f159a28056b5a5b51faa8c7f1a883bad8152f9716b444d23483be47dc610"
+        },
+        "figures/p0005-0005.png": {
+          "bytes": 76771,
+          "sha256": "e7be7c7c18d6025dd2821e80bdd1bf5b5612e9fe7fe70c2aeaa6f2fce3a4568a"
+        },
+        "figures/p0006-0006.png": {
+          "bytes": 40112,
+          "sha256": "a50d3893a89a4b212bb45258bb2e1d9372a86481b69bc7726ef00428f6c92b69"
+        },
+        "figures/p0007-0007.png": {
+          "bytes": 34978,
+          "sha256": "b077833f96a3401c338c2ea9acd9a75a50f8b77e13b89673c3046e8f5f0b7229"
+        },
+        "figures/p0008-0008.png": {
+          "bytes": 36153,
+          "sha256": "f286c472af7e009a8baa8b2414e2c48c10cea19ba5beac24d0dce5716e63c76e"
+        },
+        "figures/p0009-0009.png": {
+          "bytes": 27169,
+          "sha256": "216f9302907e8a9724df22e24078acc4530513375295fd0210ba09c033bb5c2f"
+        },
+        "figures/p0010-0010.png": {
+          "bytes": 20934,
+          "sha256": "3f2409346b96b6b915311d7ab3760a90b5302ea33b5e7b77037fc64aa975d78f"
+        },
+        "figures/p0011-0011.png": {
+          "bytes": 19438,
+          "sha256": "1e2100b4136bebfd58de429aafa459dbcb851da123b034d8ca457340fc4f6813"
+        },
+        "figures/p0012-0012.png": {
+          "bytes": 26429,
+          "sha256": "6fd7f9583870b506af856786deebbf47daaf33e0b0cfe8b46c5417850db9e905"
+        },
+        "figures/p0013-0013.png": {
+          "bytes": 23593,
+          "sha256": "8630de9fe131043572d60fd2469ebba229fab39e7bb6b93a319a8d44ab17125c"
+        },
+        "mineru.md": {
+          "bytes": 73060,
+          "sha256": "0f2a246b8d6d4a3ab2a1a7353975d8d3c597eab10e312088664ae048e44c25b7"
+        },
+        "original.pdf": {
+          "bytes": 1220787,
+          "sha256": "b931cde5bfbb8e71210707606464a5d8f9a0c2cc971de19cb8a461b7e4a4f153"
+        }
+      }
+    },
+    {
+      "publication": "US20240184221A1",
+      "title": "Alignment method and associated alignment and lithographic apparatuses",
+      "pages": 13,
+      "original_pdf": "US20240184221A1/original.pdf",
+      "markdown": "US20240184221A1/mineru.md",
+      "source_sha256": "d5111c1e50fc3116c00e1abe3a483a557c5748098e2e5ece462aa8515f560d09",
+      "source_urls": [
+        "https://patents.google.com/patent/US20240184221A1/en",
+        "https://patentimages.storage.googleapis.com/f1/11/c8/beacfa33d7aec5/US20240184221A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "6e702ab2047bfc0cb7f31d3f2243d63712b2c52fcb0466fb13ddbb1e049773ec",
+      "figures": 6,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 33640,
+          "sha256": "686e2d6a5eea3ab67f32df0679e67c9b806fc20e498f5695064c05e3ffebe376"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 79808,
+          "sha256": "533b899394511f3fbf07a230bc1e9708e1b672e52c3e3b4f18b04774c275992f"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 91277,
+          "sha256": "a2be048d92daccdfe1e22268180c1dcfc0ab9f6f276c2a113460251978c2e572"
+        },
+        "figures/p0003-0004.png": {
+          "bytes": 19661,
+          "sha256": "0f149c013ced632d04205881692695546ffdab7eb3894436541957e6307f5ff6"
+        },
+        "figures/p0004-0005.png": {
+          "bytes": 35256,
+          "sha256": "2a56206b7f670a370009e003c88747640e5010d60aef71b14cc44c086869a8d6"
+        },
+        "figures/p0004-0006.png": {
+          "bytes": 14884,
+          "sha256": "b68a3f7f3f053ad1d65ac28a86a63c2828f5dc681a314db638555034af9ae4c5"
+        },
+        "mineru.md": {
+          "bytes": 61685,
+          "sha256": "d4f731c28e9fc2103e475b29facab286840409960a80b62e78da0b56379fd4c9"
+        },
+        "original.pdf": {
+          "bytes": 1044577,
+          "sha256": "d5111c1e50fc3116c00e1abe3a483a557c5748098e2e5ece462aa8515f560d09"
+        }
+      }
+    },
+    {
+      "publication": "US20250021017A1",
+      "title": "Methods and systems to calibrate reticle thermal effects",
+      "pages": 26,
+      "original_pdf": "US20250021017A1/original.pdf",
+      "markdown": "US20250021017A1/mineru.md",
+      "source_sha256": "6a2fb372e388090321da26eefda4ad52863af30e1452c726aacb67b5113f4797",
+      "source_urls": [
+        "https://patents.google.com/patent/US20250021017A1/en",
+        "https://patentimages.storage.googleapis.com/de/6d/e1/1e2c301472fd5e/US20250021017A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "2f3659723842f922913d86c921e441eb77912fbf8dbfb2116de51769d880a1a2",
+      "figures": 14,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 57398,
+          "sha256": "e6095f9a12c32eb7ba40bc04723c9e746b204b6e75fbd2a4c165a3d0e1577624"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 56496,
+          "sha256": "66cbe019bdedc6db34dbc30eb47b6aecc5027f5a1aa2d97c91af5f4d30412bbd"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 46013,
+          "sha256": "7e7e016c22e951afa745de93842479d96fd19159c0091590af8f19b7a11cb511"
+        },
+        "figures/p0003-0004.png": {
+          "bytes": 132950,
+          "sha256": "3c8997a4330d66055a83605e9357721149f3c47772c54058262af455bba0eab0"
+        },
+        "figures/p0004-0005.png": {
+          "bytes": 103271,
+          "sha256": "01e8373e9c241e00652e2ced448bafe02ad7e5fcdd5ccc0dda3ff02a9c667a49"
+        },
+        "figures/p0004-0006.png": {
+          "bytes": 55240,
+          "sha256": "03a70eebcb5b355107d75c30c7707fb698cd66cc860f284e89dac1329ae0635f"
+        },
+        "figures/p0005-0007.png": {
+          "bytes": 118465,
+          "sha256": "23e3c0de2d5bb6f9a8dbf11bfe405b74539142b9261f5914138251068cb9e2eb"
+        },
+        "figures/p0005-0008.png": {
+          "bytes": 62790,
+          "sha256": "7c1579965705d7294e644eba7441ef0c4592e8fb9b617fbc3ba8779acdefd64e"
+        },
+        "figures/p0006-0009.png": {
+          "bytes": 40610,
+          "sha256": "ff49bcff41f672e9ea82da23d4930ffee31f7897e917fdb5bd30ffe8a00177e4"
+        },
+        "figures/p0006-0010.png": {
+          "bytes": 71257,
+          "sha256": "eaa8876c9dc8fadd16d0280db26e79b83d5d72dd44edd7c70a1086e92b804c2f"
+        },
+        "figures/p0007-0011.png": {
+          "bytes": 91175,
+          "sha256": "ff79c30a0788b1f304354cd2e20c073b1b051838753aac21f1eb88b2ec7dd506"
+        },
+        "figures/p0007-0012.png": {
+          "bytes": 89898,
+          "sha256": "40f1ec4075f055db2c2ad31c22fd5060dccc5adf085e4f437d04c38aafa31412"
+        },
+        "figures/p0008-0013.png": {
+          "bytes": 84109,
+          "sha256": "00f5a3ab2652d20b9e1785b306619442ca0b0b0b244cecd3de57627694c0e622"
+        },
+        "figures/p0009-0014.png": {
+          "bytes": 149530,
+          "sha256": "e03aa9e620334d8dec6732d9ab00f94fd292619cfc2316f022f4f7553d7cd8eb"
+        },
+        "mineru.md": {
+          "bytes": 123952,
+          "sha256": "a3349b11262f0bd12398077882135bbbc759e19ec91c8c3dd38a8018f739cb25"
+        },
+        "original.pdf": {
+          "bytes": 2197453,
+          "sha256": "6a2fb372e388090321da26eefda4ad52863af30e1452c726aacb67b5113f4797"
+        }
+      }
+    },
+    {
+      "publication": "US20250110413A1",
+      "title": "Method for compensating actuator effects of actuators",
+      "pages": 14,
+      "original_pdf": "US20250110413A1/original.pdf",
+      "markdown": "US20250110413A1/mineru.md",
+      "source_sha256": "26559a08f974b9ea2b571dea1097b12fb7a34c189e334b68c31d39bc7217fbc3",
+      "source_urls": [
+        "https://patents.google.com/patent/US20250110413A1/en",
+        "https://patentimages.storage.googleapis.com/34/b2/cf/fdc8d3bd92cbba/US20250110413A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "38af2e25b0f406061bc811e6e24c8f99c954be9555e73364105e551699187f89",
+      "figures": 13,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 99598,
+          "sha256": "56c0573fab64c876b1bc4fb34e7eba18ffc2afc1835f91ce053bc14e1d805eaf"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 133175,
+          "sha256": "27cd4f6fe10a7a6399340869e431cf31f51bf009c11ac12804aa3c5b02bc888b"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 106526,
+          "sha256": "573566971b0cc60c1d54c683a91db6b2824fc4a4ab57fe894671d07b6815e36c"
+        },
+        "figures/p0004-0004.png": {
+          "bytes": 30259,
+          "sha256": "03975c076cced328eb9948f67e57c0f3be93b0676eeffe7b2e6926a565e3e748"
+        },
+        "figures/p0004-0005.png": {
+          "bytes": 28426,
+          "sha256": "f76d58f61210f9650addcc761d4595c09b64348dadb69d1e5d0cb8baeaa62c53"
+        },
+        "figures/p0005-0006.png": {
+          "bytes": 57491,
+          "sha256": "1255ce16a5cb67aaabdb493cd5aad4cbba87e61f203301efa7d2732fcd27aa01"
+        },
+        "figures/p0006-0007.png": {
+          "bytes": 28014,
+          "sha256": "14f3b0cc70b4e9ddf17a3f72624d714dba89a18e827a753c33962974be486c13"
+        },
+        "figures/p0006-0008.png": {
+          "bytes": 83056,
+          "sha256": "3bf7888dac3681e562bbdc61e75deb0b876ab79d0d09fb69c2791015d782ef9e"
+        },
+        "figures/p0007-0009.png": {
+          "bytes": 24304,
+          "sha256": "ce1fb22f410dcf6faad573c2143484aa95250f0a8ca0db58616a6c1c581dc862"
+        },
+        "figures/p0007-0010.png": {
+          "bytes": 9150,
+          "sha256": "207dcd81aa7cc476f6efc5d4c149da514aa87c3e859b59a5ee1410e858569b38"
+        },
+        "figures/p0007-0011.png": {
+          "bytes": 18357,
+          "sha256": "86765e4d488e4b6d9263bc082430179be1319790be1f681dce068fbc2cbd4501"
+        },
+        "figures/p0007-0012.png": {
+          "bytes": 26575,
+          "sha256": "d1ef9d96c58b0cb2f84461f8eadca564c563109c8107eccda4008b1f1d8b2c83"
+        },
+        "figures/p0008-0013.png": {
+          "bytes": 67271,
+          "sha256": "074858b785280daff448e0c4f9ca004b0a71c427487d4baeb6f79549307e3017"
+        },
+        "mineru.md": {
+          "bytes": 42899,
+          "sha256": "aa17e0e4d010a0d81076ed49be301fa9deb088c81af0dc0ce8337c46ea839eea"
+        },
+        "original.pdf": {
+          "bytes": 867967,
+          "sha256": "26559a08f974b9ea2b571dea1097b12fb7a34c189e334b68c31d39bc7217fbc3"
+        }
+      }
+    },
+    {
+      "publication": "US6961116B2",
+      "title": "Lithographic apparatus, device manufacturing method, and device manufactured thereby",
+      "pages": 32,
+      "original_pdf": "US6961116B2/original.pdf",
+      "markdown": "US6961116B2/mineru.md",
+      "source_sha256": "8a1d141c5d2ee2382349168b75ffb82d6232d60d425cb795a3aa7f4a820c0203",
+      "source_urls": [
+        "https://patents.google.com/patent/US6961116B2/en",
+        "https://patentimages.storage.googleapis.com/50/b2/b2/537ecb640a9488/US6961116.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "ca7086b0582ea0d130fb94ca1844e86385a366bfb65d82ecc7d43661fa2dcd7c",
+      "figures": 35,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 56589,
+          "sha256": "59325a867ed308496d2bec5d4a37ec6c4d6eb34890fd390449a3b428a257e1b5"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 93178,
+          "sha256": "4d5704d3ca8a2d4992b525817934c17e6cb5cdcda1d3dd7ab62937f576e8a68d"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 52144,
+          "sha256": "ec4361750898a4a90c533293cb83dfa4113fe3aa82440713867f2463b48a3289"
+        },
+        "figures/p0003-0004.png": {
+          "bytes": 65535,
+          "sha256": "7acb918d3186556298d4ce72a1b3c7beb0787db2ee168224ac764b6ce924a117"
+        },
+        "figures/p0003-0005.png": {
+          "bytes": 19406,
+          "sha256": "503e318dca4699ff7c81c32892e331ebe9205f1a25bce000b45f88de5b88755f"
+        },
+        "figures/p0004-0006.png": {
+          "bytes": 34956,
+          "sha256": "e09e145ed2fa46ee13a9b3f797489225bb11637e5c743fabe6a49e965d2b6df2"
+        },
+        "figures/p0004-0007.png": {
+          "bytes": 49569,
+          "sha256": "f9ff5106927a3539268f0e58eadef8b65ef478f4816e88e7577528c6b6904006"
+        },
+        "figures/p0004-0008.png": {
+          "bytes": 37703,
+          "sha256": "6a01d53eddbc2213f80a690d865dc86d5826ef751170ca7ae5fe0b7e7d3245b3"
+        },
+        "figures/p0004-0009.png": {
+          "bytes": 28772,
+          "sha256": "eef8a6f3282632791db77905c3f78d1c3599ef752f5b698dca1ff9579e70d02b"
+        },
+        "figures/p0005-0010.png": {
+          "bytes": 38377,
+          "sha256": "da9a35f0e72e9e503eab0566a5987914fdac51e1e773d169a0350cdbe27a1487"
+        },
+        "figures/p0005-0011.png": {
+          "bytes": 178884,
+          "sha256": "3a0ab94fc6789932082d4f2fc382ceab42e858e7046ad0a20e70ade978170f6c"
+        },
+        "figures/p0005-0012.png": {
+          "bytes": 73829,
+          "sha256": "3bd2d8d61bc1bcef350ee9b2dcc1e5c58f2a0adf883281334c4eb78401603b31"
+        },
+        "figures/p0006-0013.png": {
+          "bytes": 32129,
+          "sha256": "36b538c4aeb9bdccd4913ba0a0dc70b4d9e748cbd3ee99cc2cfb6c884204c38e"
+        },
+        "figures/p0006-0014.png": {
+          "bytes": 30848,
+          "sha256": "2bea90d49830c512c7e4801471a77053e044df7e28957ea5ed032b8cf982d178"
+        },
+        "figures/p0006-0015.png": {
+          "bytes": 32167,
+          "sha256": "9bbcdda4aaa9c57e6bab0a0bc819e5f13c57be405cd852433a55ce80602183ad"
+        },
+        "figures/p0007-0016.png": {
+          "bytes": 17571,
+          "sha256": "e2ca4f203264bc8eb92d82f2176d91d32db68d71049921d1593a45f55c717c06"
+        },
+        "figures/p0007-0017.png": {
+          "bytes": 36378,
+          "sha256": "c4aa7cd570a28731f096248cf326ab6554aff97e13f193fe89b7e76359e637b2"
+        },
+        "figures/p0007-0018.png": {
+          "bytes": 24269,
+          "sha256": "2e96383fecb7f969dc9bba73c7d7d29ea89c72d11c1b942f7ec0abafe316ec1d"
+        },
+        "figures/p0008-0019.png": {
+          "bytes": 47245,
+          "sha256": "93235ea20dc5c853638d641549f7fdd52271b6eb2962cddcedd8c725e4a5cb48"
+        },
+        "figures/p0008-0020.png": {
+          "bytes": 27785,
+          "sha256": "d554607b1f4f8640a0942eb0f2405f0dc9d826fa7da42fe25a300dc76310cdbf"
+        },
+        "figures/p0008-0021.png": {
+          "bytes": 24381,
+          "sha256": "ffcf635a511584db1e1410d075e121ed92388158d1de47a50bf6b462bc187b6d"
+        },
+        "figures/p0009-0022.png": {
+          "bytes": 46774,
+          "sha256": "942309572aa7f8ea98788e54b4716b402309295e62bbb8f8c87ab802f440a559"
+        },
+        "figures/p0009-0023.png": {
+          "bytes": 31700,
+          "sha256": "d70fd04c8bc35248c15ad1ece8105bff5c04d1512532d4498fd3603dc3c393fd"
+        },
+        "figures/p0009-0024.png": {
+          "bytes": 28711,
+          "sha256": "7d72ff1f339f8f7892a46575facc13769dd2fbf52f8730b63a4efc187a883db7"
+        },
+        "figures/p0010-0025.png": {
+          "bytes": 35940,
+          "sha256": "2bbf03af87cdfb80b4769f67c826e9623874f0321f772e520d6aeb8772f4f8c9"
+        },
+        "figures/p0010-0026.png": {
+          "bytes": 64827,
+          "sha256": "7fa6eb40d73e1c57061dcdba228721d8fc089b7cec3b5bbf0036ec1522ace2c1"
+        },
+        "figures/p0010-0027.png": {
+          "bytes": 27433,
+          "sha256": "c39cccc6edb750c0bda556e89dbd873f11d918e386e54101fc89971bc7c3350c"
+        },
+        "figures/p0011-0028.png": {
+          "bytes": 19552,
+          "sha256": "df43579fe03c6facd54778c8205236b051f6936e9149a25454c86c1cb6ae3f52"
+        },
+        "figures/p0011-0029.png": {
+          "bytes": 18824,
+          "sha256": "795c2f3db77167cff37bfa4aa7a6cc7062347016b281db904f012a24b3977027"
+        },
+        "figures/p0011-0030.png": {
+          "bytes": 51897,
+          "sha256": "4c2f62d673325172dadf2250789cf2ccbe0a389b0add68b7e1bef878b0974fda"
+        },
+        "figures/p0012-0031.png": {
+          "bytes": 41158,
+          "sha256": "71967b58aadf2b3c38018178204c50a2a83a597cf5799c955a6c54cf88ef7dc3"
+        },
+        "figures/p0012-0032.png": {
+          "bytes": 123208,
+          "sha256": "f637c4a25ff094f55a9b9c697c6830f90dd2da7a31acfe112df0feadfd15d45d"
+        },
+        "figures/p0013-0033.png": {
+          "bytes": 141818,
+          "sha256": "0688ad76e0e8a147bf2e780c73d8af1d0d13fdc4fe7f7ae0114027cc887ae524"
+        },
+        "figures/p0030-0034.png": {
+          "bytes": 13783,
+          "sha256": "eec1cfe174d7225594c21330f2d7f672f80b6798e720c1784424f2295d9b4df4"
+        },
+        "figures/p0032-0035.png": {
+          "bytes": 13996,
+          "sha256": "c2add3ccf84206cd33f010cac75842411f89cd09bb298c9de8934e1afc390f2f"
+        },
+        "mineru.md": {
+          "bytes": 112318,
+          "sha256": "a0a68406e177f8e7630e699e1b48a5f7b78c071d3d20224a2d2499931dd004a0"
+        },
+        "original.pdf": {
+          "bytes": 2608198,
+          "sha256": "8a1d141c5d2ee2382349168b75ffb82d6232d60d425cb795a3aa7f4a820c0203"
+        }
+      }
+    },
+    {
+      "publication": "US7362446B2",
+      "title": "Position measurement unit, measurement system and lithographic apparatus comprising such position measurement unit",
+      "pages": 16,
+      "original_pdf": "US7362446B2/original.pdf",
+      "markdown": "US7362446B2/mineru.md",
+      "source_sha256": "95a5d07d506a1dbb21ed410f74c21580460920dce1963b8472dc71fe52ce0fef",
+      "source_urls": [
+        "https://patents.google.com/patent/US7362446B2/en",
+        "https://patentimages.storage.googleapis.com/72/7b/6d/bfb7f4f65342bd/US7362446.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "a04899ed13327836a2a114a66ddcbd39ca6c8285669d9ed2081ccb06ff2c4719",
+      "figures": 14,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 55794,
+          "sha256": "35df9bbbb008b83b13eb396f290189f0b2ea4ad0119af3904937ea6a869bcb79"
+        },
+        "figures/p0001-0002.png": {
+          "bytes": 74167,
+          "sha256": "6152e55eb2fe0917e7a6ebcd7499738be933aa98af05dc4344b2bb2f38223113"
+        },
+        "figures/p0002-0003.png": {
+          "bytes": 86930,
+          "sha256": "df1c8ace1c09616c3ebade07baec245f4f2df7ffe00569f031207d02b805ea5d"
+        },
+        "figures/p0003-0004.png": {
+          "bytes": 131078,
+          "sha256": "c9a63363f82686d6f902df7cdf953d26893d8b7fa0697bf8cdd683f3fa550268"
+        },
+        "figures/p0003-0005.png": {
+          "bytes": 85312,
+          "sha256": "d559cdbdf93d809b1d48fcc96a7f16e0cb9b7ac08b01824348be94839854dda3"
+        },
+        "figures/p0004-0006.png": {
+          "bytes": 126544,
+          "sha256": "e49c1fb2edc37ee4c0984ad88868b072811ad853e755fd6aa3dbe28d4a7bcf71"
+        },
+        "figures/p0004-0007.png": {
+          "bytes": 51479,
+          "sha256": "6fe019d6f581a25a444062fdfb946dc8d872a2f736cd7c830d098b0b782742ee"
+        },
+        "figures/p0005-0008.png": {
+          "bytes": 126270,
+          "sha256": "3f932e2edeedb71fcf4cb62895a6fd9563c2729388daf55e709b6aaf2d0babff"
+        },
+        "figures/p0005-0009.png": {
+          "bytes": 53750,
+          "sha256": "767244b7ff751b9dd61ec9f9757911355858770e47a6e949b54f859f286692c1"
+        },
+        "figures/p0006-0010.png": {
+          "bytes": 59581,
+          "sha256": "1bd4badcc8dfc1fd7b0912af004d8e2c70bfbadf124cefd6f0ba6922d1b9423a"
+        },
+        "figures/p0007-0011.png": {
+          "bytes": 181886,
+          "sha256": "3e0c82d9400eeac3aa5b74aa47d551c9c65a104b6f4bdd7b5a35a7c9aaf8d2b0"
+        },
+        "figures/p0008-0012.png": {
+          "bytes": 4258,
+          "sha256": "7d0e678cd29b53c750216c726fa8a31df2784ca143f0c96c144c51e774200b85"
+        },
+        "figures/p0008-0013.png": {
+          "bytes": 9720,
+          "sha256": "8d6e86f4da90d0c732ccc70ae452568eb80c9eefabc5d133d50a06655fdf8f63"
+        },
+        "figures/p0008-0014.png": {
+          "bytes": 36133,
+          "sha256": "b11cda1fb7d26913a9a6cb61e0ddf86c6165f9046b433b9b531a6d8c190e500b"
+        },
+        "mineru.md": {
+          "bytes": 60366,
+          "sha256": "bdecdac513eb8fd24f41b4a02ee8ce1d8e0b0ccd1bdd34f6c0dbb647e96b67fe"
+        },
+        "original.pdf": {
+          "bytes": 1537741,
+          "sha256": "95a5d07d506a1dbb21ed410f74c21580460920dce1963b8472dc71fe52ce0fef"
+        }
+      }
+    },
+    {
+      "publication": "US7423725B2",
+      "title": "Lithographic method",
+      "pages": 14,
+      "original_pdf": "US7423725B2/original.pdf",
+      "markdown": "US7423725B2/mineru.md",
+      "source_sha256": "2f1a82be6d592484c38ff734ff0a12640c6ba294fa00348b97f5eb71cd0141fe",
+      "source_urls": [
+        "https://patents.google.com/patent/US7423725B2/en"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "a3f6008f4b4958e98d77094d467b0101b386b92eec9951acfae032c9248c9b39",
+      "figures": 9,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 34724,
+          "sha256": "d93d734df49ee242dc3344e065681163e8bbaa9c5a53296ee9b27e9bd7b42ca2"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 91244,
+          "sha256": "627f042d796cbd2d826224ae4e794dc11de316a1ae9eb994f8c0f44b7299367e"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 18684,
+          "sha256": "7cf838a55439b07174abd3df0079e392ed22cfb72fd4f5aa61fbebe3da4de502"
+        },
+        "figures/p0003-0004.png": {
+          "bytes": 30089,
+          "sha256": "ca46b6af8d9856b25ef34feffcfca047b63ffc0511e392f2c949f2e684ac8653"
+        },
+        "figures/p0003-0005.png": {
+          "bytes": 37088,
+          "sha256": "3e1d02e4f38ae3b08f5afc0fcdda37f30fd46022de24d33169c1cd171dc96d0a"
+        },
+        "figures/p0004-0006.png": {
+          "bytes": 38880,
+          "sha256": "aaad44b73f8661fa325e16a4f05ede799fb476c6152a117c913fbb696959df53"
+        },
+        "figures/p0004-0007.png": {
+          "bytes": 99940,
+          "sha256": "28c2d6465d148ab1ee17fbbbce93a3be9a1a140493ebe789d7889e28c0455112"
+        },
+        "figures/p0004-0008.png": {
+          "bytes": 156982,
+          "sha256": "212f8d0fde16bef242438cd06c25b68fb8f1b3ffc478d19452d8c473c74616bd"
+        },
+        "figures/p0005-0009.png": {
+          "bytes": 165841,
+          "sha256": "5c2924deafe5b0cfc6e47a5e62cf0e48dab44d2ac2eb470687af27a18646c4f5"
+        },
+        "mineru.md": {
+          "bytes": 68783,
+          "sha256": "1367d374cea135644c371b2458903bbe8081bca95667ae1ce4d4acf804c46319"
+        },
+        "original.pdf": {
+          "bytes": 1694586,
+          "sha256": "2f1a82be6d592484c38ff734ff0a12640c6ba294fa00348b97f5eb71cd0141fe"
+        }
+      }
+    },
+    {
+      "publication": "US8184265B2",
+      "title": "Correction method for non-uniform reticle heating in a lithographic apparatus",
+      "pages": 15,
+      "original_pdf": "US8184265B2/original.pdf",
+      "markdown": "US8184265B2/mineru.md",
+      "source_sha256": "ce9bb94c3dd868a8a6c6d1e23f36975bdcb512ad36fff3c7d7e5b1f7158703c8",
+      "source_urls": [
+        "https://patents.google.com/patent/US8184265B2/en",
+        "https://patentimages.storage.googleapis.com/c9/c0/f5/5e5ca6a2dafd73/US8184265.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "12578071767e1df881f21e7854c0e3d6ece0c94fddedf124d1b094a56272bf5d",
+      "figures": 9,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 26187,
+          "sha256": "c7114063cdc8acc0bb5f8255709a9785ef6ed488a56884a0904bc862f43791f0"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 93415,
+          "sha256": "de62aacf5cb93d85393f05bd8d021f355949d73f5749ffbd1d09a87d8741b096"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 28730,
+          "sha256": "35b9e355932774ba2df4bd69063d00171f6ac001d285669dc596a43e41793b12"
+        },
+        "figures/p0005-0004.png": {
+          "bytes": 58492,
+          "sha256": "a0ce2d74ed949270208b6e33d6ebee6189ea124a1979486a2d4c66ef19a3005e"
+        },
+        "figures/p0005-0005.png": {
+          "bytes": 52911,
+          "sha256": "a5df93889ac3b1b160670c24b52f83150060f7dd88c1dfd68641f32aafb12fd3"
+        },
+        "figures/p0006-0006.png": {
+          "bytes": 44937,
+          "sha256": "e3779f54ca3963b13310e0d851e6737542118158b3446a414effa481e8121770"
+        },
+        "figures/p0006-0007.png": {
+          "bytes": 50863,
+          "sha256": "b7acb689d9f3045830d6295aef99d53f7bc42c734d19efa582c3d9de09f7fdf1"
+        },
+        "figures/p0007-0008.png": {
+          "bytes": 46102,
+          "sha256": "20057f93fbb1b1715c9e2411c22b873d9cb96b830ed259f96788d93201c3f5d9"
+        },
+        "figures/p0007-0009.png": {
+          "bytes": 37699,
+          "sha256": "d645821eeb6d78110392cf5a56bdc855391107830ea1387633f455ff28c6eea2"
+        },
+        "mineru.md": {
+          "bytes": 55687,
+          "sha256": "e2be33cec72bba6c412dcd7561392e99e0d86b1d615423a98f205c18258d09f8"
+        },
+        "original.pdf": {
+          "bytes": 1335771,
+          "sha256": "ce9bb94c3dd868a8a6c6d1e23f36975bdcb512ad36fff3c7d7e5b1f7158703c8"
+        }
+      }
+    },
+    {
+      "publication": "US8208120B2",
+      "title": "Lithographic apparatus and device manufacturing method",
+      "pages": 23,
+      "original_pdf": "US8208120B2/original.pdf",
+      "markdown": "US8208120B2/mineru.md",
+      "source_sha256": "33a11f1c32d38f3ec3e04d2f95c87d094c6a5d6acf132cbb9fe8b075306dabc8",
+      "source_urls": [
+        "https://patents.google.com/patent/US8208120B2/en"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "996bbd7786cf5c076d6d95e3c23a6855a5656f327c360df8573f800ddeac512d",
+      "figures": 15,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 175109,
+          "sha256": "7797305f42d61fef688994667c4a7519e0009e9397c9ed867d5acb66dd0ec71d"
+        },
+        "figures/p0005-0002.png": {
+          "bytes": 79641,
+          "sha256": "4dc9b7ca406472f7c35b9de5eb203033744427d01aa47247570566d83df24a7c"
+        },
+        "figures/p0006-0003.png": {
+          "bytes": 39815,
+          "sha256": "3b8e7d6dca89f41041186652c18ec163ba8db7a50624f69a1b7aad6ca374b549"
+        },
+        "figures/p0006-0004.png": {
+          "bytes": 32873,
+          "sha256": "96a927550cba64e083d75cfb5822ee51ba9a6ea1d495cc24792c3a08131e9307"
+        },
+        "figures/p0006-0005.png": {
+          "bytes": 35010,
+          "sha256": "9f94566386553800ff3ed59e63d24ec67e3f93092ec441d6246c96c7b2b7679c"
+        },
+        "figures/p0007-0006.png": {
+          "bytes": 213658,
+          "sha256": "4e8d96c7534973f946704e73b3c08e798f055b22584c920f9e45f8e4e0479f67"
+        },
+        "figures/p0007-0007.png": {
+          "bytes": 193323,
+          "sha256": "ccf3277f5cf3c3e340fb694f8eee0484328173111277681dc916dbb98829d28d"
+        },
+        "figures/p0008-0008.png": {
+          "bytes": 37439,
+          "sha256": "68072e9b462be288dfd24a41e6998c1b93a93ce36f63d6ea7bf7ac1e1352ecda"
+        },
+        "figures/p0008-0009.png": {
+          "bytes": 76090,
+          "sha256": "b1d6c8b3adbcd30528147d524b2a6c674139ef955507ed6f87d94dba6960b72c"
+        },
+        "figures/p0008-0010.png": {
+          "bytes": 53416,
+          "sha256": "689478f5435689c6814955a9b1ccadde4fed5f31ae6c6a6e078820f7803a2def"
+        },
+        "figures/p0009-0011.png": {
+          "bytes": 114688,
+          "sha256": "ab3bdcc39a4bb18ec708a2f11145236c941339c92adf549deeaa4a9b9e1248df"
+        },
+        "figures/p0010-0012.png": {
+          "bytes": 57453,
+          "sha256": "c1aef5c1806982f1336d10ed23217a392a46de3422eb4082ea2857c106c12434"
+        },
+        "figures/p0010-0013.png": {
+          "bytes": 96531,
+          "sha256": "b720c790de98daa0f23a3ee4717a5d39fb276536c95ec7162f603fab1e130920"
+        },
+        "figures/p0011-0014.png": {
+          "bytes": 104502,
+          "sha256": "0b95ef9c15a481d0312646f6e110fab70db544259fc5d44d6d2be0867afc9ff6"
+        },
+        "figures/p0012-0015.png": {
+          "bytes": 436228,
+          "sha256": "027452c167a49981c8cc5d72b006f485b28bf15b92f2d9e229940ec5264fd92b"
+        },
+        "mineru.md": {
+          "bytes": 102543,
+          "sha256": "ac727a7148c3d3c91556d7a6e78dd12e9d40d744f981abd05917418852471629"
+        },
+        "original.pdf": {
+          "bytes": 2706204,
+          "sha256": "33a11f1c32d38f3ec3e04d2f95c87d094c6a5d6acf132cbb9fe8b075306dabc8"
+        }
+      }
+    },
+    {
+      "publication": "US8269949B2",
+      "title": "Lithographic apparatus and device manufacturing method",
+      "pages": 9,
+      "original_pdf": "US8269949B2/original.pdf",
+      "markdown": "US8269949B2/mineru.md",
+      "source_sha256": "e65b42c94025948d8225be9a3797856b222ca2aa6ff9a274de9ef02447dcf839",
+      "source_urls": [
+        "https://patents.google.com/patent/US8269949B2/en",
+        "https://patentimages.storage.googleapis.com/b5/0e/13/7e6efc7a1f9048/US8269949.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "ec6407d62567b1b227dc21d3fd6ad861a237beff9ffa8f8aa54bb1bc8d356bea",
+      "figures": 5,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 24710,
+          "sha256": "ca674637ead95a0df89d2ac5f5ee0f85397c791c8e4a2a1a632233125b933e7c"
+        },
+        "figures/p0002-0002.png": {
+          "bytes": 73255,
+          "sha256": "72eb59a752a3f443f1945897862dcd12e03f7877326f99d15feedb2b77b58144"
+        },
+        "figures/p0003-0003.png": {
+          "bytes": 132835,
+          "sha256": "04d4757681ae676ec7c87280d7179b9c6385042239f13994b6bcc655ce5c90bf"
+        },
+        "figures/p0004-0004.png": {
+          "bytes": 40772,
+          "sha256": "e2e694b31bf3508161e49b7536b32657c4da1e8aa61c49582d5aadd46a6d1b6f"
+        },
+        "figures/p0004-0005.png": {
+          "bytes": 38738,
+          "sha256": "b1d26938a3786f037a6f050fdec4b5e1b5af02455eebfa6189176597569edfd6"
+        },
+        "mineru.md": {
+          "bytes": 40695,
+          "sha256": "f263b67e369e554ebeaf137e2c6ed25a76ff3f862a530ab89b7fab7c51f0bc06"
+        },
+        "original.pdf": {
+          "bytes": 1137256,
+          "sha256": "e65b42c94025948d8225be9a3797856b222ca2aa6ff9a274de9ef02447dcf839"
+        }
+      }
+    },
+    {
+      "publication": "US8659745B2",
+      "title": "Optical system with an exchangeable, manipulable correction arrangement for reducing image aberrations",
+      "pages": 24,
+      "original_pdf": "US8659745B2/original.pdf",
+      "markdown": "US8659745B2/mineru.md",
+      "source_sha256": "4a88da77d5c5169370d6c677bedcde05e73745df563ae512e13f81225e71e7c6",
+      "source_urls": [
+        "https://patents.google.com/patent/US8659745B2/en",
+        "https://patentimages.storage.googleapis.com/5b/e8/80/c2eb0a6c536acc/US8659745.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "e03a58801341cece8638056330e00cea72dda71d9466f12db60c91e1e2484d7a",
+      "figures": 20,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 33094,
+          "sha256": "65da9fe2856a579803a0eacda230e13709f5dc9114aaa3c326b55a087c70e71a"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 73480,
+          "sha256": "e29c401c62884a1f2ffa48333f05a0119cc372b17549feb5185e56a82379879e"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 2692,
+          "sha256": "fffdd0a02c9c6edc4d151ac6c19cac164f6a4281b58f587e12cd8db31802fbc9"
+        },
+        "figures/p0004-0004.png": {
+          "bytes": 2772,
+          "sha256": "d36426b7e5c8ee60b3d9c84eb6e35fb0ffd5676f1136ee63c13a6258627799ae"
+        },
+        "figures/p0005-0005.png": {
+          "bytes": 80991,
+          "sha256": "6a7830f8646ed5492e02f9554a0d36c3a89ecc58116f7bde07ad13b9ff36fbf5"
+        },
+        "figures/p0006-0006.png": {
+          "bytes": 67438,
+          "sha256": "ee1570dea73c8f292e2e3860477b8261de5de909ace4ac517881773bddf970a1"
+        },
+        "figures/p0007-0007.png": {
+          "bytes": 72286,
+          "sha256": "fd67d2538eb6933406e96f6afa25ee08e99cdb0ce01f57694f8929d70ce0a426"
+        },
+        "figures/p0008-0008.png": {
+          "bytes": 34432,
+          "sha256": "e99771794aa2328ef619cd5a148b741c7fc7e0601afd07d789ad8f0bf31970a6"
+        },
+        "figures/p0009-0009.png": {
+          "bytes": 96637,
+          "sha256": "b932552324b3593780b15d1f38ca3d1e8e3da3b236ddf998dd6a0714936c6013"
+        },
+        "figures/p0010-0010.png": {
+          "bytes": 79987,
+          "sha256": "e4ee4f98c8315dabe3faff50bd4d1b47fa32dcc157a7f390445e220810c43f2b"
+        },
+        "figures/p0011-0011.png": {
+          "bytes": 94440,
+          "sha256": "ce44ad78b37331b094a8f998133c4ab53ef9ed2885b96b8bdf689aecb0558f0b"
+        },
+        "figures/p0011-0012.png": {
+          "bytes": 86188,
+          "sha256": "1c0cf9794675a8b1a03e758f59aff8c01b041fb59ce7c8d70a3f76d0fda5cadb"
+        },
+        "figures/p0012-0013.png": {
+          "bytes": 100283,
+          "sha256": "59cdc6f6a62c76efa5da57e23257382e96c926f654958a22c4ead63d98299c37"
+        },
+        "figures/p0013-0014.png": {
+          "bytes": 15641,
+          "sha256": "24c658b28564f67c16f946fdd7d1609550807225fac4f11547acd9f21a236ffa"
+        },
+        "figures/p0014-0015.png": {
+          "bytes": 31896,
+          "sha256": "378d077006996d9aac605a33abf4ad0ad9bb2518d62d187798f3e40e3368dab0"
+        },
+        "figures/p0014-0016.png": {
+          "bytes": 14354,
+          "sha256": "0b7ae6d07a36c58a88f08e8a79f448fd67391305d3c564a177701a181ae7fb7d"
+        },
+        "figures/p0015-0017.png": {
+          "bytes": 20963,
+          "sha256": "482f87d7eaf0ee55288fdeae1b263e4fe5a8d52698410440a6ed3e0231ffe6a0"
+        },
+        "figures/p0015-0018.png": {
+          "bytes": 23875,
+          "sha256": "2e096aacd9e805295f47371a38b484edb569563b8da6c4a6b362de40ffcaaa62"
+        },
+        "figures/p0016-0019.png": {
+          "bytes": 21414,
+          "sha256": "4db69867e5926c09c7b0c4333153015dd26d989f959c6c171942c56d1b040c22"
+        },
+        "figures/p0016-0020.png": {
+          "bytes": 31193,
+          "sha256": "2a451942280cbf1315a7165fee91c2a2c6bca65f2a5525b86616ad7b51b6bcb4"
+        },
+        "mineru.md": {
+          "bytes": 61433,
+          "sha256": "df84ff57502fee5731280b848d2f57bb6c1c9fb93e4f34b4ad702cdc33e183e6"
+        },
+        "original.pdf": {
+          "bytes": 1443867,
+          "sha256": "4a88da77d5c5169370d6c677bedcde05e73745df563ae512e13f81225e71e7c6"
+        }
+      }
+    },
+    {
+      "publication": "US8947630B2",
+      "title": "Lithographic apparatus and device manufacturing method",
+      "pages": 19,
+      "original_pdf": "US8947630B2/original.pdf",
+      "markdown": "US8947630B2/mineru.md",
+      "source_sha256": "a1b3221a9d837a4326e4fe77efcc9b939aa84641eefb6542d4df3c05ecbd37ad",
+      "source_urls": [
+        "https://patents.google.com/patent/US8947630B2/en",
+        "https://patentimages.storage.googleapis.com/4a/69/24/f529d71ecf70da/US8947630.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "c66a148c07ca6a604a404d6ffe7e1a367fdd4a109ebc49c7e38e6a988e71a939",
+      "figures": 10,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 19807,
+          "sha256": "420072fa32902a67b3d723a997a4e9a4ada83076a079132fe44c0653d9d7039b"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 172933,
+          "sha256": "b1d6e5a717e3b0ab7588be4411cc35f16cb3c8b8175d1a2dcbcbed3c3e26c2e4"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 41434,
+          "sha256": "ab2e8b44ec404774b37994eb8c59e6d5a3362227c7b6157675471db14fb083bc"
+        },
+        "figures/p0004-0004.png": {
+          "bytes": 68093,
+          "sha256": "2f044eaa3a82c99a7067219ed543d28b407bef8e0c2e12069a9a3146f381ae7c"
+        },
+        "figures/p0005-0005.png": {
+          "bytes": 194707,
+          "sha256": "1d06a0e518fa9f688d58aecfdf85c95d681cb9df033fd01f0ede528b7a13ad0f"
+        },
+        "figures/p0006-0006.png": {
+          "bytes": 113172,
+          "sha256": "ca24e255afb2984c4162c2be224f8b41cf1e768eeadff41079ddd5c2d7ced44f"
+        },
+        "figures/p0006-0007.png": {
+          "bytes": 121051,
+          "sha256": "529c20a1b302bef098aadb07def2095d7527452fb611d3355a8423acb9411b1d"
+        },
+        "figures/p0007-0008.png": {
+          "bytes": 109837,
+          "sha256": "6013a1096c96278982a0bbeba3b5d76f3d68d24e779db9dc91b7a5a6f6a6073a"
+        },
+        "figures/p0007-0009.png": {
+          "bytes": 44411,
+          "sha256": "5b3b9510f2ddd7723b05973078eb19ba372e540432a6b4a06ac87844f4081873"
+        },
+        "figures/p0008-0010.png": {
+          "bytes": 82478,
+          "sha256": "aace92472889f6a6f219d135bdc395ce911c62ee0e836a04b65137d300e110f1"
+        },
+        "mineru.md": {
+          "bytes": 77390,
+          "sha256": "5e521801cee97a0d66dcdd1fa80718854a174edcfde1397cfcf2cc31abdcd54b"
+        },
+        "original.pdf": {
+          "bytes": 1979342,
+          "sha256": "a1b3221a9d837a4326e4fe77efcc9b939aa84641eefb6542d4df3c05ecbd37ad"
+        }
+      }
+    },
+    {
+      "publication": "US9069263B2",
+      "title": "Method for improving the imaging properties of a projection objective, and such a projection objective",
+      "pages": 30,
+      "original_pdf": "US9069263B2/original.pdf",
+      "markdown": "US9069263B2/mineru.md",
+      "source_sha256": "a62e4347e754eeaeff92ab8225d5bf1cfa6c47e81cef2067cb73ca3c987c5ee2",
+      "source_urls": [
+        "https://patents.google.com/patent/US9069263B2/en",
+        "https://patentimages.storage.googleapis.com/cd/8e/ab/839bb3117ef4de/US9069263.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "05ca5574220d4939ba37e7e0b08e1cc881898d51c7055150d48a09232d3e0c34",
+      "figures": 20,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 76979,
+          "sha256": "2ddaddebe8508f229082c1912de63102e231312c1b6b2c4f3add1f07e888ce99"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 48228,
+          "sha256": "86bc243c81004f34d14ff953104e71e452ca08c603516011f1420d305666719b"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 96244,
+          "sha256": "007eee6353552e98aab40577320c5b6ff458bd3a06215289814beaba2d63ff9e"
+        },
+        "figures/p0005-0004.png": {
+          "bytes": 628814,
+          "sha256": "5d74424891844202402d9fa4ce77f988d100c5e1b2a2c2c0f654dd6a9f0f7151"
+        },
+        "figures/p0006-0005.png": {
+          "bytes": 191590,
+          "sha256": "aea8600a09d6c4f1b183e7059f690ba99267eddcc3d2746441d9378add58ccb2"
+        },
+        "figures/p0007-0006.png": {
+          "bytes": 175123,
+          "sha256": "adfdc19f6a4fab476447e626476876f072a4a592f434be6ddd60d402dc4a1955"
+        },
+        "figures/p0008-0007.png": {
+          "bytes": 151507,
+          "sha256": "b86e2f3bb4fa319d5073e6969949be532aa8116944cd82aa9622c561087a61fc"
+        },
+        "figures/p0009-0008.png": {
+          "bytes": 126009,
+          "sha256": "53adfda6f4fdde94f2493df251d4c6a4687183f6d6dde1a78f2676f140e6bd9b"
+        },
+        "figures/p0010-0009.png": {
+          "bytes": 162813,
+          "sha256": "85a6d1ddd051561810dec91e62cae853821a88b594a7dfddda2f6340e38e95b5"
+        },
+        "figures/p0011-0010.png": {
+          "bytes": 172173,
+          "sha256": "997f10c22647139668cac2759ad6cccbe3bdcb0e19e42337b679f88ce7d22e44"
+        },
+        "figures/p0012-0011.png": {
+          "bytes": 147359,
+          "sha256": "fde89d7a14e74b00af9aa445771414596d1c683e5629cb9dc052de44bb745d6b"
+        },
+        "figures/p0013-0012.png": {
+          "bytes": 166061,
+          "sha256": "640c7851d347ab56ae014c9059c3908e028508af23eef45237c1b756c9d2ea2c"
+        },
+        "figures/p0014-0013.png": {
+          "bytes": 159293,
+          "sha256": "10eab066641a1f85b66e3856fd7069a392a16266d21f202603dcf7211ac801a8"
+        },
+        "figures/p0015-0014.png": {
+          "bytes": 170862,
+          "sha256": "f760471f74002133d771cb31587d000f6e1bcd6c10d16d1cdac2474a516f6e4d"
+        },
+        "figures/p0016-0015.png": {
+          "bytes": 191859,
+          "sha256": "4cfb9c79adef9b58f8d16e60f52227dae0af14e469ac621c6fdde7d0a169f654"
+        },
+        "figures/p0017-0016.png": {
+          "bytes": 178488,
+          "sha256": "1cf3f724f667f315892cd584571ae79e5d5bc36a37e08c001220a4cee0c05dcb"
+        },
+        "figures/p0018-0017.png": {
+          "bytes": 154638,
+          "sha256": "78f23dda9a85531dbf1afe58574466071ebd3580279c87f12099e74c74496a66"
+        },
+        "figures/p0019-0018.png": {
+          "bytes": 143901,
+          "sha256": "25db87ed63e15f95b6d6a7793319394a76b83ecb1ee967c6c56b3e0591fb5557"
+        },
+        "figures/p0020-0019.png": {
+          "bytes": 151343,
+          "sha256": "100ff03a21fb9286a4d05bb1cff57b2a69f86d561514ae9643786acf737e13d5"
+        },
+        "figures/p0021-0020.png": {
+          "bytes": 136144,
+          "sha256": "984f1d404f37867cef973e965f7bda518a1acd8bfbe2dded8053456d421c78f1"
+        },
+        "mineru.md": {
+          "bytes": 69988,
+          "sha256": "4f2cc2714b526668a08018a93acede5dab09b70d43aefc52ac8a782349adff95"
+        },
+        "original.pdf": {
+          "bytes": 2033058,
+          "sha256": "a62e4347e754eeaeff92ab8225d5bf1cfa6c47e81cef2067cb73ca3c987c5ee2"
+        }
+      }
+    },
+    {
+      "publication": "US9772561B2",
+      "title": "Semiconductor manufacturing method and tool",
+      "pages": 17,
+      "original_pdf": "US9772561B2/original.pdf",
+      "markdown": "US9772561B2/mineru.md",
+      "source_sha256": "e3cc969751dcd8ef40bdb7e3599f2aaded34de2b0f59373b3d0b7ccf7db2c880",
+      "source_urls": [
+        "https://patents.google.com/patent/US9772561B2/en",
+        "https://patentimages.storage.googleapis.com/17/80/e5/af008bd8ac98c6/US9772561.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "4b273587c454142dbc59afadefd697d9820e5f279d5a2806586c966d2001294a",
+      "figures": 11,
+      "artifacts": {
+        "figures/p0002-0001.png": {
+          "bytes": 226001,
+          "sha256": "7e3d3086f42436e508e057237d05e04889e4bba496281fcae4fcb3f740e78a8d"
+        },
+        "figures/p0003-0002.png": {
+          "bytes": 122785,
+          "sha256": "582db7e8b40333f5c9fc5820f2b6b7df96859142265167bf4b7683a933531519"
+        },
+        "figures/p0004-0003.png": {
+          "bytes": 150241,
+          "sha256": "1a24137871e2f97f652c3821f1614b1fa5c204758e098bc44d9bbccdb9e2d5b6"
+        },
+        "figures/p0005-0004.png": {
+          "bytes": 84773,
+          "sha256": "d4a5527d1fedd42ee4376ade744b345627cb8a78366d9faeb29ad962ee19b694"
+        },
+        "figures/p0006-0005.png": {
+          "bytes": 111779,
+          "sha256": "c873f5734a6451f7668c3b726b7c48a1b01111c37eece60d2607c46ec61b9865"
+        },
+        "figures/p0007-0006.png": {
+          "bytes": 257951,
+          "sha256": "4274e3378410a2df6368143180ca1412e9a5a8c44083090eebd32ff253eead9a"
+        },
+        "figures/p0008-0007.png": {
+          "bytes": 68871,
+          "sha256": "ecaafb96f18215e83340f8cfe222daff38873f023b20e30cedf4c0498c192f98"
+        },
+        "figures/p0008-0008.png": {
+          "bytes": 66476,
+          "sha256": "83ecc4203c2c7681c1072756403fab4614ed88de3891436770b8188e156f1573"
+        },
+        "figures/p0008-0009.png": {
+          "bytes": 41438,
+          "sha256": "339bbe73dd6adaa37e2af085fea0d68da5ebba6931cf998791da25de8ae1f803"
+        },
+        "figures/p0008-0010.png": {
+          "bytes": 40725,
+          "sha256": "50bb99ae000f4fcc6ccef5c57a968736272e77fb6fc6b294a7e6dc00cbb29aa0"
+        },
+        "figures/p0009-0011.png": {
+          "bytes": 152801,
+          "sha256": "8ade3a6d235d61ad042abf2bfb3d7a7f726f1a134a090f4e0dcf0a17ed429ebc"
+        },
+        "mineru.md": {
+          "bytes": 65240,
+          "sha256": "47e64d114e11bc4eeedbe5e241f32de5257ff5f831b8500e433b2723d6d497c3"
+        },
+        "original.pdf": {
+          "bytes": 1796454,
+          "sha256": "e3cc969751dcd8ef40bdb7e3599f2aaded34de2b0f59373b3d0b7ccf7db2c880"
+        }
+      }
+    },
+    {
+      "publication": "WO2017108453A1",
+      "title": "WO2017108453A1 - Methods of controlling a patterning process, device manufacturing method, control system for a lithographic apparatus and lithographic apparatus",
+      "pages": 43,
+      "original_pdf": "WO2017108453A1/original.pdf",
+      "markdown": "WO2017108453A1/mineru.md",
+      "source_sha256": "a2fd3fd67db8c845fd6ee2ddc9cad362f1740ddb3e1686f058b6d4d04e2cf3bd",
+      "source_urls": [
+        "https://patents.google.com/patent/WO2017108453A1/en",
+        "https://patentimages.storage.googleapis.com/66/dd/45/0737764f317680/WO2017108453A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "88280ae032733f3118995ee63f2e6106034cb8fc2b24936ccb98082466fe337b",
+      "figures": 9,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 5439,
+          "sha256": "1666d83df633143e0c2a2ef424a08f1906397113aa64d0c405a12850190f14ff"
+        },
+        "figures/p0001-0002.png": {
+          "bytes": 2287,
+          "sha256": "cc3d423c47ea2ac52b5ed81da0649311b6cd43fe0c3a70f86dcbfe32d725198c"
+        },
+        "figures/p0001-0003.png": {
+          "bytes": 29976,
+          "sha256": "ac92b52e178a14e67d7aace053ccbbfb40e9c6f5a26e705665e6531a507a29dc"
+        },
+        "figures/p0036-0004.png": {
+          "bytes": 282566,
+          "sha256": "315658006e22049355f059b2d73eba560d20462d12fc7a67f652e817acdbea07"
+        },
+        "figures/p0037-0005.png": {
+          "bytes": 157252,
+          "sha256": "4f07c3db368dccce400859d77b1cb7c36ea7c1f5c47aa688f0a521177ca4aecd"
+        },
+        "figures/p0037-0006.png": {
+          "bytes": 87236,
+          "sha256": "4fd2022e4107c99ef53437c4677763fd3ff017a2fa20f6318ff688ab8e990641"
+        },
+        "figures/p0038-0007.png": {
+          "bytes": 67554,
+          "sha256": "9375a5ca87b12d8709a4f42872024343707be96041f0e38e3eea756069c108da"
+        },
+        "figures/p0039-0008.png": {
+          "bytes": 103599,
+          "sha256": "7bed6689206cba09ee3d1e6095bb76b380350489d5dd272c08ecc4dd3802dcbf"
+        },
+        "figures/p0040-0009.png": {
+          "bytes": 117538,
+          "sha256": "3bdd7b4f42516ee02a7b01c817d45275db770ec8fff7bfbefbb2a71b6aee04ec"
+        },
+        "mineru.md": {
+          "bytes": 114209,
+          "sha256": "b35bd79e3d9fe5722dcf68c24e19cab9d7ee177384b1194eb29c803e61e55311"
+        },
+        "original.pdf": {
+          "bytes": 2318246,
+          "sha256": "a2fd3fd67db8c845fd6ee2ddc9cad362f1740ddb3e1686f058b6d4d04e2cf3bd"
+        }
+      }
+    },
+    {
+      "publication": "WO2020094369A1",
+      "title": "Apparatus for and method of measuring distortion of a patterning device in a photolithographic apparatus",
+      "pages": 25,
+      "original_pdf": "WO2020094369A1/original.pdf",
+      "markdown": "WO2020094369A1/mineru.md",
+      "source_sha256": "f881a9e96d4c5939ced23025fa13a3a51dc29ffad49720e2ac364594772a26ea",
+      "source_urls": [
+        "https://patents.google.com/patent/WO2020094369A1/en",
+        "https://patentimages.storage.googleapis.com/d5/cd/cc/10d19c9f9603a6/WO2020094369A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "90795a052b7499620a098542d442470dbc7f478617d884f7b22d6e40bcfdacca",
+      "figures": 7,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 5613,
+          "sha256": "dbe12fec9b602c71f0a6c4a381ad9abb11df324d4e5b47cbe2ac42e8b8bc3379"
+        },
+        "figures/p0001-0002.png": {
+          "bytes": 2436,
+          "sha256": "bb5940d0e657d9d3f755ed0d1de72b72057b06ae43e451e1c57f2282ba397c5e"
+        },
+        "figures/p0001-0003.png": {
+          "bytes": 49512,
+          "sha256": "1632bdc65045951ac77575d1118df98ee15191af615eb31fc10b51760dc88e54"
+        },
+        "figures/p0020-0004.png": {
+          "bytes": 166981,
+          "sha256": "ef005efe07b27e14491029aa77e3464cf52010475b45cdc1bc27ce64cafb2d75"
+        },
+        "figures/p0021-0005.png": {
+          "bytes": 52505,
+          "sha256": "d08712da13e4679962dd86f3d6abd742ea2a60a7f6a26a236cbc6401b4491dea"
+        },
+        "figures/p0021-0006.png": {
+          "bytes": 75842,
+          "sha256": "995d9b5975ca8ce43327493a567f0a3a9ffebb74c7ac9067995384acf64aa6d9"
+        },
+        "figures/p0022-0007.png": {
+          "bytes": 123689,
+          "sha256": "6729657631e3649c3203255f1543ef57f6169a7517c7f6bb59a70ba7b49992b0"
+        },
+        "mineru.md": {
+          "bytes": 56217,
+          "sha256": "3c5f919e2834e278e77e3b7e833db057bfde3ca5aeb8a343f622ab362c936e11"
+        },
+        "original.pdf": {
+          "bytes": 1240175,
+          "sha256": "f881a9e96d4c5939ced23025fa13a3a51dc29ffad49720e2ac364594772a26ea"
+        }
+      }
+    },
+    {
+      "publication": "WO2021032376A1",
+      "title": "WO2021032376A1 - Method for controlling a semiconductor manufacturing process",
+      "pages": 33,
+      "original_pdf": "WO2021032376A1/original.pdf",
+      "markdown": "WO2021032376A1/mineru.md",
+      "source_sha256": "edbb522a58fbce9a7163e59fafe489baaaef0c4df5e41ddeaddf29f5d4458afc",
+      "source_urls": [
+        "https://patents.google.com/patent/WO2021032376A1/en",
+        "https://patentimages.storage.googleapis.com/2d/c9/b1/8d8bc64332ae06/WO2021032376A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "d2d5c8adbd679df2ef7729a25bd0af8ea146a5456159dda20bd029c844186058",
+      "figures": 8,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 5548,
+          "sha256": "7ee36cd7747b5e1d1a7c42205d6a528671b5e0f5b1c0027c5ebd70a53e7060d5"
+        },
+        "figures/p0001-0002.png": {
+          "bytes": 2474,
+          "sha256": "3f4076ebcdc74cbd697edc9a5fe0481454ed3b018acaf4d38a53822218a41cbd"
+        },
+        "figures/p0001-0003.png": {
+          "bytes": 53645,
+          "sha256": "8993b6b3b27e0f9bb142c50d4503c5ed10083839e1203012a821c47f54ecf9bf"
+        },
+        "figures/p0027-0004.png": {
+          "bytes": 143725,
+          "sha256": "08f5af27082325d0b7def914b00313dea94bbf65f033cc48dce802d229d5c466"
+        },
+        "figures/p0028-0005.png": {
+          "bytes": 139680,
+          "sha256": "5839e4ef181622a0a18e9af57cff651b61cf4b1767866125112f7b2753f5ba17"
+        },
+        "figures/p0029-0006.png": {
+          "bytes": 176116,
+          "sha256": "0b94bb64dadcf591d5c688c56379dc8d73e5da228e36decfe80361d50550b133"
+        },
+        "figures/p0030-0007.png": {
+          "bytes": 159149,
+          "sha256": "090919973a50858378a183fa670142fbd1be571fa569852d41141e064deede3f"
+        },
+        "figures/p0031-0008.png": {
+          "bytes": 60222,
+          "sha256": "16980f45cf5e218458efd10a0fb25f0be64366960f8d0a643540ee406057cb4e"
+        },
+        "mineru.md": {
+          "bytes": 81489,
+          "sha256": "83c206b178094427db7b20f60a4bc1a258f8c9545ddfe79100f0541ed2657899"
+        },
+        "original.pdf": {
+          "bytes": 1783908,
+          "sha256": "edbb522a58fbce9a7163e59fafe489baaaef0c4df5e41ddeaddf29f5d4458afc"
+        }
+      }
+    },
+    {
+      "publication": "WO2023126174A1",
+      "title": "Enhanced alignment for a photolithographic apparatus",
+      "pages": 38,
+      "original_pdf": "WO2023126174A1/original.pdf",
+      "markdown": "WO2023126174A1/mineru.md",
+      "source_sha256": "e5daae4a42e29e513106988c82e237a17c98ac2056d09c23cfb4e9e82fc608c1",
+      "source_urls": [
+        "https://patents.google.com/patent/WO2023126174A1/en",
+        "https://patentimages.storage.googleapis.com/94/fe/5f/861255ff383e5a/WO2023126174A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "25fcc0c8e6364fd8c985e8827eba6c0d8a226bdb13332894914a6e4e6705f600",
+      "figures": 17,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 5548,
+          "sha256": "7ee36cd7747b5e1d1a7c42205d6a528671b5e0f5b1c0027c5ebd70a53e7060d5"
+        },
+        "figures/p0001-0002.png": {
+          "bytes": 2401,
+          "sha256": "db3d7521a5077e7bd9a3a5a6ce015be10356a9e3dd2f7bb220d65ee84df13450"
+        },
+        "figures/p0001-0003.png": {
+          "bytes": 19141,
+          "sha256": "0d1dabf55841ca09526fd1e1bf49243fff2ae20a387ebd4308f81613e362885f"
+        },
+        "figures/p0026-0004.png": {
+          "bytes": 95677,
+          "sha256": "c99ab5a9c296a32b4814fa3758466d6e96a94901349097a298c2ae71e28d5887"
+        },
+        "figures/p0027-0005.png": {
+          "bytes": 30866,
+          "sha256": "f076a26ed15c309e1e961640b58afeca8619d6c2ee38eef88b47ffd1f4beba68"
+        },
+        "figures/p0028-0006.png": {
+          "bytes": 32890,
+          "sha256": "bc82e94b646675fa678119e4ff33302a727dc49f4a3bc9f398d7f89dc64ededa"
+        },
+        "figures/p0029-0007.png": {
+          "bytes": 115880,
+          "sha256": "51ccc991779a0e95a13375919365314eebd50502b1b3570b08fc19519d7a79f2"
+        },
+        "figures/p0030-0008.png": {
+          "bytes": 19722,
+          "sha256": "d0eed05153f7899ee429a00c1c568e7041ddb4186c78e29fab25c462073dbf31"
+        },
+        "figures/p0030-0009.png": {
+          "bytes": 122506,
+          "sha256": "ad4ec2094dcb27172cd6da72b4dc163ac577144e5122ab1ff99e55cc64eb2945"
+        },
+        "figures/p0031-0010.png": {
+          "bytes": 216300,
+          "sha256": "12f769d86ce2f19e1e63bba6b989f55de88a76763d0ae1938662f87d6e6b837a"
+        },
+        "figures/p0031-0011.png": {
+          "bytes": 167820,
+          "sha256": "0307b8a94a8be6b4c5c652f2467c30d98e3534e67fbff89f32791c0fa79234ea"
+        },
+        "figures/p0032-0012.png": {
+          "bytes": 15970,
+          "sha256": "2d203c0cd5bc971ead601465dfdeb4aef20693094fbb33f2060da2eafca09267"
+        },
+        "figures/p0032-0013.png": {
+          "bytes": 22334,
+          "sha256": "651bcd5583168147cb60720b877b2ac3183d3beab86fecacb39c6c8292f6ba52"
+        },
+        "figures/p0033-0014.png": {
+          "bytes": 240515,
+          "sha256": "f042ad2e0b0105fca21f81e5ac01a39d185f24c1381c139b99913cc18893865a"
+        },
+        "figures/p0034-0015.png": {
+          "bytes": 32836,
+          "sha256": "c81168883b614c49bc3809a5fd67af94cf94e5b6f696c6e518b3858aedaa8c41"
+        },
+        "figures/p0034-0016.png": {
+          "bytes": 35522,
+          "sha256": "821a428b4ce9934818874fa2fbdc53e366755110ca26ae1be04a5ba97bf052b7"
+        },
+        "figures/p0035-0017.png": {
+          "bytes": 43978,
+          "sha256": "0fad2d60158a9d0ab249e1114313490b11ac773e3c5ceef28e9493ef0083ffa3"
+        },
+        "mineru.md": {
+          "bytes": 87406,
+          "sha256": "959d3e121c9b480b0a725aa6b644abe30097c87a4da22ee3903dac00d0555778"
+        },
+        "original.pdf": {
+          "bytes": 2018225,
+          "sha256": "e5daae4a42e29e513106988c82e237a17c98ac2056d09c23cfb4e9e82fc608c1"
+        }
+      }
+    },
+    {
+      "publication": "WO2024132326A1",
+      "title": "Method to infer and estimate reticle temperature based on reticle shape measurements",
+      "pages": 33,
+      "original_pdf": "WO2024132326A1/original.pdf",
+      "markdown": "WO2024132326A1/mineru.md",
+      "source_sha256": "a291bfb7dd8e8bcd5b1f0df6a3d7af41d6297a7226a1686156c6fe13383e79df",
+      "source_urls": [
+        "https://patents.google.com/patent/WO2024132326A1/en",
+        "https://patentimages.storage.googleapis.com/dc/1c/e3/fe2594a8333f77/WO2024132326A1.pdf"
+      ],
+      "conversion": "Reused verified MinerU 4.0.12 output; relative PDF/quality links adapted for this repository",
+      "previous_markdown_sha256": "660ac64af34651754e3dee1784d16e367b4fd4c5e3c37f8825aa23a6880d8e84",
+      "figures": 16,
+      "artifacts": {
+        "figures/p0001-0001.png": {
+          "bytes": 5548,
+          "sha256": "7ee36cd7747b5e1d1a7c42205d6a528671b5e0f5b1c0027c5ebd70a53e7060d5"
+        },
+        "figures/p0001-0002.png": {
+          "bytes": 2428,
+          "sha256": "34d95fbf09b2bc1f30c9c6f3102d648efeaf6e8819fd2240090f4efc4627d1f5"
+        },
+        "figures/p0001-0003.png": {
+          "bytes": 71488,
+          "sha256": "9f1fa2d5c55c6428117530dfbfdedb0a80688a36dcc2119439c524deb994ba7c"
+        },
+        "figures/p0023-0004.png": {
+          "bytes": 123925,
+          "sha256": "0dc53ed6e1b99bd6a7829725b9a57b93aa7727ec361b2d6227175547aa55e7e6"
+        },
+        "figures/p0024-0005.png": {
+          "bytes": 80546,
+          "sha256": "394696d0d5f4595a131056bcd4e505835577e37926c3751b84ad1b0107eeca69"
+        },
+        "figures/p0024-0006.png": {
+          "bytes": 125371,
+          "sha256": "3c917947e52d732df4326ca94538302ccb0b744237a83729c168c7e914c8b2db"
+        },
+        "figures/p0025-0007.png": {
+          "bytes": 174854,
+          "sha256": "f13e2a4175999ea40da2fd73248f762f888543dd127604c8648e2af8b21c24ed"
+        },
+        "figures/p0025-0008.png": {
+          "bytes": 116708,
+          "sha256": "60031c783123f7795d72e2890ea878434f1effc69fffffbd860f6a995a81d5ee"
+        },
+        "figures/p0026-0009.png": {
+          "bytes": 164620,
+          "sha256": "b2b3b079b9b6e95d5f567ec8381bb876e9a5319005dac63137e3dfc6265b9cb8"
+        },
+        "figures/p0026-0010.png": {
+          "bytes": 84551,
+          "sha256": "1fc2fc9608713152f4898816f12af33f2134a03251928275dca53a4615a53ddb"
+        },
+        "figures/p0027-0011.png": {
+          "bytes": 30899,
+          "sha256": "84231795aa098ec6f31ec96bd65b839b9b39824de1a94d3d0c50886079374d4f"
+        },
+        "figures/p0027-0012.png": {
+          "bytes": 33477,
+          "sha256": "d159c47f3375a37b2399855fdb1a437e46f8831903708d1e899a0c9dd3ccf1b2"
+        },
+        "figures/p0027-0013.png": {
+          "bytes": 32354,
+          "sha256": "926aa95e9704d71ba4a192a366720fa244cf8361e3376584bf1a1fb8922eeb8d"
+        },
+        "figures/p0028-0014.png": {
+          "bytes": 177453,
+          "sha256": "8db88a81cd0e29bc89202e925619e562a7ae3223a93598f3dded0a5e746c8e0b"
+        },
+        "figures/p0029-0015.png": {
+          "bytes": 121336,
+          "sha256": "b4ffd1416a3d3d278d9b0abbfc76c48d8f9a1f571e0ac7141a6f352543da4848"
+        },
+        "figures/p0030-0016.png": {
+          "bytes": 131761,
+          "sha256": "97c5e5bdb1b4a94a1aea319265ea34210051effe179a4b96911e902e379ebf31"
+        },
+        "mineru.md": {
+          "bytes": 78981,
+          "sha256": "4c7b7f6fab2c335e7447c5430cf80f6f9d53809de408a721ba954799ac6fc53b"
+        },
+        "original.pdf": {
+          "bytes": 1869375,
+          "sha256": "a291bfb7dd8e8bcd5b1f0df6a3d7af41d6297a7226a1686156c6fe13383e79df"
+        }
+      }
+    }
+  ]
+}
