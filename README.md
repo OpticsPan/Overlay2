@@ -1,13 +1,26 @@
 # Overlay2
 
-Overlay2 项目仓库。当前处于管理基础初始化阶段，尚未接入业务代码或确认产品需求。
+Overlay2 用于整机套刻调研资料的保存和持续维护。当前已收录45件专利的原始PDF、MinerU全文Markdown及其图像资料，共1,114个物理页。研究报告和业务程序的后续范围由具体任务确定。
+
+## 资料入口
+
+| 内容 | 入口 |
+| --- | --- |
+| 45件专利原件与全文 | [专利资料目录](references/patents/README.md) |
+| 公开号、页数、文件SHA-256 | [机器清单](references/patents/manifest.json) |
+| 机器转换质量与已知识别问题 | [质量记录](references/patents/QUALITY.md) |
+| 新资料入库、修订与引用规范 | [资料维护规则](docs/SOURCES.md) |
+| 当前进度、验证和交接 | [维护状态](docs/STATUS.md) |
 
 ## 当前状态
 
 - 发布状态：未发布；尚无产品版本号。
 - 管理基础建立日期：2026-10-27（Asia/Shanghai）。
-- 项目用途、技术栈、运行环境和首个版本范围：待确认。
+- 当前用途：整机套刻调研资料库；已完成的资料入库见[REQ-002](docs/REQUIREMENTS.md#req-002)。
+- Python仅用于仓库校验；未来业务程序的技术栈和首个产品版本范围仍待确认。
 - 本仓库当前为公开仓库；提交前确认代码、数据和文档适合公开。
+- 自动检查：[Repository checks](https://github.com/OpticsPan/Overlay2/actions/workflows/repository-checks.yml)。实际通过与否以对应提交的工作流结果为准。
+- main分支保护状态及管理检查边界见[维护状态](docs/STATUS.md#platform-state)。
 
 ## 管理入口
 
@@ -31,6 +44,16 @@ Overlay2 项目仓库。当前处于管理基础初始化阶段，尚未接入�
 
 小型文档修正可直接在 PR 中说明，无需额外创建 Issue。完整规则见上方文档。
 
-## 首次接入代码
+## 本地验收
 
-接入时补充项目简介、目录结构、安装/运行/测试命令、依赖及许可证选择；以真实运行结果为依据。当前没有可运行程序、测试命令或自动化 CI，不代表验证已经通过。
+需要Python 3.12及以上版本。在独立环境内安装校验依赖后执行：
+
+```bash
+python -m pip install -r requirements-validation.txt
+python -m unittest discover -s tests -v
+python tools/validate_repository.py --base <变更前的提交SHA>
+```
+
+校验原件与派生文件哈希、实际PDF页数、逐页锚点、仓库内链接及原件历史保护。Windows本机的环境、缓存和输出按用户偏好放在D盘；脚本不依赖特定盘符。自动校验不判断OCR语义、专利技术结论或法律状态。
+
+首次接入业务代码时，再按实际代码补充运行方式、依赖和功能验证，不因资料入库或管理工具产生产品版本号。
