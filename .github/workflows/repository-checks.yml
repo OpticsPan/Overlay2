@@ -1,0 +1,38 @@
+name: Repository checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      base_sha:
+        description: Commit SHA before the changes to verify original preservation
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: repository-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out complete history
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Install validation dependency
+        run: python3 -m pip install -r requirements-validation.txt
+      - name: Test invalid and damaged source cases
+        run: python3 -m unittest discover -s tests -v
+      - name: Validate materials, local links and original preservation
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before || inputs.base_sha }}
+        run: python3 tools/validate_repository.py --base "$BASE_SHA"

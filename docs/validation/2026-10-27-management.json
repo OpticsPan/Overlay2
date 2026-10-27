@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-27",
+  "baseline": "f4ca7fd71199a27c47b45d94bfe3609bc7bcf18e",
+  "tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "total": 18,
+    "result": "OK",
+    "symlink_note": "Windows uses OS-resolution simulation if symlink creation is unavailable; Linux CI exercises real symlinks"
+  },
+  "validation_command": "python tools/validate_repository.py --base f4ca7fd71199a27c47b45d94bfe3609bc7bcf18e",
+  "validator_sha256": "e23c2301fe4942df6ddf6a375e0a2e8c311445a5333fedf2f8d90ac5be71d78f",
+  "tests_sha256": "a1f49e3a022df02fc15a7e187a7765581ba86ecff6e0f073b5dc899f6436059d",
+  "source_material_files_changed": false,
+  "remote_ci": "Pending; see STATUS.md for actual workflow evidence",
+  "semantic_fidelity_certified": false,
+  "repository": {
+    "scope": "source bytes, actual PDF pages, Markdown anchors, local links and original preservation",
+    "semantic_fidelity_certified": false,
+    "publications": 45,
+    "physical_pages": 1114,
+    "figures": 624,
+    "artifact_files": 714,
+    "markdown_files": 61,
+    "local_links": 2635,
+    "baseline_checked": true,
+    "errors": [],
+    "warnings": [
+      "Structural checks do not certify OCR accuracy, formulas, reading order or technical conclusions."
+    ]
+  }
+}

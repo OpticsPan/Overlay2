@@ -13,4 +13,8 @@
 Thumbs.db
 Desktop.ini
 
-# Add language-specific build/cache patterns after the stack is selected.
+# Repository validation runtime (not a business stack decision)
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/

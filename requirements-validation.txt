@@ -1,0 +1,2 @@
+# PDF page-count validation only; no OCR or business runtime.
+pypdfium2==5.14.0
