@@ -15,7 +15,7 @@
 | --- | --- | --- | --- | --- | --- |
 | REQ-001 | 建立版本、变更记录和需求管理基础 | P1 | 已验收 | 不适用（管理初始化） | 见下方验收项 |
 | REQ-002 | 45件专利原件与MinerU全文入库 | P1 | 已验收 | Unreleased（资料） | [PR #1](https://github.com/OpticsPan/Overlay2/pull/1)及下方核验 |
-| REQ-003 | 完善资料库持续管理和自动校验 | P1 | 待验收 | Unreleased（管理） | 本轮实施与实际CI结果待补 |
+| REQ-003 | 完善资料库持续管理和自动校验 | P1 | 已验收 | Unreleased（管理） | [PR #2](https://github.com/OpticsPan/Overlay2/pull/2)及下方核验 |
 
 ### REQ-001：管理基础
 
@@ -58,10 +58,10 @@
 - [x] 补记REQ-002，维护Unreleased及资料变更流程。
 - [x] 明确仅用MinerU、原件版本与哈希保护、转换／人工说明分离及报告PDF按需更新。
 - [x] 校验器对当前全部资料通过，18项异常及正常测试通过；[本地验收记录](validation/2026-10-27-management.json)保留命令、结果和限制。
-- [ ] PR与main的GitHub Actions实际通过，合并并回读确认。
+- [x] [PR检查](https://github.com/OpticsPan/Overlay2/actions/runs/40527885523)与[main检查](https://github.com/OpticsPan/Overlay2/actions/runs/40528504056)实际通过；PR #2已合并，main提交`1aae1b57039c05d7415b5fa2ecc42d01eae6aec0`回读与已核验树一致。
 - [x] 如实标注main保护尚未启用、仓库公开且无产品发布，不把文档约定冒充平台设置。
 
-实施与证据：[实施计划](superpowers/plans/2026-10-27-repository-management.md)、[资料规则](SOURCES.md)、[维护状态](STATUS.md)。验收证据齐备后才标为已验收。
+实施与证据：[实施计划](superpowers/plans/2026-10-27-repository-management.md)、[资料规则](SOURCES.md)、[维护状态](STATUS.md)。2026-10-27依据上述本地及远端证据完成验收；该验收不涵盖OCR语义正确性或平台强制保护。
 
 ## 待确认事项
 

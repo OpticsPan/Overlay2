@@ -11,7 +11,16 @@
   "validator_sha256": "e23c2301fe4942df6ddf6a375e0a2e8c311445a5333fedf2f8d90ac5be71d78f",
   "tests_sha256": "a1f49e3a022df02fc15a7e187a7765581ba86ecff6e0f073b5dc899f6436059d",
   "source_material_files_changed": false,
-  "remote_ci": "Pending; see STATUS.md for actual workflow evidence",
+  "remote_ci": {
+    "pull_request": 2,
+    "pr_head": "92ed874301f96385d6fa46e0169a03bda5174eea",
+    "pr_run": "https://github.com/OpticsPan/Overlay2/actions/runs/40527885523",
+    "main_commit": "1aae1b57039c05d7415b5fa2ecc42d01eae6aec0",
+    "main_run": "https://github.com/OpticsPan/Overlay2/actions/runs/40528504056",
+    "conclusion": "success",
+    "main_tree_matches_verified_branch": true,
+    "scope": "Verified snapshot before this documentation-only acceptance record"
+  },
   "semantic_fidelity_certified": false,
   "repository": {
     "scope": "source bytes, actual PDF pages, Markdown anchors, local links and original preservation",

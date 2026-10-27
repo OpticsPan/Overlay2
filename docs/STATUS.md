@@ -11,9 +11,9 @@
 
 ## 验证与交接
 
-- 本地18项测试已通过，覆盖原件改写、PDF页数、重复／缺失锚点、缺图、清单错误、越界路径、坏PDF、文档锚点、CLI退出码和Git基线保护。Windows不能创建符号链接时，该项只模拟操作系统路径解析；Linux CI将使用实际符号链接。
+- 本地18项测试已通过，覆盖原件改写、PDF页数、重复／缺失锚点、缺图、清单错误、越界路径、坏PDF、文档锚点、CLI退出码和Git基线保护。Windows不能创建符号链接时，该项只模拟操作系统路径解析；Linux CI已使用实际符号链接并通过。
 - 全45件资料的文件哈希、实际页数和页锚点检查通过，既有资料目录相对基线无变化。命令与结果见[本地验收记录](validation/2026-10-27-management.json)。
-- GitHub Actions远端验证待执行；未执行的检查不记为通过。
+- [管理PR #2](https://github.com/OpticsPan/Overlay2/pull/2)已合并；[PR检查](https://github.com/OpticsPan/Overlay2/actions/runs/40527885523)与[main检查](https://github.com/OpticsPan/Overlay2/actions/runs/40528504056)实际成功。已回读main提交`1aae1b57039c05d7415b5fa2ecc42d01eae6aec0`，内容树与已核验分支一致。本记录针对该已验证快照，后续提交结果以对应Actions为准。
 - 后续任务先读取本文件、需求台账和资料规则，核对远端最新main，再从短期分支修改；合并前检查对应PR的Actions结果。
 
 <a id="platform-state"></a>
@@ -26,7 +26,7 @@
 | 仓库可见性 | 公开 | 本轮没有修改可见性或访问权限 |
 | main分支保护 | 未启用 | 2026-10-27读取branches/main得到protected=false；CI文件不等于平台强制保护 |
 | 合并后自动删分支 | 未启用 | 仓库元数据delete_branch_on_merge=false；本轮没有修改该设置 |
-| 自动检查 | 本轮新增，待实际运行验收 | [Repository checks](https://github.com/OpticsPan/Overlay2/actions/workflows/repository-checks.yml) |
+| 自动检查 | 已运行：PR及main均成功 | [Repository checks](https://github.com/OpticsPan/Overlay2/actions/workflows/repository-checks.yml) |
 | 许可证、产品Release | 未设置／未发布 | 不代用户选择许可证或创建产品版本 |
 
 如需将PR检查变成平台强制条件，可另行明确main保护策略及单人维护者的合并方式；当前协作流程要求先通过检查，但不宣称已经强制执行。

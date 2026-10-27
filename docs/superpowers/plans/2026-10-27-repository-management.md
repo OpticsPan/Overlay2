@@ -49,5 +49,5 @@
 **Files:** `.github/workflows/repository-checks.yml`。
 
 - [x] 配置只读权限、固定依赖版本和固定checkout提交；在PR、main推送及手动触发时运行相同测试与校验。
-- [ ] 自审差异，提交PR，等待实际Actions结果；通过后按仓库流程合并。
-- [ ] 回读main及对应Actions，记录验证证据和仍未启用的GitHub分支保护，不虚构平台设置。
+- [x] 自审差异，提交PR，等待实际Actions结果；通过后按仓库流程合并。
+- [x] 回读main及对应Actions，记录验证证据和仍未启用的GitHub分支保护，不虚构平台设置。
