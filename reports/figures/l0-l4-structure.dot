@@ -1,0 +1,20 @@
+// 报告组织示意图；不是已经验证的光刻机技术架构。
+// 不使用 fixedsize；Graphviz 根据字体度量、显式换行及内边距确定节点大小。
+// SVG 使用 cairo 后端将字形转为矢量轮廓，避免查看端字体替换导致裁切。
+digraph ReportStructure {
+  graph [rankdir=TB, bgcolor="white", pad=0.25, nodesep=0.4, ranksep=0.6];
+  node [shape=box, style="rounded,filled", fillcolor="#f1f6fa", color="#31566c",
+        penwidth=1.2, fontname="Noto Sans CJK SC", fontsize=16,
+        margin="0.28,0.18"];
+  edge [color="#506775", penwidth=1.2, arrowsize=0.8,
+        fontname="Noto Sans CJK SC", fontsize=13];
+  L0 [label="L0 整机套刻管理架构\n目标、功能环节\n子系统及关系"];
+  L1 [label="L1 问题产生与管理归属\n产生位置、观测位置\n牵头及协同环节"];
+  L2 [label="L2 整机解决策略\n源头抑制、子系统补偿\n或二者结合"];
+  L3 [label="L3 子系统职责与能力\n测什么、算什么、调什么\n如何协同"];
+  L4 [label="L4 技术细节\n原理、结构、模型\n算法、参数及证据"];
+  V [label="回到整机验证\n改善、残差、耦合影响\n适用范围", fillcolor="#e9f3eb"];
+  L0 -> L1 -> L2 -> L3 -> L4 -> V;
+  V -> L0 [label="检验\n整体作用", constraint=false];
+  V -> L2 [label="反馈修正\n策略或校准", constraint=false];
+}
