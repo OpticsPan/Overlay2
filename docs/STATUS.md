@@ -1,13 +1,18 @@
 # 仓库维护状态
 
-更新：2026-10-27（Asia/Shanghai） · [需求台账](REQUIREMENTS.md) · [变更日志](../CHANGELOG.md)
+更新：2026-10-28（Asia/Shanghai） · [需求台账](REQUIREMENTS.md) · [变更日志](../CHANGELOG.md)
+
+## 排版规范（2026-10-28）
+
+- REQ-005已确认并记录到[报告维护规范](../reports/README.md)：后续PDF参考中文学术论文国标格式，正文两端对齐、首行缩进两个汉字宽度。
+- 本次仅记录规范；现有PDF未重排，CSS的首行缩进需在下一次PDF任务落实并验证。
 
 ## 报告工作进展（2026-10-28）
 
 - REQ-004新增[《先进光刻机套刻管理架构》](../reports/advanced-overlay-management/report.md)R1及PDF，待内容审阅。
-- 报告任务基线：`dd7ee03acec72b6db251f59b2bcf798aa1ff2aed`；在`docs/overlay-management-report`分支维护。
+- 报告任务基线：`dd7ee03acec72b6db251f59b2bcf798aa1ff2aed`；原报告分支`docs/overlay-management-report`已合并并删除。
 - 六件核心专利、八幅原图；原始资料保持字节。检查结果见[交付记录](../reports/advanced-overlay-management/delivery.json)。
-- 此项为本地报告交付，不表示已合并main、Actions已通过或产品已发布。
+- 报告已随`f7cb1a0a8812ce4b7964e5a647e2c2e2b98927c8`纳入main；[Repository checks #5](https://github.com/OpticsPan/Overlay2/actions/runs/40615082936)已成功（通过Actions网页核对）。报告内容仍待审阅，未作产品发布。
 
 ## 当前基线与资料
 

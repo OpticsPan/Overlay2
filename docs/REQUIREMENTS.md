@@ -17,6 +17,7 @@
 | REQ-002 | 45件专利原件与MinerU全文入库 | P1 | 已验收 | Unreleased（资料） | [PR #1](https://github.com/OpticsPan/Overlay2/pull/1)及下方核验 |
 | REQ-003 | 完善资料库持续管理和自动校验 | P1 | 已验收 | Unreleased（管理） | [PR #2](https://github.com/OpticsPan/Overlay2/pull/2)及下方核验 |
 | REQ-004 | 撰写先进光刻机套刻管理架构报告并建立修订记录 | P1 | 待验收 | Unreleased（报告） | [报告](../reports/advanced-overlay-management/report.md)与[交付记录](../reports/advanced-overlay-management/delivery.json) |
+| REQ-005 | 后续PDF的中文学术论文排版规范 | P1 | 已确认 | Unreleased（规范） | [报告维护规范](../reports/README.md)；后续PDF逐次验收 |
 
 ### REQ-001：管理基础
 
@@ -72,6 +73,15 @@
 - 验收项：MD/PDF内容一致、图与公开号/页码可追溯、核心专利有详细逻辑解读、综合与外推标识、原始资料不变、保存修订与检查记录。
 - 实施状态：R1已形成，待用户内容审阅；本地结构检查不替代研究结论验收。
 - 记录：[报告维护规范](../reports/README.md)、[来源清单](../reports/advanced-overlay-management/sources.json)。
+
+### REQ-005：后续PDF中文学术论文排版
+
+来源：2026-10-28用户要求将后续PDF参考中文学术论文国标格式、行两端对齐、段首缩进两个空格等要求记录到仓库。
+
+- 已确认要求：参考适用的学术论文编写与参考文献著录国家标准；普通正文两端对齐，首行缩进两个汉字宽度；结构、图表、公式、引用及页面样式保持一致。
+- 规范入口：[报告维护规范](../reports/README.md)，并已纳入AGENTS.md供后续任务执行。标准版本需在实际编排时核对，不把自行选定的字号或行距冒充国标要求。
+- 实施边界：本次保存要求；既有报告及PDF未重排，现有CSS首行缩进待下次PDF任务落实。
+- 后续验收：检查模板与实际PDF中的缩进、对齐、图表、公式、引文、页码及文字可复制性，保留具体检查证据；需求确认不代表所有历史PDF已验收。
 
 ## 待确认事项
 
