@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "scope": "R2 independent full-text patent review; source PDFs unchanged",
+  "baseline": "edd7a4e13fdddc994befcbc22147a7ac59013385",
+  "review_date": "2026-10-28",
+  "full_text_read_count": 7,
+  "full_text_total_lines": 8858,
+  "visually_inspected_figure_files": 11,
+  "notes": [
+    "全文覆盖指完整mineru.md，不声称逐字校核整件PDF",
+    "关键原PDF核对包括原页文字提取或渲染目视",
+    "US11754931B2末段1020–1118重复读取以消除输出截断",
+    "US11886124B2 p36原文单位存在疑点，报告不采纳该数值",
+    "WO2017108453A1 Fig7部分编号与文字不一致；不推断712新功能",
+    "US11599027B2 Fig7是焦点窗口示例，架构推广至套刻须明确区分",
+    "同族关系未推断",
+    "仅control.md及control.json为本代理修改范围"
+  ],
+  "patents": [
+    {
+      "id": "US11300886B2",
+      "pdf": "references/patents/US11300886B2/original.pdf",
+      "pdf_physical_pages": 13,
+      "full_text": "references/patents/US11300886B2/mineru.md",
+      "full_text_lines": 774,
+      "read_line_ranges": [
+        [
+          1,
+          280
+        ],
+        [
+          281,
+          560
+        ],
+        [
+          561,
+          774
+        ]
+      ],
+      "complete_full_text_read": true,
+      "pdf_key_pages_checked": [
+        10,
+        11,
+        13
+      ],
+      "figures_visually_inspected": [
+        "references/patents/US11300886B2/figures/p0005-0004.png",
+        "references/patents/US11300886B2/figures/p0005-0005.png",
+        "references/patents/US11300886B2/figures/p0007-0007.png"
+      ],
+      "report_role": "热前馈参数反馈更新"
+    },
+    {
+      "id": "US11513444B2",
+      "pdf": "references/patents/US11513444B2/original.pdf",
+      "pdf_physical_pages": 17,
+      "full_text": "references/patents/US11513444B2/mineru.md",
+      "full_text_lines": 903,
+      "read_line_ranges": [
+        [
+          1,
+          300
+        ],
+        [
+          301,
+          600
+        ],
+        [
+          601,
+          903
+        ]
+      ],
+      "complete_full_text_read": true,
+      "pdf_key_pages_checked": [
+        13,
+        15,
+        16,
+        17
+      ],
+      "figures_visually_inspected": [
+        "references/patents/US11513444B2/figures/p0005-0004.png"
+      ],
+      "report_role": "反馈入口噪声与系统性指纹区分"
+    },
+    {
+      "id": "US11754931B2",
+      "pdf": "references/patents/US11754931B2/original.pdf",
+      "pdf_physical_pages": 20,
+      "full_text": "references/patents/US11754931B2/mineru.md",
+      "full_text_lines": 1118,
+      "read_line_ranges": [
+        [
+          1,
+          280
+        ],
+        [
+          281,
+          560
+        ],
+        [
+          561,
+          840
+        ],
+        [
+          841,
+          1118
+        ]
+      ],
+      "complete_full_text_read": true,
+      "pdf_key_pages_checked": [
+        13,
+        14,
+        19
+      ],
+      "figures_visually_inspected": [
+        "references/patents/US11754931B2/figures/p0005-0005.png"
+      ],
+      "report_role": "跨组公共漂移与组别历史管理"
+    },
+    {
+      "id": "WO2021032376A1",
+      "pdf": "references/patents/WO2021032376A1/original.pdf",
+      "pdf_physical_pages": 33,
+      "full_text": "references/patents/WO2021032376A1/mineru.md",
+      "full_text_lines": 1101,
+      "read_line_ranges": [
+        [
+          1,
+          280
+        ],
+        [
+          281,
+          520
+        ],
+        [
+          521,
+          800
+        ],
+        [
+          801,
+          1101
+        ]
+      ],
+      "complete_full_text_read": true,
+      "pdf_key_pages_checked": [
+        13,
+        16,
+        18,
+        24
+      ],
+      "figures_visually_inspected": [
+        "references/patents/WO2021032376A1/figures/p0030-0007.png",
+        "references/patents/WO2021032376A1/figures/p0031-0008.png"
+      ],
+      "report_role": "多量测流与补偿作用去重"
+    },
+    {
+      "id": "US11886124B2",
+      "pdf": "references/patents/US11886124B2/original.pdf",
+      "pdf_physical_pages": 50,
+      "full_text": "references/patents/US11886124B2/mineru.md",
+      "full_text_lines": 2374,
+      "read_line_ranges": [
+        [
+          1,
+          240
+        ],
+        [
+          241,
+          570
+        ],
+        [
+          571,
+          820
+        ],
+        [
+          821,
+          1040
+        ],
+        [
+          1041,
+          1270
+        ],
+        [
+          1271,
+          1470
+        ],
+        [
+          1471,
+          1690
+        ],
+        [
+          1691,
+          1920
+        ],
+        [
+          1921,
+          2160
+        ],
+        [
+          2161,
+          2374
+        ]
+      ],
+      "complete_full_text_read": true,
+      "pdf_key_pages_checked": [
+        36,
+        42,
+        43,
+        50
+      ],
+      "figures_visually_inspected": [
+        "references/patents/US11886124B2/figures/p0016-0019.png"
+      ],
+      "report_role": "曝光准备阶段模型与坐标一致性"
+    },
+    {
+      "id": "WO2017108453A1",
+      "pdf": "references/patents/WO2017108453A1/original.pdf",
+      "pdf_physical_pages": 43,
+      "full_text": "references/patents/WO2017108453A1/mineru.md",
+      "full_text_lines": 1569,
+      "read_line_ranges": [
+        [
+          1,
+          230
+        ],
+        [
+          231,
+          480
+        ],
+        [
+          481,
+          720
+        ],
+        [
+          721,
+          960
+        ],
+        [
+          961,
+          1220
+        ],
+        [
+          1221,
+          1569
+        ]
+      ],
+      "complete_full_text_read": true,
+      "pdf_key_pages_checked": [
+        21,
+        22,
+        26,
+        27,
+        32,
+        34
+      ],
+      "figures_visually_inspected": [
+        "references/patents/WO2017108453A1/figures/p0040-0009.png"
+      ],
+      "report_role": "量测共同偏差与候选控制策略治理"
+    },
+    {
+      "id": "US11599027B2",
+      "pdf": "references/patents/US11599027B2/original.pdf",
+      "pdf_physical_pages": 19,
+      "full_text": "references/patents/US11599027B2/mineru.md",
+      "full_text_lines": 1019,
+      "read_line_ranges": [
+        [
+          1,
+          270
+        ],
+        [
+          271,
+          500
+        ],
+        [
+          501,
+          730
+        ],
+        [
+          731,
+          1019
+        ]
+      ],
+      "complete_full_text_read": true,
+      "pdf_key_pages_checked": [
+        14,
+        15,
+        18
+      ],
+      "figures_visually_inspected": [
+        "references/patents/US11599027B2/figures/p0007-0007.png",
+        "references/patents/US11599027B2/figures/p0008-0008.png"
+      ],
+      "report_role": "器件关键区域驱动检查网格与控制"
+    }
+  ]
+}

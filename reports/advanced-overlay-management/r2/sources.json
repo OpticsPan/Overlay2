@@ -1,0 +1,1288 @@
+{
+  "revision": "R2",
+  "source_baseline": "edd7a4e13fdddc994befcbc22147a7ac59013385",
+  "writing_mode": "from_scratch",
+  "parent_report": null,
+  "historical_report": "../report.md (R1), preserved; not used as drafting base",
+  "coverage": {
+    "publications": 45,
+    "physical_pages": 1114,
+    "full_transcription_reading": true,
+    "all_pdf_pages_manually_collated": false
+  },
+  "semantic_fidelity_certified": false,
+  "records": [
+    {
+      "publication": "CN117234040A",
+      "title": "方法和更换工具",
+      "pages": 29,
+      "original_pdf": "references/patents/CN117234040A/original.pdf",
+      "original_sha256": "7d3ef60ee1f5a79bd33cb1a73be7616a7438156321194d2a7a256c639ff56f10",
+      "reading_record": "review/mechanics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "CN120344910A",
+      "title": "基于掩模版形状测量来推断和估计掩模版温度的方法",
+      "pages": 26,
+      "original_pdf": "references/patents/CN120344910A/original.pdf",
+      "original_sha256": "8522703e5b194f57f414c2645b32492c756630c1f4b4db9f58eca712395244a7",
+      "reading_record": "review/thermal.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "DE102016205618A1",
+      "title": "Projektionsobjektiv mit Wellenfrontmanipulator, Projektionsbelichtungsverfahren und Projektionsbelichtungsanlage",
+      "pages": 72,
+      "original_pdf": "references/patents/DE102016205618A1/original.pdf",
+      "original_sha256": "b0d416ca7fd787ceb9b076ed7f011d53b3460fa343f661df09d147d9707ed30e",
+      "reading_record": "review/optics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "EP4632488A1",
+      "title": "EP4632488A1 - A method of lithography and associated apparatuses",
+      "pages": 23,
+      "original_pdf": "references/patents/EP4632488A1/original.pdf",
+      "original_sha256": "36000e7dabeed804e504ff362a75684e8634abb1c8dc73e66da2fce1f1e9ae73",
+      "reading_record": "review/execution.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "JP5809458B2",
+      "title": "Reticle clamp system",
+      "pages": 19,
+      "original_pdf": "references/patents/JP5809458B2/original.pdf",
+      "original_sha256": "6667deed44c1f8f1263c69f02ebfe7b94a1482f2e9925e80846d0d292fe4f125",
+      "reading_record": "review/mechanics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US10120292B2",
+      "title": "Support apparatus, lithographic apparatus and device manufacturing method",
+      "pages": 35,
+      "original_pdf": "references/patents/US10120292B2/original.pdf",
+      "original_sha256": "a9be4a6b81461def227426351e3495eea4d444ce771a04b33fe94c7500342fac",
+      "reading_record": "review/mechanics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US10429749B2",
+      "title": "Method of reducing effects of reticle heating and/or cooling in a lithographic process",
+      "pages": 16,
+      "original_pdf": "references/patents/US10429749B2/original.pdf",
+      "original_sha256": "bbe3698aa7c87715689e2571d6e818c5504d8817f15031290d65cc32d9e3fca9",
+      "reading_record": "review/thermal.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US10747126B2",
+      "title": "Support table for a lithographic apparatus, lithographic apparatus and device manufacturing method",
+      "pages": 30,
+      "original_pdf": "references/patents/US10747126B2/original.pdf",
+      "original_sha256": "4f18e1111c8781c44a4a8052b9ce269112583f0d1c2ba214d443df9fcb549dd1",
+      "reading_record": "review/mechanics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US10884345B2",
+      "title": "Calibration method for a lithographic apparatus",
+      "pages": 22,
+      "original_pdf": "references/patents/US10884345B2/original.pdf",
+      "original_sha256": "e78f39b295b45a5aec1a7163d19339d7729b9f64dd4fe1407cd40cd420b0f49c",
+      "reading_record": "review/measurement.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US11175593B2",
+      "title": "Alignment sensor apparatus for process sensitivity compensation",
+      "pages": 41,
+      "original_pdf": "references/patents/US11175593B2/original.pdf",
+      "original_sha256": "72a88475a34e8da50642ea78fecdec801067448b4750fbefa7e87e3b5ec365da",
+      "reading_record": "review/measurement.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US11300886B2",
+      "title": "Method of adapting feed-forward parameters",
+      "pages": 13,
+      "original_pdf": "references/patents/US11300886B2/original.pdf",
+      "original_sha256": "8101c8e9dc903c57b3b57219d3e49d0475a0d8a559fe40d14261fad1a1dfc09e",
+      "reading_record": "review/control.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US11513444B2",
+      "title": "Noise reduction for overlay control",
+      "pages": 17,
+      "original_pdf": "references/patents/US11513444B2/original.pdf",
+      "original_sha256": "cc6fdf4ad59e375746e1b15fddaf89a1274149af6b3b6f481b6519f11a656a10",
+      "reading_record": "review/control.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US11599027B2",
+      "title": "Lithographic process and apparatus and inspection process and apparatus",
+      "pages": 19,
+      "original_pdf": "references/patents/US11599027B2/original.pdf",
+      "original_sha256": "4fa17973c3a056aee22f350f3b54824bc584df29a959260fe6b78a1c242febbf",
+      "reading_record": "review/control.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US11703772B2",
+      "title": "Recipe selection based on inter-recipe consistency (US11703772B2)",
+      "pages": 36,
+      "original_pdf": "references/patents/US11703772B2/original.pdf",
+      "original_sha256": "a872556312daea80ec13881b7dd9f41403a2bb4b7c44606c895e86e34ae96ebf",
+      "reading_record": "review/measurement.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US11754931B2",
+      "title": "US11754931B2 - Method for determining corrections for lithographic apparatus",
+      "pages": 20,
+      "original_pdf": "references/patents/US11754931B2/original.pdf",
+      "original_sha256": "decd80102deee9ae1432c7a63f9abbad169a4913de039f3d7325a07bec957aa8",
+      "reading_record": "review/control.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US11886124B2",
+      "title": "Flows of optimization for patterning processes",
+      "pages": 50,
+      "original_pdf": "references/patents/US11886124B2/original.pdf",
+      "original_sha256": "b21ee29dc652fe4ed73f4f550cd10e94016b3f47a9515f78103c989141c72cf5",
+      "reading_record": "review/control.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US12663725B2",
+      "title": "Methods and systems to calibrate reticle thermal effects (US12663725B2)",
+      "pages": 26,
+      "original_pdf": "references/patents/US12663725B2/original.pdf",
+      "original_sha256": "a3a83fc84b12a81765a65774e324efbe813d548b7fc74d2ba5f073b9c4a89db4",
+      "reading_record": "review/thermal.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US20020008861A1",
+      "title": "Projection lens, in particular for microlithography",
+      "pages": 14,
+      "original_pdf": "references/patents/US20020008861A1/original.pdf",
+      "original_sha256": "4d01d12a77f57efc6c8f11595406269311c720d102b7b4723d4be1746d0913eb",
+      "reading_record": "review/optics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US20090207511A1",
+      "title": "Assembly for adjusting an optical element",
+      "pages": 20,
+      "original_pdf": "references/patents/US20090207511A1/original.pdf",
+      "original_sha256": "c180459af2f461b8c9f5a1dfc90bab38895e0dc3a28c1e4c4097066b21a310f0",
+      "reading_record": "review/optics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US20130188160A1",
+      "title": "Optical System of a Microlithographic Projection Exposure Apparatus and Method of Reducing Image Placement Errors",
+      "pages": 22,
+      "original_pdf": "references/patents/US20130188160A1/original.pdf",
+      "original_sha256": "ab3b6ee8f89967e7492a9dbd8eb7e746b90354c5db6e67e43350ef801579fdb3",
+      "reading_record": "review/optics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US20180081281A1",
+      "title": "Projection lens with wave front manipulator and related method and apparatus",
+      "pages": 20,
+      "original_pdf": "references/patents/US20180081281A1/original.pdf",
+      "original_sha256": "73b882eed695041d52eaa2eb86e3738648da70ba6619855af7bb57dc2bf376a4",
+      "reading_record": "review/optics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US20190041758A1",
+      "title": "Methods of determining a mechanical property of a layer applied to a substrate, control system for a lithographic apparatus and lithographic apparatus",
+      "pages": 14,
+      "original_pdf": "references/patents/US20190041758A1/original.pdf",
+      "original_sha256": "8293b7e808d497bb5a8563e65ae2c8ad46fdaaa2f42cf2ac6730cd76734701ad",
+      "reading_record": "review/measurement.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US20200089127A1",
+      "title": "Projection exposure method and projection exposure apparatus for microlithography",
+      "pages": 24,
+      "original_pdf": "references/patents/US20200089127A1/original.pdf",
+      "original_sha256": "9a5dc19e862541d6c0788138cfb2e3f01071f05c2753b9762f5106980cbdd4cf",
+      "reading_record": "review/execution.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US20210096472A1",
+      "title": "US20210096472A1 - Control method for a scanning exposure apparatus",
+      "pages": 15,
+      "original_pdf": "references/patents/US20210096472A1/original.pdf",
+      "original_sha256": "3527aebf901e3bb258df2ba86aada2bc248799035bea2c7d71dda06ffe74b3d1",
+      "reading_record": "review/execution.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US20220146946A1",
+      "title": "Method for controlling a lithographic apparatus and associated apparatuses",
+      "pages": 20,
+      "original_pdf": "references/patents/US20220146946A1/original.pdf",
+      "original_sha256": "d7b88b0b703c544dc952c7c3a11386b026e609e1dab7d4bebe83f88c709eeb72",
+      "reading_record": "review/execution.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US20230077090A1",
+      "title": "Magnification adjustable projection system using deformable lens plates",
+      "pages": 23,
+      "original_pdf": "references/patents/US20230077090A1/original.pdf",
+      "original_sha256": "1e7592445397c47c9ea8330e165d0acc62fd3675f6b11e8ffdab15ef8c0a2f72",
+      "reading_record": "review/optics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US20230400772A1",
+      "title": "Method and swapping tool",
+      "pages": 24,
+      "original_pdf": "references/patents/US20230400772A1/original.pdf",
+      "original_sha256": "b931cde5bfbb8e71210707606464a5d8f9a0c2cc971de19cb8a461b7e4a4f153",
+      "reading_record": "review/mechanics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US20240184221A1",
+      "title": "Alignment method and associated alignment and lithographic apparatuses",
+      "pages": 13,
+      "original_pdf": "references/patents/US20240184221A1/original.pdf",
+      "original_sha256": "d5111c1e50fc3116c00e1abe3a483a557c5748098e2e5ece462aa8515f560d09",
+      "reading_record": "review/measurement.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US20250021017A1",
+      "title": "Methods and systems to calibrate reticle thermal effects",
+      "pages": 26,
+      "original_pdf": "references/patents/US20250021017A1/original.pdf",
+      "original_sha256": "6a2fb372e388090321da26eefda4ad52863af30e1452c726aacb67b5113f4797",
+      "reading_record": "review/thermal.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US20250110413A1",
+      "title": "Method for compensating actuator effects of actuators",
+      "pages": 14,
+      "original_pdf": "references/patents/US20250110413A1/original.pdf",
+      "original_sha256": "26559a08f974b9ea2b571dea1097b12fb7a34c189e334b68c31d39bc7217fbc3",
+      "reading_record": "review/execution.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US6961116B2",
+      "title": "Lithographic apparatus, device manufacturing method, and device manufactured thereby",
+      "pages": 32,
+      "original_pdf": "references/patents/US6961116B2/original.pdf",
+      "original_sha256": "8a1d141c5d2ee2382349168b75ffb82d6232d60d425cb795a3aa7f4a820c0203",
+      "reading_record": "review/execution.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US7362446B2",
+      "title": "Position measurement unit, measurement system and lithographic apparatus comprising such position measurement unit",
+      "pages": 16,
+      "original_pdf": "references/patents/US7362446B2/original.pdf",
+      "original_sha256": "95a5d07d506a1dbb21ed410f74c21580460920dce1963b8472dc71fe52ce0fef",
+      "reading_record": "review/measurement.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US7423725B2",
+      "title": "Lithographic method",
+      "pages": 14,
+      "original_pdf": "references/patents/US7423725B2/original.pdf",
+      "original_sha256": "2f1a82be6d592484c38ff734ff0a12640c6ba294fa00348b97f5eb71cd0141fe",
+      "reading_record": "review/thermal.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US8184265B2",
+      "title": "Correction method for non-uniform reticle heating in a lithographic apparatus",
+      "pages": 15,
+      "original_pdf": "references/patents/US8184265B2/original.pdf",
+      "original_sha256": "ce9bb94c3dd868a8a6c6d1e23f36975bdcb512ad36fff3c7d7e5b1f7158703c8",
+      "reading_record": "review/thermal.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US8208120B2",
+      "title": "Lithographic apparatus and device manufacturing method",
+      "pages": 23,
+      "original_pdf": "references/patents/US8208120B2/original.pdf",
+      "original_sha256": "33a11f1c32d38f3ec3e04d2f95c87d094c6a5d6acf132cbb9fe8b075306dabc8",
+      "reading_record": "review/mechanics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US8269949B2",
+      "title": "Lithographic apparatus and device manufacturing method",
+      "pages": 9,
+      "original_pdf": "references/patents/US8269949B2/original.pdf",
+      "original_sha256": "e65b42c94025948d8225be9a3797856b222ca2aa6ff9a274de9ef02447dcf839",
+      "reading_record": "review/mechanics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US8659745B2",
+      "title": "Optical system with an exchangeable, manipulable correction arrangement for reducing image aberrations",
+      "pages": 24,
+      "original_pdf": "references/patents/US8659745B2/original.pdf",
+      "original_sha256": "4a88da77d5c5169370d6c677bedcde05e73745df563ae512e13f81225e71e7c6",
+      "reading_record": "review/optics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US8947630B2",
+      "title": "Lithographic apparatus and device manufacturing method",
+      "pages": 19,
+      "original_pdf": "references/patents/US8947630B2/original.pdf",
+      "original_sha256": "a1b3221a9d837a4326e4fe77efcc9b939aa84641eefb6542d4df3c05ecbd37ad",
+      "reading_record": "review/mechanics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US9069263B2",
+      "title": "Method for improving the imaging properties of a projection objective, and such a projection objective",
+      "pages": 30,
+      "original_pdf": "references/patents/US9069263B2/original.pdf",
+      "original_sha256": "a62e4347e754eeaeff92ab8225d5bf1cfa6c47e81cef2067cb73ca3c987c5ee2",
+      "reading_record": "review/optics.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "US9772561B2",
+      "title": "Semiconductor manufacturing method and tool",
+      "pages": 17,
+      "original_pdf": "references/patents/US9772561B2/original.pdf",
+      "original_sha256": "e3cc969751dcd8ef40bdb7e3599f2aaded34de2b0f59373b3d0b7ccf7db2c880",
+      "reading_record": "review/execution.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "WO2017108453A1",
+      "title": "WO2017108453A1 - Methods of controlling a patterning process, device manufacturing method, control system for a lithographic apparatus and lithographic apparatus",
+      "pages": 43,
+      "original_pdf": "references/patents/WO2017108453A1/original.pdf",
+      "original_sha256": "a2fd3fd67db8c845fd6ee2ddc9cad362f1740ddb3e1686f058b6d4d04e2cf3bd",
+      "reading_record": "review/control.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "WO2020094369A1",
+      "title": "Apparatus for and method of measuring distortion of a patterning device in a photolithographic apparatus",
+      "pages": 25,
+      "original_pdf": "references/patents/WO2020094369A1/original.pdf",
+      "original_sha256": "f881a9e96d4c5939ced23025fa13a3a51dc29ffad49720e2ac364594772a26ea",
+      "reading_record": "review/measurement.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "WO2021032376A1",
+      "title": "WO2021032376A1 - Method for controlling a semiconductor manufacturing process",
+      "pages": 33,
+      "original_pdf": "references/patents/WO2021032376A1/original.pdf",
+      "original_sha256": "edbb522a58fbce9a7163e59fafe489baaaef0c4df5e41ddeaddf29f5d4458afc",
+      "reading_record": "review/control.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "WO2023126174A1",
+      "title": "Enhanced alignment for a photolithographic apparatus",
+      "pages": 38,
+      "original_pdf": "references/patents/WO2023126174A1/original.pdf",
+      "original_sha256": "e5daae4a42e29e513106988c82e237a17c98ac2056d09c23cfb4e9e82fc608c1",
+      "reading_record": "review/measurement.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    },
+    {
+      "publication": "WO2024132326A1",
+      "title": "Method to infer and estimate reticle temperature based on reticle shape measurements",
+      "pages": 33,
+      "original_pdf": "references/patents/WO2024132326A1/original.pdf",
+      "original_sha256": "a291bfb7dd8e8bcd5b1f0df6a3d7af41d6297a7226a1686156c6fe13383e79df",
+      "reading_record": "review/thermal.md",
+      "reading_scope": "Complete MinerU transcription, including claims and included appended pages; selected original PDF/figure verification documented in reading record",
+      "report_depth": "L0-L3; L4 topic interface only"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "references/patents/CN117234040A/figures/p0023-0006.png",
+      "sha256": "c6148c1edd97644439b5b33eb52633df9e9dffb0943760c186c60f07366190d3",
+      "bytes": 106247
+    },
+    {
+      "path": "references/patents/CN117234040A/figures/p0029-0013.png",
+      "sha256": "242970ae5147b8f9382b7ff6ab5b5cff05f33001a644ac4554cb6ac7db0e9bdb",
+      "bytes": 57357
+    },
+    {
+      "path": "references/patents/CN117234040A/mineru.md",
+      "sha256": "d76e44df0fe526d3771f557381bc57a53293a6a00ec1edd0afc53f5c52fd5ff5",
+      "bytes": 57134
+    },
+    {
+      "path": "references/patents/CN117234040A/original.pdf",
+      "sha256": "7d3ef60ee1f5a79bd33cb1a73be7616a7438156321194d2a7a256c639ff56f10",
+      "bytes": 703486
+    },
+    {
+      "path": "references/patents/CN120344910A/figures/p0024-0012.png",
+      "sha256": "ab7a632d4b21820c685d0bd46786ede0a20a83367558ebf96ca30d7b467c2640",
+      "bytes": 515641
+    },
+    {
+      "path": "references/patents/CN120344910A/mineru.md",
+      "sha256": "690ec4fa68148a0874cfbe3b21f2cea933c0f8f88184c0a9312b05503c4871b4",
+      "bytes": 61162
+    },
+    {
+      "path": "references/patents/CN120344910A/original.pdf",
+      "sha256": "8522703e5b194f57f414c2645b32492c756630c1f4b4db9f58eca712395244a7",
+      "bytes": 3509396
+    },
+    {
+      "path": "references/patents/DE102016205618A1/figures/p0062-0011.png",
+      "sha256": "f5b3dc499dffa466aed8141f33a2bc8a24656727e5cffcaabaec977af5ed7011",
+      "bytes": 90586
+    },
+    {
+      "path": "references/patents/DE102016205618A1/figures/p0062-0012.png",
+      "sha256": "bd2511b70957075e6438e6679cac1a9fd96e61f28c9f1163bd788e444f52723f",
+      "bytes": 61905
+    },
+    {
+      "path": "references/patents/DE102016205618A1/mineru.md",
+      "sha256": "c46acadd11edb2c3c03fca1400e88ce91f09451f2959a963733b9e5812ac927e",
+      "bytes": 237285
+    },
+    {
+      "path": "references/patents/DE102016205618A1/original.pdf",
+      "sha256": "b0d416ca7fd787ceb9b076ed7f011d53b3460fa343f661df09d147d9707ed30e",
+      "bytes": 2429006
+    },
+    {
+      "path": "references/patents/EP4632488A1/figures/p0020-0009.png",
+      "sha256": "2fae237d0783077b78aad19dc47c2906f672bb27ca36e225612f851e06f959b1",
+      "bytes": 201275
+    },
+    {
+      "path": "references/patents/EP4632488A1/mineru.md",
+      "sha256": "0f400f01e24f5f864068e18138477d347c49281680c16de08a287a2b1cd15303",
+      "bytes": 92008
+    },
+    {
+      "path": "references/patents/EP4632488A1/original.pdf",
+      "sha256": "36000e7dabeed804e504ff362a75684e8634abb1c8dc73e66da2fce1f1e9ae73",
+      "bytes": 598307
+    },
+    {
+      "path": "references/patents/JP5809458B2/figures/p0017-0006.png",
+      "sha256": "d5cb1e9e399a5f5ffc1184b3150739c73ee39b32a225c6e7af21828a55f3adfa",
+      "bytes": 6064
+    },
+    {
+      "path": "references/patents/JP5809458B2/figures/p0017-0007.png",
+      "sha256": "51ffc92119adf2188e42510408c9e3c52090a1bd1d454d8e783ac38082a1cc26",
+      "bytes": 7612
+    },
+    {
+      "path": "references/patents/JP5809458B2/figures/p0017-0008.png",
+      "sha256": "73f6f4036f71a748e1a23f5f97d9531f0c984b8cbcdbbb0552c030a6aa043356",
+      "bytes": 8749
+    },
+    {
+      "path": "references/patents/JP5809458B2/figures/p0018-0013.png",
+      "sha256": "d3e5bf7e5b9d9e3d8a412cc70e5ab60bacadbcc3a73ed9e94abc8620909707b2",
+      "bytes": 82259
+    },
+    {
+      "path": "references/patents/JP5809458B2/mineru.md",
+      "sha256": "e1b50f84f2c44699515a6bffbdd8c0c7b45045622399e452c05a267ed50cb990",
+      "bytes": 73957
+    },
+    {
+      "path": "references/patents/JP5809458B2/original.pdf",
+      "sha256": "6667deed44c1f8f1263c69f02ebfe7b94a1482f2e9925e80846d0d292fe4f125",
+      "bytes": 260484
+    },
+    {
+      "path": "references/patents/US10120292B2/figures/p0017-0026.png",
+      "sha256": "0a360a00141290a85017a910b2027dfa030ec19232ee25657f2d5259517e4fd2",
+      "bytes": 350451
+    },
+    {
+      "path": "references/patents/US10120292B2/mineru.md",
+      "sha256": "3da130399de1ad2438bf98cfde1f23c445a0c094cdc2f29f139fad5662590195",
+      "bytes": 141285
+    },
+    {
+      "path": "references/patents/US10120292B2/original.pdf",
+      "sha256": "a9be4a6b81461def227426351e3495eea4d444ce771a04b33fe94c7500342fac",
+      "bytes": 6015800
+    },
+    {
+      "path": "references/patents/US10429749B2/figures/p0005-0004.png",
+      "sha256": "d6e504e7429f77dd85050e709115bfecc80ac667b3ce94b3f6f35c52cc73d8b4",
+      "bytes": 60484
+    },
+    {
+      "path": "references/patents/US10429749B2/mineru.md",
+      "sha256": "6115cd060d99e7c4049632052f0d2805a264c619731af07688fb35c709a5288b",
+      "bytes": 74847
+    },
+    {
+      "path": "references/patents/US10429749B2/original.pdf",
+      "sha256": "bbe3698aa7c87715689e2571d6e818c5504d8817f15031290d65cc32d9e3fca9",
+      "bytes": 2153112
+    },
+    {
+      "path": "references/patents/US10747126B2/figures/p0006-0005.png",
+      "sha256": "ba8a6b0f9b935bd19afe1809b09114a7a2f01987c178e24aca3ea0cc0da5c551",
+      "bytes": 27893
+    },
+    {
+      "path": "references/patents/US10747126B2/figures/p0006-0006.png",
+      "sha256": "2e53d56ec631dad6abeb33dc38767fac282c3cd920da666b3eb02c045ad31efe",
+      "bytes": 30562
+    },
+    {
+      "path": "references/patents/US10747126B2/mineru.md",
+      "sha256": "1cea07065cd68d48bb1e18480f8a53db21bf3a8416d47e7d84586f15b6007edd",
+      "bytes": 144077
+    },
+    {
+      "path": "references/patents/US10747126B2/original.pdf",
+      "sha256": "4f18e1111c8781c44a4a8052b9ce269112583f0d1c2ba214d443df9fcb549dd1",
+      "bytes": 3484974
+    },
+    {
+      "path": "references/patents/US10884345B2/figures/p0005-0004.png",
+      "sha256": "022211c1b83d83cbbae40a2ee008ac9cd258fda9becf7a51bf6d61625ed9ef40",
+      "bytes": 32723
+    },
+    {
+      "path": "references/patents/US10884345B2/mineru.md",
+      "sha256": "1dfd9215c3ba54f401cd5fe0f7f78ebf8ce6699b6e5384323652ccfe138264c6",
+      "bytes": 91400
+    },
+    {
+      "path": "references/patents/US10884345B2/original.pdf",
+      "sha256": "e78f39b295b45a5aec1a7163d19339d7729b9f64dd4fe1407cd40cd420b0f49c",
+      "bytes": 2630307
+    },
+    {
+      "path": "references/patents/US11175593B2/figures/p0009-0009.png",
+      "sha256": "276ffdf122c46141767185da977f54024906ca2bc0240b4d4a2a33d24202fa33",
+      "bytes": 181967
+    },
+    {
+      "path": "references/patents/US11175593B2/mineru.md",
+      "sha256": "d1a3644b674828fd2eb72507391c6c094300d078ea0277bc8b77c536f9da1cd4",
+      "bytes": 187210
+    },
+    {
+      "path": "references/patents/US11175593B2/original.pdf",
+      "sha256": "72a88475a34e8da50642ea78fecdec801067448b4750fbefa7e87e3b5ec365da",
+      "bytes": 5435905
+    },
+    {
+      "path": "references/patents/US11300886B2/figures/p0003-0002.png",
+      "sha256": "8cb9a1b74368b9f83cb8052129321cc4c49e09626ce012dcdf0257778f8ec515",
+      "bytes": 171445
+    },
+    {
+      "path": "references/patents/US11300886B2/figures/p0007-0007.png",
+      "sha256": "6a684b3e7be049d4d52591ea87386fce11e03f8b5a0e40ab93bb91d14b8a38ac",
+      "bytes": 133781
+    },
+    {
+      "path": "references/patents/US11300886B2/mineru.md",
+      "sha256": "b38b5285a1d20515663768a1dd7579669b8ca0ab19aa6302ad7e0d56d573871b",
+      "bytes": 47089
+    },
+    {
+      "path": "references/patents/US11300886B2/original.pdf",
+      "sha256": "8101c8e9dc903c57b3b57219d3e49d0475a0d8a559fe40d14261fad1a1dfc09e",
+      "bytes": 1302591
+    },
+    {
+      "path": "references/patents/US11513444B2/figures/p0009-0013.png",
+      "sha256": "5d13df8a1e49b49969474a82601c5d809d21f693d614390152dcf0418d40ff60",
+      "bytes": 63137
+    },
+    {
+      "path": "references/patents/US11513444B2/mineru.md",
+      "sha256": "6aa3a0544e857a5e46e23360ed3d0c23846457d4713d3b46585524fbaf37df6e",
+      "bytes": 62699
+    },
+    {
+      "path": "references/patents/US11513444B2/original.pdf",
+      "sha256": "cc6fdf4ad59e375746e1b15fddaf89a1274149af6b3b6f481b6519f11a656a10",
+      "bytes": 1176840
+    },
+    {
+      "path": "references/patents/US11599027B2/figures/p0007-0007.png",
+      "sha256": "a5561148a6872b3565543574db54c8b3b26db29b75ff2ef1068c14a4ac6522b9",
+      "bytes": 650235
+    },
+    {
+      "path": "references/patents/US11599027B2/mineru.md",
+      "sha256": "97b7155848206f4085f500b67201b7f7a8d08d2cb9b938582195655d9106f8a1",
+      "bytes": 81476
+    },
+    {
+      "path": "references/patents/US11599027B2/original.pdf",
+      "sha256": "4fa17973c3a056aee22f350f3b54824bc584df29a959260fe6b78a1c242febbf",
+      "bytes": 1865489
+    },
+    {
+      "path": "references/patents/US11703772B2/figures/p0021-0024.png",
+      "sha256": "c913a775561199e410cbff60e81cbbce936bf328be7e651382c612d2e351c3a6",
+      "bytes": 178976
+    },
+    {
+      "path": "references/patents/US11703772B2/mineru.md",
+      "sha256": "5514e04d692a31a4ed82c4017a1f8ab9bd4f3a69f2dfe75f9375284a9eabc7e3",
+      "bytes": 118602
+    },
+    {
+      "path": "references/patents/US11703772B2/original.pdf",
+      "sha256": "a872556312daea80ec13881b7dd9f41403a2bb4b7c44606c895e86e34ae96ebf",
+      "bytes": 2399602
+    },
+    {
+      "path": "references/patents/US11754931B2/figures/p0005-0005.png",
+      "sha256": "67d598e493ed9a923b738e04f2e873b5eae536aec194a0f39d963e13b44fb6b1",
+      "bytes": 84940
+    },
+    {
+      "path": "references/patents/US11754931B2/mineru.md",
+      "sha256": "5d673c3d1a73c8a88ba50173a00792087aea75d2b3924795d0d2d3d9d784efa5",
+      "bytes": 104293
+    },
+    {
+      "path": "references/patents/US11754931B2/original.pdf",
+      "sha256": "decd80102deee9ae1432c7a63f9abbad169a4913de039f3d7325a07bec957aa8",
+      "bytes": 1865964
+    },
+    {
+      "path": "references/patents/US11886124B2/figures/p0016-0019.png",
+      "sha256": "b18d6912744be57c864b184b65f933f51b877102d4c97b20c32f879be22e64ec",
+      "bytes": 41291
+    },
+    {
+      "path": "references/patents/US11886124B2/mineru.md",
+      "sha256": "86c475c0da3daebf4bacf41ab7fe3079773f84d03834e27e3fd53fbab96d0384",
+      "bytes": 215663
+    },
+    {
+      "path": "references/patents/US11886124B2/original.pdf",
+      "sha256": "b21ee29dc652fe4ed73f4f550cd10e94016b3f47a9515f78103c989141c72cf5",
+      "bytes": 3775390
+    },
+    {
+      "path": "references/patents/US12663725B2/figures/p0010-0014.png",
+      "sha256": "7a208efe06b2dde401d1bd8b680f5047117f82f1d6616ea034730b138596e219",
+      "bytes": 198834
+    },
+    {
+      "path": "references/patents/US12663725B2/mineru.md",
+      "sha256": "8f1c03a83863823c60ad55dd4b16153ae30e37c3ceb61aa696e8208ae38b5fa5",
+      "bytes": 125783
+    },
+    {
+      "path": "references/patents/US12663725B2/original.pdf",
+      "sha256": "a3a83fc84b12a81765a65774e324efbe813d548b7fc74d2ba5f073b9c4a89db4",
+      "bytes": 2191158
+    },
+    {
+      "path": "references/patents/US20020008861A1/figures/p0003-0005.png",
+      "sha256": "0e6579f47f4ac39cc3def4785601cfafac2cec8545b7e138a13f1ca4c11599c7",
+      "bytes": 41544
+    },
+    {
+      "path": "references/patents/US20020008861A1/mineru.md",
+      "sha256": "343f1434e87e76f5e1b10cdeecff7a767a6371f8d10c1c2e1a990ca35f029e33",
+      "bytes": 54908
+    },
+    {
+      "path": "references/patents/US20020008861A1/original.pdf",
+      "sha256": "4d01d12a77f57efc6c8f11595406269311c720d102b7b4723d4be1746d0913eb",
+      "bytes": 1190596
+    },
+    {
+      "path": "references/patents/US20090207511A1/figures/p0005-0005.png",
+      "sha256": "ec6bd7c187c866890b2c05a297f6ede7658243285f894afeafb8f119da898632",
+      "bytes": 137311
+    },
+    {
+      "path": "references/patents/US20090207511A1/mineru.md",
+      "sha256": "2c804343126664232c9919c1d2dabc8813d9c7f6d6442dda4a00327b122e9fb5",
+      "bytes": 55629
+    },
+    {
+      "path": "references/patents/US20090207511A1/original.pdf",
+      "sha256": "c180459af2f461b8c9f5a1dfc90bab38895e0dc3a28c1e4c4097066b21a310f0",
+      "bytes": 1484771
+    },
+    {
+      "path": "references/patents/US20130188160A1/figures/p0003-0003.png",
+      "sha256": "34d7d94aafc17fea0ea30d990972cd2418457476da045305e027dc26023dd2a8",
+      "bytes": 114659
+    },
+    {
+      "path": "references/patents/US20130188160A1/mineru.md",
+      "sha256": "b3ce362efe912417754ba8806f89524ba1e0b6cfe59bd7bc71e22191d11330e7",
+      "bytes": 71954
+    },
+    {
+      "path": "references/patents/US20130188160A1/original.pdf",
+      "sha256": "ab3b6ee8f89967e7492a9dbd8eb7e746b90354c5db6e67e43350ef801579fdb3",
+      "bytes": 1697282
+    },
+    {
+      "path": "references/patents/US20180081281A1/figures/p0007-0010.png",
+      "sha256": "083b0f5d1297d0009be78302f73884c36bb02ca5324359a8f0c7d4cb918e379f",
+      "bytes": 85556
+    },
+    {
+      "path": "references/patents/US20180081281A1/mineru.md",
+      "sha256": "31accb5cf5d5ea642a84ec9c40d173ee6fe07597f3ac2a166fccbf99278e25fe",
+      "bytes": 97568
+    },
+    {
+      "path": "references/patents/US20180081281A1/original.pdf",
+      "sha256": "73b882eed695041d52eaa2eb86e3738648da70ba6619855af7bb57dc2bf376a4",
+      "bytes": 2467639
+    },
+    {
+      "path": "references/patents/US20190041758A1/figures/p0003-0004.png",
+      "sha256": "938a47f74d1205590bd6cb7cd6582d03efaa105ecdeadba3c9b0be6c464e0fec",
+      "bytes": 102343
+    },
+    {
+      "path": "references/patents/US20190041758A1/figures/p0004-0007.png",
+      "sha256": "b0062b8ab4a21ae08dae1a9abfe2cee098817daa16eb6d078452ba46634f3e73",
+      "bytes": 18192
+    },
+    {
+      "path": "references/patents/US20190041758A1/mineru.md",
+      "sha256": "9953dfc37b7031d0a1f71823eaff849ce1d73c33d95be616eadef121106831d7",
+      "bytes": 62081
+    },
+    {
+      "path": "references/patents/US20190041758A1/original.pdf",
+      "sha256": "8293b7e808d497bb5a8563e65ae2c8ad46fdaaa2f42cf2ac6730cd76734701ad",
+      "bytes": 1732661
+    },
+    {
+      "path": "references/patents/US20200089127A1/figures/p0009-0011.png",
+      "sha256": "80e647fbed781ba8da64a5ad334d952ca7433a618317aa99b9aa0e077d6558eb",
+      "bytes": 184411
+    },
+    {
+      "path": "references/patents/US20200089127A1/mineru.md",
+      "sha256": "96c955f94981e65736bc51e19f2c513078f0bbc66cce5e02e164868a5d650595",
+      "bytes": 104208
+    },
+    {
+      "path": "references/patents/US20200089127A1/original.pdf",
+      "sha256": "9a5dc19e862541d6c0788138cfb2e3f01071f05c2753b9762f5106980cbdd4cf",
+      "bytes": 2686886
+    },
+    {
+      "path": "references/patents/US20210096472A1/figures/p0003-0003.png",
+      "sha256": "0fcbcbd8123e40e99e35892f11a114de3e390572a4559bf5dd3939f501da6191",
+      "bytes": 113251
+    },
+    {
+      "path": "references/patents/US20210096472A1/figures/p0004-0004.png",
+      "sha256": "c590269be78eb44dc5665508e951a741bca1127c01e4d004f2c34f6b07d0277a",
+      "bytes": 87698
+    },
+    {
+      "path": "references/patents/US20210096472A1/figures/p0004-0005.png",
+      "sha256": "f887d3fea776faf2873fd86511e0241946e53762163098efe7c588d19fcb7344",
+      "bytes": 14843
+    },
+    {
+      "path": "references/patents/US20210096472A1/figures/p0004-0006.png",
+      "sha256": "59b8b820b5d531c5b4e5411d342127a8a4a9c299c142622261056c8f9ea1fbb8",
+      "bytes": 16824
+    },
+    {
+      "path": "references/patents/US20210096472A1/mineru.md",
+      "sha256": "1b7a0c3c8e76183c7991430ceea67825179cc56b79b92d52ea831cfa420fb72a",
+      "bytes": 81036
+    },
+    {
+      "path": "references/patents/US20210096472A1/original.pdf",
+      "sha256": "3527aebf901e3bb258df2ba86aada2bc248799035bea2c7d71dda06ffe74b3d1",
+      "bytes": 2000006
+    },
+    {
+      "path": "references/patents/US20220146946A1/figures/p0006-0006.png",
+      "sha256": "98d5da7b0e0a76e33ddb51b7c6c4056f3fe8636d6951d96be36907310f78b53c",
+      "bytes": 43998
+    },
+    {
+      "path": "references/patents/US20220146946A1/figures/p0006-0007.png",
+      "sha256": "b4215f45ec0f55285b9dd93304e7b28e2c72c9b372613d4a3a2d777dc7c5c670",
+      "bytes": 59225
+    },
+    {
+      "path": "references/patents/US20220146946A1/mineru.md",
+      "sha256": "91ceb30b5e89a1eb7220610181af1fa1f3b9921e764056dcc525f62985194b85",
+      "bytes": 98543
+    },
+    {
+      "path": "references/patents/US20220146946A1/original.pdf",
+      "sha256": "d7b88b0b703c544dc952c7c3a11386b026e609e1dab7d4bebe83f88c709eeb72",
+      "bytes": 2474321
+    },
+    {
+      "path": "references/patents/US20230077090A1/figures/p0002-0002.png",
+      "sha256": "970500df18c82564f0da7950ca61c34d826db07ef1c4577119b86b391de7b235",
+      "bytes": 111342
+    },
+    {
+      "path": "references/patents/US20230077090A1/mineru.md",
+      "sha256": "a21cf686b214e8046b9b005ea4928b9712860323ce918b54038195c9890562a7",
+      "bytes": 54908
+    },
+    {
+      "path": "references/patents/US20230077090A1/original.pdf",
+      "sha256": "1e7592445397c47c9ea8330e165d0acc62fd3675f6b11e8ffdab15ef8c0a2f72",
+      "bytes": 1039181
+    },
+    {
+      "path": "references/patents/US20230400772A1/figures/p0006-0006.png",
+      "sha256": "a50d3893a89a4b212bb45258bb2e1d9372a86481b69bc7726ef00428f6c92b69",
+      "bytes": 40112
+    },
+    {
+      "path": "references/patents/US20230400772A1/figures/p0013-0013.png",
+      "sha256": "8630de9fe131043572d60fd2469ebba229fab39e7bb6b93a319a8d44ab17125c",
+      "bytes": 23593
+    },
+    {
+      "path": "references/patents/US20230400772A1/mineru.md",
+      "sha256": "0f2a246b8d6d4a3ab2a1a7353975d8d3c597eab10e312088664ae048e44c25b7",
+      "bytes": 73060
+    },
+    {
+      "path": "references/patents/US20230400772A1/original.pdf",
+      "sha256": "b931cde5bfbb8e71210707606464a5d8f9a0c2cc971de19cb8a461b7e4a4f153",
+      "bytes": 1220787
+    },
+    {
+      "path": "references/patents/US20240184221A1/figures/p0004-0005.png",
+      "sha256": "2a56206b7f670a370009e003c88747640e5010d60aef71b14cc44c086869a8d6",
+      "bytes": 35256
+    },
+    {
+      "path": "references/patents/US20240184221A1/mineru.md",
+      "sha256": "d4f731c28e9fc2103e475b29facab286840409960a80b62e78da0b56379fd4c9",
+      "bytes": 61685
+    },
+    {
+      "path": "references/patents/US20240184221A1/original.pdf",
+      "sha256": "d5111c1e50fc3116c00e1abe3a483a557c5748098e2e5ece462aa8515f560d09",
+      "bytes": 1044577
+    },
+    {
+      "path": "references/patents/US20250021017A1/figures/p0006-0010.png",
+      "sha256": "eaa8876c9dc8fadd16d0280db26e79b83d5d72dd44edd7c70a1086e92b804c2f",
+      "bytes": 71257
+    },
+    {
+      "path": "references/patents/US20250021017A1/mineru.md",
+      "sha256": "a3349b11262f0bd12398077882135bbbc759e19ec91c8c3dd38a8018f739cb25",
+      "bytes": 123952
+    },
+    {
+      "path": "references/patents/US20250021017A1/original.pdf",
+      "sha256": "6a2fb372e388090321da26eefda4ad52863af30e1452c726aacb67b5113f4797",
+      "bytes": 2197453
+    },
+    {
+      "path": "references/patents/US20250110413A1/figures/p0008-0013.png",
+      "sha256": "074858b785280daff448e0c4f9ca004b0a71c427487d4baeb6f79549307e3017",
+      "bytes": 67271
+    },
+    {
+      "path": "references/patents/US20250110413A1/mineru.md",
+      "sha256": "aa17e0e4d010a0d81076ed49be301fa9deb088c81af0dc0ce8337c46ea839eea",
+      "bytes": 42899
+    },
+    {
+      "path": "references/patents/US20250110413A1/original.pdf",
+      "sha256": "26559a08f974b9ea2b571dea1097b12fb7a34c189e334b68c31d39bc7217fbc3",
+      "bytes": 867967
+    },
+    {
+      "path": "references/patents/US6961116B2/figures/p0003-0003.png",
+      "sha256": "ec4361750898a4a90c533293cb83dfa4113fe3aa82440713867f2463b48a3289",
+      "bytes": 52144
+    },
+    {
+      "path": "references/patents/US6961116B2/figures/p0003-0004.png",
+      "sha256": "7acb918d3186556298d4ce72a1b3c7beb0787db2ee168224ac764b6ce924a117",
+      "bytes": 65535
+    },
+    {
+      "path": "references/patents/US6961116B2/mineru.md",
+      "sha256": "a0a68406e177f8e7630e699e1b48a5f7b78c071d3d20224a2d2499931dd004a0",
+      "bytes": 112318
+    },
+    {
+      "path": "references/patents/US6961116B2/original.pdf",
+      "sha256": "8a1d141c5d2ee2382349168b75ffb82d6232d60d425cb795a3aa7f4a820c0203",
+      "bytes": 2608198
+    },
+    {
+      "path": "references/patents/US7362446B2/figures/p0007-0011.png",
+      "sha256": "3e0c82d9400eeac3aa5b74aa47d551c9c65a104b6f4bdd7b5a35a7c9aaf8d2b0",
+      "bytes": 181886
+    },
+    {
+      "path": "references/patents/US7362446B2/figures/p0008-0014.png",
+      "sha256": "b11cda1fb7d26913a9a6cb61e0ddf86c6165f9046b433b9b531a6d8c190e500b",
+      "bytes": 36133
+    },
+    {
+      "path": "references/patents/US7362446B2/mineru.md",
+      "sha256": "bdecdac513eb8fd24f41b4a02ee8ce1d8e0b0ccd1bdd34f6c0dbb647e96b67fe",
+      "bytes": 60366
+    },
+    {
+      "path": "references/patents/US7362446B2/original.pdf",
+      "sha256": "95a5d07d506a1dbb21ed410f74c21580460920dce1963b8472dc71fe52ce0fef",
+      "bytes": 1537741
+    },
+    {
+      "path": "references/patents/US7423725B2/figures/p0005-0009.png",
+      "sha256": "5c2924deafe5b0cfc6e47a5e62cf0e48dab44d2ac2eb470687af27a18646c4f5",
+      "bytes": 165841
+    },
+    {
+      "path": "references/patents/US7423725B2/mineru.md",
+      "sha256": "1367d374cea135644c371b2458903bbe8081bca95667ae1ce4d4acf804c46319",
+      "bytes": 68783
+    },
+    {
+      "path": "references/patents/US7423725B2/original.pdf",
+      "sha256": "2f1a82be6d592484c38ff734ff0a12640c6ba294fa00348b97f5eb71cd0141fe",
+      "bytes": 1694586
+    },
+    {
+      "path": "references/patents/US8184265B2/figures/p0007-0009.png",
+      "sha256": "d645821eeb6d78110392cf5a56bdc855391107830ea1387633f455ff28c6eea2",
+      "bytes": 37699
+    },
+    {
+      "path": "references/patents/US8184265B2/mineru.md",
+      "sha256": "e2be33cec72bba6c412dcd7561392e99e0d86b1d615423a98f205c18258d09f8",
+      "bytes": 55687
+    },
+    {
+      "path": "references/patents/US8184265B2/original.pdf",
+      "sha256": "ce9bb94c3dd868a8a6c6d1e23f36975bdcb512ad36fff3c7d7e5b1f7158703c8",
+      "bytes": 1335771
+    },
+    {
+      "path": "references/patents/US8208120B2/figures/p0012-0015.png",
+      "sha256": "027452c167a49981c8cc5d72b006f485b28bf15b92f2d9e229940ec5264fd92b",
+      "bytes": 436228
+    },
+    {
+      "path": "references/patents/US8208120B2/mineru.md",
+      "sha256": "ac727a7148c3d3c91556d7a6e78dd12e9d40d744f981abd05917418852471629",
+      "bytes": 102543
+    },
+    {
+      "path": "references/patents/US8208120B2/original.pdf",
+      "sha256": "33a11f1c32d38f3ec3e04d2f95c87d094c6a5d6acf132cbb9fe8b075306dabc8",
+      "bytes": 2706204
+    },
+    {
+      "path": "references/patents/US8269949B2/figures/p0003-0003.png",
+      "sha256": "04d4757681ae676ec7c87280d7179b9c6385042239f13994b6bcc655ce5c90bf",
+      "bytes": 132835
+    },
+    {
+      "path": "references/patents/US8269949B2/figures/p0004-0004.png",
+      "sha256": "e2e694b31bf3508161e49b7536b32657c4da1e8aa61c49582d5aadd46a6d1b6f",
+      "bytes": 40772
+    },
+    {
+      "path": "references/patents/US8269949B2/figures/p0004-0005.png",
+      "sha256": "b1d26938a3786f037a6f050fdec4b5e1b5af02455eebfa6189176597569edfd6",
+      "bytes": 38738
+    },
+    {
+      "path": "references/patents/US8269949B2/mineru.md",
+      "sha256": "f263b67e369e554ebeaf137e2c6ed25a76ff3f862a530ab89b7fab7c51f0bc06",
+      "bytes": 40695
+    },
+    {
+      "path": "references/patents/US8269949B2/original.pdf",
+      "sha256": "e65b42c94025948d8225be9a3797856b222ca2aa6ff9a274de9ef02447dcf839",
+      "bytes": 1137256
+    },
+    {
+      "path": "references/patents/US8659745B2/figures/p0006-0006.png",
+      "sha256": "ee1570dea73c8f292e2e3860477b8261de5de909ace4ac517881773bddf970a1",
+      "bytes": 67438
+    },
+    {
+      "path": "references/patents/US8659745B2/figures/p0011-0011.png",
+      "sha256": "ce44ad78b37331b094a8f998133c4ab53ef9ed2885b96b8bdf689aecb0558f0b",
+      "bytes": 94440
+    },
+    {
+      "path": "references/patents/US8659745B2/figures/p0011-0012.png",
+      "sha256": "1c0cf9794675a8b1a03e758f59aff8c01b041fb59ce7c8d70a3f76d0fda5cadb",
+      "bytes": 86188
+    },
+    {
+      "path": "references/patents/US8659745B2/mineru.md",
+      "sha256": "df84ff57502fee5731280b848d2f57bb6c1c9fb93e4f34b4ad702cdc33e183e6",
+      "bytes": 61433
+    },
+    {
+      "path": "references/patents/US8659745B2/original.pdf",
+      "sha256": "4a88da77d5c5169370d6c677bedcde05e73745df563ae512e13f81225e71e7c6",
+      "bytes": 1443867
+    },
+    {
+      "path": "references/patents/US8947630B2/figures/p0005-0005.png",
+      "sha256": "1d06a0e518fa9f688d58aecfdf85c95d681cb9df033fd01f0ede528b7a13ad0f",
+      "bytes": 194707
+    },
+    {
+      "path": "references/patents/US8947630B2/figures/p0008-0010.png",
+      "sha256": "aace92472889f6a6f219d135bdc395ce911c62ee0e836a04b65137d300e110f1",
+      "bytes": 82478
+    },
+    {
+      "path": "references/patents/US8947630B2/mineru.md",
+      "sha256": "5e521801cee97a0d66dcdd1fa80718854a174edcfde1397cfcf2cc31abdcd54b",
+      "bytes": 77390
+    },
+    {
+      "path": "references/patents/US8947630B2/original.pdf",
+      "sha256": "a1b3221a9d837a4326e4fe77efcc9b939aa84641eefb6542d4df3c05ecbd37ad",
+      "bytes": 1979342
+    },
+    {
+      "path": "references/patents/US9069263B2/figures/p0003-0002.png",
+      "sha256": "86bc243c81004f34d14ff953104e71e452ca08c603516011f1420d305666719b",
+      "bytes": 48228
+    },
+    {
+      "path": "references/patents/US9069263B2/mineru.md",
+      "sha256": "4f2cc2714b526668a08018a93acede5dab09b70d43aefc52ac8a782349adff95",
+      "bytes": 69988
+    },
+    {
+      "path": "references/patents/US9069263B2/original.pdf",
+      "sha256": "a62e4347e754eeaeff92ab8225d5bf1cfa6c47e81cef2067cb73ca3c987c5ee2",
+      "bytes": 2033058
+    },
+    {
+      "path": "references/patents/US9772561B2/figures/p0002-0001.png",
+      "sha256": "7e3d3086f42436e508e057237d05e04889e4bba496281fcae4fcb3f740e78a8d",
+      "bytes": 226001
+    },
+    {
+      "path": "references/patents/US9772561B2/figures/p0008-0007.png",
+      "sha256": "ecaafb96f18215e83340f8cfe222daff38873f023b20e30cedf4c0498c192f98",
+      "bytes": 68871
+    },
+    {
+      "path": "references/patents/US9772561B2/figures/p0008-0008.png",
+      "sha256": "83ecc4203c2c7681c1072756403fab4614ed88de3891436770b8188e156f1573",
+      "bytes": 66476
+    },
+    {
+      "path": "references/patents/US9772561B2/figures/p0008-0009.png",
+      "sha256": "339bbe73dd6adaa37e2af085fea0d68da5ebba6931cf998791da25de8ae1f803",
+      "bytes": 41438
+    },
+    {
+      "path": "references/patents/US9772561B2/figures/p0008-0010.png",
+      "sha256": "50bb99ae000f4fcc6ccef5c57a968736272e77fb6fc6b294a7e6dc00cbb29aa0",
+      "bytes": 40725
+    },
+    {
+      "path": "references/patents/US9772561B2/mineru.md",
+      "sha256": "47e64d114e11bc4eeedbe5e241f32de5257ff5f831b8500e433b2723d6d497c3",
+      "bytes": 65240
+    },
+    {
+      "path": "references/patents/US9772561B2/original.pdf",
+      "sha256": "e3cc969751dcd8ef40bdb7e3599f2aaded34de2b0f59373b3d0b7ccf7db2c880",
+      "bytes": 1796454
+    },
+    {
+      "path": "references/patents/WO2017108453A1/figures/p0040-0009.png",
+      "sha256": "3bdd7b4f42516ee02a7b01c817d45275db770ec8fff7bfbefbb2a71b6aee04ec",
+      "bytes": 117538
+    },
+    {
+      "path": "references/patents/WO2017108453A1/mineru.md",
+      "sha256": "b35bd79e3d9fe5722dcf68c24e19cab9d7ee177384b1194eb29c803e61e55311",
+      "bytes": 114209
+    },
+    {
+      "path": "references/patents/WO2017108453A1/original.pdf",
+      "sha256": "a2fd3fd67db8c845fd6ee2ddc9cad362f1740ddb3e1686f058b6d4d04e2cf3bd",
+      "bytes": 2318246
+    },
+    {
+      "path": "references/patents/WO2020094369A1/figures/p0022-0007.png",
+      "sha256": "6729657631e3649c3203255f1543ef57f6169a7517c7f6bb59a70ba7b49992b0",
+      "bytes": 123689
+    },
+    {
+      "path": "references/patents/WO2020094369A1/mineru.md",
+      "sha256": "3c5f919e2834e278e77e3b7e833db057bfde3ca5aeb8a343f622ab362c936e11",
+      "bytes": 56217
+    },
+    {
+      "path": "references/patents/WO2020094369A1/original.pdf",
+      "sha256": "f881a9e96d4c5939ced23025fa13a3a51dc29ffad49720e2ac364594772a26ea",
+      "bytes": 1240175
+    },
+    {
+      "path": "references/patents/WO2021032376A1/figures/p0030-0007.png",
+      "sha256": "090919973a50858378a183fa670142fbd1be571fa569852d41141e064deede3f",
+      "bytes": 159149
+    },
+    {
+      "path": "references/patents/WO2021032376A1/mineru.md",
+      "sha256": "83c206b178094427db7b20f60a4bc1a258f8c9545ddfe79100f0541ed2657899",
+      "bytes": 81489
+    },
+    {
+      "path": "references/patents/WO2021032376A1/original.pdf",
+      "sha256": "edbb522a58fbce9a7163e59fafe489baaaef0c4df5e41ddeaddf29f5d4458afc",
+      "bytes": 1783908
+    },
+    {
+      "path": "references/patents/WO2023126174A1/figures/p0034-0015.png",
+      "sha256": "c81168883b614c49bc3809a5fd67af94cf94e5b6f696c6e518b3858aedaa8c41",
+      "bytes": 32836
+    },
+    {
+      "path": "references/patents/WO2023126174A1/figures/p0034-0016.png",
+      "sha256": "821a428b4ce9934818874fa2fbdc53e366755110ca26ae1be04a5ba97bf052b7",
+      "bytes": 35522
+    },
+    {
+      "path": "references/patents/WO2023126174A1/mineru.md",
+      "sha256": "959d3e121c9b480b0a725aa6b644abe30097c87a4da22ee3903dac00d0555778",
+      "bytes": 87406
+    },
+    {
+      "path": "references/patents/WO2023126174A1/original.pdf",
+      "sha256": "e5daae4a42e29e513106988c82e237a17c98ac2056d09c23cfb4e9e82fc608c1",
+      "bytes": 2018225
+    },
+    {
+      "path": "references/patents/WO2024132326A1/mineru.md",
+      "sha256": "4c7b7f6fab2c335e7447c5430cf80f6f9d53809de408a721ba954799ac6fc53b",
+      "bytes": 78981
+    },
+    {
+      "path": "references/patents/WO2024132326A1/original.pdf",
+      "sha256": "a291bfb7dd8e8bcd5b1f0df6a3d7af41d6297a7226a1686156c6fe13383e79df",
+      "bytes": 1869375
+    }
+  ],
+  "figure_presentation": {
+    "architecture.svg": "Author synthesis, Matplotlib source with Noto Sans CJK SC via fontconfig; glyphs stored as outlines.",
+    "rotated_originals": [
+      {
+        "presentation": "figures/noise-layout.svg",
+        "original": "references/patents/US11513444B2/figures/p0009-0013.png",
+        "rotation_degrees_clockwise": 90,
+        "embedded_bytes_identical": true
+      },
+      {
+        "presentation": "figures/sampling-layout.svg",
+        "original": "references/patents/US9772561B2/figures/p0002-0001.png",
+        "rotation_degrees_clockwise": 90,
+        "embedded_bytes_identical": true
+      },
+      {
+        "presentation": "figures/layer-layout.svg",
+        "original": "references/patents/EP4632488A1/figures/p0020-0009.png",
+        "rotation_degrees_clockwise": 90,
+        "embedded_bytes_identical": true
+      }
+    ]
+  },
+  "tables": "Author synthesis except explicitly discussed patent Table 1 values; no invented patent tables",
+  "original_pdf_markdown_image_changes": false
+}

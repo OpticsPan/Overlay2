@@ -29,3 +29,21 @@
 - 已知US6961116B2第24页式(46)求和下限应为`n=-N`，机器输出漏负号；该全文入口也有提示。
 - 图片文件用于保留图纸与流程图；裁切不能代替完整原页上下文，图内文字不保证可通过Markdown全文搜索检索。
 - 未进行45份原件的全文逐字校勘，不提供机器识别准确率承诺。
+
+## R2研究中新增的原页核对记录（2026-10-28）
+
+以下为人工校核说明，机器全文及原件保持不变。各条的原页、核验方式与详细语境保存在R2逐篇记录中；不得将原文内部差异统一当作OCR错误修改。
+
+| 资料与位置 | 类型与处理要求 | 详细记录 |
+| --- | --- | --- |
+| CN120344910A p12，[0086]—[0087] | OCR温度和再现性数字有误，如原页约0.6 K不应引作10.6 K；引用以原页为准 | [热管理记录](../../reports/advanced-overlay-management/r2/review/thermal.md) |
+| CN120344910A p13／WO2024132326A1 p14 | 形变参数命名在原文不同段落间有差异；不静默统一成新的物理定义 | [热管理记录](../../reports/advanced-overlay-management/r2/review/thermal.md) |
+| US8184265B2 p12、p15；US12663725B2 p26 | 表1并非所有场尺寸都更优；更正证书与授权权利要求须分别核对，不能用同申请A1或示例clauses代替正式权利要求 | [热管理记录](../../reports/advanced-overlay-management/r2/review/thermal.md) |
+| US20240184221A1 p12；US10884345B2 p15；US11703772B2 Fig.15 | 前者机器权利要求重复steps B)；后两者原图／原文编号有不一致，按功能及上下文解释，不改原图 | [量测记录](../../reports/advanced-overlay-management/r2/review/measurement.md) |
+| US8208120B2 p22；US8269949B2 p8 | 前者机器权利要求1有原页不存在的重复片段；后者原文increase与示例刚度及权利要求13相冲突，属于原文瑕疵 | [机械记录](../../reports/advanced-overlay-management/r2/review/mechanics.md) |
+| CN117234040A p12 [0109]／US20230400772A1 p20 [0111] | 对后续测量／调整能否省略存在原件表达差异，不能以同源关系抹平 | [机械记录](../../reports/advanced-overlay-management/r2/review/mechanics.md) |
+| US8947630B2 p19；US6961116B2 p29—32 | 原件包含正式更正／勘误，引用权利要求时须一并阅读 | [机械记录](../../reports/advanced-overlay-management/r2/review/mechanics.md) · [执行记录](../../reports/advanced-overlay-management/r2/review/execution.md) |
+| US20130188160A1 p3／p18；US20230077090A1 p21—22 | 仿真单元图文编号70/72不同；后者100 pm与上下文ppm存在单位疑点，且小于1 nm仅为排除物镜其他误差及制造误差的设计例 | [光学记录](../../reports/advanced-overlay-management/r2/review/optics.md) |
+| WO2017108453A1 Fig.7及[0094]—[0096]；US11886124B2 p36 | 前者图文信号编号有歧义；后者存在132nm/16.5nm相关单位疑点，本报告不据此引用数值 | [控制记录](../../reports/advanced-overlay-management/r2/review/control.md) |
+
+上述阅读不等于45份PDF全文逐字校勘；仿真、示意图、设计残差、部件指标与整机实测仍须分开。R2保留了US7423725B2仿真性质、US9772561B2不同测试组不能混用等证据边界，详见相应阅读记录。

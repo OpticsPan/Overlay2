@@ -2,26 +2,16 @@
 
 更新：2026-10-28（Asia/Shanghai） · [需求台账](REQUIREMENTS.md) · [变更日志](../CHANGELOG.md)
 
-## 报告结构与排版规范（2026-10-28）
+## 当前报告：R2（2026-10-28）
 
-- 已将用户“流程框图必须美观”的要求写入报告维护规范、代理约定和REQ-006，明确布局、样式、配色、连线及视觉审阅要求。本次为规范补充；后续图稿按此逐次检查。
+- [R2网页Markdown](../reports/advanced-overlay-management/r2/report.md)已从零撰写，未以R1为基底；按L0—L4组织，正文展开L0—L3，L4保留后续专题接口，待用户内容审阅。
+- 全部45件MinerU文本分组通读，关键说明、权利要求和原图回看原PDF；[六组阅读记录](../reports/advanced-overlay-management/r2/report.md#references)保存实际范围与边界。通读不等于1,114页逐字校勘。
+- 资料与任务基线：`edd7a4e13fdddc994befcbc22147a7ac59013385`。来源、产物哈希及验证范围见[R2交付记录](../reports/advanced-overlay-management/r2/delivery.json)。原PDF、机器全文和原图不改；新发现的提取／原文差异已补入QUALITY。
+- 当前默认：报告保存并推送GitHub，维护版本；无特殊要求为适合网页阅读的Markdown。流程框图必须美观且文字完整；规范、骨架及代理约定已同步。
+- 本次未生成R2 PDF。R1 Markdown/PDF作为历史版本保留，其PDF不对应R2；后续PDF仍须落实中文学术排版、正文两端对齐和首行2em缩进，并重新核对标准版本及实际版式。
+- R1仅解读六件核心专利；R2是重新研究和组织后的独立稿。两稿均未作产品发布或商业机型性能认证。
 
-- 本次框图检查：最终SVG经CairoSVG栅格化至560px宽目视核查，六个节点和两条反馈标签完整、无重叠；18项单元测试及以`b264152ba98220ecd24f6365606437fbb53aa63f`为基线的资料/链接校验通过。未更新PDF，故本次未执行最终报告PDF版式检查。
-- L0—L4骨架图改为自动尺寸、显式分行的SVG，字形固化以避免查看端字体替换导致裁切；保留可编辑源文件，并补充逐节点检查要求。此次仅修订骨架图和规范，既有报告PDF未更新。
-
-- REQ-006已确认：[L0—L4结构](../reports/STRUCTURE.md)为后续报告默认骨架，已同步报告维护规范及代理约定。本次仅将骨架入库；全部45件专利的通读、归纳和报告修订尚待后续执行。
-
-- REQ-005已确认并记录到[报告维护规范](../reports/README.md)：后续PDF参考中文学术论文国标格式，正文两端对齐、首行缩进两个汉字宽度。
-- 本次仅记录规范；现有PDF未重排，CSS的首行缩进需在下一次PDF任务落实并验证。
-
-## 报告工作进展（2026-10-28）
-
-- REQ-004新增[《先进光刻机套刻管理架构》](../reports/advanced-overlay-management/report.md)R1及PDF，待内容审阅。
-- 报告任务基线：`dd7ee03acec72b6db251f59b2bcf798aa1ff2aed`；原报告分支`docs/overlay-management-report`已合并并删除。
-- 六件核心专利、八幅原图；原始资料保持字节。检查结果见[交付记录](../reports/advanced-overlay-management/delivery.json)。
-- 报告已随`f7cb1a0a8812ce4b7964e5a647e2c2e2b98927c8`纳入main；[Repository checks #5](https://github.com/OpticsPan/Overlay2/actions/runs/40615082936)已成功（通过Actions网页核对）。报告内容仍待审阅，未作产品发布。
-
-## 当前基线与资料
+## 资料入库与管理建设历史
 
 - 本轮开始基线：`f4ca7fd71199a27c47b45d94bfe3609bc7bcf18e`。
 - [资料入库PR #1](https://github.com/OpticsPan/Overlay2/pull/1)已合并并回读main确认：45份原始PDF、45份MinerU全文、1,114个物理页、624个图像裁切。

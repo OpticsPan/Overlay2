@@ -4,16 +4,32 @@
 
 ## 当前报告
 
-- [先进光刻机套刻管理架构 · R1 Markdown](advanced-overlay-management/report.md)
-- [对应PDF](advanced-overlay-management/report.pdf)
-- [来源与图像清单](advanced-overlay-management/sources.json)
-- [交付与验证记录](advanced-overlay-management/delivery.json)
+- [先进光刻机套刻管理架构 · R2 Markdown（当前稿）](advanced-overlay-management/r2/report.md)
+- [R2逐篇阅读记录](advanced-overlay-management/r2/report.md#references) · [R2交付记录](advanced-overlay-management/r2/delivery.json)
+- [先进光刻机套刻管理架构 · R1历史Markdown](advanced-overlay-management/report.md)
+- [R1历史PDF（不对应R2）](advanced-overlay-management/report.pdf)
+- [R2来源与图像清单](advanced-overlay-management/r2/sources.json) · [R1来源清单](advanced-overlay-management/sources.json)
+- [R1交付与验证记录](advanced-overlay-management/delivery.json)
 
-R1是报告修订标识，不是产品版本。待用户审阅不写成已验收。
+R1、R2是报告修订标识，不是产品版本。R2从零撰写，正文展开至L3、L4只保留专题接口，覆盖全部45件文本的阅读记录；本次未生成R2 PDF。待用户审阅不写成已验收。
 
 ## 默认撰写骨架
 
-后续报告未另有特殊要求时，使用已确认的[L0—L4报告骨架](STRUCTURE.md)：L0整机架构 → L1问题及管理归属 → L2整机解决策略 → L3子系统职责与能力 → L4技术细节，最终回到整机验证。开篇展示整体技术逻辑框图；每类问题沿各层展开，专利作为证据嵌入。复制旧Markdown后同样按此主线重组、核验；现有R1尚未完成该结构修订。
+后续报告未另有特殊要求时，使用已确认的[L0—L4报告骨架](STRUCTURE.md)：L0整机架构 → L1问题及管理归属 → L2整机解决策略 → L3子系统职责与能力 → L4技术细节，最终回到整机验证。开篇展示整体技术逻辑框图；每类问题沿各层展开，专利作为证据嵌入。复制旧Markdown后同样按此主线重组、核验；当前正文深度按下节执行；R1保留为历史稿。
+
+## 当前正文深度与L4专题接口
+
+2026-10-28用户明确：当前报告正文按L0—L4主线组织，详细展开L0整机架构、L1问题及管理归属、L2解决策略、L3子系统职责和能力；L4只保留技术细节专题接口，后续按需要另行展开。专利解读仍须详细说明核心问题、控制逻辑、输入输出、原图/原表关系和适用边界；正文暂不展开公式推导、算法实现、器件设计或参数整定。
+
+每个L4接口记录专题名称、对应L1问题、L3能力、候选专利及原页/图号、需要进一步研究的问题。接口不表示专题已完成。此安排沿用于当前报告的后续修订，用户明确要求时再展开。
+
+## 默认交付与GitHub版本管理
+
+2026-10-28用户明确：每次撰写报告均默认保存到本GitHub仓库并做好版本管理。无特殊要求时交付Markdown（`.md`），无需额外请求保存确认；PDF仅按明确要求生成。每次记录修订标识、资料基线、编写方式（新写或继承）、范围、检查及提交；保留旧版和图像依赖，更新首页与报告入口。推送后核对远端；如受阻，明确报告实际保存位置和未完成步骤。
+
+Markdown须适配GitHub网页阅读：使用清晰的标题层级、可点击目录、短段落及适量表格；图片以相对链接内嵌，图题和原文页定位紧邻图片，宽图可点击查看原图。避免仅Pandoc支持的图片尺寸语法、依赖自定义CSS/脚本的布局、超宽表格及用空格拼版。正文无需模拟PDF的首行缩进；PDF排版规范仅在生成PDF时落实。交付前检查链接、图片、目录和最终显示效果。
+
+本次R2遵照用户最新指令**从零撰写，不以R1正文为基底**；R1仅作为历史版本保留。此项是本次明确例外，不取消其他任务“未要求从零时可继承旧稿”的规则。
 
 ## 后续PDF报告的中文学术论文排版要求
 

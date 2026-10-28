@@ -1,0 +1,133 @@
+{
+  "report": "先进光刻机套刻管理架构",
+  "revision": "R2",
+  "date": "2026-10-28",
+  "status": "待用户内容审阅；本地来源、结构与显示检查通过",
+  "baseline": "edd7a4e13fdddc994befcbc22147a7ac59013385",
+  "writing_mode": "from_scratch",
+  "parent_report": null,
+  "parent_reason": "用户最新指令禁止以R1为基底；初始临时副本已清空，R2依据45件独立阅读记录重新撰写",
+  "historical_version": "../report.md and ../report.pdf (R1, unchanged)",
+  "format": "GitHub-friendly Markdown",
+  "pdf_generated": false,
+  "scope": "L0-L3 detailed exposition; L4 topic interfaces only",
+  "full_transcription_reading": {
+    "publications": 45,
+    "physical_pages": 1114,
+    "records": "review/*.md",
+    "all_pdf_pages_manually_collated": false
+  },
+  "report_figures": {
+    "total": 30,
+    "author_synthesis": 1,
+    "patent_images": 29,
+    "display_only_rotations": 3
+  },
+  "artifacts": {
+    "figures/architecture.py": {
+      "sha256": "983544f4a57be54fa85ef156f9cb684c194a4359f86a52731f2c3433378eff40",
+      "bytes": 2714
+    },
+    "figures/architecture.svg": {
+      "sha256": "38ac50b86d6ae45ce59aba5151b686e75e9575f9ea7e8371b297f8e2f0e019a7",
+      "bytes": 137891
+    },
+    "figures/layer-layout.svg": {
+      "sha256": "665875379cdaabc8668a3c5779c50e1116c709ccb2a1722bfb0b55b0c1c7a6fb",
+      "bytes": 268684
+    },
+    "figures/noise-layout.svg": {
+      "sha256": "c1f6030072110f7ecbd731520ed536e97579409bbb53b97a67890355a258697b",
+      "bytes": 84501
+    },
+    "figures/patent-layouts.py": {
+      "sha256": "33e1dd9719006144f0b8c030433397c256563dd5eb83ed3882c7fd0b8b2c5903",
+      "bytes": 984
+    },
+    "figures/sampling-layout.svg": {
+      "sha256": "88b4c8c28d38f47b86f13c4f5df29300c30699fa27b2928b1237a1795c56f536",
+      "bytes": 301652
+    },
+    "report.md": {
+      "sha256": "23081b2514153dddffb63eda764a8958c5e13e9faf316cd30090a60039baee56",
+      "bytes": 76729
+    },
+    "review/control.json": {
+      "sha256": "d3b0dfc30d306793f262a13f8f4853334d03107235f989a9d77a412c514b70b5",
+      "bytes": 6815
+    },
+    "review/control.md": {
+      "sha256": "8aa3e542dfc8f719718402681d99d526451cdaa59dc7dbffaf19abe3022226d0",
+      "bytes": 38640
+    },
+    "review/execution.json": {
+      "sha256": "acf3011898b4e90081a2e29699186ec9b4ab651c3a492570b48c3c511a5c6458",
+      "bytes": 8658
+    },
+    "review/execution.md": {
+      "sha256": "ed4e73391e3813b59f6cb7aaa9881c8764c4e1fbd5cdf7f0e8c2666b0cd6ea95",
+      "bytes": 28964
+    },
+    "review/measurement.md": {
+      "sha256": "c92a32ec80c77c6aa99807df3c0c164e71aac4af080003ab7f1c621ba231c47b",
+      "bytes": 42542
+    },
+    "review/mechanics.md": {
+      "sha256": "1d88624615c3a011edb0eb5337bc48fbde9272c367904290d77e8de6458a5e56",
+      "bytes": 33115
+    },
+    "review/optics.md": {
+      "sha256": "18c4655967e538efd9d79210c4a2063f405d6d134e9786004d32b981ac8d98a3",
+      "bytes": 46703
+    },
+    "review/thermal.md": {
+      "sha256": "745e1be683869d00a0c41feceae09777f076ff1dd7a9960c55189a9aece0f95f",
+      "bytes": 47860
+    },
+    "sources.json": {
+      "sha256": "33ba1a6839c1c956f510190b44266e010117511b09c8c5511f6ac9b5951983a0",
+      "bytes": 57863
+    }
+  },
+  "checks": {
+    "unit_tests": {
+      "command": ".venv/bin/python -m unittest discover -s tests -v",
+      "passed": 18,
+      "failed": 0
+    },
+    "repository": {
+      "scope": "source bytes, actual PDF pages, Markdown anchors, local links and original preservation",
+      "semantic_fidelity_certified": false,
+      "publications": 45,
+      "physical_pages": 1114,
+      "figures": 624,
+      "artifact_files": 714,
+      "markdown_files": 71,
+      "local_links": 3141,
+      "baseline_checked": true,
+      "errors": [],
+      "warnings": [
+        "Structural checks do not certify OCR accuracy, formulas, reading order or technical conclusions."
+      ]
+    },
+    "source_hashes_rechecked": 159,
+    "web_preview": {
+      "renderer": "Pandoc GFM to HTML + Chromium; local preview, not an assertion about identical GitHub CSS",
+      "images_loaded": 30,
+      "directory_links_valid": 12,
+      "desktop_width": 1080,
+      "desktop_document_width": 1080,
+      "mobile_width": 390,
+      "mobile_document_width": 390,
+      "visual_checks": "Overview, all patent-image contact sheets, section screenshots; source figures independently interpreted in group records. Full-size source links provided for small displays."
+    },
+    "source_review": "Six independent reading groups; main technical sections cross-checked against their original-page verification; corrected focus example, pattern-library meaning, related-art diagram, and cropped Fig.10 label.",
+    "github_actions": "Check after push; no CI success claimed in this artifact"
+  },
+  "limits": [
+    "Not a complete word-by-word collation of all 1114 PDF pages",
+    "No common commercial-machine overlay performance dataset; cross-patent architecture is synthesis",
+    "No R2 PDF; R1 PDF corresponds only to R1"
+  ],
+  "source_material_changes": "Original PDFs, MinerU text and patent images unchanged; QUALITY notes updated separately."
+}

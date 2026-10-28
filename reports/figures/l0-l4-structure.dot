@@ -12,7 +12,7 @@ digraph ReportStructure {
   L1 [label="L1 问题产生与管理归属\n产生位置、观测位置\n牵头及协同环节"];
   L2 [label="L2 整机解决策略\n源头抑制、子系统补偿\n或二者结合"];
   L3 [label="L3 子系统职责与能力\n测什么、算什么、调什么\n如何协同"];
-  L4 [label="L4 技术细节\n原理、结构、模型\n算法、参数及证据"];
+  L4 [label="L4 技术细节接口\n专题、证据与待研究问题\n后续按需展开"];
   V [label="回到整机验证\n改善、残差、耦合影响\n适用范围", fillcolor="#e9f3eb"];
   L0 -> L1 -> L2 -> L3 -> L4 -> V;
   V -> L0 [label="检验\n整体作用", constraint=false];
