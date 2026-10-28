@@ -1,0 +1,64 @@
+{
+  "report": "先进光刻机套刻管理架构",
+  "revision": "R1",
+  "date": "2026-10-28",
+  "status": "待用户内容审阅；本地验证通过",
+  "baseline": "dd7ee03acec72b6db251f59b2bcf798aa1ff2aed",
+  "branch": "docs/overlay-management-report",
+  "parent_report": null,
+  "parent_reason": "仓库原先无研究报告，本次新建；后续按reports/README.md继承修订",
+  "artifacts": {
+    "report.md": {
+      "sha256": "cdaf48cf5951100c50ec349bb6ed77e40db95ecc9c4cc751bd90d0c9cdb1d251",
+      "bytes": 36869
+    },
+    "report.pdf": {
+      "sha256": "e11e03a6b5fb036a47023f111004b479ed44b2144665a4a6a75d49d924b353ef",
+      "bytes": 2054280
+    },
+    "sources.json": {
+      "sha256": "efc246eb244597a588f9a3c6465fa0f5a49a2e3d4b4da4b569fc1d46d0cfd00d",
+      "bytes": 4120
+    }
+  },
+  "pdf_pages": 21,
+  "core_patents": 6,
+  "patent_figures": 8,
+  "checks": {
+    "unit_tests": {
+      "command": ".venv/bin/python -m unittest discover -s tests -v",
+      "passed": 18,
+      "failed": 0,
+      "skipped": 0
+    },
+    "repository": {
+      "scope": "source bytes, actual PDF pages, Markdown anchors, local links and original preservation",
+      "semantic_fidelity_certified": false,
+      "publications": 45,
+      "physical_pages": 1114,
+      "figures": 624,
+      "artifact_files": 714,
+      "markdown_files": 63,
+      "local_links": 2686,
+      "baseline_checked": true,
+      "errors": [],
+      "warnings": [
+        "Structural checks do not certify OCR accuracy, formulas, reading order or technical conclusions."
+      ]
+    },
+    "original_material_diff": "git diff --exit-code dd7ee03acec72b6db251f59b2bcf798aa1ff2aed -- references/patents: exit 0",
+    "pdf": "21页A4；中文文本提取、全页缩略图检查及图2/两处公式页放大检查",
+    "remote_ci": "未运行；未推送或合并"
+  },
+  "build": {
+    "command": "python3 reports/build_report.py --weasyprint /workspace/report-tools/bin/weasyprint",
+    "renderer": "WeasyPrint 68.1",
+    "pandoc": "pandoc 3.1.11.1",
+    "note": "缺少ctexart/xeCJK，改用HTML排版；公式以SVG排版，无改动源公式；报告生成时非关键CSS/语言警告未影响已检查版面"
+  },
+  "limits": [
+    "不代表45件原件逐字校勘",
+    "不认证商业机型实现、纳米性能指标或法律状态",
+    "结构校验不替代技术内容审阅"
+  ]
+}

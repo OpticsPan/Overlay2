@@ -2,6 +2,11 @@
 
 Overlay2 用于整机套刻调研资料的保存和持续维护。当前已收录45件专利的原始PDF、MinerU全文Markdown及其图像资料，共1,114个物理页。研究报告和业务程序的后续范围由具体任务确定。
 
+## 研究报告
+
+- [先进光刻机套刻管理架构（Markdown）](reports/advanced-overlay-management/report.md) · [PDF](reports/advanced-overlay-management/report.pdf)
+- [报告维护与修订规范](reports/README.md)
+
 ## 资料入口
 
 | 内容 | 入口 |

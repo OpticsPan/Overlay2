@@ -2,6 +2,13 @@
 
 更新：2026-10-27（Asia/Shanghai） · [需求台账](REQUIREMENTS.md) · [变更日志](../CHANGELOG.md)
 
+## 报告工作进展（2026-10-28）
+
+- REQ-004新增[《先进光刻机套刻管理架构》](../reports/advanced-overlay-management/report.md)R1及PDF，待内容审阅。
+- 报告任务基线：`dd7ee03acec72b6db251f59b2bcf798aa1ff2aed`；在`docs/overlay-management-report`分支维护。
+- 六件核心专利、八幅原图；原始资料保持字节。检查结果见[交付记录](../reports/advanced-overlay-management/delivery.json)。
+- 此项为本地报告交付，不表示已合并main、Actions已通过或产品已发布。
+
 ## 当前基线与资料
 
 - 本轮开始基线：`f4ca7fd71199a27c47b45d94bfe3609bc7bcf18e`。

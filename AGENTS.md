@@ -24,6 +24,7 @@
 - 后续专利转换使用本地MinerU；不恢复独立PaddleOCR任务。资源允许时可并行，保持独立输出和完整性核验。
 - 机器提取、人工校核说明与研究判断分开；错误记录到QUALITY，关键公式与权利要求回看PDF。
 - 只有用户明确要求才生成或更新报告PDF。资料原件保存不等于重建报告PDF。
+- 后续报告未明确要求从零撰写时，优先复制已有Markdown作为修订基底；记录来源报告、基线、修改范围，并重新核验引用与结论，遵循 reports/README.md。
 - 提交前运行 `python -m unittest discover -s tests -v` 与 `python tools/validate_repository.py --base <变更前SHA>`；原件、Markdown或图片变化时同步来源清单并说明理由。
 - PR写明实际检查与自审结果；合并后回读main和对应Actions。CI通过不等于语义准确，也不表示GitHub已经强制分支保护。
 

@@ -1,0 +1,111 @@
+{
+  "report": "report.md",
+  "revision": "R1",
+  "source_baseline": "dd7ee03acec72b6db251f59b2bcf798aa1ff2aed",
+  "selection": "45件资料目录筛选，6件核心专利详细解读；非45件全文综述",
+  "source_files": [
+    {
+      "path": "references/patents/CN120344910A/figures/p0024-0012.png",
+      "sha256": "ab7a632d4b21820c685d0bd46786ede0a20a83367558ebf96ca30d7b467c2640",
+      "bytes": 515641
+    },
+    {
+      "path": "references/patents/CN120344910A/mineru.md",
+      "sha256": "690ec4fa68148a0874cfbe3b21f2cea933c0f8f88184c0a9312b05503c4871b4",
+      "bytes": 61162
+    },
+    {
+      "path": "references/patents/CN120344910A/original.pdf",
+      "sha256": "8522703e5b194f57f414c2645b32492c756630c1f4b4db9f58eca712395244a7",
+      "bytes": 3509396
+    },
+    {
+      "path": "references/patents/US11300886B2/figures/p0003-0002.png",
+      "sha256": "8cb9a1b74368b9f83cb8052129321cc4c49e09626ce012dcdf0257778f8ec515",
+      "bytes": 171445
+    },
+    {
+      "path": "references/patents/US11300886B2/figures/p0007-0007.png",
+      "sha256": "6a684b3e7be049d4d52591ea87386fce11e03f8b5a0e40ab93bb91d14b8a38ac",
+      "bytes": 133781
+    },
+    {
+      "path": "references/patents/US11300886B2/mineru.md",
+      "sha256": "b38b5285a1d20515663768a1dd7579669b8ca0ab19aa6302ad7e0d56d573871b",
+      "bytes": 47089
+    },
+    {
+      "path": "references/patents/US11300886B2/original.pdf",
+      "sha256": "8101c8e9dc903c57b3b57219d3e49d0475a0d8a559fe40d14261fad1a1dfc09e",
+      "bytes": 1302591
+    },
+    {
+      "path": "references/patents/US11513444B2/figures/p0009-0013.png",
+      "sha256": "5d13df8a1e49b49969474a82601c5d809d21f693d614390152dcf0418d40ff60",
+      "bytes": 63137
+    },
+    {
+      "path": "references/patents/US11513444B2/mineru.md",
+      "sha256": "6aa3a0544e857a5e46e23360ed3d0c23846457d4713d3b46585524fbaf37df6e",
+      "bytes": 62699
+    },
+    {
+      "path": "references/patents/US11513444B2/original.pdf",
+      "sha256": "cc6fdf4ad59e375746e1b15fddaf89a1274149af6b3b6f481b6519f11a656a10",
+      "bytes": 1176840
+    },
+    {
+      "path": "references/patents/US11754931B2/figures/p0005-0005.png",
+      "sha256": "67d598e493ed9a923b738e04f2e873b5eae536aec194a0f39d963e13b44fb6b1",
+      "bytes": 84940
+    },
+    {
+      "path": "references/patents/US11754931B2/mineru.md",
+      "sha256": "5d673c3d1a73c8a88ba50173a00792087aea75d2b3924795d0d2d3d9d784efa5",
+      "bytes": 104293
+    },
+    {
+      "path": "references/patents/US11754931B2/original.pdf",
+      "sha256": "decd80102deee9ae1432c7a63f9abbad169a4913de039f3d7325a07bec957aa8",
+      "bytes": 1865964
+    },
+    {
+      "path": "references/patents/US20210096472A1/figures/p0004-0004.png",
+      "sha256": "c590269be78eb44dc5665508e951a741bca1127c01e4d004f2c34f6b07d0277a",
+      "bytes": 87698
+    },
+    {
+      "path": "references/patents/US20210096472A1/mineru.md",
+      "sha256": "1b7a0c3c8e76183c7991430ceea67825179cc56b79b92d52ea831cfa420fb72a",
+      "bytes": 81036
+    },
+    {
+      "path": "references/patents/US20210096472A1/original.pdf",
+      "sha256": "3527aebf901e3bb258df2ba86aada2bc248799035bea2c7d71dda06ffe74b3d1",
+      "bytes": 2000006
+    },
+    {
+      "path": "references/patents/WO2021032376A1/figures/p0030-0007.png",
+      "sha256": "090919973a50858378a183fa670142fbd1be571fa569852d41141e064deede3f",
+      "bytes": 159149
+    },
+    {
+      "path": "references/patents/WO2021032376A1/figures/p0031-0008.png",
+      "sha256": "16980f45cf5e218458efd10a0fb25f0be64366960f8d0a643540ee406057cb4e",
+      "bytes": 60222
+    },
+    {
+      "path": "references/patents/WO2021032376A1/mineru.md",
+      "sha256": "83c206b178094427db7b20f60a4bc1a258f8c9545ddfe79100f0541ed2657899",
+      "bytes": 81489
+    },
+    {
+      "path": "references/patents/WO2021032376A1/original.pdf",
+      "sha256": "edbb522a58fbce9a7163e59fafe489baaaef0c4df5e41ddeaddf29f5d4458afc",
+      "bytes": 1783908
+    }
+  ],
+  "original_patent_changes": false,
+  "tables": "报告所有表格均为研究整理；非原专利表格",
+  "figures": "8幅现有原图，PDF图2仅作版面旋转；原图字节不变"
+}

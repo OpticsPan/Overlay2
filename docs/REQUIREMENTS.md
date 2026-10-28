@@ -16,6 +16,7 @@
 | REQ-001 | 建立版本、变更记录和需求管理基础 | P1 | 已验收 | 不适用（管理初始化） | 见下方验收项 |
 | REQ-002 | 45件专利原件与MinerU全文入库 | P1 | 已验收 | Unreleased（资料） | [PR #1](https://github.com/OpticsPan/Overlay2/pull/1)及下方核验 |
 | REQ-003 | 完善资料库持续管理和自动校验 | P1 | 已验收 | Unreleased（管理） | [PR #2](https://github.com/OpticsPan/Overlay2/pull/2)及下方核验 |
+| REQ-004 | 撰写先进光刻机套刻管理架构报告并建立修订记录 | P1 | 待验收 | Unreleased（报告） | [报告](../reports/advanced-overlay-management/report.md)与[交付记录](../reports/advanced-overlay-management/delivery.json) |
 
 ### REQ-001：管理基础
 
@@ -62,6 +63,15 @@
 - [x] 如实标注main保护尚未启用、仓库公开且无产品发布，不把文档约定冒充平台设置。
 
 实施与证据：[实施计划](superpowers/plans/2026-10-27-repository-management.md)、[资料规则](SOURCES.md)、[维护状态](STATUS.md)。2026-10-27依据上述本地及远端证据完成验收；该验收不涵盖OCR语义正确性或平台强制保护。
+
+### REQ-004：套刻管理架构调研报告
+
+来源：2026-10-28用户要求基于已有资料撰写《先进光刻机套刻管理架构》，解释上层架构、管理逻辑与高精度套刻的关系，结合专利图表详细解读，忠于原件，外推明确标注，交付Markdown与PDF并做好仓库记录。用户同时要求后续未指定从零撰写时，可以先复制旧Markdown再修改。
+
+- 范围：以现有专利为依据的研究报告；不宣称具体商业机型性能或专利法律状态。
+- 验收项：MD/PDF内容一致、图与公开号/页码可追溯、核心专利有详细逻辑解读、综合与外推标识、原始资料不变、保存修订与检查记录。
+- 实施状态：R1已形成，待用户内容审阅；本地结构检查不替代研究结论验收。
+- 记录：[报告维护规范](../reports/README.md)、[来源清单](../reports/advanced-overlay-management/sources.json)。
 
 ## 待确认事项
 
