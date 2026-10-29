@@ -4,6 +4,8 @@
 
 ## 当前报告
 
+- [整机需要准备的工作 · V1（基于R3的独立准备工作报告）](whole-machine-preparation/report.md) · [来源](whole-machine-preparation/sources.json) · [交付记录](whole-machine-preparation/delivery.json)
+
 - [先进光刻机套刻管理架构 · R3 Markdown（当前稿）](advanced-overlay-management/r3/report.md)
 - [R3全文复核记录](advanced-overlay-management/r3/report.md#references) · [来源清单](advanced-overlay-management/r3/sources.json) · [交付记录](advanced-overlay-management/r3/delivery.json)
 
@@ -15,6 +17,8 @@
 - [R1交付与验证记录](advanced-overlay-management/delivery.json)
 
 R1、R2、R3是报告修订标识，不是产品版本。R2从零撰写，正文展开至L3、L4只保留专题接口，覆盖全部45件文本的阅读记录；本次未生成R2 PDF。R3继承R2并依据用户已批准的组织逻辑重组，重新通读45件机器全文并核对关键原页；未生成R3 PDF。待用户内容审阅不写成已验收。
+
+《整机需要准备的工作》V1与架构报告R3并存，面向DUV，按30项具体工作、依赖、产物、检查及阶段组织。用户明确允许本报告不受既有思路限制，因此本稿不套用L0—L4目录；该特例不修改后续报告默认骨架。保留忠于原件、建议／外推标注、网页适配及版本管理要求。未生成PDF，未实施设备任务。
 
 ## 撰写前的临时参考
 

@@ -1,0 +1,156 @@
+{
+  "report": "整机需要准备的工作",
+  "revision": "V1",
+  "date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "status": "已完成撰写和本地核验；待用户内容审阅",
+  "baseline": "bf495f886ba027941721dd754b8f82be96d14abe",
+  "writing_mode": "copied_R3_then_reorganized_for_independent_work_preparation_report",
+  "parent_report": {
+    "path": "../advanced-overlay-management/r3/report.md",
+    "sha256": "d748a03d80555f10517c176381e2da0cac0a48b82e32c09684a26b4d0e1ae250",
+    "bytes": 132145
+  },
+  "equipment_scope": "DUV; configuration and numeric targets pending A01/A02",
+  "format": "GitHub-friendly Markdown",
+  "pdf_generated": false,
+  "task_count": 30,
+  "topic_groups": 8,
+  "stages": 5,
+  "first_deliverables": 8,
+  "report_figures": {
+    "total": 4,
+    "author_roadmap": 1,
+    "patent_figures": 3,
+    "display_only_rotations": 1
+  },
+  "artifacts": {
+    "figures/reticle-observation.py": {
+      "sha256": "2ebc887117911bcc04fc6a9c7754fac90ab82bb5f5104e751113c54b05610a27",
+      "bytes": 789
+    },
+    "figures/reticle-observation.svg": {
+      "sha256": "d6396562386234c89e0e1b333c0036ba8cafc6e2668e272ae695e88ed434290d",
+      "bytes": 165268
+    },
+    "figures/work-roadmap.py": {
+      "sha256": "e9fb9baf72601e037d7036040b07a037f79a3a0bcf76210fd64d95692af8373b",
+      "bytes": 8128
+    },
+    "figures/work-roadmap.svg": {
+      "sha256": "ad34ac12d1843efee4d7bc13fea265713584d54fab4def6e6da929c23bbf15bc",
+      "bytes": 243194
+    },
+    "report.md": {
+      "sha256": "d9958305ae283117be71b99aa780be8b91a60a596d7772a7ef2f0f37bd7e6fcd",
+      "bytes": 53874
+    },
+    "review/control.md": {
+      "sha256": "03a6ae44c4a61764b7239f36f3a04c8b395e2e7d12ebcc12602157e7fd1c6abb",
+      "bytes": 29575
+    },
+    "review/editorial-review.md": {
+      "sha256": "a7faed8346d30ab3328eb21ab836df6722f53185c9a817740506bd2ad13f382b",
+      "bytes": 2038
+    },
+    "review/mechanics.md": {
+      "sha256": "f2203904aa5e4ce35128a14a107b0f56a858240d8851d2a95fe4c8eb16512734",
+      "bytes": 23115
+    },
+    "review/optics.md": {
+      "sha256": "4d3f9a45a7b7db18b6a2422f285c97e2119b12285ca6561f4c17570bb39d699c",
+      "bytes": 26652
+    },
+    "review/thermal.md": {
+      "sha256": "97b14bd4135dd1086e58346684060780ed763aa0b8b87ac0d143a6127db05135",
+      "bytes": 28856
+    },
+    "sources.json": {
+      "sha256": "e6ebced0218f7c3023d3199b3b92ad980cd1de3074d10700cf3d993f243ad993",
+      "bytes": 22079
+    }
+  },
+  "checks": {
+    "unit_tests": {
+      "command": ".venv/bin/python -m unittest discover -s tests -v",
+      "passed": 18,
+      "failed": 0
+    },
+    "repository": {
+      "command": ".venv/bin/python tools/validate_repository.py --base bf495f886ba027941721dd754b8f82be96d14abe",
+      "scope": "source bytes, actual PDF pages, Markdown anchors, local links and original preservation",
+      "semantic_fidelity_certified": false,
+      "publications": 45,
+      "physical_pages": 1114,
+      "figures": 624,
+      "artifact_files": 714,
+      "markdown_files": 95,
+      "local_links": 4212,
+      "baseline_checked": true,
+      "errors": [],
+      "warnings": [
+        "Structural checks do not certify OCR accuracy, formulas, reading order or technical conclusions."
+      ]
+    },
+    "content_and_sources": {
+      "task_count": 30,
+      "explicit_anchors": 55,
+      "images": 4,
+      "figure_numbers_sequential": true,
+      "evidence_entries": 14,
+      "source_hashes_checked": 85,
+      "r3_default_structure_and_source_assets_unchanged": true,
+      "embedded_original_bytes_unchanged": true,
+      "figures_deterministic_rebuild": true
+    },
+    "roadmap_layout": {
+      "width": 1080,
+      "height": 1527.25,
+      "nodes": 8,
+      "text_overflow": 0,
+      "minimum_text_margin_px": 25.69,
+      "node_overlap": 0,
+      "connector_text_crossings": 0,
+      "smallest_font_px": 20,
+      "meaning": "Proposed work dependencies, not a physical system diagram"
+    },
+    "web_preview": {
+      "engine": "Pandoc GFM to HTML5 and Chromium; local approximation of GitHub Markdown, not live GitHub screenshot",
+      "desktop_viewport_px": 1080,
+      "desktop_body_max_width_px": 840,
+      "mobile_viewport_px": 390,
+      "desktop_document_width_px": 1080,
+      "mobile_document_width_px": 390,
+      "images_loaded": 4,
+      "internal_targets_checked": 66,
+      "tables": 4,
+      "all_images_loaded": true,
+      "all_internal_targets_found": true,
+      "visual_checks": [
+        "all four images at desktop size",
+        "mobile overview and lens section",
+        "stage table and initial deliverables at desktop size"
+      ],
+      "mobile_limit": "Complex diagrams are thumbnails on phones; original-vector zoom link and text navigation supplied."
+    },
+    "independent_review": {
+      "record": "review/editorial-review.md",
+      "findings_addressed": [
+        "stage capability characterization",
+        "LHFF measurement sensitivity and update chain",
+        "causal replay and clock errors",
+        "compatible optical layout for dHDM",
+        "scanner-only scope and initial V03 before trials"
+      ],
+      "scope": "whole work list and focused source checks; not all-source semantic certification"
+    }
+  },
+  "source_material_changes": "None; R3, historical reports, default structure, PDFs, MinerU and original figures remain byte-identical to baseline. New display SVG embeds unchanged original PNG.",
+  "limits": [
+    "No equipment tests, design modifications or procurement performed.",
+    "No numerical performance, cost, timeline or commercial adoption inferred.",
+    "R3 full corpus research inherited; this turn targeted 24 publications and 107 distinct original pages, combining visual and text-layer checks as recorded.",
+    "No report PDF generated.",
+    "User content acceptance remains pending."
+  ]
+}

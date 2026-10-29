@@ -2,7 +2,15 @@
 
 更新：2026-10-29（Asia/Shanghai） · [需求台账](REQUIREMENTS.md) · [变更日志](../CHANGELOG.md)
 
-## 当前报告：R3（2026-10-29，待内容审阅）
+## 新增准备工作报告：V1（2026-10-29，待内容审阅）
+
+- [《整机需要准备的工作》](../reports/whole-machine-preparation/report.md)基于R3，面向DUV，列出30项具体任务、八个工作域、五个推进阶段及首批八项交付。
+- 以能力缺口决定Wafer table、RTS、dHDM等条件改造；区分三对象热FF、平台／光学能力、数据／校准和整机验证。具体配置及指标纳入初始摸底任务，未编造设计参数或工期。
+- 用户允许本稿采用任务组织；不修改默认L0—L4骨架。复制R3后按新目标全面重组，R3和原件保持原字节。沿用R3全文研究，本轮仅定向复核，不重复宣称通读45件。
+- 本地18项测试通过；全仓45件资料、95份Markdown及4,212处本地链接校验无错误。桌面／手机预览和4幅图显示检查通过，四域定向复核及独立审阅已整合；这些检查不替代技术结论验收。
+- REQ-007待内容验收；实际资料、显示、独立审阅和仓库检查见[交付记录](../reports/whole-machine-preparation/delivery.json)。未生成PDF，未执行设备试验或采购。
+
+## 当前架构报告：R3（2026-10-29，待内容审阅）
 
 - 用户已批准[叙述逻辑v0.2](../reports/advanced-overlay-management/planning/r3-logic-review.md)，按“L0整机关系—L1问题与章节—章内L2策略／L3职责能力”完成[R3网页Markdown](../reports/advanced-overlay-management/r3/report.md)。
 - 第4—8章与五个问题专题对应；第6章统一为掩模、物镜、晶圆热管理。L4仅保留接口，未生成报告PDF。
