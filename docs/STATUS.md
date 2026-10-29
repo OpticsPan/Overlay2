@@ -1,12 +1,13 @@
 # 仓库维护状态
 
-更新：2026-10-28（Asia/Shanghai） · [需求台账](REQUIREMENTS.md) · [变更日志](../CHANGELOG.md)
+更新：2026-10-29（Asia/Shanghai） · [需求台账](REQUIREMENTS.md) · [变更日志](../CHANGELOG.md)
 
-## 当前报告：R2（2026-10-28）
+## 当前报告：R2（初稿2026-10-28；8.2节修订2026-10-29）
 
 - [R2网页Markdown](../reports/advanced-overlay-management/r2/report.md)已从零撰写，未以R1为基底；按L0—L4组织，正文展开L0—L3，L4保留后续专题接口，待用户内容审阅。
 - 全部45件MinerU文本分组通读，关键说明、权利要求和原图回看原PDF；[六组阅读记录](../reports/advanced-overlay-management/r2/report.md#references)保存实际范围与边界。通读不等于1,114页逐字校勘。
 - 资料与任务基线：`edd7a4e13fdddc994befcbc22147a7ac59013385`。来源、产物哈希及验证范围见[R2交付记录](../reports/advanced-overlay-management/r2/delivery.json)。原PDF、机器全文和原图不改；新发现的提取／原文差异已补入QUALITY。
+- 2026-10-29根据用户阅读反馈，基于R2提交`b0168c3`重写[8.2节](../reports/advanced-overlay-management/r2/report.md#section-8-2)：先交代问题背景与空间层级，再结合原Fig. 2、Fig. 3说明两条解决策略及L3能力；其他章节正文保持原样，L4仍仅为接口。来源及交付记录同步更新，待用户内容审阅。
 - 当前默认：报告保存并推送GitHub，维护版本；无特殊要求为适合网页阅读的Markdown。流程框图必须美观且文字完整；规范、骨架及代理约定已同步。
 - 本次未生成R2 PDF。R1 Markdown/PDF作为历史版本保留，其PDF不对应R2；后续PDF仍须落实中文学术排版、正文两端对齐和首行2em缩进，并重新核对标准版本及实际版式。
 - R1仅解读六件核心专利；R2是重新研究和组织后的独立稿。两稿均未作产品发布或商业机型性能认证。

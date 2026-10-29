@@ -1281,8 +1281,54 @@
         "rotation_degrees_clockwise": 90,
         "embedded_bytes_identical": true
       }
+    ],
+    "pdf_page_renders": [
+      {
+        "display": "figures/us20210096472a1-page3.png",
+        "source": "references/patents/US20210096472A1/original.pdf",
+        "physical_page": 3,
+        "original_figure": "Fig. 2",
+        "reason": "Existing MinerU crop clips the right side of label 220; render the complete original PDF page without cropping, redrawing or changing source files.",
+        "command": "pdftoppm -f 3 -singlefile -scale-to 1800 -png references/patents/US20210096472A1/original.pdf reports/advanced-overlay-management/r2/figures/us20210096472a1-page3",
+        "sha256": "16db361e1cd7f971fbd08b6217ea80a8e5a17de55f167cb8df48f45228cbb5d9",
+        "bytes": 58070
+      }
     ]
   },
   "tables": "Author synthesis except explicitly discussed patent Table 1 values; no invented patent tables",
-  "original_pdf_markdown_image_changes": false
+  "original_pdf_markdown_image_changes": false,
+  "revisions": [
+    {
+      "date": "2026-10-29",
+      "baseline": "b0168c3554ec52ccbbf580f19d583430c1a330fb",
+      "scope": "Section 8.2 rewritten from existing R2; background and die/field/wafer scales precede control logic; no change to original R2 independent-writing provenance",
+      "publication": "US20210096472A1",
+      "original_pages_rechecked": [
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15
+      ],
+      "paragraphs": [
+        "0036-0056",
+        "0065-0075",
+        "0083-0096"
+      ],
+      "claims": [
+        "1",
+        "9",
+        "16"
+      ],
+      "report_figures": {
+        "23(a)": "original Fig. 2, physical page 3",
+        "23(b)": "original Fig. 3, physical page 4"
+      },
+      "source_file_changes": false
+    }
+  ]
 }

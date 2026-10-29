@@ -18,10 +18,12 @@
     "all_pdf_pages_manually_collated": false
   },
   "report_figures": {
-    "total": 30,
+    "total": 31,
     "author_synthesis": 1,
-    "patent_images": 29,
-    "display_only_rotations": 3
+    "patent_images": 30,
+    "display_only_rotations": 3,
+    "numbered_groups": 30,
+    "full_pdf_page_renders": 1
   },
   "artifacts": {
     "figures/architecture.py": {
@@ -49,8 +51,8 @@
       "bytes": 301652
     },
     "report.md": {
-      "sha256": "23081b2514153dddffb63eda764a8958c5e13e9faf316cd30090a60039baee56",
-      "bytes": 76729
+      "sha256": "06e64f1e9798ef5b865adfcb302576207223fbbe0265a54661d26ee3f68e7b4d",
+      "bytes": 89419
     },
     "review/control.json": {
       "sha256": "d3b0dfc30d306793f262a13f8f4853334d03107235f989a9d77a412c514b70b5",
@@ -85,11 +87,16 @@
       "bytes": 47860
     },
     "sources.json": {
-      "sha256": "33ba1a6839c1c956f510190b44266e010117511b09c8c5511f6ac9b5951983a0",
-      "bytes": 57863
+      "sha256": "94f36e1f9806cbc8c27cf114eddfcc71a093b82a91a3907df4eb80b1d85bb68e",
+      "bytes": 59386
+    },
+    "figures/us20210096472a1-page3.png": {
+      "sha256": "16db361e1cd7f971fbd08b6217ea80a8e5a17de55f167cb8df48f45228cbb5d9",
+      "bytes": 58070
     }
   },
   "checks": {
+    "baseline": "b0168c3554ec52ccbbf580f19d583430c1a330fb",
     "unit_tests": {
       "command": ".venv/bin/python -m unittest discover -s tests -v",
       "passed": 18,
@@ -103,7 +110,7 @@
       "figures": 624,
       "artifact_files": 714,
       "markdown_files": 71,
-      "local_links": 3141,
+      "local_links": 3148,
       "baseline_checked": true,
       "errors": [],
       "warnings": [
@@ -113,21 +120,80 @@
     "source_hashes_rechecked": 159,
     "web_preview": {
       "renderer": "Pandoc GFM to HTML + Chromium; local preview, not an assertion about identical GitHub CSS",
-      "images_loaded": 30,
-      "directory_links_valid": 12,
+      "images_loaded": 31,
+      "internal_anchor_links_valid": 13,
       "desktop_width": 1080,
       "desktop_document_width": 1080,
       "mobile_width": 390,
       "mobile_document_width": 390,
-      "visual_checks": "Overview, all patent-image contact sheets, section screenshots; source figures independently interpreted in group records. Full-size source links provided for small displays."
+      "visual_checks": "Rewritten section introduction, both patent figures, L3 capability table, and mobile introduction; full PDF page rendering visually compared to source figure."
     },
-    "source_review": "Six independent reading groups; main technical sections cross-checked against their original-page verification; corrected focus example, pattern-library meaning, related-art diagram, and cropped Fig.10 label.",
-    "github_actions": "Check after push; no CI success claimed in this artifact"
+    "content_scope": "Other body sections unchanged by text comparison; original patent files unchanged; L4 remains an interface.",
+    "source_review": "Original PDF/paragraph and figure verification focused on the US20210096472A1 section rewrite; simplified explanations and synthesis labeled.",
+    "github_actions": "Check after push; no new CI success claimed in this artifact"
   },
   "limits": [
     "Not a complete word-by-word collation of all 1114 PDF pages",
     "No common commercial-machine overlay performance dataset; cross-patent architecture is synthesis",
     "No R2 PDF; R1 PDF corresponds only to R1"
   ],
-  "source_material_changes": "Original PDFs, MinerU text and patent images unchanged; QUALITY notes updated separately."
+  "source_material_changes": "Original PDFs, MinerU text and patent image crops unchanged; QUALITY adds a crop issue. A full original PDF page is rendered as a report presentation asset.",
+  "checks_history": [
+    {
+      "date": "2026-10-28",
+      "report_commit": "b0168c3554ec52ccbbf580f19d583430c1a330fb",
+      "scope": "Initial R2 snapshot before the 2026-10-29 section 8.2 rewrite",
+      "checks": {
+        "unit_tests": {
+          "command": ".venv/bin/python -m unittest discover -s tests -v",
+          "passed": 18,
+          "failed": 0
+        },
+        "repository": {
+          "scope": "source bytes, actual PDF pages, Markdown anchors, local links and original preservation",
+          "semantic_fidelity_certified": false,
+          "publications": 45,
+          "physical_pages": 1114,
+          "figures": 624,
+          "artifact_files": 714,
+          "markdown_files": 71,
+          "local_links": 3141,
+          "baseline_checked": true,
+          "errors": [],
+          "warnings": [
+            "Structural checks do not certify OCR accuracy, formulas, reading order or technical conclusions."
+          ]
+        },
+        "source_hashes_rechecked": 159,
+        "web_preview": {
+          "renderer": "Pandoc GFM to HTML + Chromium; local preview, not an assertion about identical GitHub CSS",
+          "images_loaded": 30,
+          "directory_links_valid": 12,
+          "desktop_width": 1080,
+          "desktop_document_width": 1080,
+          "mobile_width": 390,
+          "mobile_document_width": 390,
+          "visual_checks": "Overview, all patent-image contact sheets, section screenshots; source figures independently interpreted in group records. Full-size source links provided for small displays."
+        },
+        "source_review": "Six independent reading groups; main technical sections cross-checked against their original-page verification; corrected focus example, pattern-library meaning, related-art diagram, and cropped Fig.10 label.",
+        "github_actions": "Check after push; no CI success claimed in this artifact"
+      }
+    }
+  ],
+  "last_updated": "2026-10-29",
+  "writing_mode_scope": "Initial R2 creation; subsequent local revisions are recorded in revisions.",
+  "revisions": [
+    {
+      "date": "2026-10-29",
+      "mode": "inherit_existing_R2",
+      "parent_commit": "b0168c3554ec52ccbbf580f19d583430c1a330fb",
+      "parent_report": "report.md",
+      "parent_report_sha256": "23081b2514153dddffb63eda764a8958c5e13e9faf316cd30090a60039baee56",
+      "scope": "Rewrite section 8.2 only; update revision metadata and repository records. Other report body sections unchanged.",
+      "reason": "User requests problem background and concrete scope before patent case interpretation, especially die/field/wafer scales.",
+      "figures": "Figure 23 now has parts (a) original Fig. 2 and (b) original Fig. 3; other figure numbers unchanged. Part (a) uses a full PDF page render to preserve label 220.",
+      "source_review": "Rechecked US20210096472A1 original figures, paragraphs 0036-0056, 0065-0075, 0083-0096 and claims 1, 9, 16; no claim of rereading all 45 patents in this local update.",
+      "pdf_generated": false
+    }
+  ]
 }

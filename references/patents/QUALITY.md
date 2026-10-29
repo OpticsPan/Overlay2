@@ -47,3 +47,7 @@
 | WO2017108453A1 Fig.7及[0094]—[0096]；US11886124B2 p36 | 前者图文信号编号有歧义；后者存在132nm/16.5nm相关单位疑点，本报告不据此引用数值 | [控制记录](../../reports/advanced-overlay-management/r2/review/control.md) |
 
 上述阅读不等于45份PDF全文逐字校勘；仿真、示意图、设计残差、部件指标与整机实测仍须分开。R2保留了US7423725B2仿真性质、US9772561B2不同测试组不能混用等证据边界，详见相应阅读记录。
+
+## R2第8.2节修订中的图片校核（2026-10-29）
+
+US20210096472A1的Fig. 2位于原PDF物理第3页。既有MinerU裁切`figures/p0003-0003.png`右缘使编号220的末位不完整；回看原PDF可见完整220。原PDF、机器全文及既有裁切保持原字节，R2[第8.2节](../../reports/advanced-overlay-management/r2/report.md#section-8-2)改用从原PDF整页渲染的PNG，未重绘或补写文字；渲染命令、来源与产物哈希见[R2来源清单](../../reports/advanced-overlay-management/r2/sources.json)。
