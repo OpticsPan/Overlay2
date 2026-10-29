@@ -8,6 +8,7 @@
 - 第4—8章与五个问题专题对应；第6章统一为掩模、物镜、晶圆热管理。L4仅保留接口，未生成报告PDF。
 - 继承R2，修订基线`fd6f314e39c32476d81fe89a6423e12908fc4cd4`；重新通读45件MinerU全文，关键原页／图／权利要求回核，新增六组[R3复核记录](../reports/advanced-overlay-management/r3/report.md#references)。全文阅读不等于1,114页逐字校勘。
 - R2、默认骨架、专利原件与机器资料保持原字节；新发现的原文或转写差异补记QUALITY。来源及实际检查见[R3交付记录](../reports/advanced-overlay-management/r3/delivery.json)。
+- 报告提交[62d5838](https://github.com/OpticsPan/Overlay2/commit/62d5838901a62c22e72cdff2482b087c27f9173f)已推送main，远端五项关键文件哈希回读一致；对应[Actions运行](https://github.com/OpticsPan/Overlay2/actions/runs/40824834981)成功，正文内容与来源检查见交付记录。
 - 逻辑批准与正文研究结论验收分别记录，REQ-004仍为待验收。临时稿v0.1／v0.2及其验证记录保留为历史。
 
 ## 历史报告：R2（初稿2026-10-28；最近修订2026-10-29）

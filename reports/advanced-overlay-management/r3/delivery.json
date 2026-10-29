@@ -263,7 +263,38 @@
     "Repository checks do not certify technical conclusions."
   ],
   "remote_verification": {
-    "status_at_recording": "pending final commit/push; current-run result must be checked against the final commit, never inherited from R2",
-    "workflow": "https://github.com/OpticsPan/Overlay2/actions/workflows/repository-checks.yml"
+    "report_commit": "62d5838901a62c22e72cdff2482b087c27f9173f",
+    "remote_files": [
+      {
+        "path": "reports/advanced-overlay-management/r3/report.md",
+        "sha256": "d748a03d80555f10517c176381e2da0cac0a48b82e32c09684a26b4d0e1ae250"
+      },
+      {
+        "path": "reports/advanced-overlay-management/r3/figures/chapter-navigation.svg",
+        "sha256": "22fa6e83658b2b9c6c0042b1a26f22e36d358a5cfb6f10dfa805e6ecda350b5e"
+      },
+      {
+        "path": "reports/advanced-overlay-management/r3/figures/us7423725b2-page5.png",
+        "sha256": "d4436eca28d2a040adb6873a8af4e8339fc2fcbd1d37e4ad15ecce4655295d4e"
+      },
+      {
+        "path": "reports/advanced-overlay-management/r3/sources.json",
+        "sha256": "eab9a99b4228487b328c716d647667e06cd0439495f163855954a5e594cedf24"
+      },
+      {
+        "path": "reports/advanced-overlay-management/r3/delivery.json",
+        "sha256": "a6076ee9498ab77d7acdba7301087d3d20c71bb98ba9e9c167a9d435fe8c6cf3"
+      }
+    ],
+    "matched": true,
+    "branch": "main",
+    "actions": {
+      "url": "https://github.com/OpticsPan/Overlay2/actions/runs/40824834981",
+      "status": "completed",
+      "conclusion": "success",
+      "checked_via": "GitHub Actions page embedded workflow data matched to commit 62d5838"
+    },
+    "temporary_work_branch": "docs/r3-approved-logic deleted after fast-forward to main",
+    "note": "This records the report delivery commit. This bookkeeping update has its own subsequent Git history and Actions run; report/source/figure bytes are unchanged."
   }
 }
