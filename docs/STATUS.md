@@ -2,6 +2,12 @@
 
 更新：2026-10-29（Asia/Shanghai） · [需求台账](REQUIREMENTS.md) · [变更日志](../CHANGELOG.md)
 
+## 待审阅：R3撰写逻辑临时参考
+
+- 2026-10-29按用户要求，将[L0—L3脉络与章节安排](../reports/advanced-overlay-management/planning/r3-logic-review.md)保存为审阅稿v0.1，包含L0整机关系、L1章节导航、章内L2／L3模板和三对象热管理结构。
+- 用户审阅通过后才开始R3正文；当前保存不表示结构已获批准。R2及已确认的默认骨架保持原样，当前报告仍为R2。
+- 本轮基线为`e42db35592ad78ff7d7311f3138e60c5fde8cb7e`；检查范围与结果见[临时稿验证记录](validation/2026-10-29-r3-logic-review.json)。
+
 ## 当前报告：R2（初稿2026-10-28；最近修订2026-10-29）
 
 - [R2网页Markdown](../reports/advanced-overlay-management/r2/report.md)已从零撰写，未以R1为基底；按L0—L4组织，正文展开L0—L3，L4保留后续专题接口，待用户内容审阅。

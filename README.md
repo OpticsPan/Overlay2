@@ -6,6 +6,7 @@ Overlay2 用于整机套刻调研资料的保存和持续维护。当前已收�
 
 - [先进光刻机套刻管理架构 · R2（Markdown，当前稿）](reports/advanced-overlay-management/r2/report.md)
 - [R1历史Markdown](reports/advanced-overlay-management/report.md) · [R1历史PDF](reports/advanced-overlay-management/report.pdf)（不对应R2）
+- [R3撰写逻辑临时参考（待审阅，正文尚未开始）](reports/advanced-overlay-management/planning/r3-logic-review.md)
 - [报告维护与修订规范](reports/README.md)
 
 ## 资料入口

@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-29",
+  "baseline": "e42db35592ad78ff7d7311f3138e60c5fde8cb7e",
+  "request": "Save a provisional L0-L3 writing-logic reference for user review; begin R3 writing only after approval.",
+  "requirements": [
+    "REQ-004",
+    "REQ-006"
+  ],
+  "document_version": "v0.1",
+  "review_status": "pending_user_review",
+  "r3_body_started": false,
+  "pdf_generated": false,
+  "artifact": {
+    "path": "reports/advanced-overlay-management/planning/r3-logic-review.md",
+    "sha256": "cf11287ef2027491465bcb07cc003edb65dedba7d4cafe2af61b72a5fbb0323c",
+    "bytes": 17264
+  },
+  "reference_files": [
+    {
+      "path": "reports/advanced-overlay-management/r2/report.md",
+      "sha256": "6c35f5f27b346e5e5e52e7eda0986cee2357fa657966b22304b25ad12b8a89ec",
+      "bytes": 106391
+    },
+    {
+      "path": "reports/STRUCTURE.md",
+      "sha256": "d5ba2981dabcf1e710f66e8c72837f16108d12371ed23819707d4047009dd344",
+      "bytes": 6769
+    }
+  ],
+  "reference_scope": "Existing R2 structure and confirmed reporting rules; this task does not claim a new complete reading of all 45 patents.",
+  "checks": {
+    "unit_tests": {
+      "command": ".venv/bin/python -m unittest discover -s tests -v",
+      "passed": 18,
+      "failed": 0
+    },
+    "repository": {
+      "command": ".venv/bin/python tools/validate_repository.py --base e42db35592ad78ff7d7311f3138e60c5fde8cb7e",
+      "result": {
+        "scope": "source bytes, actual PDF pages, Markdown anchors, local links and original preservation",
+        "semantic_fidelity_certified": false,
+        "publications": 45,
+        "physical_pages": 1114,
+        "figures": 624,
+        "artifact_files": 714,
+        "markdown_files": 72,
+        "local_links": 3199,
+        "baseline_checked": true,
+        "errors": [],
+        "warnings": [
+          "Structural checks do not certify OCR accuracy, formulas, reading order or technical conclusions."
+        ]
+      }
+    },
+    "web_preview": {
+      "renderer": "Pandoc GFM to HTML + Chromium local preview; not a claim of identical GitHub CSS",
+      "internal_anchor_links_valid": 9,
+      "tables": 9,
+      "desktop_width": 1080,
+      "desktop_document_width": 1080,
+      "mobile_width": 390,
+      "mobile_document_width": 390,
+      "visual_scope": "Problem-to-chapter map and thermal chapter outline on desktop; document introduction on mobile. Tables use horizontal scrolling when needed."
+    },
+    "preserved_paths": [
+      "reports/advanced-overlay-management/r2",
+      "reports/STRUCTURE.md",
+      "references/patents"
+    ],
+    "diff_check": "git diff --check passed",
+    "self_review": "Reviewed hierarchy, chapter mapping, cross-chapter boundaries, scope and explicit pending-review state. No R3 body or approved-structure replacement created.",
+    "github_actions": "Check after push; no new CI success claimed in this artifact"
+  },
+  "limits": [
+    "Repository and display checks do not constitute user approval of the proposed writing logic.",
+    "No new patent interpretation or machine-performance validation performed."
+  ]
+}
