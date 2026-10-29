@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-29",
+  "baseline": "beb31e10940e5d7078e91f8fbbf08b2976a8185c",
+  "request": "Draw the overall narrative logic in the provisional reference for user review.",
+  "requirements": [
+    "REQ-004",
+    "REQ-006"
+  ],
+  "document_version": "v0.2",
+  "review_status": "pending_user_review",
+  "r3_body_started": false,
+  "pdf_generated": false,
+  "artifacts": [
+    {
+      "path": "reports/advanced-overlay-management/planning/r3-logic-review.md",
+      "sha256": "0176507ba24006ffbee61c3242d7b2f209ec6206dfe9a0419cdac4defb8c5e82",
+      "bytes": 18846
+    },
+    {
+      "path": "reports/advanced-overlay-management/planning/figures/narrative-logic.py",
+      "sha256": "409d7525f439533302f33afa6445aa7c196bbc958128898167b8a7ef0a85c540",
+      "bytes": 10594
+    },
+    {
+      "path": "reports/advanced-overlay-management/planning/figures/narrative-logic.svg",
+      "sha256": "c6fbfd83717ac69f91fd54d958e181f0f97d725f860b9fcc4b653177366f1361",
+      "bytes": 249781
+    }
+  ],
+  "diagram_source": {
+    "type": "Author-drawn report-organization diagram; not an original patent figure or machine control architecture",
+    "parent_document_commit": "beb31e10940e5d7078e91f8fbbf08b2976a8185c",
+    "parent_document_path": "reports/advanced-overlay-management/planning/r3-logic-review.md",
+    "parent_document_sha256": "cf11287ef2027491465bcb07cc003edb65dedba7d4cafe2af61b72a5fbb0323c",
+    "meaning": "L0 system relationships; L1 parallel problem/chapter entries; shared L2-L3 exposition template applied separately to each chapter; validation outlet and dashed L4 topic interface.",
+    "rendering": "Matplotlib; Noto Sans CJK SC; measured wrapping and node heights; SVG glyph outlines",
+    "rebuild_command": "python reports/advanced-overlay-management/planning/figures/narrative-logic.py --preview-dir work/r3-narrative-diagram"
+  },
+  "checks": {
+    "unit_tests": {
+      "command": ".venv/bin/python -m unittest discover -s tests -v",
+      "passed": 18,
+      "failed": 0
+    },
+    "repository": {
+      "command": ".venv/bin/python tools/validate_repository.py --base beb31e10940e5d7078e91f8fbbf08b2976a8185c",
+      "result": {
+        "scope": "source bytes, actual PDF pages, Markdown anchors, local links and original preservation",
+        "semantic_fidelity_certified": false,
+        "publications": 45,
+        "physical_pages": 1114,
+        "figures": 624,
+        "artifact_files": 714,
+        "markdown_files": 72,
+        "local_links": 3205,
+        "baseline_checked": true,
+        "errors": [],
+        "warnings": [
+          "Structural checks do not certify OCR accuracy, formulas, reading order or technical conclusions."
+        ]
+      }
+    },
+    "layout": {
+      "width": 1080,
+      "height": 1416.6,
+      "nodes": 10,
+      "topic_groups": 1,
+      "text_lines": 47,
+      "text_overflow": [],
+      "minimum_text_margin_px": 20.5,
+      "overlapping_nodes": 0,
+      "connector_node_crossings": 0,
+      "connector_text_crossings": 0,
+      "main_body_font_px": 22,
+      "smallest_font_px": 19
+    },
+    "deterministic_svg_rebuild": true,
+    "web_preview": {
+      "renderer": "Pandoc GFM to HTML + Chromium; local preview, not a claim of identical GitHub CSS",
+      "internal_anchor_links_valid": 9,
+      "images_loaded": 1,
+      "desktop_width": 1080,
+      "desktop_document_width": 1080,
+      "diagram_display_width": 839.984375,
+      "diagram_display_height": 1101.796875,
+      "mobile_width": 390,
+      "mobile_document_width": 390,
+      "visual_scope": "Full diagram at 840px display width, section placement and mobile thumbnail/caption. Checked labels, node margins, parallel chapter entries, shared template and L4 branch. Small screens use the linked SVG for enlarged reading.",
+      "mobile_limit": "The full diagram fits as a thumbnail; all text is not claimed readable without zoom."
+    },
+    "preserved_paths": [
+      "reports/advanced-overlay-management/r2",
+      "reports/STRUCTURE.md",
+      "references/patents",
+      "docs/validation/2026-10-29-r3-logic-review.json"
+    ],
+    "self_review": "Diagram follows v0.1 chapter proposal; caption clarifies that merging lines represent a shared narrative template, not physical data flow. Review status retained.",
+    "github_actions": "Check after push; no new CI success claimed in this artifact"
+  },
+  "limits": [
+    "Diagram layout and repository checks do not constitute user approval of the proposed report logic.",
+    "No new patent interpretation, source modification or R3 body writing performed."
+  ]
+}
