@@ -45,6 +45,6 @@
 
 ## Task 4：保存
 
-- [ ] 提交、快进合并推送main并删除本轮短期分支；远端回读关键文件和对应Actions，记录实际结果。
+- [x] 提交、快进合并推送main并删除本轮短期分支；远端回读关键文件和对应Actions，记录实际结果。
 
 实际证据：[报告交付记录](../../../reports/whole-machine-preparation/delivery.json)。工作清单撰写完成不代表设备研发任务已经完成。

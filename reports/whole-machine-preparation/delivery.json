@@ -152,5 +152,40 @@
     "R3 full corpus research inherited; this turn targeted 24 publications and 107 distinct original pages, combining visual and text-layer checks as recorded.",
     "No report PDF generated.",
     "User content acceptance remains pending."
-  ]
+  ],
+  "remote_verification": {
+    "report_commit": "63c5fa31f13094103c21de97e6f39f5a140c58c9",
+    "remote_files": [
+      {
+        "path": "reports/whole-machine-preparation/report.md",
+        "sha256": "d9958305ae283117be71b99aa780be8b91a60a596d7772a7ef2f0f37bd7e6fcd"
+      },
+      {
+        "path": "reports/whole-machine-preparation/figures/work-roadmap.svg",
+        "sha256": "ad34ac12d1843efee4d7bc13fea265713584d54fab4def6e6da929c23bbf15bc"
+      },
+      {
+        "path": "reports/whole-machine-preparation/figures/reticle-observation.svg",
+        "sha256": "d6396562386234c89e0e1b333c0036ba8cafc6e2668e272ae695e88ed434290d"
+      },
+      {
+        "path": "reports/whole-machine-preparation/sources.json",
+        "sha256": "e6ebced0218f7c3023d3199b3b92ad980cd1de3074d10700cf3d993f243ad993"
+      },
+      {
+        "path": "reports/whole-machine-preparation/delivery.json",
+        "sha256": "2038902d8d4ef39a3093af78060e94f07b8c73702ee713fb5253aec5fbe93e4b"
+      }
+    ],
+    "matched": true,
+    "branch": "main",
+    "actions": {
+      "url": "https://github.com/OpticsPan/Overlay2/actions/runs/40831238374",
+      "status": "completed",
+      "conclusion": "success",
+      "checked_via": "GitHub Actions page embedded data matched to commit 63c5fa3"
+    },
+    "temporary_work_branch": "docs/whole-machine-preparation deleted after fast-forward to main",
+    "note": "Records the report delivery commit. This bookkeeping change has a subsequent commit and Actions run; report, source and figure bytes are unchanged."
+  }
 }
