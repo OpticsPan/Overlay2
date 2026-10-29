@@ -4,18 +4,21 @@
 
 ## 当前报告
 
-- [先进光刻机套刻管理架构 · R2 Markdown（当前稿）](advanced-overlay-management/r2/report.md)
+- [先进光刻机套刻管理架构 · R3 Markdown（当前稿）](advanced-overlay-management/r3/report.md)
+- [R3全文复核记录](advanced-overlay-management/r3/report.md#references) · [来源清单](advanced-overlay-management/r3/sources.json) · [交付记录](advanced-overlay-management/r3/delivery.json)
+
+- [先进光刻机套刻管理架构 · R2 Markdown（历史稿）](advanced-overlay-management/r2/report.md)
 - [R2逐篇阅读记录](advanced-overlay-management/r2/report.md#references) · [R2交付记录](advanced-overlay-management/r2/delivery.json)
 - [先进光刻机套刻管理架构 · R1历史Markdown](advanced-overlay-management/report.md)
-- [R1历史PDF（不对应R2）](advanced-overlay-management/report.pdf)
+- [R1历史PDF（仅对应R1）](advanced-overlay-management/report.pdf)
 - [R2来源与图像清单](advanced-overlay-management/r2/sources.json) · [R1来源清单](advanced-overlay-management/sources.json)
 - [R1交付与验证记录](advanced-overlay-management/delivery.json)
 
-R1、R2是报告修订标识，不是产品版本。R2从零撰写，正文展开至L3、L4只保留专题接口，覆盖全部45件文本的阅读记录；本次未生成R2 PDF。待用户审阅不写成已验收。
+R1、R2、R3是报告修订标识，不是产品版本。R2从零撰写，正文展开至L3、L4只保留专题接口，覆盖全部45件文本的阅读记录；本次未生成R2 PDF。R3继承R2并依据用户已批准的组织逻辑重组，重新通读45件机器全文并核对关键原页；未生成R3 PDF。待用户内容审阅不写成已验收。
 
 ## 撰写前的临时参考
 
-- [R3撰写逻辑审阅稿 v0.2](advanced-overlay-management/planning/r3-logic-review.md)：按用户要求保存L0整机关系、L1问题与章节映射、章内L2策略和L3职责／能力，以及第6章热管理结构；v0.2补入总体叙述逻辑图及可编辑图源。当前待用户审阅，R3正文尚未开始；此稿不替代已确认的默认骨架。
+- [R3撰写逻辑审阅稿 v0.2](advanced-overlay-management/planning/r3-logic-review.md)：按用户要求保存L0整机关系、L1问题与章节映射、章内L2策略和L3职责／能力，以及第6章热管理结构；v0.2补入总体叙述逻辑图及可编辑图源。用户于2026-10-29明确批准，R3已按该逻辑撰写；保留临时稿和图稿的历史审阅状态。该稿是默认骨架在本报告的具体组织安排，不替代默认骨架。
 
 ## 默认撰写骨架
 

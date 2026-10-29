@@ -1,0 +1,663 @@
+{
+  "group": "mechanics",
+  "date": "2026-10-29",
+  "baseline": "fd6f314e39c32476d81fe89a6423e12908fc4cd4",
+  "coverage": {
+    "publications": 8,
+    "physical_pages": 188,
+    "full_transcriptions_read": 8,
+    "original_pages_checked_count": 46,
+    "all_pdf_and_transcription_hashes_match_manifest": true,
+    "claim": "Full MinerU reread with targeted original PDF verification; not a claim of every OCR glyph being calibrated."
+  },
+  "records": [
+    {
+      "publication": "CN117234040A",
+      "full_transcription_read": true,
+      "transcription_sha256": "d76e44df0fe526d3771f557381bc57a53293a6a00ec1edd0afc53f5c52fd5ff5",
+      "original_pdf_sha256": "7d3ef60ee1f5a79bd33cb1a73be7616a7438156321194d2a7a256c639ff56f10",
+      "pages": 29,
+      "primary_chapter": "7",
+      "secondary_chapters": [
+        8,
+        10
+      ],
+      "read_line_ranges": [
+        [
+          1,
+          300
+        ],
+        [
+          301,
+          600
+        ],
+        [
+          601,
+          972
+        ]
+      ],
+      "original_pages_checked": [
+        2,
+        3,
+        12,
+        23,
+        29
+      ],
+      "original_page_check_methods": {
+        "visual": [
+          2,
+          12,
+          23,
+          29
+        ],
+        "pdf_text_layer": [
+          3
+        ]
+      },
+      "figures_checked": [
+        {
+          "figure": "5",
+          "physical_page": 23,
+          "path": "references/patents/CN117234040A/figures/p0023-0006.png",
+          "interpretation_boundary": "100经220/218/216接入204横移承载；252/254/256是光学对准关系，部件引线不表示运动或数据。",
+          "method": "original_pdf_render_visual_inspection"
+        },
+        {
+          "figure": "12",
+          "physical_page": 29,
+          "path": "references/patents/CN117234040A/figures/p0029-0013.png",
+          "interpretation_boundary": "S1–S9是移出、更换、装入顺序；释夹与重落座由正文支持，未作为额外节点绘出。",
+          "method": "original_pdf_render_visual_inspection"
+        }
+      ],
+      "findings": [
+        "L1: 光学模块在有限壳体空间内更换及复位，保持姿态和支承应力状态。L2: 受控脱离、避让、姿态基准转移、释夹再落座。L3: 工具承重、调姿、测量和支承恢复。",
+        "原p2–3确认中文工具独立项9、六自由度项10；13–14为夹持连接/板簧，15为姿态传感。继承阅读记录把英文编号借入中文，应修正。",
+        "原p12[0101–0102]释夹、再夹、轻抬及落座旨在降低冻结装配应力。",
+        "原p12[0109]确为可以不省略后续测量/调节，和英文对应原件有表达差异。"
+      ],
+      "limits": [
+        "微米级复现是模块安装位置，不能换算晶圆套刻；dHDM替换用途不证明其在线波前/套刻执行机制。",
+        "CN与US20230400772A1同族，不是两组独立性能验证；不能声称维护后整机免校准。"
+      ]
+    },
+    {
+      "publication": "JP5809458B2",
+      "full_transcription_read": true,
+      "transcription_sha256": "e1b50f84f2c44699515a6bffbdd8c0c7b45045622399e452c05a267ed50cb990",
+      "original_pdf_sha256": "6667deed44c1f8f1263c69f02ebfe7b94a1482f2e9925e80846d0d292fe4f125",
+      "pages": 19,
+      "primary_chapter": "7",
+      "secondary_chapters": [
+        8,
+        10
+      ],
+      "read_line_ranges": [
+        [
+          1,
+          240
+        ],
+        [
+          241,
+          470
+        ],
+        [
+          471,
+          710
+        ],
+        [
+          711,
+          916
+        ]
+      ],
+      "original_pages_checked": [
+        1,
+        2,
+        3,
+        17,
+        18
+      ],
+      "original_page_check_methods": {
+        "visual": [
+          1,
+          17,
+          18
+        ],
+        "pdf_text_layer": [
+          2,
+          3
+        ]
+      },
+      "figures_checked": [
+        {
+          "figure": "6(a)",
+          "physical_page": 17,
+          "path": "references/patents/JP5809458B2/figures/p0017-0006.png",
+          "interpretation_boundary": "整体弹簧/阻尼等效关系，正文称已知连接，不是新分段结构或电子闭环。",
+          "method": "original_pdf_render_visual_inspection"
+        },
+        {
+          "figure": "6(b)",
+          "physical_page": 17,
+          "path": "references/patents/JP5809458B2/figures/p0017-0007.png",
+          "interpretation_boundary": "多组88/90表示分布弹性/阻尼连接。",
+          "method": "original_pdf_render_visual_inspection"
+        },
+        {
+          "figure": "7",
+          "physical_page": 17,
+          "path": "references/patents/JP5809458B2/figures/p0017-0008.png",
+          "interpretation_boundary": "沿X分开的两组22支承掩模30。",
+          "method": "original_pdf_render_visual_inspection"
+        },
+        {
+          "figure": "12",
+          "physical_page": 18,
+          "path": "references/patents/JP5809458B2/figures/p0018-0013.png",
+          "interpretation_boundary": "36分段、24/40真空腔与44/46/48通道、61/63柔性连接；部件引线不表示反馈信号。",
+          "method": "original_pdf_render_visual_inspection"
+        }
+      ],
+      "findings": [
+        "L1: 真空变形、接触面形和扫描惯性造成不均匀摩擦预算，局部先滑移导致载荷转移。L2: 分区及方向刚度协调。L3: 负压、接触、柔性连接与载荷分配。",
+        "原p1–3正式权利要求1要求分区可相对邻区运动及各自弹簧/阻尼，2增加相同刚度，不能把单纯增加吸力作为全部方案。",
+        "p9【0031–0033】/[0044–0046]，p10【0036–0037】/[0049–0050]，p12–13【0051–0052】/[0064–0065]支持接触受力和滑移传播解释。"
+      ],
+      "limits": [
+        "主要实施例是掩模真空夹持，不能与晶圆支撑或WT—MB界面等同。",
+        "可选滑移传感器的提及未给完整纳米滑移实时反馈实现或整机套刻数值。"
+      ]
+    },
+    {
+      "publication": "US10120292B2",
+      "full_transcription_read": true,
+      "transcription_sha256": "3da130399de1ad2438bf98cfde1f23c445a0c094cdc2f29f139fad5662590195",
+      "original_pdf_sha256": "a9be4a6b81461def227426351e3495eea4d444ce771a04b33fe94c7500342fac",
+      "pages": 35,
+      "primary_chapter": "6.4",
+      "secondary_chapters": [
+        "7.3",
+        10
+      ],
+      "read_line_ranges": [
+        [
+          1,
+          420
+        ],
+        [
+          421,
+          720
+        ],
+        [
+          721,
+          1000
+        ],
+        [
+          1001,
+          1260
+        ],
+        [
+          1261,
+          1510
+        ],
+        [
+          1511,
+          1820
+        ],
+        [
+          1700,
+          1820
+        ]
+      ],
+      "original_pages_checked": [
+        16,
+        17,
+        24,
+        27,
+        28,
+        31,
+        34,
+        35
+      ],
+      "original_page_check_methods": {
+        "visual": [
+          16,
+          17,
+          27,
+          31
+        ],
+        "pdf_text_layer": [
+          24,
+          28,
+          34,
+          35
+        ]
+      },
+      "figures_checked": [
+        {
+          "figure": "27–29",
+          "physical_page": 16,
+          "path": "references/patents/US10120292B2/figures/p0016-0025.png",
+          "interpretation_boundary": "274跨273隙；275热阻层与276低热容适应层分工；Fig27底部单箭头是径向向外，D1/D2为尺寸，均不是热流。271不必总为65。",
+          "method": "original_pdf_render_visual_inspection"
+        },
+        {
+          "figure": "30",
+          "physical_page": 17,
+          "path": "references/patents/US10120292B2/figures/p0017-0026.png",
+          "interpretation_boundary": "61支承W、65抽液、75间隙；30/31与W之间32为薄液封非硬支撑；5/66/67/68流向据正文，161/201/204调热。",
+          "method": "original_pdf_render_visual_inspection"
+        }
+      ],
+      "findings": [
+        "L1: 抽取蒸发使65温变，热和连接处应力传至61/W；另有WT与浸没液换热改变液温/折射率的独立成像路径。",
+        "L2: 隔离传递与控制残余热负荷互补。L3: 75间隙和有限91连接；94测93段均温，500驱动加热；161等调节抽取区温度；274/275/276管理液体热边界。",
+        "原p24栏14: 段均温控制针对连接间净伸缩，输入不是晶圆全温场。原p27栏20、p28栏21–22: 275阻隔台面热交换，276较低热容使其以少量热交换适应液温。",
+        "原p31栏27报告温控/隔离/组合约2、6、80的位移影响改善例，同时单隔离可使温差增大约10倍；只能说明互补性。",
+        "原p34–35独立项1/9/14核对，包含外侧并延伸晶圆边缘下方的抽取体、两开口、基本机械和热解耦；摘要液封不能替代正式权利要求。",
+        "R2第7.3保留图30和机械/液体职责；热路径、段均温控制及液温折射率迁至6.4。"
+      ],
+      "limits": [
+        "无80倍整机套刻性能证据；约10nm示例是毛细液封引起局部边缘平坦度影响。",
+        "隔离不等于零连接、零温差；热屏蔽实施例允许65/61非解耦或一体，不能强套单一结构。",
+        "未直接输出套刻校正量、晶圆形变估计向量或独立整机残差验证。"
+      ]
+    },
+    {
+      "publication": "US10747126B2",
+      "full_transcription_read": true,
+      "transcription_sha256": "1cea07065cd68d48bb1e18480f8a53db21bf3a8416d47e7d84586f15b6007edd",
+      "original_pdf_sha256": "4f18e1111c8781c44a4a8052b9ce269112583f0d1c2ba214d443df9fcb549dd1",
+      "pages": 30,
+      "primary_chapter": "6.4",
+      "secondary_chapters": [
+        5,
+        7,
+        10
+      ],
+      "read_line_ranges": [
+        [
+          1,
+          400
+        ],
+        [
+          401,
+          650
+        ],
+        [
+          651,
+          890
+        ],
+        [
+          891,
+          1120
+        ],
+        [
+          1121,
+          1380
+        ],
+        [
+          1381,
+          1679
+        ]
+      ],
+      "original_pages_checked": [
+        6,
+        11,
+        19,
+        24,
+        25,
+        26,
+        29,
+        30
+      ],
+      "original_page_check_methods": {
+        "visual": [
+          6,
+          11,
+          19,
+          24,
+          25,
+          26,
+          29,
+          30
+        ],
+        "pdf_text_layer": [
+          25,
+          29,
+          30
+        ]
+      },
+      "figures_checked": [
+        {
+          "figure": "7",
+          "physical_page": 6,
+          "path": "references/patents/US10747126B2/figures/p0006-0005.png",
+          "interpretation_boundary": "21与22/20/W构成换热和接触路径，24/25支撑外/内区与26/27晶圆外/内区分开；编号引线不是热流。",
+          "method": "original_pdf_render_visual_inspection"
+        },
+        {
+          "figure": "8",
+          "physical_page": 6,
+          "path": "references/patents/US10747126B2/figures/p0006-0006.png",
+          "interpretation_boundary": "50位置、51预期负荷/运动、52温度、31控制器及21/30调节；52图示在22中，线无完整方向箭头，信息方向据p25；图无套刻量测。",
+          "method": "original_pdf_render_visual_inspection"
+        },
+        {
+          "figure": "22",
+          "physical_page": 11,
+          "path": "references/patents/US10747126B2/figures/p0011-0020.png",
+          "interpretation_boundary": "60机器人载持W，黑点61温度传感；空心圆不应无依据视作更多测温点。",
+          "method": "original_pdf_render_visual_inspection"
+        }
+      ],
+      "findings": [
+        "L1: 晶圆边缘缺少外侧支撑约束，同温变引起更大净面内变形；温度测量及执行换热又有滞后。L2: 按空间热机械敏感性分配调节，位置/运动前馈结合温度反馈。",
+        "原p19栏13–14允许边缘温变小于中心，以降低形变差异；不能概括为全片同温。",
+        "原p24栏24至p25栏25区分晶圆到支撑测温、调节器响应及支撑到晶圆换热三类延迟。",
+        "原p25栏25–26: 50位置结合51预期热负荷/运动进入31，提前调节并可在离开浸没区域前结束加热以防过冲；52当前温度修正命令，52历史可更新后续晶圆的51数据。",
+        "原p25栏26末至p26栏27: 装载前可测晶圆温度，支撑提前供热/取热，可用单值或分区温度；输出仍为热动作。",
+        "原p29–30独立项1/8/15的几何限定需与说明书前馈区分，8是垂直于支撑平面的cross-sectional dimension较小，继承记录的截面面积表述不精确。",
+        "将R2第7.4本件与Fig8移到6.4；第7章仅引用接触、吸附、方向刚度约束。"
+      ],
+      "limits": [
+        "52图示支撑温度不等于全片温场，直接测晶圆和多点测温是可选文字披露。",
+        "位置经热负荷映射才可作为前馈输入；资料未给可直接采用的带宽、时间常数或完整形变求解模型。",
+        "输出供热/取热及控制命令，不是overlay校正量；历史热控制信息更新不等于整个热形变/套刻模型在线学习。",
+        "加强热接触可能同时影响夹持和Z面形，不能推定解决全部机械误差。"
+      ]
+    },
+    {
+      "publication": "US20230400772A1",
+      "full_transcription_read": true,
+      "transcription_sha256": "0f2a246b8d6d4a3ab2a1a7353975d8d3c597eab10e312088664ae048e44c25b7",
+      "original_pdf_sha256": "b931cde5bfbb8e71210707606464a5d8f9a0c2cc971de19cb8a461b7e4a4f153",
+      "pages": 24,
+      "primary_chapter": "7",
+      "secondary_chapters": [
+        8,
+        10
+      ],
+      "read_line_ranges": [
+        [
+          1,
+          330
+        ],
+        [
+          331,
+          550
+        ],
+        [
+          551,
+          760
+        ],
+        [
+          761,
+          923
+        ]
+      ],
+      "original_pages_checked": [
+        6,
+        13,
+        20,
+        23,
+        24
+      ],
+      "original_page_check_methods": {
+        "visual": [
+          6,
+          13,
+          20,
+          23,
+          24
+        ],
+        "pdf_text_layer": []
+      },
+      "figures_checked": [
+        {
+          "figure": "5",
+          "physical_page": 6,
+          "path": "references/patents/US20230400772A1/figures/p0006-0006.png",
+          "interpretation_boundary": "与中文图对应的模块承载、调姿、横移和自准直基准；非曝光控制流程。",
+          "method": "original_pdf_render_visual_inspection"
+        },
+        {
+          "figure": "12",
+          "physical_page": 13,
+          "path": "references/patents/US20230400772A1/figures/p0013-0013.png",
+          "interpretation_boundary": "S1–S9主更换顺序，未把释夹重落座另画为节点。",
+          "method": "original_pdf_render_visual_inspection"
+        }
+      ],
+      "findings": [
+        "L1/L2/L3: 受限空间光学模块更换、姿态基准转移与装配应力释放；输入姿态/工具校准，输出复位支承状态。",
+        "原p23–24核对：工具独立项13、六自由度14，17–18夹持及板簧，19–20姿态传感；与中文9/10编号不同。",
+        "原p20[0111]can be spared与中文p12[0109]可以不省略均存在于原件，不能当OCR修复选择性消除。"
+      ],
+      "limits": [
+        "同族非独立整机性能验证；六自由度不证明全部为独立主动伺服轴。",
+        "安装复现和dHDM更换用途不证明在线套刻校正能力，也不保证免除维护后校准。"
+      ]
+    },
+    {
+      "publication": "US8208120B2",
+      "full_transcription_read": true,
+      "transcription_sha256": "ac727a7148c3d3c91556d7a6e78dd12e9d40d744f981abd05917418852471629",
+      "original_pdf_sha256": "33a11f1c32d38f3ec3e04d2f95c87d094c6a5d6acf132cbb9fe8b075306dabc8",
+      "pages": 23,
+      "primary_chapter": "7.3",
+      "secondary_chapters": [
+        "6.4",
+        4,
+        10
+      ],
+      "read_line_ranges": [
+        [
+          1,
+          320
+        ],
+        [
+          321,
+          680
+        ],
+        [
+          681,
+          970
+        ],
+        [
+          971,
+          1210
+        ],
+        [
+          1211,
+          1331
+        ]
+      ],
+      "original_pages_checked": [
+        12,
+        22,
+        23
+      ],
+      "original_page_check_methods": {
+        "visual": [
+          12,
+          22
+        ],
+        "pdf_text_layer": [
+          23
+        ]
+      },
+      "figures_checked": [
+        {
+          "figure": "18",
+          "physical_page": 12,
+          "path": "references/patents/US8208120B2/figures/p0012-0015.png",
+          "interpretation_boundary": "横置原图：1100供液、1105/1115回收、1125/1130环境压力凹槽、1140/1145气刀、1160两级间及1165外侧回气；实际流向箭头与编号引线分开。",
+          "method": "original_pdf_render_visual_inspection"
+        }
+      ],
+      "findings": [
+        "L1: 漏液、液体压力/波动、蒸发及外逸气体扰动。L2: 分段液气边界协调。L3: 供液、抽液、凹槽、气刀及回气，输出流体边界稳定。",
+        "p21栏17–18第二气刀可增加气耗、空间和蒸发，湿化降低蒸发倾向；原p22栏19仅述可能改善overlay/缺陷。",
+        "原p22–23权利要求1/10及6/15核对；MinerU项1凹槽前有原页不存在的重复句，原件应作为正式措辞依据。",
+        "主解释放7.3后半，6.4交叉解释蒸发边界；第4章可引用气体外逸对计量环境的影响。"
+      ],
+      "limits": [
+        "不是温场或形变估计器，不直接输出套刻校正；增加气刀不是无代价热管理。",
+        "没有独立整机套刻数值，湿度从属项不能强说为所有实施例必备。"
+      ]
+    },
+    {
+      "publication": "US8269949B2",
+      "full_transcription_read": true,
+      "transcription_sha256": "f263b67e369e554ebeaf137e2c6ed25a76ff3f862a530ab89b7fab7c51f0bc06",
+      "original_pdf_sha256": "e65b42c94025948d8225be9a3797856b222ca2aa6ff9a274de9ef02447dcf839",
+      "pages": 9,
+      "primary_chapter": "7.4",
+      "secondary_chapters": [
+        8,
+        10
+      ],
+      "read_line_ranges": [
+        [
+          1,
+          260
+        ],
+        [
+          261,
+          519
+        ]
+      ],
+      "original_pages_checked": [
+        3,
+        4,
+        8,
+        9
+      ],
+      "original_page_check_methods": {
+        "visual": [
+          3,
+          4,
+          8,
+          9
+        ],
+        "pdf_text_layer": []
+      },
+      "figures_checked": [
+        {
+          "figure": "2a–d,3,4a–b",
+          "physical_page": 3,
+          "path": "references/patents/US8269949B2/figures/p0003-0003.png",
+          "interpretation_boundary": "AA驱动区、CA夹持区、SL隔槽、RA减少接触区域；均是结构/引线，非电子控制箭头。",
+          "method": "original_pdf_render_visual_inspection"
+        },
+        {
+          "figure": "5a",
+          "physical_page": 4,
+          "path": "references/patents/US8269949B2/figures/p0004-0004.png",
+          "interpretation_boundary": "WT—MB半剖面，中心较硬边缘较柔的接触凸点；未画晶圆，不得误作W—支撑温控凸点。",
+          "method": "original_pdf_render_visual_inspection"
+        },
+        {
+          "figure": "5b",
+          "physical_page": 4,
+          "path": "references/patents/US8269949B2/figures/p0004-0005.png",
+          "interpretation_boundary": "A耦合件/B肋为更强面内耦合，是5a之外策略，不能合并成全面柔化。",
+          "method": "original_pdf_render_visual_inspection"
+        }
+      ],
+      "findings": [
+        "L1: MB驱动区变形引起WT—MB接触滑移，可能留下停止加速后残余相对位移。L2: 隔离、局部顺应、变形匹配或更强耦合。L3: 力传递和计量参考到承载体的稳定关系。",
+        "原p8栏7区分可逆变形与非可逆滑移，不能以传感器重复性推出晶圆参考稳定。",
+        "原p8栏7increase与中心150%/边缘50%例自相矛盾；同页说明、图5a及原p9项13支持中心较硬边缘较软，这是原文瑕疵。",
+        "原p9项1隔槽，11近驱动区柔顺，13中心较硬，14强水平耦合；推荐正文7.4使用Fig5a清楚解释不同界面。"
+      ],
+      "limits": [
+        "不提供晶圆温控闭环证据，不与US107边缘增刚/换热对立比较，因为接触界面不同。",
+        "未证明随机滑移都可软件补偿，未给独立整机套刻改善量。"
+      ]
+    },
+    {
+      "publication": "US8947630B2",
+      "full_transcription_read": true,
+      "transcription_sha256": "5e521801cee97a0d66dcdd1fa80718854a174edcfde1397cfcf2cc31abdcd54b",
+      "original_pdf_sha256": "a1b3221a9d837a4326e4fe77efcc9b939aa84641eefb6542d4df3c05ecbd37ad",
+      "pages": 19,
+      "primary_chapter": "8",
+      "secondary_chapters": [
+        5,
+        "6.4",
+        10
+      ],
+      "read_line_ranges": [
+        [
+          1,
+          330
+        ],
+        [
+          331,
+          550
+        ],
+        [
+          551,
+          780
+        ],
+        [
+          781,
+          981
+        ]
+      ],
+      "original_pages_checked": [
+        5,
+        8,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "original_page_check_methods": {
+        "visual": [
+          5,
+          8,
+          17,
+          19
+        ],
+        "pdf_text_layer": [
+          14,
+          15,
+          16,
+          18
+        ]
+      },
+      "figures_checked": [
+        {
+          "figure": "5",
+          "physical_page": 5,
+          "path": "references/patents/US8947630B2/figures/p0005-0005.png",
+          "interpretation_boundary": "监控晶圆稳定性、产品APC及刻蚀后回路各有归属，不能统一当机器漂移。",
+          "method": "original_pdf_render_visual_inspection"
+        },
+        {
+          "figure": "10",
+          "physical_page": 8,
+          "path": "references/patents/US8947630B2/figures/p0008-0010.png",
+          "interpretation_boundary": "1000→1010→1020/1025→1030内1040/1050→1060；1070/1075分别请求/采用分析；图未画1060→1010反馈，1060非独立量测。",
+          "method": "original_pdf_render_visual_inspection"
+        }
+      ],
+      "findings": [
+        "L1: 参数接口机型耦合、模型表达与抗噪性冲突。L2: 紧凑控制模型、通用丰富请求和专属执行空间分离。L3: 量测输入、空间请求投影、实际采用量返回与趋势分析。",
+        "原p14栏12右栏开头给测量到曝光约30–60s和热致grid drift背景；MinerU栏标题后置，不能引用成栏11。",
+        "原p15栏13–14的台面热指纹和测量/曝光侧网格支持6.4至第8章接口讨论，不证明US107已输出形变场。",
+        "原p16栏15说明请求空间可超出硬件能力，1060仅表示机器实际使用的校正；文字可反馈1010，原图无该回箭头。",
+        "原p17–18权利要求核对；原p19的2016-01-12更正要求删除项1栏17行42的allowance and/or，必须按更正后理解。"
+      ],
+      "limits": [
+        "通用网格节点数不是硬件自由度数；实际采用量不是曝光后独立残差。",
+        "热指纹模型和本组其他热结构之间的集成为架构综合，未获跨专利共同整机验证。"
+      ]
+    }
+  ]
+}

@@ -55,3 +55,16 @@ US20210096472A1的Fig. 2位于原PDF物理第3页。既有MinerU裁切`figures/p
 ## R2物镜专题修订中的图片校核（2026-10-29）
 
 US8659745B2的Fig. 4位于原PDF物理第6页。既有MinerU裁切`figures/p0006-0006.png`左缘未完整保留Fig. 4图号及装置编号1；原PDF中两者完整。原PDF、机器全文及既有裁切保持原字节，R2[第6.6节](../../reports/advanced-overlay-management/r2/report.md#objective-thermal)采用完整原页渲染图，不重绘或补写原图标注；命令及哈希见[R2来源清单](../../reports/advanced-overlay-management/r2/sources.json)。
+
+
+## R3全文复核补记（2026-10-29）
+
+本节仅补充人工校核说明，原PDF、MinerU及原裁切保持原字节。继承的R2阅读记录中的解释性错误与原件／转写差异分开处理；前者由R3复核记录订正，不改写历史稿。
+
+| 资料与位置 | 核对结果与引用边界 | 记录 |
+| --- | --- | --- |
+| DE102016205618A1 p18 [0148]、p21表235a | 晶圆位移正文+0.433 µm与表中−0.433 µm符号不一致，DEZ／DCZ标识也不一致，均存在于原PDF；不裁决正确命令或摘录为控制向量 | [R3光学复核](../../reports/advanced-overlay-management/r3/review/recheck-optics.md) |
+| US20250021017A1 p26权利要求7、11 | MinerU漏失预定温度限定的引导文字，权利要求11在sub-截断；原件完整至“substrates until a convergence of at least 90% is reached” | [R3热管理复核](../../reports/advanced-overlay-management/r3/review/recheck-thermal.md) |
+| US12663725B2 p26权利要求13 | “to a zero to a zero dose”重复存在于原件，不是转写新增；须结合上下文且保留原件身份 | [R3热管理复核](../../reports/advanced-overlay-management/r3/review/recheck-thermal.md) |
+| US11175593B2 p27表1前后 | 编程套刻例中−30 nm与表后30 nm符号不一致，原PDF即如此；R3不从该例提取数值收益 | [R3量测复核](../../reports/advanced-overlay-management/r3/review/recheck-measurement.md) |
+| US7423725B2 Fig. 8—10，p5 | 既有裁切上缘未完整保留图号；R3采用完整原PDF页渲染图，未重绘或修改原件 | [R3来源清单](../../reports/advanced-overlay-management/r3/sources.json) |

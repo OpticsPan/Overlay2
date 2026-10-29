@@ -1,0 +1,336 @@
+{
+  "date": "2026-10-28",
+  "scope": "Seven-publication reading evidence for R2; report written independently of R1.",
+  "base_commit": "edd7a4e13fdddc994befcbc22147a7ac59013385",
+  "complete_publications": 7,
+  "physical_pages": 145,
+  "records": [
+    {
+      "publication": "EP4632488A1",
+      "pages": 23,
+      "title": "EP4632488A1 - A method of lithography and associated apparatuses",
+      "source_sha256": "36000e7dabeed804e504ff362a75684e8634abb1c8dc73e66da2fce1f1e9ae73",
+      "markdown_sha256": "0f400f01e24f5f864068e18138477d347c49281680c16de08a287a2b1cd15303",
+      "markdown_lines": 1082,
+      "complete_read_batches": [
+        [
+          1,
+          280
+        ],
+        [
+          281,
+          560
+        ],
+        [
+          561,
+          1082
+        ]
+      ],
+      "pdf_pages": [
+        10,
+        14,
+        15,
+        20
+      ],
+      "figures": [
+        "Fig. 6"
+      ],
+      "figure_files": [
+        "p0020-0009.png"
+      ],
+      "claims": "1–15",
+      "limits": "Layer source identification requires supporting information; no measured system improvement."
+    },
+    {
+      "publication": "US20200089127A1",
+      "pages": 24,
+      "title": "Projection exposure method and projection exposure apparatus for microlithography",
+      "source_sha256": "9a5dc19e862541d6c0788138cfb2e3f01071f05c2753b9762f5106980cbdd4cf",
+      "markdown_sha256": "96c955f94981e65736bc51e19f2c513078f0bbc66cce5e02e164868a5d650595",
+      "markdown_lines": 941,
+      "complete_read_batches": [
+        [
+          1,
+          260
+        ],
+        [
+          261,
+          440
+        ],
+        [
+          441,
+          640
+        ],
+        [
+          641,
+          800
+        ],
+        [
+          801,
+          941
+        ]
+      ],
+      "pdf_pages": [
+        9,
+        12,
+        13,
+        22,
+        23
+      ],
+      "figures": [
+        "Fig. 12"
+      ],
+      "figure_files": [
+        "p0009-0011.png"
+      ],
+      "claims": "1–16 (pages 22–23; independent lens claim 17 continues to page 24, covered in MinerU)",
+      "limits": "Sensitivity-based telecentricity estimate is not direct online telecentricity measurement."
+    },
+    {
+      "publication": "US20210096472A1",
+      "pages": 15,
+      "title": "US20210096472A1 - Control method for a scanning exposure apparatus",
+      "source_sha256": "3527aebf901e3bb258df2ba86aada2bc248799035bea2c7d71dda06ffe74b3d1",
+      "markdown_sha256": "1b7a0c3c8e76183c7991430ceea67825179cc56b79b92d52ea831cfa420fb72a",
+      "markdown_lines": 644,
+      "complete_read_batches": [
+        [
+          1,
+          235
+        ],
+        [
+          236,
+          420
+        ],
+        [
+          421,
+          644
+        ]
+      ],
+      "pdf_pages": [
+        3,
+        4,
+        9,
+        10,
+        15
+      ],
+      "figures": [
+        "Fig. 2",
+        "Fig. 3",
+        "Fig. 4",
+        "Fig. 5"
+      ],
+      "figure_files": [
+        "p0003-0003.png",
+        "p0004-0004.png",
+        "p0004-0005.png",
+        "p0004-0006.png"
+      ],
+      "claims": "1–21",
+      "limits": "Illustrative and predicted profiles; no numeric figure axis for measured overlay improvement."
+    },
+    {
+      "publication": "US20220146946A1",
+      "pages": 20,
+      "title": "Method for controlling a lithographic apparatus and associated apparatuses",
+      "source_sha256": "d7b88b0b703c544dc952c7c3a11386b026e609e1dab7d4bebe83f88c709eeb72",
+      "markdown_sha256": "91ceb30b5e89a1eb7220610181af1fa1f3b9921e764056dcc525f62985194b85",
+      "markdown_lines": 738,
+      "complete_read_batches": [
+        [
+          1,
+          260
+        ],
+        [
+          261,
+          430
+        ],
+        [
+          431,
+          600
+        ],
+        [
+          601,
+          738
+        ]
+      ],
+      "pdf_pages": [
+        6,
+        15,
+        16,
+        19,
+        20
+      ],
+      "figures": [
+        "Fig. 6(a)",
+        "Fig. 6(b)"
+      ],
+      "figure_files": [
+        "p0006-0006.png",
+        "p0006-0007.png"
+      ],
+      "claims": "1–20",
+      "limits": "Common merit function is not mandatory identical nonzero weighting or a single commercial controller."
+    },
+    {
+      "publication": "US20250110413A1",
+      "pages": 14,
+      "title": "Method for compensating actuator effects of actuators",
+      "source_sha256": "26559a08f974b9ea2b571dea1097b12fb7a34c189e334b68c31d39bc7217fbc3",
+      "markdown_sha256": "aa17e0e4d010a0d81076ed49be301fa9deb088c81af0dc0ce8337c46ea839eea",
+      "markdown_lines": 695,
+      "complete_read_batches": [
+        [
+          1,
+          290
+        ],
+        [
+          291,
+          500
+        ],
+        [
+          501,
+          695
+        ]
+      ],
+      "pdf_pages": [
+        8,
+        13,
+        14
+      ],
+      "figures": [
+        "Fig. 9",
+        "Fig. 10"
+      ],
+      "figure_files": [
+        "p0008-0013.png"
+      ],
+      "claims": "1–20 visually checked on original page 14",
+      "limits": "Claim 1 requires in-apparatus characterization; referencing is optional. Fig. 9 lacks numeric scales and experiment protocol.",
+      "figure_asset_mapping": [
+        {
+          "figure": "Fig. 9",
+          "original_pdf_physical_page": 8,
+          "figure_file": null,
+          "verification": "Visually checked in original PDF page 8; no dedicated crop in the existing figures directory."
+        },
+        {
+          "figure": "Fig. 10",
+          "original_pdf_physical_page": 8,
+          "figure_file": "p0008-0013.png",
+          "verification": "Crop visually checked and contains only the actuator characterization-to-driving flowchart."
+        }
+      ],
+      "asset_correction": "The prior combined Fig. 9/10 label for p0008-0013.png was incorrect. Both figures are on original PDF page 8, but the existing crop contains only Fig. 10."
+    },
+    {
+      "publication": "US6961116B2",
+      "pages": 32,
+      "title": "Lithographic apparatus, device manufacturing method, and device manufactured thereby",
+      "source_sha256": "8a1d141c5d2ee2382349168b75ffb82d6232d60d425cb795a3aa7f4a820c0203",
+      "markdown_sha256": "a0a68406e177f8e7630e699e1b48a5f7b78c071d3d20224a2d2499931dd004a0",
+      "markdown_lines": 1857,
+      "complete_read_batches": [
+        [
+          1,
+          440
+        ],
+        [
+          441,
+          670
+        ],
+        [
+          671,
+          920
+        ],
+        [
+          921,
+          1165
+        ],
+        [
+          1166,
+          1415
+        ],
+        [
+          1416,
+          1635
+        ],
+        [
+          1636,
+          1857
+        ]
+      ],
+      "pdf_pages": [
+        3,
+        17,
+        25,
+        27,
+        28,
+        31
+      ],
+      "figures": [
+        "Fig. 2",
+        "Fig. 3"
+      ],
+      "figure_files": [
+        "p0003-0003.png",
+        "p0003-0004.png"
+      ],
+      "claims": "1 and 18–21; correction certificate page 31",
+      "limits": "Alignment sensor and reference-transfer architecture, not actuator control. Asymmetry inversion needs a model; preserve known OCR minus error at physical page 24 Eq. 46."
+    },
+    {
+      "publication": "US9772561B2",
+      "pages": 17,
+      "title": "Semiconductor manufacturing method and tool",
+      "source_sha256": "e3cc969751dcd8ef40bdb7e3599f2aaded34de2b0f59373b3d0b7ccf7db2c880",
+      "markdown_sha256": "47e64d114e11bc4eeedbe5e241f32de5257ff5f831b8500e433b2723d6d497c3",
+      "markdown_lines": 925,
+      "complete_read_batches": [
+        [
+          1,
+          280
+        ],
+        [
+          281,
+          495
+        ],
+        [
+          496,
+          705
+        ],
+        [
+          706,
+          925
+        ]
+      ],
+      "pdf_pages": [
+        2,
+        8,
+        16,
+        17
+      ],
+      "figures": [
+        "Fig. 1",
+        "Fig. 7A",
+        "Fig. 7B"
+      ],
+      "figure_files": [
+        "p0002-0001.png",
+        "p0008-0007.png",
+        "p0008-0008.png",
+        "p0008-0009.png",
+        "p0008-0010.png"
+      ],
+      "claims": "1–20 visually checked on original page 17",
+      "limits": "3160/10002, 3160/10362 and 64/104 point cases are separate examples; pseudo full sample includes model-generated data."
+    }
+  ],
+  "checks": {
+    "local_links_checked": 35,
+    "missing_links": [],
+    "original_pdf_hashes_match_manifest": true,
+    "continuous_mineru_line_coverage": true
+  },
+  "verification_limit": "Full MinerU reading plus targeted original-PDF text/visual checks. Not full PDF character-by-character proofreading, implementation verification, or commercial machine validation."
+}

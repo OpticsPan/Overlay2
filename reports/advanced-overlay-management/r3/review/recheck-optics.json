@@ -1,0 +1,548 @@
+{
+  "group": "optics",
+  "date": "2026-10-29",
+  "baseline": "fd6f314e39c32476d81fe89a6423e12908fc4cd4",
+  "coverage": {
+    "publications": 8,
+    "physical_pages": 225,
+    "all_transcriptions_fully_read": true,
+    "scope_note": "全文通读不等于全PDF逐字校勘；original_pages_checked只列本轮亲自检查原页"
+  },
+  "records": [
+    {
+      "publication": "DE102016205618A1",
+      "full_transcription_read": true,
+      "transcription_sha256": "c46acadd11edb2c3c03fca1400e88ce91f09451f2959a963733b9e5812ac927e",
+      "pages": 72,
+      "transcription_lines_read": [
+        1,
+        2163
+      ],
+      "reading_scope": "全部转换全文，包含说明书、公式及所有表格、图纸文字、正式权利要求和附有的更正证书；连续有界区间逐段读取",
+      "primary_chapter": 8,
+      "secondary_chapters": [
+        4,
+        6,
+        10
+      ],
+      "original_pages_checked": [
+        14,
+        16,
+        18,
+        21,
+        24,
+        53,
+        54,
+        55,
+        62
+      ],
+      "original_pages_visually_checked": [
+        18,
+        21,
+        24,
+        62
+      ],
+      "original_check_method": "关键图由原PDF渲染后目视；其余列示原页以原PDF文本层辅助核对；US20230077090A1的21—23页目视读取",
+      "figures_checked": [
+        {
+          "figure": "Fig.8A",
+          "physical_page": 62,
+          "path": "references/patents/DE102016205618A1/figures/p0062-0011.png",
+          "explanation_boundary": "ME/DMAN在L1-1之前；L1-3、L3-5、L3-8为Z通道；AS孔径光阑；细线是光线，不是反馈"
+        },
+        {
+          "figure": "Fig.8B",
+          "physical_page": 62,
+          "path": "references/patents/DE102016205618A1/figures/p0062-0012.png",
+          "explanation_boundary": "纵轴milli-waves；Beta为倍率情景波前残差；FC2没有纳入，不是零场曲证明"
+        }
+      ],
+      "L1_problem": "环境、热、材料及尺度变化引起多类成像误差，纯Z移动存在耦合",
+      "L2_strategy": "旋转对称变形与Z操纵联合，提供不同响应",
+      "L3_capability": "物镜交付可用模式、联动需求和波前残差，掩模/晶圆台及波长调节协同",
+      "findings": [
+        {
+          "status": "new_source_discrepancy_resolved",
+          "source": "p18[0148]及p21表M235a",
+          "finding": "原件分别写晶圆+0.433µm与beta列DCZ WAF -0.433；差异属于原件，不能择一生成命令。"
+        },
+        {
+          "status": "confirmed",
+          "source": "p14[0109]-[0113]、p24表M232a、p53-55权利要求1-20",
+          "finding": "减少的是Z镜片通道；同时有变形模式、掩模/晶圆和部分场景波长动作。Fig6/7同设计，Fig8为类似但有改动设计。"
+        },
+        {
+          "status": "confirmed",
+          "source": "p16[0130]-[0131]",
+          "finding": "距离不敏感有特定方案前提；上下表面同形是理想化模拟。"
+        }
+      ],
+      "limits": [
+        "未重算全部处方、操纵量和有限元；原件符号差异未能裁决正确值",
+        "波前残差及权利要求17阈值不是overlay；DUV折反射主动镜不是EUV实证"
+      ]
+    },
+    {
+      "publication": "US20020008861A1",
+      "full_transcription_read": true,
+      "transcription_sha256": "343f1434e87e76f5e1b10cdeecff7a767a6371f8d10c1c2e1a990ca35f029e33",
+      "pages": 14,
+      "transcription_lines_read": [
+        1,
+        729
+      ],
+      "reading_scope": "全部转换全文，包含说明书、公式及所有表格、图纸文字、正式权利要求和附有的更正证书；连续有界区间逐段读取",
+      "primary_chapter": 8,
+      "secondary_chapters": [
+        6,
+        7,
+        10
+      ],
+      "original_pages_checked": [
+        3,
+        8,
+        12,
+        13,
+        14
+      ],
+      "original_pages_visually_checked": [
+        3
+      ],
+      "original_check_method": "关键图由原PDF渲染后目视；其余列示原页以原PDF文本层辅助核对；US20230077090A1的21—23页目视读取",
+      "figures_checked": [
+        {
+          "figure": "Fig.2",
+          "physical_page": 3,
+          "path": "references/patents/US20020008861A1/figures/p0003-0003.png",
+          "explanation_boundary": "近末透镜气室13与压力接口14；无反馈环"
+        },
+        {
+          "figure": "Fig.3",
+          "physical_page": 3,
+          "path": "references/patents/US20020008861A1/figures/p0003-0004.png",
+          "explanation_boundary": "端板拆为12a/12b构成近似平行气室，压力致挠曲须受限"
+        },
+        {
+          "figure": "Fig.4",
+          "physical_page": 3,
+          "path": "references/patents/US20020008861A1/figures/p0003-0005.png",
+          "explanation_boundary": "15→14→13与15′→14′→16为分别供气；17弱曲率边界；箭头不是光路或套刻反馈"
+        }
+      ],
+      "L1_problem": "气压、发热及压实改变球差，传统校正可能诱发其他像差",
+      "L2_strategy": "受控气室折射率形成相对专用响应，预置偏置保留余量",
+      "L3_capability": "气路提供稳定设定，物镜标定球差及可选场曲作用",
+      "findings": [
+        {
+          "status": "confirmed",
+          "source": "p8[0036]-[0042]、p12-14权利要求1-39",
+          "finding": "压力/配气作用、附加场曲气隙及制造地—安装地—天气补偿三阶段须区分。"
+        }
+      ],
+      "limits": [
+        "近似平行边界、远心性、窗片抗挠曲是作用前提",
+        "193.3nm/NA0.85、248.4nm/NA0.8处方不是EUV或整机套刻证据；无高速气动带宽数据"
+      ]
+    },
+    {
+      "publication": "US20090207511A1",
+      "full_transcription_read": true,
+      "transcription_sha256": "2c804343126664232c9919c1d2dabc8813d9c7f6d6442dda4a00327b122e9fb5",
+      "pages": 20,
+      "transcription_lines_read": [
+        1,
+        744
+      ],
+      "reading_scope": "全部转换全文，包含说明书、公式及所有表格、图纸文字、正式权利要求和附有的更正证书；连续有界区间逐段读取",
+      "primary_chapter": 7,
+      "secondary_chapters": [
+        4,
+        8,
+        10
+      ],
+      "original_pages_checked": [
+        5,
+        13,
+        17,
+        18,
+        19,
+        20
+      ],
+      "original_pages_visually_checked": [
+        5
+      ],
+      "original_check_method": "关键图由原PDF渲染后目视；其余列示原页以原PDF文本层辅助核对；US20230077090A1的21—23页目视读取",
+      "figures_checked": [
+        {
+          "figure": "Fig.3",
+          "physical_page": 5,
+          "path": "references/patents/US20090207511A1/figures/p0005-0005.png",
+          "explanation_boundary": "22内支承、19外支承、10局部组件、20弹性杆、21连接；10箭头为指认，不是动作或六轴反馈"
+        }
+      ],
+      "L1_problem": "装调与稳定支承互相制约，耦合约束力引入寄生形变",
+      "L2_strategy": "弹性传力、中间环、静定支承减少非预期耦合",
+      "L3_capability": "提供相对位置/姿态和基准保持；光学作用另行标定",
+      "findings": [
+        {
+          "status": "confirmed",
+          "source": "p13[0012]-[0013]",
+          "finding": "positioning含一次性校准、开/闭环；材料可部分弹性部分塑性，不能统一宣称重复动态执行。"
+        },
+        {
+          "status": "confirmed",
+          "source": "p17[0094]-[0096]、p18[0118]、p18-20权利要求",
+          "finding": "三个两自由度组件可形成六自由度；另有主动变形实施方式，不等同避免形变的刚体装调。已读撤销权利要求项。"
+        }
+      ],
+      "limits": [
+        "无纳米重复性或带宽数据",
+        "机械原则不构成具体波长、真空环境或整机性能证明"
+      ]
+    },
+    {
+      "publication": "US20130188160A1",
+      "full_transcription_read": true,
+      "transcription_sha256": "b3ce362efe912417754ba8806f89524ba1e0b6cfe59bd7bc71e22191d11330e7",
+      "pages": 22,
+      "transcription_lines_read": [
+        1,
+        907
+      ],
+      "reading_scope": "全部转换全文，包含说明书、公式及所有表格、图纸文字、正式权利要求和附有的更正证书；连续有界区间逐段读取",
+      "primary_chapter": 8,
+      "secondary_chapters": [
+        4,
+        5,
+        6,
+        10
+      ],
+      "original_pages_checked": [
+        3,
+        18,
+        21,
+        22
+      ],
+      "original_pages_visually_checked": [
+        3
+      ],
+      "original_check_method": "关键图由原PDF渲染后目视；其余列示原页以原PDF文本层辅助核对；US20230077090A1的21—23页目视读取",
+      "figures_checked": [
+        {
+          "figure": "Fig.2",
+          "physical_page": 3,
+          "path": "references/patents/US20130188160A1/figures/p0003-0003.png",
+          "explanation_boundary": "30/32/36/40/42为光路，瞳区38和偏振器58/60/64；74→66及66↔仿真框为信息；图号70/正文72冲突原件存在；未画套刻测量器"
+        }
+      ],
+      "L1_problem": "高阶非对称像差导致图形节距、方向与照明相关IPE",
+      "L2_strategy": "选择椭圆偏振分布形成抵消像位移",
+      "L3_capability": "照明/物镜提供配方相关响应与偏振传递，整机选择并验收",
+      "findings": [
+        {
+          "status": "confirmed",
+          "source": "p18[0091]-[0094]、p21-22权利要求1-20",
+          "finding": "测量或仿真IPE驱动偏振选择，不等于消除原有像差。"
+        },
+        {
+          "status": "confirmed",
+          "source": "p21[0123]-[0125]",
+          "finding": "下游掩模/光学不得显著破坏偏振；可移至物镜瞳附近，并可增加场附近元件；场/瞳调节职责不同。"
+        },
+        {
+          "status": "confirmed_source_discrepancy",
+          "source": "p3 Fig2、p18[0092]",
+          "finding": "仿真方框图标70，正文72，保留原件差异。"
+        }
+      ],
+      "limits": [
+        "全篇公式已读但未重新推导；不转录为可执行算法",
+        "具体193nm及另述248/157nm，背景EUV非实现证明；无普适配方或整机overlay保证"
+      ]
+    },
+    {
+      "publication": "US20180081281A1",
+      "full_transcription_read": true,
+      "transcription_sha256": "31accb5cf5d5ea642a84ec9c40d173ee6fe07597f3ac2a166fccbf99278e25fe",
+      "pages": 20,
+      "transcription_lines_read": [
+        1,
+        763
+      ],
+      "reading_scope": "全部转换全文，包含说明书、公式及所有表格、图纸文字、正式权利要求和附有的更正证书；连续有界区间逐段读取",
+      "primary_chapter": 8,
+      "secondary_chapters": [
+        4,
+        5,
+        6,
+        10
+      ],
+      "original_pages_checked": [
+        7,
+        11,
+        12,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "original_pages_visually_checked": [
+        7
+      ],
+      "original_check_method": "关键图由原PDF渲染后目视；其余列示原页以原PDF文本层辅助核对；US20230077090A1的21—23页目视读取",
+      "figures_checked": [
+        {
+          "figure": "Fig.9",
+          "physical_page": 7,
+          "path": "references/patents/US20180081281A1/figures/p0007-0010.png",
+          "explanation_boundary": "TRIG/POS/SEL-TAB选表；只左支展开MOD/OPT/CHECK；N回选表、Y至CONT；不是光路或每扫描周期频率"
+        }
+      ],
+      "L1_problem": "近场相对几何变化使同一操纵量的成像响应改变",
+      "L2_strategy": "调整几何及/或带适用区间的灵敏度系列，优化后再复核",
+      "L3_capability": "物镜维护当前响应与有效范围，掩模台共享状态，整机协调动作",
+      "findings": [
+        {
+          "status": "new_qualification",
+          "source": "p18[0111]",
+          "finding": "允许设置越界幅度阈值避免微小跨界产生无限优化循环；改写R2无条件越界必重选措辞。"
+        },
+        {
+          "status": "confirmed",
+          "source": "p16-17[0093]-[0105]",
+          "finding": "3mm/6mm是示例放大比较；固定位置近似线性但绝对灵敏度不同；1%/0.1%是波前RMS倍增偏差，nm为波前系数。"
+        },
+        {
+          "status": "confirmed",
+          "source": "p19-20权利要求1-20",
+          "finding": "权利要求1/9都有灵敏度系列/阈值切换，9另有可移动支承；原文11/12互引，不据其扩张结论。"
+        },
+        {
+          "status": "confirmed",
+          "source": "p11-12[0035]-[0039]",
+          "finding": "SAR场面0、瞳面绝对值1，与US865约定相反，阈值不可直接拼接。"
+        }
+      ],
+      "limits": [
+        "没有给定触发频率；可测量触发或计划前馈",
+        "µm操纵量与nm波前系数不能直接当套刻精度；板倾斜可能需额外补偿"
+      ]
+    },
+    {
+      "publication": "US20230077090A1",
+      "full_transcription_read": true,
+      "transcription_sha256": "a21cf686b214e8046b9b005ea4928b9712860323ce918b54038195c9890562a7",
+      "pages": 23,
+      "transcription_lines_read": [
+        1,
+        651
+      ],
+      "reading_scope": "全部转换全文，包含说明书、公式及所有表格、图纸文字、正式权利要求和附有的更正证书；连续有界区间逐段读取",
+      "primary_chapter": 8,
+      "secondary_chapters": [
+        5,
+        7,
+        10
+      ],
+      "original_pages_checked": [
+        2,
+        6,
+        21,
+        22,
+        23
+      ],
+      "original_pages_visually_checked": [
+        2,
+        6,
+        21,
+        22,
+        23
+      ],
+      "original_check_method": "关键图由原PDF渲染后目视；其余列示原页以原PDF文本层辅助核对；US20230077090A1的21—23页目视读取",
+      "figures_checked": [
+        {
+          "figure": "Fig.1",
+          "physical_page": 2,
+          "path": "references/patents/US20230077090A1/figures/p0002-0002.png",
+          "explanation_boundary": "60A/B在瞳区，40A/B在远心像方38；12/14/18/16/20光路，22/26/30台与支承，32控制；无套刻测量闭环"
+        },
+        {
+          "figure": "Fig.3A",
+          "physical_page": 6,
+          "path": "references/patents/US20230077090A1/figures/p0006-0008.png",
+          "explanation_boundary": "150/152两板方位、154平均、156零位；α相对角、B平均角，分别管理像散幅度/方向"
+        },
+        {
+          "figure": "Fig.3B",
+          "physical_page": 6,
+          "path": "references/patents/US20230077090A1/figures/p0006-0007.png",
+          "explanation_boundary": "60A/B旋转板，62A/B相向鞍面，64A/B外侧平面；不是双弯板45度轴图"
+        }
+      ],
+      "L1_problem": "非等向倍率校正伴随像散、等向倍率与焦面变化",
+      "L2_strategy": "双弯板加双旋转板及额外倍率/焦面动作联合",
+      "L3_capability": "提供受相互约束的几何与波前响应，协调台面及物镜",
+      "findings": [
+        {
+          "status": "confirmed",
+          "source": "p21[0049]-[0050]、p22[0053]-[0058]",
+          "finding": "NA0.065、250×250mm、363-370nm，9×9场点三项拟合；100ppm为正负100两方向，差200；<1nm是设计拟合残差，焦面<1nm另属一个指标；排除物镜其他误差和制造误差。"
+        },
+        {
+          "status": "confirmed",
+          "source": "p22[0052],[0054]、p22-23权利要求1-20",
+          "finding": "需要额外等向倍率与最佳焦面动作；双板子模块不覆盖全部动作。"
+        },
+        {
+          "status": "confirmed_source_discrepancy",
+          "source": "p21[0051]、p22[0052]",
+          "finding": "原件有100 pm字样，完整上下文及表下注对应ppm；应保留源文问题。"
+        }
+      ],
+      "limits": [
+        "只为低NA大像场计算案例；不能转移到高NA DUV/EUV整机overlay",
+        "旋转速度可能受瞳尺寸影响，无已验证运行节拍"
+      ]
+    },
+    {
+      "publication": "US8659745B2",
+      "full_transcription_read": true,
+      "transcription_sha256": "df84ff57502fee5731280b848d2f57bb6c1c9fb93e4f34b4ad702cdc33e183e6",
+      "pages": 24,
+      "transcription_lines_read": [
+        1,
+        967
+      ],
+      "reading_scope": "全部转换全文，包含说明书、公式及所有表格、图纸文字、正式权利要求和附有的更正证书；连续有界区间逐段读取",
+      "primary_chapter": 6,
+      "secondary_chapters": [
+        7,
+        8,
+        10
+      ],
+      "original_pages_checked": [
+        6,
+        11,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "original_pages_visually_checked": [
+        6,
+        11
+      ],
+      "original_check_method": "关键图由原PDF渲染后目视；其余列示原页以原PDF文本层辅助核对；US20230077090A1的21—23页目视读取",
+      "figures_checked": [
+        {
+          "figure": "Fig.4",
+          "physical_page": 6,
+          "path": "references/patents/US8659745B2/figures/p0006-0006.png",
+          "explanation_boundary": "4为掩模定位装置、5为reticle；14/14″近场、14′近瞳；晶圆双箭头为运动、11为光束；裁剪缺左端，宜用完整原页；无反馈环"
+        },
+        {
+          "figure": "Fig.7",
+          "physical_page": 11,
+          "path": "references/patents/US8659745B2/figures/p0011-0011.png",
+          "explanation_boundary": "8a/b两板、30a/b安装座、13d板间、13b整组执行、15夹紧；17箭头为抽出更换"
+        },
+        {
+          "figure": "Fig.8",
+          "physical_page": 11,
+          "path": "references/patents/US8659745B2/figures/p0011-0012.png",
+          "explanation_boundary": "保留执行器，18导向，17抽出；两级参考在正文，图未示完整检测链"
+        }
+      ],
+      "L1_problem": "吸收及照明/掩模分布引起热像差；新配方可能超出已装场附近校正器的符号与响应范围",
+      "L2_strategy": "按应用选择场/瞳位置与机械/热/板间运动作用，必要时升级模块",
+      "L3_capability": "热管理解释负载及目标；通用执行提供可达模式、参考恢复、状态适用性与残差",
+      "findings": [
+        {
+          "status": "correction_to_r2",
+          "source": "p17 col1及p6 Fig4",
+          "finding": "R2掩模4/图形5应改为掩模定位装置4/掩模5。"
+        },
+        {
+          "status": "expand_r2",
+          "source": "p18 col4-p19 col5、p23 claims28-30",
+          "finding": "热操纵包括边缘热/冷、Peltier、定向对流、不同波长吸收加热及加热丝，用于受控温度分布与光学响应；不是只有散热。"
+        },
+        {
+          "status": "emphasize_process_boundary",
+          "source": "p20 col7与p21 col9",
+          "finding": "应用像差测量/仿真→概念→制造安装是设计升级；预计算/存储/调用板间相对位置是运行能力。"
+        },
+        {
+          "status": "confirmed",
+          "source": "p20 cols7-8、p22-23 claims1-32、p24 correction",
+          "finding": "更换后恢复绝对及板间参考；更正页未改此机制；SAR瞳0/场±1不可与US2018直接拼接。"
+        }
+      ],
+      "limits": [
+        "无热操纵频率、换装节拍、参考重复性或整机overlay保证",
+        "具体实施选项不表示同机全部配备；透射板不能直接外推EUV"
+      ]
+    },
+    {
+      "publication": "US9069263B2",
+      "full_transcription_read": true,
+      "transcription_sha256": "4f2cc2714b526668a08018a93acede5dab09b70d43aefc52ac8a782349adff95",
+      "pages": 30,
+      "transcription_lines_read": [
+        1,
+        1286
+      ],
+      "reading_scope": "全部转换全文，包含说明书、公式及所有表格、图纸文字、正式权利要求和附有的更正证书；连续有界区间逐段读取",
+      "primary_chapter": 8,
+      "secondary_chapters": [
+        6,
+        10
+      ],
+      "original_pages_checked": [
+        3,
+        23,
+        24,
+        26,
+        28,
+        29,
+        30
+      ],
+      "original_pages_visually_checked": [
+        3
+      ],
+      "original_check_method": "关键图由原PDF渲染后目视；其余列示原页以原PDF文本层辅助核对；US20230077090A1的21—23页目视读取",
+      "figures_checked": [
+        {
+          "figure": "Fig.1",
+          "physical_page": 3,
+          "path": "references/patents/US9069263B2/figures/p0003-0002.png",
+          "explanation_boundary": "A二次、B反号四次、虚线C叠加；曲线指认无控制箭头，无晶圆nm轴，不是套刻曲线"
+        }
+      ],
+      "L1_problem": "单片变形通道主阶/高阶作用相关，修正一项可能增大另一项",
+      "L2_strategy": "选择几何/位置/施力不同的至少两片透镜并组合",
+      "L3_capability": "交付独立可调模式与耦合关系，不以执行器个数代替可控性",
+      "findings": [
+        {
+          "status": "confirmed",
+          "source": "p23 cols3-4、p24 cols5-6、p26 cols9-10",
+          "finding": "独立作用取决于选取与响应；主阶/高阶相关指特定单通道响应，不能写成Zernike基函数普遍线性相关。"
+        },
+        {
+          "status": "confirmed",
+          "source": "p28-29 claims1-28、p30 correction",
+          "finding": "1/16要求主阶/高阶相对独立；9/23给响应比相近反号方案，10/24正负透镜；更正证书只修文字。"
+        }
+      ],
+      "limits": [
+        "示例NA和折射/折反射、干式/浸没不证明具体商业机型或统一波长",
+        "无整机overlay实测，未重算图示函数或优化数值"
+      ]
+    }
+  ]
+}

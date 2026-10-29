@@ -1,0 +1,269 @@
+{
+  "report": "先进光刻机套刻管理架构",
+  "revision": "R3",
+  "date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "status": "已完成撰写与本地核验；待用户内容审阅",
+  "baseline": "fd6f314e39c32476d81fe89a6423e12908fc4cd4",
+  "writing_mode": "inherited_revision",
+  "parent_report": {
+    "path": "../r2/report.md",
+    "sha256": "6c35f5f27b346e5e5e52e7eda0986cee2357fa657966b22304b25ad12b8a89ec",
+    "bytes": 106391
+  },
+  "approval": {
+    "scope": "组织逻辑v0.2，不含报告研究结论验收",
+    "date": "2026-10-29",
+    "instruction": "审阅通过，按照这个逻辑撰写R3。",
+    "record": "../planning/r3-logic-review.md"
+  },
+  "format": "GitHub-friendly Markdown",
+  "pdf_generated": false,
+  "scope": "L0 relationships, L1 chapter navigation, L2 strategies and L3 capabilities; L4 interfaces only",
+  "full_transcription_reading": {
+    "date": "2026-10-29",
+    "publications": 45,
+    "physical_pages": 1114,
+    "original_pdf_pages_checked": 276,
+    "records": "review/recheck-*.md and .json",
+    "all_pdf_pages_manually_collated": false,
+    "method": "Complete MinerU reread by six independent source groups; original PDF/figure/claims checks itemized per publication. Original page counts include visual and text-layer verification as separately stated in records."
+  },
+  "report_figures": {
+    "total": 36,
+    "author_synthesis": 2,
+    "patent_images": 34,
+    "numbered_groups": 34,
+    "display_only_rotations": 3,
+    "full_pdf_page_renders": 3
+  },
+  "artifacts": {
+    "figures/architecture.py": {
+      "sha256": "775834a892f34fe9b5f85935e782e6be889f295a6f2e08a60ab6007d75a8215b",
+      "bytes": 10489
+    },
+    "figures/architecture.svg": {
+      "sha256": "46b2716a0269f5983d2031a3f09b61f8ce4b0b503877a3058fc4cbc28c867b37",
+      "bytes": 217185
+    },
+    "figures/chapter-navigation.py": {
+      "sha256": "aa561c30adde01c4d050b8556b085a3ebf8c95adc88e44c1f74e91a32154e06f",
+      "bytes": 10597
+    },
+    "figures/chapter-navigation.svg": {
+      "sha256": "22fa6e83658b2b9c6c0042b1a26f22e36d358a5cfb6f10dfa805e6ecda350b5e",
+      "bytes": 246516
+    },
+    "figures/layer-layout.svg": {
+      "sha256": "665875379cdaabc8668a3c5779c50e1116c709ccb2a1722bfb0b55b0c1c7a6fb",
+      "bytes": 268684
+    },
+    "figures/noise-layout.svg": {
+      "sha256": "c1f6030072110f7ecbd731520ed536e97579409bbb53b97a67890355a258697b",
+      "bytes": 84501
+    },
+    "figures/patent-layouts.py": {
+      "sha256": "33e1dd9719006144f0b8c030433397c256563dd5eb83ed3882c7fd0b8b2c5903",
+      "bytes": 984
+    },
+    "figures/sampling-layout.svg": {
+      "sha256": "88b4c8c28d38f47b86f13c4f5df29300c30699fa27b2928b1237a1795c56f536",
+      "bytes": 301652
+    },
+    "figures/us20210096472a1-page3.png": {
+      "sha256": "16db361e1cd7f971fbd08b6217ea80a8e5a17de55f167cb8df48f45228cbb5d9",
+      "bytes": 58070
+    },
+    "figures/us7423725b2-page5.png": {
+      "sha256": "d4436eca28d2a040adb6873a8af4e8339fc2fcbd1d37e4ad15ecce4655295d4e",
+      "bytes": 84545
+    },
+    "figures/us8659745b2-page6.png": {
+      "sha256": "f458c2aaca1b7525fe42c7e7b5f83df7b9026ee03fe69a235dcd56b73c050567",
+      "bytes": 42238
+    },
+    "report.md": {
+      "sha256": "d748a03d80555f10517c176381e2da0cac0a48b82e32c09684a26b4d0e1ae250",
+      "bytes": 132145
+    },
+    "review/control.json": {
+      "sha256": "d3b0dfc30d306793f262a13f8f4853334d03107235f989a9d77a412c514b70b5",
+      "bytes": 6815
+    },
+    "review/control.md": {
+      "sha256": "7f63aac3cf8d43c8f5193cce2e0133de1b824ceae7682eca916c61802ce5ef6e",
+      "bytes": 38922
+    },
+    "review/editorial-review.md": {
+      "sha256": "d829c652f64ae8b398c29215f1b09487031057c855cf801b9a81393faf487f00",
+      "bytes": 2873
+    },
+    "review/execution.json": {
+      "sha256": "acf3011898b4e90081a2e29699186ec9b4ab651c3a492570b48c3c511a5c6458",
+      "bytes": 8658
+    },
+    "review/execution.md": {
+      "sha256": "61cc7c8fbc7275cf9c2f88541e8241fbbdcc88eccb0194635e691606714280d4",
+      "bytes": 29248
+    },
+    "review/measurement.md": {
+      "sha256": "bebbd56d1e5a8779f578dbc6098f612a5b61532e0f5ad39f269ca4976825166a",
+      "bytes": 42828
+    },
+    "review/mechanics.md": {
+      "sha256": "5a6907625261f07b86df6e2ffeab7986c91834c45827ae351acf4097a59bf391",
+      "bytes": 33399
+    },
+    "review/optics.md": {
+      "sha256": "9bcab769e8da205b385951953fd4388839a49d241499e5d2e395c381dd9e61ce",
+      "bytes": 46984
+    },
+    "review/recheck-control.json": {
+      "sha256": "a6d8699d1d197e06b69b3921e5692d92a8bac686db7a20fa87fc1d233a5816fd",
+      "bytes": 19985
+    },
+    "review/recheck-control.md": {
+      "sha256": "7ff5ff6e8df42d9d6cfcd6271561455e11d911e70b5d5c8a76933bfbf3be180d",
+      "bytes": 20156
+    },
+    "review/recheck-execution.json": {
+      "sha256": "b3fdb9677d21a86ba0878d8e41668f148df8d4eaf3c076aa11e0087545a8d30c",
+      "bytes": 39005
+    },
+    "review/recheck-execution.md": {
+      "sha256": "2ff1176989cf028d5811e0d4445a464711c59886a6c37b3513970c918d0cf7eb",
+      "bytes": 32092
+    },
+    "review/recheck-measurement.json": {
+      "sha256": "326d2a45567a1b27166bf0b69b1233146ea07f5c61f9afdc6c8a1bb06de7033f",
+      "bytes": 29397
+    },
+    "review/recheck-measurement.md": {
+      "sha256": "0d447b28bab77bcf39c52edaa38dcccebbbb2475c351605125fb804f0a907fcc",
+      "bytes": 27884
+    },
+    "review/recheck-mechanics.json": {
+      "sha256": "1b40a178579bd587c97efb0c87d272c0e2d99f22ae62859d199928ca608438e2",
+      "bytes": 23656
+    },
+    "review/recheck-mechanics.md": {
+      "sha256": "da948e248a4e2bf6ca3e37fe0847a4421c566291ad03610a2964c934407d1c7e",
+      "bytes": 27126
+    },
+    "review/recheck-optics.json": {
+      "sha256": "7651afc7c0e22b8e43c40816836fca395b66ba8fdaf9a17fc3e6f2cd6b36dee0",
+      "bytes": 22083
+    },
+    "review/recheck-optics.md": {
+      "sha256": "22434903d0021ae4526e1236fe41e4bfccb16e65e2f5e90e3e94e5d149091a11",
+      "bytes": 20864
+    },
+    "review/recheck-thermal.json": {
+      "sha256": "d56d54b84840caa89f1c663875731b7b4419d9c8bf116661412ca270d56642be",
+      "bytes": 27138
+    },
+    "review/recheck-thermal.md": {
+      "sha256": "c15feb2db4cb94e07f8693f7fd1113c0d421677358dbdccb86c70b4e57d81fb0",
+      "bytes": 22849
+    },
+    "review/thermal.md": {
+      "sha256": "1aba9400dba6d7ccf90b42d7e240d44fdd6c088028f198d5f17164613330f24e",
+      "bytes": 48142
+    },
+    "sources.json": {
+      "sha256": "eab9a99b4228487b328c716d647667e06cd0439495f163855954a5e594cedf24",
+      "bytes": 94419
+    }
+  },
+  "checks": {
+    "unit_tests": {
+      "command": ".venv/bin/python -m unittest discover -s tests -v",
+      "passed": 18,
+      "failed": 0
+    },
+    "repository": {
+      "command": ".venv/bin/python tools/validate_repository.py --base fd6f314e39c32476d81fe89a6423e12908fc4cd4",
+      "scope": "source bytes, actual PDF pages, Markdown anchors, local links and original preservation",
+      "semantic_fidelity_certified": false,
+      "publications": 45,
+      "physical_pages": 1114,
+      "figures": 624,
+      "artifact_files": 714,
+      "markdown_files": 87,
+      "local_links": 3947,
+      "baseline_checked": true,
+      "errors": [],
+      "warnings": [
+        "Structural checks do not certify OCR accuracy, formulas, reading order or technical conclusions."
+      ]
+    },
+    "source_and_content": {
+      "report_figures_sequential": true,
+      "images": 36,
+      "numbered_groups": 34,
+      "unique_explicit_anchors": 20,
+      "source_hashes": 172,
+      "rotated_original_bytes_verified": 3,
+      "r2_and_structure_unchanged": true,
+      "source_assets_unchanged": true
+    },
+    "navigation_layout": {
+      "width": 1080,
+      "height": 1416.6,
+      "nodes": 10,
+      "topic_groups": 1,
+      "text_lines": 47,
+      "text_overflow": [],
+      "minimum_text_margin_px": 20.5,
+      "overlapping_nodes": 0,
+      "connector_node_crossings": 0,
+      "connector_text_crossings": 0,
+      "main_body_font_px": 22,
+      "smallest_font_px": 19
+    },
+    "navigation_deterministic_rebuild": true,
+    "web_preview": {
+      "engine": "Pandoc GFM to HTML5 and Chromium; local approximation of GitHub Markdown, not a screenshot of live GitHub",
+      "desktop_viewport_px": 1080,
+      "desktop_body_max_width_px": 840,
+      "mobile_viewport_px": 390,
+      "desktop_document_width_px": 1080,
+      "mobile_document_width_px": 390,
+      "images_loaded": 36,
+      "internal_links_checked": 28,
+      "tables": 18,
+      "all_images_loaded": true,
+      "all_internal_targets_found": true,
+      "visual_checks": [
+        "L0 architecture at desktop size",
+        "L1 navigation at desktop size and mobile thumbnail",
+        "New IPD original figure",
+        "Wafer thermal section and controller figure",
+        "US742 complete original page",
+        "US826 mirrorblock support figure"
+      ],
+      "mobile_limit": "Complex diagrams are thumbnails on phones; explicit original-image zoom links and textual navigation are provided."
+    },
+    "independent_semantic_review": {
+      "record": "review/editorial-review.md",
+      "findings_addressed": [
+        "focus terminology",
+        "precise L4 source entries",
+        "US202100 identification at section opening",
+        "US826 original wording discrepancy pointer"
+      ],
+      "limits": "Focused original-source sampling and whole-report structural review, not full semantic certification"
+    }
+  },
+  "source_material_changes": "No original PDF, MinerU or original image changes. QUALITY.md updated with separate human notes. R2 and reports/STRUCTURE.md byte-identical to baseline.",
+  "limits": [
+    "No commercial-machine adoption or unified nm overlay performance inferred.",
+    "No all-page manual PDF collation claimed.",
+    "No R3 PDF generated or PDF layout validated.",
+    "Repository checks do not certify technical conclusions."
+  ],
+  "remote_verification": {
+    "status_at_recording": "pending final commit/push; current-run result must be checked against the final commit, never inherited from R2",
+    "workflow": "https://github.com/OpticsPan/Overlay2/actions/workflows/repository-checks.yml"
+  }
+}

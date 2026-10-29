@@ -1,0 +1,554 @@
+{
+  "group": "control",
+  "date": "2026-10-29",
+  "baseline": "fd6f314e39c32476d81fe89a6423e12908fc4cd4",
+  "scope": "独立连续全文阅读7件MinerU，选定原PDF关键页语义核对；不表示195页逐字校勘。",
+  "records": [
+    {
+      "publication": "US11300886B2",
+      "full_transcription_read": true,
+      "transcription_sha256": "b38b5285a1d20515663768a1dd7579669b8ca0ab19aa6302ad7e0d56d573871b",
+      "transcription_lines": 774,
+      "read_line_ranges": [
+        [
+          1,
+          280
+        ],
+        [
+          281,
+          560
+        ],
+        [
+          561,
+          774
+        ]
+      ],
+      "pages": 13,
+      "primary_chapter": 6,
+      "secondary_chapters": [
+        5,
+        4,
+        10
+      ],
+      "original_pages_checked": [
+        5,
+        7,
+        10,
+        11,
+        13
+      ],
+      "original_check_method": "原PDF关键文字以pdftotext提取核对；关键图以原PDF整页渲染目视",
+      "l1_problem": "曝光加热/冷却产生批内、片内变化；静态热校准参数随使用条件失配。",
+      "l2_strategy": "反馈同时关联量测与已施加前馈作用，修正模型参数或模型导出的前馈参数，辅助APC。",
+      "l3_capabilities": [
+        "保存曝光条件、热历史、实际前馈及量测的同对象关系",
+        "物镜借测量结构灵敏度估计Zernike后修正μ/τ",
+        "晶圆比较FEM场特定形变指纹与量测，调整缩放λ"
+      ],
+      "figures_checked": [
+        {
+          "figure": "3A",
+          "physical_page": 5,
+          "path": "references/patents/US11300886B2/figures/p0005-0004.png",
+          "boundary": "静态掩模参数301/数据库302、温度303/预测304与量测305/APC306；示意而非实测收益。"
+        },
+        {
+          "figure": "3B",
+          "physical_page": 5,
+          "path": "references/patents/US11300886B2/figures/p0005-0005.png",
+          "boundary": "307/308表示适应后的来源路径；是掩模案例，不能替代物镜/晶圆正文依据。"
+        },
+        {
+          "figure": "5",
+          "physical_page": 7,
+          "path": "references/patents/US11300886B2/figures/p0007-0007.png",
+          "boundary": "501开始、503工艺、505量测、507修正、509适应、511结束；通用参数反馈而非专用物镜硬件。"
+        }
+      ],
+      "findings": [
+        "p10栏5对批内同一APC校正的描述限于原文已知系统，不是所有APC的固有限制。",
+        "p10栏5及p11栏7–8支持物镜Zernike热响应和由overlay/alignment经灵敏度求参数修正。",
+        "p10栏6、p11栏8支持晶圆FEM场特定形变及缩放λ；同设置各晶圆使用对应场指纹，不能统一写热时间常数更新。",
+        "p13正式权利要求1涵盖模型参数或派生前馈参数，6/7为Zernike，9/10为晶圆场畸变/缩放，11为混合抽样。",
+        "R2物镜解释基本正确；R3需补晶圆链并将第5章反馈职责与第6章对象物理含义分开。"
+      ],
+      "limits": [
+        "图3为掩模实例，303不是物镜温度传感器。",
+        "混合抽样增加跨片空间覆盖，不等于每片密集实时测量。",
+        "没有证明任意热源及工艺残差可由稀疏数据唯一识别；无通用纳米收益。"
+      ]
+    },
+    {
+      "publication": "US11513444B2",
+      "full_transcription_read": true,
+      "transcription_sha256": "6aa3a0544e857a5e46e23360ed3d0c23846457d4713d3b46585524fbaf37df6e",
+      "transcription_lines": 903,
+      "read_line_ranges": [
+        [
+          1,
+          300
+        ],
+        [
+          301,
+          600
+        ],
+        [
+          601,
+          903
+        ]
+      ],
+      "pages": 17,
+      "primary_chapter": 4,
+      "secondary_chapters": [
+        5,
+        10
+      ],
+      "original_pages_checked": [
+        5,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "original_check_method": "原PDF整页渲染后目视核对关键文字、正式权利要求和图示",
+      "l1_problem": "量测大异常可能来自随机污染，也可能是应保留的重复系统性指纹。",
+      "l2_strategy": "合用场内异常与场间系统性判断后过滤，避免噪声驱动错误校正。",
+      "l3_capabilities": [
+        "场内排名及跨场位置对应",
+        "系统性信息判断与过滤后补偿",
+        "质量判据和剔除数据可追溯（报告综合）"
+      ],
+      "figures_checked": [
+        {
+          "figure": "2",
+          "physical_page": 5,
+          "path": "references/patents/US11513444B2/figures/p0005-0004.png",
+          "boundary": "206场内和208场间判断并行到209，210过滤、212可选、214补偿、216调整。"
+        },
+        {
+          "figure": "6",
+          "physical_page": 9,
+          "path": "references/patents/US11513444B2/figures/p0009-0013.png",
+          "boundary": "602/604/606为场；622/624/626重复，620在本例视为噪声；无幅值标尺，不推普适判据。"
+        }
+      ],
+      "findings": [
+        "p13栏7–8的reticle effects包括设备、环境、工艺及晶圆等广义系统性作用。",
+        "p14栏9–10中排名识别候选异常，异常不直接等于噪声。",
+        "p15栏11–12中只过滤异常且非系统性作用者，212为可选进一步过滤。",
+        "p16–17正式权利要求1/11/16分别核对，不合并全部可选滤波为独立必要特征。",
+        "R2 4.5保留了正确边界；R3主要增强质量判别的理由及错误分类限制。"
+      ],
+      "limits": [
+        "孤立异常不必然是噪声，模型/样本不足可能误判。",
+        "阈值及纳米示例不是通用规格，图无整机收益证明。"
+      ]
+    },
+    {
+      "publication": "US11599027B2",
+      "full_transcription_read": true,
+      "transcription_sha256": "97b7155848206f4085f500b67201b7f7a8d08d2cb9b938582195655d9106f8a1",
+      "transcription_lines": 1019,
+      "read_line_ranges": [
+        [
+          1,
+          270
+        ],
+        [
+          271,
+          500
+        ],
+        [
+          501,
+          730
+        ],
+        [
+          731,
+          1019
+        ]
+      ],
+      "pages": 19,
+      "primary_chapter": 8,
+      "secondary_chapters": [
+        4,
+        5,
+        10
+      ],
+      "original_pages_checked": [
+        7,
+        8,
+        14,
+        15,
+        18,
+        19
+      ],
+      "original_check_method": "原PDF整页渲染后目视核对关键文字、正式权利要求和图示",
+      "l1_problem": "功能区域窗口不同，芯片内高阶应力指纹及边界变化难由规则网格/低阶模型表达。",
+      "l2_strategy": "按布局及关键性分配采样、拟合权重和控制网格，并检查实际动作限值。",
+      "l3_capabilities": [
+        "版图功能分区与最佳参数/工艺窗口",
+        "检查规划与代表性热点采样",
+        "校正轮廓及台面相对动作的限值检查"
+      ],
+      "figures_checked": [
+        {
+          "figure": "7",
+          "physical_page": 7,
+          "path": "references/patents/US11599027B2/figures/p0007-0007.png",
+          "boundary": "620器件、650狭缝、665网格、670窄/675宽焦点窗口、680加权焦点配置；保留焦点示例身份。"
+        },
+        {
+          "figure": "8",
+          "physical_page": 8,
+          "path": "references/patents/US11599027B2/figures/p0008-0008.png",
+          "boundary": "叉号量测、圆点补偿、线为修改加速度所得轮廓；四芯片锯齿而非通用实测性能曲线。"
+        },
+        {
+          "figure": "9",
+          "physical_page": 8,
+          "path": "references/patents/US11599027B2/figures/p0008-0009.png",
+          "boundary": "900布局、910最佳参数/关键性、920网格、930轮廓、940应用；节点功能须结合说明书。"
+        }
+      ],
+      "findings": [
+        "p14栏11–12及Fig.7具体是焦点窗口，f不是overlay。",
+        "p15栏13–14及Fig.8直接讨论3D NAND芯片内应力造成的套刻锯齿和场间差异。",
+        "密集接口、样条、ignore区复位只是实施例；实际设定须先检查台面限值。",
+        "p18–19正式权利要求1/12/13聚焦检查设备配置；曝光动态补偿属于说明书。",
+        "R2已有焦点和授权边界；R3可在第8章补Fig.8套刻证据，并由第5章关键区域目标转引。"
+      ],
+      "limits": [
+        "约90%的could表述是条件性实施例，不是普适整机实测。",
+        "无坐标数值的图8不能据图读纳米收益；曲线依原文补偿符号解释。",
+        "版图信息不赋予硬件无限空间频率或任意轨迹能力。"
+      ]
+    },
+    {
+      "publication": "US11754931B2",
+      "full_transcription_read": true,
+      "transcription_sha256": "5d673c3d1a73c8a88ba50173a00792087aea75d2b3924795d0d2d3d9d784efa5",
+      "transcription_lines": 1118,
+      "read_line_ranges": [
+        [
+          1,
+          280
+        ],
+        [
+          281,
+          560
+        ],
+        [
+          561,
+          840
+        ],
+        [
+          841,
+          1118
+        ]
+      ],
+      "pages": 20,
+      "primary_chapter": 5,
+      "secondary_chapters": [
+        4,
+        10
+      ],
+      "original_pages_checked": [
+        5,
+        13,
+        14,
+        19,
+        20
+      ],
+      "original_check_method": "原PDF整页渲染后目视核对关键文字、正式权利要求和图示",
+      "l1_problem": "细分工艺上下文导致某组量测稀疏、组历史陈旧。",
+      "l2_strategy": "利用组间相关性更新共同变化，保留缺测组特有历史。",
+      "l3_capabilities": [
+        "上下文身份与组关联",
+        "共同/组特有估计及历史维护",
+        "维护后可信度调整和风险采样"
+      ],
+      "figures_checked": [
+        {
+          "figure": "4",
+          "physical_page": 5,
+          "path": "references/patents/US11754931B2/figures/p0005-0005.png",
+          "boundary": "G0在N−1/N缺测；顶部旧历史箭头、G1/G2→AV及代理节点为不同路径，代理不是实测。"
+        },
+        {
+          "figure": "5",
+          "physical_page": 5,
+          "path": "references/patents/US11754931B2/figures/p0005-0006.png",
+          "boundary": "历史、风险分组、MET量测与估计支路分开；估计不能标成观测。"
+        }
+      ],
+      "findings": [
+        "p13栏13–14及p14栏15–16区分组特有与共同项，并允许多级共同结构。",
+        "共同项为统计共享贡献；跨设备共享可来自非设备背景，不是唯一物理根因。",
+        "图4虚线节点是缺测代理而非实测；G1/G2经AV更新共享信息。",
+        "p19–20正式权利要求1包含相关组数据及空间基函数系数，9涉及缺测、10涉及风险采样。",
+        "R2 5.2基本正确；R3可加强相关性变化和缺测组特有突变仍可能未发现的限制。"
+      ],
+      "limits": [
+        "共享须有真实相关性依据，维修/工艺切换后需重新确认。",
+        "不保证缺测组全部漂移已识别，不替代新量测。"
+      ]
+    },
+    {
+      "publication": "US11886124B2",
+      "full_transcription_read": true,
+      "transcription_sha256": "86c475c0da3daebf4bacf41ab7fe3079773f84d03834e27e3fd53fbab96d0384",
+      "transcription_lines": 2374,
+      "read_line_ranges": [
+        [
+          1,
+          300
+        ],
+        [
+          301,
+          600
+        ],
+        [
+          601,
+          820
+        ],
+        [
+          821,
+          1040
+        ],
+        [
+          1041,
+          1270
+        ],
+        [
+          1271,
+          1470
+        ],
+        [
+          1471,
+          1690
+        ],
+        [
+          1691,
+          1920
+        ],
+        [
+          1921,
+          2160
+        ],
+        [
+          2161,
+          2374
+        ]
+      ],
+      "pages": 50,
+      "primary_chapter": 5,
+      "secondary_chapters": [
+        8,
+        4,
+        10
+      ],
+      "original_pages_checked": [
+        16,
+        36,
+        42,
+        43,
+        49,
+        50
+      ],
+      "original_check_method": "原PDF整页渲染后目视核对关键文字、正式权利要求和图示",
+      "l1_problem": "遮拦、非等倍率和掩模三维/位置相关效应使准备模型与真实曝光条件不符。",
+      "l2_strategy": "曝光前协调光源/掩模/工艺模型及制造规则，输出可制造且硬件可实现的配置。",
+      "l3_capabilities": [
+        "真实光学及掩模模型管理",
+        "1×晶圆与实际非等倍率掩模坐标转换",
+        "联合优化、硬件照明映射及后续掩模优化的衔接"
+      ],
+      "figures_checked": [
+        {
+          "figure": "17",
+          "physical_page": 16,
+          "path": "references/patents/US11886124B2/figures/p0016-0019.png",
+          "boundary": "1600建模、1610模拟、1620配置、1630评价、1640终止、1650输出；N回模拟，Y输出；制造规则细节来自正文。"
+        }
+      ],
+      "findings": [
+        "p42栏37–38及p43栏39解释Fig.17在晶圆层面评价MRC再映射掩模位置。",
+        "p49–50正式权利要求1为模型/MRC映射；11/16是联合优化后掩模单独优化等不同组合。",
+        "p43栏39明确Fig.19为模拟ILS对比度，不能计入实测overlay收益。",
+        "p36栏26原件确有132 nm/16.5 nm单位疑点，不是仅OCR错误。",
+        "R2 5.5已有边界；R3应明确准备阶段模型一致性与量产APC不同时间尺度。"
+      ],
+      "limits": [
+        "不静默修正原件单位，也不采纳疑点数字。",
+        "ILS、CD、EPE和overlay不同；没有由模拟成像改善推定实测套刻改善。",
+        "各可选特征不能合并成一个授权独立范围。"
+      ]
+    },
+    {
+      "publication": "WO2017108453A1",
+      "full_transcription_read": true,
+      "transcription_sha256": "b35bd79e3d9fe5722dcf68c24e19cab9d7ee177384b1194eb29c803e61e55311",
+      "transcription_lines": 1569,
+      "read_line_ranges": [
+        [
+          1,
+          250
+        ],
+        [
+          251,
+          500
+        ],
+        [
+          501,
+          750
+        ],
+        [
+          751,
+          1000
+        ],
+        [
+          1001,
+          1250
+        ],
+        [
+          1251,
+          1569
+        ]
+      ],
+      "pages": 43,
+      "primary_chapter": 5,
+      "secondary_chapters": [
+        4,
+        10
+      ],
+      "original_pages_checked": [
+        21,
+        22,
+        26,
+        27,
+        32,
+        33,
+        34,
+        35,
+        40
+      ],
+      "original_check_method": "原PDF整页渲染后目视核对关键文字、正式权利要求和图示",
+      "l1_problem": "对准/套刻测量可能共偏，反馈策略可能不适应变化后的工艺。",
+      "l2_strategy": "设置阶段独立参考与标记/靶标/配方共优化；生产中并行影子评价候选策略后切换。",
+      "l3_capabilities": [
+        "参考量测与同对象数据关联",
+        "原始多波长/偏振信号及实际校正保存",
+        "正式策略与候选模拟区分和切换管理"
+      ],
+      "figures_checked": [
+        {
+          "figure": "7",
+          "physical_page": 40,
+          "path": "references/patents/WO2017108453A1/figures/p0040-0009.png",
+          "boundary": "702批次、704历史、718 APC→LA、710 LA→LIS、708 MET→LIS、714上下文、716曝光修正、720配方、742/744在线、752/754离线；不赋予712新含义。"
+        }
+      ],
+      "findings": [
+        "p21–22[0074]–[0081]用独立参考评价误差变化，不能只最小化两种通道的平均差。",
+        "p26–27[0094]–[0099]给出生产、LIS、在线和离线评价分工。",
+        "原文714/718及742/752指代存在差异，按原图连线与较明确说明解读；712未清楚定义。",
+        "p27[0099]在所有策略不稳时返回标记/量测靶标/配方优化。",
+        "p32–35正式权利要求1/10设置阶段与11策略比较切换分别读取。",
+        "R2已保留编号问题；R3宜按不适配问题、影子评估、切换/回到配置的策略组织。"
+      ],
+      "limits": [
+        "备选结果是模拟而非同时在同批晶圆上实测。",
+        "少于一小时的real-time举例不是运动伺服带宽。",
+        "现有候选标记限制在线可变范围；新实体靶标可需后续掩模版。",
+        "独立数据验证影子预测属于报告综合建议。"
+      ]
+    },
+    {
+      "publication": "WO2021032376A1",
+      "full_transcription_read": true,
+      "transcription_sha256": "83c206b178094427db7b20f60a4bc1a258f8c9545ddfe79100f0541ed2657899",
+      "transcription_lines": 1101,
+      "read_line_ranges": [
+        [
+          1,
+          280
+        ],
+        [
+          281,
+          520
+        ],
+        [
+          521,
+          800
+        ],
+        [
+          801,
+          1101
+        ]
+      ],
+      "pages": 33,
+      "primary_chapter": 5,
+      "secondary_chapters": [
+        4,
+        8,
+        10
+      ],
+      "original_pages_checked": [
+        13,
+        16,
+        18,
+        24,
+        25,
+        26,
+        30,
+        31
+      ],
+      "original_check_method": "原PDF整页渲染后目视核对关键文字、正式权利要求和图示",
+      "l1_problem": "不同密度、工序、更新时间及模型基底的数据贡献重叠，产生串扰、过校正或KPI跳变。",
+      "l2_strategy": "去除已施加作用，按同网格回评并分离重叠分量，再组合校正；单独估计工艺贡献。",
+      "l3_capabilities": [
+        "工序、位置、坐标符号和实际校正关联",
+        "密集/稀疏网格映射和贡献回评",
+        "外部密集补偿与机内动态对准模型的正确组合"
+      ],
+      "figures_checked": [
+        {
+          "figure": "4a/4b",
+          "physical_page": 30,
+          "path": "references/patents/WO2021032376A1/figures/p0030-0007.png",
+          "boundary": "410→412→414/416→418；418经420回评稀疏400，生成402/KPI430，再与418合成440；4b替代反馈路径。"
+        },
+        {
+          "figure": "5",
+          "physical_page": 31,
+          "path": "references/patents/WO2021032376A1/figures/p0031-0008.png",
+          "boundary": "500 ADI+512 MTD→502→504；510 AEI−504→514→516→518 NZO，500−518→506；512和518不可混同。"
+        }
+      ],
+      "findings": [
+        "p13[0041]–[0044]及Fig.4a先分离全局/局部贡献，再回评局部至稀疏点生成全局校正与KPI；4b为替代路径。",
+        "p16[0062]–[0063]及Fig.5区分MTD512工艺偏移与NZO518局部作用的稀疏点偏移；506还可结合512。",
+        "当前ADI加历史MTD是带背景条件的预期AEI，不是当片实际AEI量测。",
+        "p18[0076]–[0079]先扣外部密集作用再拟合机内稀疏对准，最后仅加回一次密集贡献。",
+        "p24–26正式权利要求1明确附加工序；说明书一般双流不替代独立限定。",
+        "R2 5.1已区分MTD/NZO；R3需补机内/外部组合次序和具体职责。"
+      ],
+      "limits": [
+        "去校正与合成须采用相同坐标和符号，不无条件把任何残差直接相加/相减。",
+        "密集流一般可为ADI或AEI，不能一律称刻蚀后量测。",
+        "统一校正账本是报告综合，不是专利定义的产品接口。",
+        "p26权利要求15依附句原页排版不完整，不补写法律依附关系。"
+      ]
+    }
+  ],
+  "coverage": {
+    "publications": 7,
+    "full_transcriptions": 7,
+    "transcription_lines": 8858,
+    "original_total_pages": 195,
+    "original_pages_checked": 46,
+    "figure_records": 14
+  }
+}
