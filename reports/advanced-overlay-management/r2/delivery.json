@@ -27,12 +27,12 @@
   },
   "artifacts": {
     "figures/architecture.py": {
-      "sha256": "983544f4a57be54fa85ef156f9cb684c194a4359f86a52731f2c3433378eff40",
-      "bytes": 2714
+      "sha256": "775834a892f34fe9b5f85935e782e6be889f295a6f2e08a60ab6007d75a8215b",
+      "bytes": 10489
     },
     "figures/architecture.svg": {
-      "sha256": "38ac50b86d6ae45ce59aba5151b686e75e9575f9ea7e8371b297f8e2f0e019a7",
-      "bytes": 137891
+      "sha256": "46b2716a0269f5983d2031a3f09b61f8ce4b0b503877a3058fc4cbc28c867b37",
+      "bytes": 217185
     },
     "figures/layer-layout.svg": {
       "sha256": "665875379cdaabc8668a3c5779c50e1116c709ccb2a1722bfb0b55b0c1c7a6fb",
@@ -51,8 +51,8 @@
       "bytes": 301652
     },
     "report.md": {
-      "sha256": "06e64f1e9798ef5b865adfcb302576207223fbbe0265a54661d26ee3f68e7b4d",
-      "bytes": 89419
+      "sha256": "de116b0b48060d0ea015945b19fd234e766f790726a5e360ce31bc8ed1283374",
+      "bytes": 91489
     },
     "review/control.json": {
       "sha256": "d3b0dfc30d306793f262a13f8f4853334d03107235f989a9d77a412c514b70b5",
@@ -87,8 +87,8 @@
       "bytes": 47860
     },
     "sources.json": {
-      "sha256": "94f36e1f9806cbc8c27cf114eddfcc71a093b82a91a3907df4eb80b1d85bb68e",
-      "bytes": 59386
+      "sha256": "e021ff539d7a84e7f207012d2d458811b57bbdbb68b5a233280a10d451bf3363",
+      "bytes": 61224
     },
     "figures/us20210096472a1-page3.png": {
       "sha256": "16db361e1cd7f971fbd08b6217ea80a8e5a17de55f167cb8df48f45228cbb5d9",
@@ -96,7 +96,7 @@
     }
   },
   "checks": {
-    "baseline": "b0168c3554ec52ccbbf580f19d583430c1a330fb",
+    "baseline": "c511be6db2ac6fd4775841bd53ed8325dbeabf15",
     "unit_tests": {
       "command": ".venv/bin/python -m unittest discover -s tests -v",
       "passed": 18,
@@ -110,7 +110,7 @@
       "figures": 624,
       "artifact_files": 714,
       "markdown_files": 71,
-      "local_links": 3148,
+      "local_links": 3150,
       "baseline_checked": true,
       "errors": [],
       "warnings": [
@@ -118,18 +118,34 @@
       ]
     },
     "source_hashes_rechecked": 159,
+    "diagram_layout": {
+      "width": 1000,
+      "height": 1415.35,
+      "nodes": 11,
+      "text_lines": 43,
+      "text_overflow": [],
+      "body_font_px": 19,
+      "main_title_font_px": 23,
+      "layout_padding_px": 18,
+      "minimum_measured_text_margin_px": 21.0,
+      "overlapping_nodes": 0,
+      "connector_node_crossings": 0
+    },
+    "deterministic_svg_rebuild": true,
     "web_preview": {
       "renderer": "Pandoc GFM to HTML + Chromium; local preview, not an assertion about identical GitHub CSS",
       "images_loaded": 31,
-      "internal_anchor_links_valid": 13,
+      "internal_anchor_links_valid": 14,
       "desktop_width": 1080,
       "desktop_document_width": 1080,
+      "diagram_display_width": 840,
       "mobile_width": 390,
       "mobile_document_width": 390,
-      "visual_checks": "Rewritten section introduction, both patent figures, L3 capability table, and mobile introduction; full PDF page rendering visually compared to source figure."
+      "mobile_diagram": "Overview thumbnail fits; click-through SVG allows enlarged reading of text. Thumbnail text is not asserted readable without zoom.",
+      "visual_checks": "Full overview at 840px, report placement and mobile layout. Checked node margins, line breaks, arrows, labels and feedback directions."
     },
-    "content_scope": "Other body sections unchanged by text comparison; original patent files unchanged; L4 remains an interface.",
-    "source_review": "Original PDF/paragraph and figure verification focused on the US20210096472A1 section rewrite; simplified explanations and synthesis labeled.",
+    "content_scope": "Overview, caption and Table 2; section 8.2 text and all original patent assets unchanged. L4 remains an interface.",
+    "source_review": "Architecture synthesis follows the reviewed patent evidence listed in sources.json, with stated dependency/timing and feedback limitations.",
     "github_actions": "Check after push; no new CI success claimed in this artifact"
   },
   "limits": [
@@ -137,7 +153,7 @@
     "No common commercial-machine overlay performance dataset; cross-patent architecture is synthesis",
     "No R2 PDF; R1 PDF corresponds only to R1"
   ],
-  "source_material_changes": "Original PDFs, MinerU text and patent image crops unchanged; QUALITY adds a crop issue. A full original PDF page is rendered as a report presentation asset.",
+  "source_material_changes": "All original patent assets and QUALITY unchanged in this revision; only the author-drawn report diagram and related report records changed.",
   "checks_history": [
     {
       "date": "2026-10-28",
@@ -178,6 +194,48 @@
         "source_review": "Six independent reading groups; main technical sections cross-checked against their original-page verification; corrected focus example, pattern-library meaning, related-art diagram, and cropped Fig.10 label.",
         "github_actions": "Check after push; no CI success claimed in this artifact"
       }
+    },
+    {
+      "date": "2026-10-29",
+      "report_commit": "c511be6db2ac6fd4775841bd53ed8325dbeabf15",
+      "scope": "Section 8.2 rewrite before overview redraw",
+      "checks": {
+        "baseline": "b0168c3554ec52ccbbf580f19d583430c1a330fb",
+        "unit_tests": {
+          "command": ".venv/bin/python -m unittest discover -s tests -v",
+          "passed": 18,
+          "failed": 0
+        },
+        "repository": {
+          "scope": "source bytes, actual PDF pages, Markdown anchors, local links and original preservation",
+          "semantic_fidelity_certified": false,
+          "publications": 45,
+          "physical_pages": 1114,
+          "figures": 624,
+          "artifact_files": 714,
+          "markdown_files": 71,
+          "local_links": 3148,
+          "baseline_checked": true,
+          "errors": [],
+          "warnings": [
+            "Structural checks do not certify OCR accuracy, formulas, reading order or technical conclusions."
+          ]
+        },
+        "source_hashes_rechecked": 159,
+        "web_preview": {
+          "renderer": "Pandoc GFM to HTML + Chromium; local preview, not an assertion about identical GitHub CSS",
+          "images_loaded": 31,
+          "internal_anchor_links_valid": 13,
+          "desktop_width": 1080,
+          "desktop_document_width": 1080,
+          "mobile_width": 390,
+          "mobile_document_width": 390,
+          "visual_checks": "Rewritten section introduction, both patent figures, L3 capability table, and mobile introduction; full PDF page rendering visually compared to source figure."
+        },
+        "content_scope": "Other body sections unchanged by text comparison; original patent files unchanged; L4 remains an interface.",
+        "source_review": "Original PDF/paragraph and figure verification focused on the US20210096472A1 section rewrite; simplified explanations and synthesis labeled.",
+        "github_actions": "Check after push; no new CI success claimed in this artifact"
+      }
     }
   ],
   "last_updated": "2026-10-29",
@@ -193,6 +251,17 @@
       "reason": "User requests problem background and concrete scope before patent case interpretation, especially die/field/wafer scales.",
       "figures": "Figure 23 now has parts (a) original Fig. 2 and (b) original Fig. 3; other figure numbers unchanged. Part (a) uses a full PDF page render to preserve label 220.",
       "source_review": "Rechecked US20210096472A1 original figures, paragraphs 0036-0056, 0065-0075, 0083-0096 and claims 1, 9, 16; no claim of rereading all 45 patents in this local update.",
+      "pdf_generated": false
+    },
+    {
+      "date": "2026-10-29",
+      "mode": "inherit_existing_R2",
+      "parent_commit": "c511be6db2ac6fd4775841bd53ed8325dbeabf15",
+      "parent_report": "report.md",
+      "parent_report_sha256": "06e64f1e9798ef5b865adfcb302576207223fbbe0265a54661d26ee3f68e7b4d",
+      "scope": "Redraw overview and editable generator; synchronize caption, Table 2, provenance and revision records. Section 8.2 unchanged.",
+      "reason": "User approved the architecture review and requested a new diagram with appropriate box and text sizing.",
+      "diagram": "Measured wrapping and automatic node heights; separate support bus, source measures, execution-side return and process-result feedback.",
       "pdf_generated": false
     }
   ]

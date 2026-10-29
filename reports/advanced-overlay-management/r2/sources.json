@@ -1261,7 +1261,46 @@
     }
   ],
   "figure_presentation": {
-    "architecture.svg": "Author synthesis, Matplotlib source with Noto Sans CJK SC via fontconfig; glyphs stored as outlines.",
+    "architecture.svg": {
+      "type": "Author synthesis; not a single patent figure or a proven commercial-machine architecture",
+      "generator": "figures/architecture.py; Matplotlib; Noto Sans CJK SC; measured text wrapping and node heights; glyph outlines",
+      "updated": "2026-10-29",
+      "baseline": "c511be6db2ac6fd4775841bd53ed8325dbeabf15",
+      "scope": "Main functional chain with separate reference/calibration/capability support, source measures, executed-correction return and process-result feedback",
+      "evidence": [
+        {
+          "function": "Reference/calibration and capability support",
+          "sources": [
+            "US10884345B2 Fig. 4",
+            "US20240184221A1 Fig. 4",
+            "EP4632488A1 Fig. 6"
+          ]
+        },
+        {
+          "function": "Structural suppression and operational preparation",
+          "sources": [
+            "JP5809458B2 Fig. 12",
+            "US12663725B2 Fig. 10"
+          ]
+        },
+        {
+          "function": "Dynamic correction generation and adopted-correction information",
+          "sources": [
+            "US20210096472A1 Figs. 2-5, paragraphs 0036-0056",
+            "US8947630B2 Fig. 10 and physical page 16"
+          ]
+        },
+        {
+          "function": "Process feedback and contribution-aware updating",
+          "sources": [
+            "US11300886B2 Fig. 5",
+            "WO2021032376A1 Figs. 4a-4b",
+            "EP4632488A1 Fig. 6"
+          ]
+        }
+      ],
+      "limits": "Functional dependencies, not fixed timing or controller deployment. Not every residual identifies a unique source or updates every model. Adopted correction is not post-exposure independent metrology."
+    },
     "rotated_originals": [
       {
         "presentation": "figures/noise-layout.svg",
@@ -1328,6 +1367,12 @@
         "23(a)": "original Fig. 2, physical page 3",
         "23(b)": "original Fig. 3, physical page 4"
       },
+      "source_file_changes": false
+    },
+    {
+      "date": "2026-10-29",
+      "baseline": "c511be6db2ac6fd4775841bd53ed8325dbeabf15",
+      "scope": "Redraw overview and synchronize caption and Table 2; source files and section 8.2 unchanged",
       "source_file_changes": false
     }
   ]
