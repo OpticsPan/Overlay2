@@ -18,12 +18,12 @@
     "all_pdf_pages_manually_collated": false
   },
   "report_figures": {
-    "total": 31,
+    "total": 33,
     "author_synthesis": 1,
-    "patent_images": 30,
+    "patent_images": 32,
     "display_only_rotations": 3,
-    "numbered_groups": 30,
-    "full_pdf_page_renders": 1
+    "numbered_groups": 31,
+    "full_pdf_page_renders": 2
   },
   "artifacts": {
     "figures/architecture.py": {
@@ -50,9 +50,17 @@
       "sha256": "88b4c8c28d38f47b86f13c4f5df29300c30699fa27b2928b1237a1795c56f536",
       "bytes": 301652
     },
+    "figures/us20210096472a1-page3.png": {
+      "sha256": "16db361e1cd7f971fbd08b6217ea80a8e5a17de55f167cb8df48f45228cbb5d9",
+      "bytes": 58070
+    },
+    "figures/us8659745b2-page6.png": {
+      "sha256": "f458c2aaca1b7525fe42c7e7b5f83df7b9026ee03fe69a235dcd56b73c050567",
+      "bytes": 42238
+    },
     "report.md": {
-      "sha256": "de116b0b48060d0ea015945b19fd234e766f790726a5e360ce31bc8ed1283374",
-      "bytes": 91489
+      "sha256": "6c35f5f27b346e5e5e52e7eda0986cee2357fa657966b22304b25ad12b8a89ec",
+      "bytes": 106391
     },
     "review/control.json": {
       "sha256": "d3b0dfc30d306793f262a13f8f4853334d03107235f989a9d77a412c514b70b5",
@@ -87,16 +95,12 @@
       "bytes": 47860
     },
     "sources.json": {
-      "sha256": "e021ff539d7a84e7f207012d2d458811b57bbdbb68b5a233280a10d451bf3363",
-      "bytes": 61224
-    },
-    "figures/us20210096472a1-page3.png": {
-      "sha256": "16db361e1cd7f971fbd08b6217ea80a8e5a17de55f167cb8df48f45228cbb5d9",
-      "bytes": 58070
+      "sha256": "271e0bcbe57afe0783110b0aa0587cd736aa790a145e9dc3859d7738f97860eb",
+      "bytes": 64264
     }
   },
   "checks": {
-    "baseline": "c511be6db2ac6fd4775841bd53ed8325dbeabf15",
+    "baseline": "85a3b8763b2cc2fb969b3a880343c59b319a4ea5",
     "unit_tests": {
       "command": ".venv/bin/python -m unittest discover -s tests -v",
       "passed": 18,
@@ -110,7 +114,7 @@
       "figures": 624,
       "artifact_files": 714,
       "markdown_files": 71,
-      "local_links": 3150,
+      "local_links": 3179,
       "baseline_checked": true,
       "errors": [],
       "warnings": [
@@ -118,34 +122,19 @@
       ]
     },
     "source_hashes_rechecked": 159,
-    "diagram_layout": {
-      "width": 1000,
-      "height": 1415.35,
-      "nodes": 11,
-      "text_lines": 43,
-      "text_overflow": [],
-      "body_font_px": 19,
-      "main_title_font_px": 23,
-      "layout_padding_px": 18,
-      "minimum_measured_text_margin_px": 21.0,
-      "overlapping_nodes": 0,
-      "connector_node_crossings": 0
-    },
-    "deterministic_svg_rebuild": true,
     "web_preview": {
       "renderer": "Pandoc GFM to HTML + Chromium; local preview, not an assertion about identical GitHub CSS",
-      "images_loaded": 31,
-      "internal_anchor_links_valid": 14,
+      "images_loaded": 33,
+      "internal_anchor_links_valid": 21,
       "desktop_width": 1080,
       "desktop_document_width": 1080,
-      "diagram_display_width": 840,
       "mobile_width": 390,
       "mobile_document_width": 390,
-      "mobile_diagram": "Overview thumbnail fits; click-through SVG allows enlarged reading of text. Thumbnail text is not asserted readable without zoom.",
-      "visual_checks": "Full overview at 840px, report placement and mobile layout. Checked node margins, line breaks, arrows, labels and feedback directions."
+      "l4_table_rows_including_header": 11,
+      "visual_checks": "Section 6.6 introduction, process explanation, capability table, both added original figures at desktop display size, and mobile introduction. Original full-page figure preserves all labels; image links allow enlarged reading. Existing overview unchanged."
     },
-    "content_scope": "Overview, caption and Table 2; section 8.2 text and all original patent assets unchanged. L4 remains an interface.",
-    "source_review": "Architecture synthesis follows the reviewed patent evidence listed in sources.json, with stated dependency/timing and feedback limitations.",
+    "content_scope": "Add objective thermal-management section 6.6 and L4 interface T10; chapter title, cross-links and figure references synchronized. Figure groups 18-30 shifted to 19-31; original patent figure numbers unchanged.",
+    "source_review": "Targeted original-PDF and transcription review of US11300886B2, US8184265B2 and US8659745B2; exact pages/claims in sources.json. Supporting existing optics reading retained. No new full reading of all 45 patents claimed.",
     "github_actions": "Check after push; no new CI success claimed in this artifact"
   },
   "limits": [
@@ -153,7 +142,7 @@
     "No common commercial-machine overlay performance dataset; cross-patent architecture is synthesis",
     "No R2 PDF; R1 PDF corresponds only to R1"
   ],
-  "source_material_changes": "All original patent assets and QUALITY unchanged in this revision; only the author-drawn report diagram and related report records changed.",
+  "source_material_changes": "Original PDFs, MinerU transcriptions and patent image crops unchanged. QUALITY adds the US8659745B2 Fig. 4 crop limitation; the report uses a new complete original-PDF page render.",
   "checks_history": [
     {
       "date": "2026-10-28",
@@ -236,6 +225,64 @@
         "source_review": "Original PDF/paragraph and figure verification focused on the US20210096472A1 section rewrite; simplified explanations and synthesis labeled.",
         "github_actions": "Check after push; no new CI success claimed in this artifact"
       }
+    },
+    {
+      "date": "2026-10-29",
+      "report_commit": "85a3b8763b2cc2fb969b3a880343c59b319a4ea5",
+      "scope": "Overview revision snapshot before objective thermal-management supplement",
+      "checks": {
+        "baseline": "c511be6db2ac6fd4775841bd53ed8325dbeabf15",
+        "unit_tests": {
+          "command": ".venv/bin/python -m unittest discover -s tests -v",
+          "passed": 18,
+          "failed": 0
+        },
+        "repository": {
+          "scope": "source bytes, actual PDF pages, Markdown anchors, local links and original preservation",
+          "semantic_fidelity_certified": false,
+          "publications": 45,
+          "physical_pages": 1114,
+          "figures": 624,
+          "artifact_files": 714,
+          "markdown_files": 71,
+          "local_links": 3150,
+          "baseline_checked": true,
+          "errors": [],
+          "warnings": [
+            "Structural checks do not certify OCR accuracy, formulas, reading order or technical conclusions."
+          ]
+        },
+        "source_hashes_rechecked": 159,
+        "diagram_layout": {
+          "width": 1000,
+          "height": 1415.35,
+          "nodes": 11,
+          "text_lines": 43,
+          "text_overflow": [],
+          "body_font_px": 19,
+          "main_title_font_px": 23,
+          "layout_padding_px": 18,
+          "minimum_measured_text_margin_px": 21.0,
+          "overlapping_nodes": 0,
+          "connector_node_crossings": 0
+        },
+        "deterministic_svg_rebuild": true,
+        "web_preview": {
+          "renderer": "Pandoc GFM to HTML + Chromium; local preview, not an assertion about identical GitHub CSS",
+          "images_loaded": 31,
+          "internal_anchor_links_valid": 14,
+          "desktop_width": 1080,
+          "desktop_document_width": 1080,
+          "diagram_display_width": 840,
+          "mobile_width": 390,
+          "mobile_document_width": 390,
+          "mobile_diagram": "Overview thumbnail fits; click-through SVG allows enlarged reading of text. Thumbnail text is not asserted readable without zoom.",
+          "visual_checks": "Full overview at 840px, report placement and mobile layout. Checked node margins, line breaks, arrows, labels and feedback directions."
+        },
+        "content_scope": "Overview, caption and Table 2; section 8.2 text and all original patent assets unchanged. L4 remains an interface.",
+        "source_review": "Architecture synthesis follows the reviewed patent evidence listed in sources.json, with stated dependency/timing and feedback limitations.",
+        "github_actions": "Check after push; no new CI success claimed in this artifact"
+      }
     }
   ],
   "last_updated": "2026-10-29",
@@ -262,6 +309,18 @@
       "scope": "Redraw overview and editable generator; synchronize caption, Table 2, provenance and revision records. Section 8.2 unchanged.",
       "reason": "User approved the architecture review and requested a new diagram with appropriate box and text sizing.",
       "diagram": "Measured wrapping and automatic node heights; separate support bus, source measures, execution-side return and process-result feedback.",
+      "pdf_generated": false
+    },
+    {
+      "date": "2026-10-29",
+      "mode": "inherit_existing_R2",
+      "parent_commit": "85a3b8763b2cc2fb969b3a880343c59b319a4ea5",
+      "parent_report": "report.md",
+      "parent_report_sha256": "de116b0b48060d0ea015945b19fd234e766f790726a5e360ce31bc8ed1283374",
+      "scope": "Add section 6.6 and synchronize chapter 6 title, cross-links, report figure numbers, L4 interface T10, provenance, quality note and repository records.",
+      "reason": "User requests a clear objective-specific mainline based on the audited thermal-management evidence.",
+      "figures": "18(a): US8659745B2 Fig. 4, full physical page 6; 18(b): US11300886B2 Fig. 5 repeated for continuity. Old report groups 18-30 become 19-31.",
+      "source_review": "Targeted review of three main patents; synthesis and evidentiary limits explicit; runtime feedback distinguished from manipulator design/upgrade.",
       "pdf_generated": false
     }
   ]

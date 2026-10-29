@@ -1331,6 +1331,16 @@
         "command": "pdftoppm -f 3 -singlefile -scale-to 1800 -png references/patents/US20210096472A1/original.pdf reports/advanced-overlay-management/r2/figures/us20210096472a1-page3",
         "sha256": "16db361e1cd7f971fbd08b6217ea80a8e5a17de55f167cb8df48f45228cbb5d9",
         "bytes": 58070
+      },
+      {
+        "display": "figures/us8659745b2-page6.png",
+        "source": "references/patents/US8659745B2/original.pdf",
+        "physical_page": 6,
+        "original_figure": "Fig. 4",
+        "reason": "Existing MinerU crop clips the left-side figure number and apparatus label; render the complete original PDF page without cropping or redrawing.",
+        "command": "pdftoppm -f 6 -singlefile -scale-to 1800 -png references/patents/US8659745B2/original.pdf reports/advanced-overlay-management/r2/figures/us8659745b2-page6",
+        "sha256": "f458c2aaca1b7525fe42c7e7b5f83df7b9026ee03fe69a235dcd56b73c050567",
+        "bytes": 42238
       }
     ]
   },
@@ -1373,6 +1383,68 @@
       "date": "2026-10-29",
       "baseline": "c511be6db2ac6fd4775841bd53ed8325dbeabf15",
       "scope": "Redraw overview and synchronize caption and Table 2; source files and section 8.2 unchanged",
+      "source_file_changes": false
+    },
+    {
+      "date": "2026-10-29",
+      "baseline": "85a3b8763b2cc2fb969b3a880343c59b319a4ea5",
+      "scope": "Add section 6.6 objective thermal-management synthesis; synchronize chapter title, cross-references, figure numbering and L4 interface T10. Targeted review, not a new reading of all 45 publications.",
+      "original_evidence_rechecked": [
+        {
+          "publication": "US11300886B2",
+          "physical_pages": [
+            7,
+            9,
+            10,
+            11,
+            13
+          ],
+          "claims": [
+            "1",
+            "2",
+            "6",
+            "7"
+          ],
+          "focus": "Lens heating feed-forward, Zernike thermal response, metrology sensitivity, parameter update and original Fig. 5 step boundaries."
+        },
+        {
+          "publication": "US8184265B2",
+          "physical_pages": [
+            7,
+            12
+          ],
+          "focus": "Original Fig. 4 optional lens-heating block 405, magnification relative to reference temperature and correction of alignment information."
+        },
+        {
+          "publication": "US8659745B2",
+          "physical_pages": [
+            6,
+            17,
+            18,
+            19,
+            20,
+            22,
+            23
+          ],
+          "claims": [
+            "1",
+            "28",
+            "29",
+            "30"
+          ],
+          "focus": "Application-dependent thermal aberrations, field/pupil correction positions, alternative thermal actuation and separate design/installation flow."
+        }
+      ],
+      "supporting_existing_readings": [
+        "US20180081281A1: section 8.7 and review/optics.md",
+        "US20130188160A1: section 8.8 and review/optics.md"
+      ],
+      "report_figures": {
+        "18(a)": "US8659745B2 original Fig. 4, physical page 6; complete PDF page render",
+        "18(b)": "US11300886B2 original Fig. 5, physical page 7; repeated from report Fig. 9"
+      },
+      "renumbering": "Previous report figures 18-30 become 19-31; original patent figure numbers and historical revision records retained.",
+      "limits": "Cross-patent synthesis, not a demonstrated integrated commercial implementation or a complete cooling circuit. Runtime parameter updating distinguished from manipulator design/upgrade; no universal overlay metric inferred.",
       "source_file_changes": false
     }
   ]

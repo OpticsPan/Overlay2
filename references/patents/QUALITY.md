@@ -51,3 +51,7 @@
 ## R2第8.2节修订中的图片校核（2026-10-29）
 
 US20210096472A1的Fig. 2位于原PDF物理第3页。既有MinerU裁切`figures/p0003-0003.png`右缘使编号220的末位不完整；回看原PDF可见完整220。原PDF、机器全文及既有裁切保持原字节，R2[第8.2节](../../reports/advanced-overlay-management/r2/report.md#section-8-2)改用从原PDF整页渲染的PNG，未重绘或补写文字；渲染命令、来源与产物哈希见[R2来源清单](../../reports/advanced-overlay-management/r2/sources.json)。
+
+## R2物镜专题修订中的图片校核（2026-10-29）
+
+US8659745B2的Fig. 4位于原PDF物理第6页。既有MinerU裁切`figures/p0006-0006.png`左缘未完整保留Fig. 4图号及装置编号1；原PDF中两者完整。原PDF、机器全文及既有裁切保持原字节，R2[第6.6节](../../reports/advanced-overlay-management/r2/report.md#objective-thermal)采用完整原页渲染图，不重绘或补写原图标注；命令及哈希见[R2来源清单](../../reports/advanced-overlay-management/r2/sources.json)。
