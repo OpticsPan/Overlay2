@@ -115,5 +115,40 @@
       ]
     }
   },
-  "semantic_review": "Editor compared 30 task labels with existing report headings and relevant task descriptions; no new patent reread claimed. Existing report findings are summarized, not re-certified."
+  "semantic_review": "Editor compared 30 task labels with existing report headings and relevant task descriptions; no new patent reread claimed. Existing report findings are summarized, not re-certified.",
+  "remote_verification": {
+    "delivery_commit": "9b5307404166e56ec20137bbd14e2894ea2b0ed3",
+    "remote_files": [
+      {
+        "path": "reports/whole-machine-preparation/mind-map.md",
+        "sha256": "2eaac0269558aa2c8060b9c046809e4b51f25d7b3112a422226b45ff6ef7e726"
+      },
+      {
+        "path": "reports/whole-machine-preparation/figures/work-mindmap.svg",
+        "sha256": "64ac809d89960e0cd52f1bdc3202a6be39fb33ca7df9daf4343b766543aaceba"
+      },
+      {
+        "path": "reports/whole-machine-preparation/figures/work-mindmap.png",
+        "sha256": "843fcf0562fe3735beb45f373c8b6006fca717dadca6909c5264ad7c6c0ad0f8"
+      },
+      {
+        "path": "reports/whole-machine-preparation/figures/work-mindmap.json",
+        "sha256": "5985aa47a45dde3c9e4526dc5dce68c962ada2790798968c5ec1632da14c0e59"
+      },
+      {
+        "path": "reports/whole-machine-preparation/mind-map-delivery.json",
+        "sha256": "dfc091326a672f81b3e9302b1e9dd445dd5e33d4d93bbb10b520a07bb38faac3"
+      }
+    ],
+    "matched": true,
+    "branch": "main",
+    "actions": {
+      "url": "https://github.com/OpticsPan/Overlay2/actions/runs/40994369429",
+      "status": "completed",
+      "conclusion": "success",
+      "checked_via": "GitHub Actions embedded workflow data matched to commit 9b53074"
+    },
+    "temporary_branch": "docs/preparation-mindmap deleted after fast-forward merge",
+    "note": "This records the diagram delivery commit. Subsequent metadata-only commit leaves diagram, source data and Markdown bytes unchanged."
+  }
 }

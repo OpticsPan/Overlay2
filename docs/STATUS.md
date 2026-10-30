@@ -5,6 +5,7 @@
 ## 配套思维导图（2026-10-30）
 
 - 新增[准备工作思维导图](../reports/whole-machine-preparation/mind-map.md)：八个工作域和30项任务，保留编号与正文跳转，条件方案单独标注，底部显示五阶段推进。
+- 导图提交[9b53074](https://github.com/OpticsPan/Overlay2/commit/9b5307404166e56ec20137bbd14e2894ea2b0ed3)已推送main，五项关键文件远端回读一致；本地18项测试和全仓校验通过，[对应Actions](https://github.com/OpticsPan/Overlay2/actions/runs/40994369429)成功。已目视检查原尺寸、桌面和手机显示。
 - 提供SVG、PNG及可编辑数据／图源；原V1报告、原推进图和专利资料不改。核验与来源见[导图交付记录](../reports/whole-machine-preparation/mind-map-delivery.json)。
 
 ## 新增准备工作报告：V1（2026-10-29，待内容审阅）
