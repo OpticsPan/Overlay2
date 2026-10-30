@@ -1,6 +1,11 @@
 # 仓库维护状态
 
-更新：2026-10-29（Asia/Shanghai） · [需求台账](REQUIREMENTS.md) · [变更日志](../CHANGELOG.md)
+更新：2026-10-30（Asia/Shanghai） · [需求台账](REQUIREMENTS.md) · [变更日志](../CHANGELOG.md)
+
+## 配套思维导图（2026-10-30）
+
+- 新增[准备工作思维导图](../reports/whole-machine-preparation/mind-map.md)：八个工作域和30项任务，保留编号与正文跳转，条件方案单独标注，底部显示五阶段推进。
+- 提供SVG、PNG及可编辑数据／图源；原V1报告、原推进图和专利资料不改。核验与来源见[导图交付记录](../reports/whole-machine-preparation/mind-map-delivery.json)。
 
 ## 新增准备工作报告：V1（2026-10-29，待内容审阅）
 

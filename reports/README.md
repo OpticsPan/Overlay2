@@ -4,7 +4,7 @@
 
 ## 当前报告
 
-- [整机需要准备的工作 · V1（基于R3的独立准备工作报告）](whole-machine-preparation/report.md) · [来源](whole-machine-preparation/sources.json) · [交付记录](whole-machine-preparation/delivery.json)
+- [整机需要准备的工作 · V1（基于R3的独立准备工作报告）](whole-machine-preparation/report.md) · [思维导图](whole-machine-preparation/mind-map.md) · [来源](whole-machine-preparation/sources.json) · [交付记录](whole-machine-preparation/delivery.json)
 
 - [先进光刻机套刻管理架构 · R3 Markdown（当前稿）](advanced-overlay-management/r3/report.md)
 - [R3全文复核记录](advanced-overlay-management/r3/report.md#references) · [来源清单](advanced-overlay-management/r3/sources.json) · [交付记录](advanced-overlay-management/r3/delivery.json)

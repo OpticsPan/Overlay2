@@ -1,0 +1,119 @@
+{
+  "title": "整机需要准备的工作 · 思维导图",
+  "revision": "V1",
+  "date": "2026-10-30",
+  "timezone": "Asia/Shanghai",
+  "status": "已完成绘制与本地核验；待用户审阅",
+  "baseline": "3f58b7e6830c9e9ace6496838356eae67e135c0b",
+  "requirement": "REQ-007 user follow-up: 能否整理一个思维导图出来",
+  "source": {
+    "report.md": {
+      "sha256": "d9958305ae283117be71b99aa780be8b91a60a596d7772a7ef2f0f37bd7e6fcd",
+      "bytes": 53874
+    },
+    "sources.json": {
+      "sha256": "e6ebced0218f7c3023d3199b3b92ad980cd1de3074d10700cf3d993f243ad993",
+      "bytes": 22079
+    },
+    "figures/work-roadmap.svg": {
+      "sha256": "ad34ac12d1843efee4d7bc13fea265713584d54fab4def6e6da929c23bbf15bc",
+      "bytes": 243194
+    }
+  },
+  "scope": "Visual summary of existing 30-task DUV report; task grouping and five stages; no new patent assertions or equipment implementation. Original report and source files unchanged.",
+  "format": [
+    "GitHub-friendly Markdown",
+    "SVG",
+    "PNG",
+    "editable JSON and Python"
+  ],
+  "pdf_generated": false,
+  "artifacts": {
+    "mind-map.md": {
+      "sha256": "2eaac0269558aa2c8060b9c046809e4b51f25d7b3112a422226b45ff6ef7e726",
+      "bytes": 4502
+    },
+    "figures/work-mindmap.json": {
+      "sha256": "5985aa47a45dde3c9e4526dc5dce68c962ada2790798968c5ec1632da14c0e59",
+      "bytes": 2485
+    },
+    "figures/work-mindmap.py": {
+      "sha256": "6aa9dc77748eb0140fdb7eda898bb1c688c4d11070a18771afadda01eb577a38",
+      "bytes": 6887
+    },
+    "figures/work-mindmap.svg": {
+      "sha256": "64ac809d89960e0cd52f1bdc3202a6be39fb33ca7df9daf4343b766543aaceba",
+      "bytes": 293287
+    },
+    "figures/work-mindmap.png": {
+      "sha256": "843fcf0562fe3735beb45f373c8b6006fca717dadca6909c5264ad7c6c0ad0f8",
+      "bytes": 451724
+    }
+  },
+  "checks": {
+    "task_mapping": {
+      "report_task_count": 30,
+      "mind_map_task_count": 30,
+      "one_to_one": true,
+      "all_30_report_anchor_links_checked": true,
+      "scope_conditions_preserved": [
+        "RTS candidate observation, not a mandatory sensor",
+        "dHDM upgrade conditional on demonstrated gap",
+        "W04 immersion only",
+        "C03 slit/scanning content scanner only"
+      ],
+      "original_report_and_sources_unchanged": true
+    },
+    "layout": {
+      "width": 1390,
+      "height": 1525,
+      "groups": 8,
+      "tasks": 30,
+      "text_overflow": 0,
+      "node_overlap": 0,
+      "connector_text_crossings": 0,
+      "minimum_text_margin_px": 7.0,
+      "task_font_px": 26,
+      "task_font_at_840px_width": 15.71,
+      "smallest_font_px": 22
+    },
+    "deterministic_svg_and_png_rebuild": true,
+    "web_preview": {
+      "engine": "Pandoc GFM to HTML5 and Chromium; local approximation of GitHub, not live screenshot",
+      "desktop_viewport_px": 1080,
+      "desktop_body_max_width_px": 840,
+      "mobile_viewport_px": 390,
+      "document_width_desktop": 1080,
+      "document_width_mobile": 390,
+      "images_loaded": 1,
+      "visual_review": [
+        "full-resolution PNG",
+        "SVG at 840px desktop body width",
+        "390px mobile preview"
+      ],
+      "mobile_limit": "The diagram is a thumbnail on phones; original-vector zoom links and a clickable task outline are provided."
+    },
+    "unit_tests": {
+      "command": ".venv/bin/python -m unittest discover -s tests -v",
+      "passed": 18,
+      "failed": 0
+    },
+    "repository": {
+      "command": ".venv/bin/python tools/validate_repository.py --base 3f58b7e6830c9e9ace6496838356eae67e135c0b",
+      "scope": "source bytes, actual PDF pages, Markdown anchors, local links and original preservation",
+      "semantic_fidelity_certified": false,
+      "publications": 45,
+      "physical_pages": 1114,
+      "figures": 624,
+      "artifact_files": 714,
+      "markdown_files": 96,
+      "local_links": 4256,
+      "baseline_checked": true,
+      "errors": [],
+      "warnings": [
+        "Structural checks do not certify OCR accuracy, formulas, reading order or technical conclusions."
+      ]
+    }
+  },
+  "semantic_review": "Editor compared 30 task labels with existing report headings and relevant task descriptions; no new patent reread claimed. Existing report findings are summarized, not re-certified."
+}

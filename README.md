@@ -4,7 +4,7 @@ Overlay2 用于整机套刻调研资料的保存和持续维护。当前已收�
 
 ## 研究报告
 
-- [整机需要准备的工作 · V1（DUV研发工作清单）](reports/whole-machine-preparation/report.md)
+- [整机需要准备的工作 · V1（DUV研发工作清单）](reports/whole-machine-preparation/report.md) · [思维导图](reports/whole-machine-preparation/mind-map.md)
 
 - [先进光刻机套刻管理架构 · R3（Markdown，当前稿）](reports/advanced-overlay-management/r3/report.md)
 - [R2历史Markdown](reports/advanced-overlay-management/r2/report.md)
