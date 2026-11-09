@@ -2,6 +2,12 @@
 
 更新：2026-11-09（Asia/Shanghai） · [需求台账](REQUIREMENTS.md) · [变更日志](../CHANGELOG.md)
 
+## 预算设计论文图3审阅（2026-11-09，待内容审阅）
+
+- REQ-010形成[专题报告V1](../reports/budget-based-design-figure3-review/report.md)：分层方法基本合理，公开数值只能做有条件的自洽检查，尚不足以直接作为设备验收规格。
+- 已对照原图与论文明确公式，区分30−28的未解释差额、候选RSS、共享计量链相关性、75 nrad几何换算及WS／RS坐标口径；补充来源表明公开图经过保密修改。
+- [来源与数值证据](../reports/budget-based-design-figure3-review/sources.json)、[复算结果](../reports/budget-based-design-figure3-review/calculations.json)及[实际交付检查](../reports/budget-based-design-figure3-review/delivery.json)随报告入库，根README最新结果区提供直达链接。远端PR／Actions和main回读证据记录在对应PR，不把本地检查等同于远端交付或技术内容验收。
+
 ## main首页结果直达（2026-11-09）
 
 - REQ-009已记录用户持续要求：每次更新都同步main首页上的结果直达链接，最新置顶；规则已覆盖AGENTS、贡献流程、资料／报告维护和PR清单。

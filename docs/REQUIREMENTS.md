@@ -22,6 +22,7 @@
 | REQ-007 | 基于R3整理DUV整机准备工作报告 | P1 | 待验收 | Unreleased（报告V1） | [工作报告](../reports/whole-machine-preparation/report.md)及交付记录 |
 | REQ-008 | 每次Markdown转换完成后默认上传仓库备份 | P1 | 已确认（持续执行） | Unreleased（资料管理） | [备份规则](SOURCES.md) · [论文目录](../references/papers/README.md) |
 | REQ-009 | 每次更新的结果链接展示在main首页 | P1 | 已确认（持续执行） | Unreleased（仓库导航） | [首页结果直达](../README.md#latest-results) · [维护规则](../CONTRIBUTING.md#homepage-results) |
+| REQ-010 | 学习最新上传论文并分析图3套刻预算分配合理性 | P1 | 待验收 | Unreleased（专题V1） | [专题报告](../reports/budget-based-design-figure3-review/report.md) · [交付记录](../reports/budget-based-design-figure3-review/delivery.json) |
 
 ### REQ-001：管理基础
 
@@ -138,6 +139,15 @@
 - 首次落实：补充最新论文全文、原PDF、质量记录、思维导图、V1准备工作报告及R3当前稿直达入口；管理变更直接链接到相应规则章节。
 - 每次验收：成果与首页入口同批入库；检查相对链接／锚点，通过仓库检查后合并；回读main首页及本次成果目标，在交付中给出首页链接。
 - 执行入口：[首页维护规则](../CONTRIBUTING.md#homepage-results)、[代理约定](../AGENTS.md)和PR清单；未来每次更新单独核验，不预先宣称全部后续任务完成。
+
+### REQ-010：预算设计论文图3合理性分析
+
+来源：2026-11-09用户要求学习仓库最新上传的论文，分析图3套刻预算分配是否合理。
+
+- 范围：《On the Systematic Use of Budget-Based Design》的方法学习、图3结构／算术／物理条件审阅；结合作者原始来源与必要的误差传播依据，形成新专题Markdown。
+- 实施：保留原图，逐层复算并标明原文明确运算与候选假设；讨论单机2 nm差额、共享测量链、统计量、转角与坐标面。记录公开图保密修改的来源背景，不把示例配额当作真实设备验收规格。
+- 验收：原文事实、计算和推断可区分；数值、公式、原页与来源可追溯；结果保存到仓库且main首页有直达链接，通过实际检查并核对远端。交付不代表用户内容验收，不扩展为设备实验、内部模型复现或新设备指标承诺。
+- 记录：[报告](../reports/budget-based-design-figure3-review/report.md)、[来源](../reports/budget-based-design-figure3-review/sources.json)、[复算](../reports/budget-based-design-figure3-review/calculations.json)、[交付](../reports/budget-based-design-figure3-review/delivery.json)。
 
 ## 待确认事项
 

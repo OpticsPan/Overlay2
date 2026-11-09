@@ -1,0 +1,59 @@
+{
+  "report_revision": "V1",
+  "review_date": "2026-11-09",
+  "timezone": "Asia/Shanghai",
+  "repository_baseline": "3701fcd767e84abe8afb0177c668e2afd3bceae4",
+  "sources": [
+    {
+      "id": "freriks_2006",
+      "title": "On the Systematic Use of Budget-Based Design",
+      "authors": ["H.J.M. Freriks", "W.P.M.H. Heemels", "G.J. Muller", "J.H. Sandee"],
+      "publication": "INCOSE 2006",
+      "repository_pdf": "../../references/patents/On the Systematic Use of Budget-Based Design.pdf",
+      "sha256": "b5f559746fd8698e02eb88cdb39d71d03968a39f344127a7a3eab69cf6a3874f",
+      "physical_pages": 16,
+      "author_public_url": "https://www.gaudisite.nl/INCOSE2006_FreriksEtAl_BudgetBasedDesign.pdf",
+      "reading_scope": "Methods, both cases and conclusions; focused verification of sections 2.1-2.4, 3.1-3.5, 5.1 and Figure 3 against the source PDF",
+      "figure": {
+        "number": 3,
+        "physical_page": 9,
+        "printed_page": 796,
+        "path": "../../references/papers/on-the-systematic-use-of-budget-based-design/images/page_8_image_0.jpg",
+        "sha256": "684160af025ab75d5844d85092e2649530b61992566b9fde5ee7c9a313efd8b8",
+        "reused_without_modification": true
+      },
+      "mineru_text": {
+        "path": "../../references/papers/on-the-systematic-use-of-budget-based-design/mineru.md",
+        "sha256": "f1b444ba8be1211cd6b5e5dba68485a332f189c9a42f437670ab2e4bbad8d9b8",
+        "role": "Reading/navigation aid; critical formula and figure checked against PDF"
+      },
+      "supports": ["Budget-based design process", "Typical operating conditions and previous-generation evidence", "Explicit global-alignment RSS and stage-overlay linear example", "Margins discussed without defining the 30 minus 28 nm difference"]
+    },
+    {
+      "id": "muller_multidomain_public_2023",
+      "title": "Do Useful Multi-Domain Methods Exist?",
+      "author": "Gerrit Muller",
+      "url": "https://www.gaudisite.nl/MultiDomainMethodsPaper.pdf",
+      "accessed": "2026-11-09",
+      "version": "0.8",
+      "version_date": "2023-07-03",
+      "document_status": "concept",
+      "sha256_downloaded_pdf": "77e80b894218db51f4d0b413707d4c726adab52e7a890808f5adde00b30906dd",
+      "physical_pages": 18,
+      "locator": "Section 6.6, Figure 7, physical page 11, printed footer page 10",
+      "supports": "Same principal overlay-budget diagram has ASML TwinScan System Design Specification provenance and minor modifications for confidentiality",
+      "version_limit": "Current author-hosted 2023 public version; not claimed to be the unchanged 2005 item cited by Freriks et al. or the internal specification",
+      "repository_copy_added": false
+    },
+    {
+      "id": "jcgm_100_chapter_5",
+      "title": "JCGM 100:2008, Evaluation of measurement data — Guide to the expression of uncertainty in measurement",
+      "url": "https://www.iso.org/sites/JCGM/GUM/JCGM100/C045315e-html/C045315e_FILES/MAIN_C045315e/05_e.html",
+      "accessed": "2026-11-09",
+      "locator": "Sections 5.1-5.2; sensitivity coefficients, correlated inputs and shared instruments/reference standards",
+      "supports": "General uncertainty propagation with sensitivities and covariance",
+      "application_limit": "Measurement-uncertainty framework used to explain assumptions; not an overlay specification or device acceptance standard"
+    }
+  ],
+  "analysis_boundary": "No ASML internal model, raw measurement data, exact machine geometry or acceptance protocol obtained; conditional numerical checks do not establish device performance or optimal allocation."
+}
