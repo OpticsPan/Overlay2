@@ -138,8 +138,8 @@
       "sha256": "196b7dc6b2f97463b58d9f36ea29bcf827ad6b6d34afaffc734778c388e2fc52"
     },
     ".gitattributes": {
-      "bytes": 18,
-      "sha256": "d4278445e63e468596d13fafdbe59057153e1d3177fff356830decbb63bc9062"
+      "bytes": 45,
+      "sha256": "d31515c6f7201798de1e9465217c85f323be66faed8d7994b1c5280cc338110d"
     }
   },
   "remote_evidence": "Associated PR will record actual PR/main Actions and main homepage/artifact readback after merge; local record alone does not prove remote delivery.",
