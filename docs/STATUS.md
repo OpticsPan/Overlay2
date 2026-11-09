@@ -1,6 +1,13 @@
 # 仓库维护状态
 
-更新：2026-10-30（Asia/Shanghai） · [需求台账](REQUIREMENTS.md) · [变更日志](../CHANGELOG.md)
+更新：2026-11-09（Asia/Shanghai） · [需求台账](REQUIREMENTS.md) · [变更日志](../CHANGELOG.md)
+
+## Markdown转换默认备份（2026-11-09）
+
+- REQ-008记录用户持续授权：每次完成Markdown转换后上传本仓库备份，包含图片和可追溯记录；已写入AGENTS、资料规则及贡献流程。
+- 本批归档1篇[预算设计论文](../references/papers/README.md)，16页、5张图片；原PDF保留在用户此前上传的位置，论文与45件专利分别统计。
+- 校验器补充论文清单检查和全部参考PDF的历史保护；[本地验证记录](validation/2026-11-09-markdown-backup.json)保留实际测试与原件／链接结果。
+- 远端交付按该变更的PR／Actions核验并提供链接，不把本地校验等同于远端已同步，也不把结构检查等同于全文逐字校勘。
 
 ## 配套思维导图（2026-10-30）
 

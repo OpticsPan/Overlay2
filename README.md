@@ -1,6 +1,6 @@
 # Overlay2
 
-Overlay2 用于整机套刻调研资料的保存和持续维护。当前已收录45件专利的原始PDF、MinerU全文Markdown及其图像资料，共1,114个物理页。研究报告和业务程序的后续范围由具体任务确定。
+Overlay2 用于整机套刻调研资料的保存和持续维护。当前已收录45件专利的原始PDF、MinerU全文Markdown及其图像资料，共1,114个物理页；另收录1篇论文及其MinerU全文、16页和5张图片。每次Markdown转换完成后默认上传本仓库备份。研究报告和业务程序的后续范围由具体任务确定。
 
 ## 研究报告
 
@@ -16,6 +16,7 @@ Overlay2 用于整机套刻调研资料的保存和持续维护。当前已收�
 
 | 内容 | 入口 |
 | --- | --- |
+| 论文原件、全文与质量记录 | [论文资料目录](references/papers/README.md) · [论文清单](references/papers/manifest.json) |
 | 45件专利原件与全文 | [专利资料目录](references/patents/README.md) |
 | 公开号、页数、文件SHA-256 | [机器清单](references/patents/manifest.json) |
 | 机器转换质量与已知识别问题 | [质量记录](references/patents/QUALITY.md) |

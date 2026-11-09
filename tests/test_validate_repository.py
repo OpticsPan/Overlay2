@@ -173,6 +173,98 @@ class RepositoryValidationTests(unittest.TestCase):
                 return
             self.assertIn('unsafe_document', self.errors())
 
+    def add_paper(self):
+        self.paper_dir = self.root / 'references/papers/budget-design'
+        self.paper_dir.mkdir(parents=True)
+        self.paper_pdf = self.pack / 'Budget Design.pdf'
+        self.paper_pdf.write_bytes(self.pdf.read_bytes())
+        self.paper_md = self.paper_dir / 'mineru.md'
+        self.paper_md.write_text('<a id="p0001"></a>\n\n[PDF](../../patents/Budget%20Design.pdf#page=1)\n', encoding='utf-8')
+        (self.paper_dir.parent / 'README.md').write_text('# Papers\n', encoding='utf-8')
+        self.paper_row = {'id': 'budget-design', 'pages': 1,
+                          'original_pdf': 'references/patents/Budget Design.pdf',
+                          'markdown': 'budget-design/mineru.md', 'figures': 0,
+                          'source_sha256': self.digest(self.paper_pdf)['sha256'],
+                          'artifacts': {p.relative_to(self.root).as_posix(): self.digest(p)
+                                        for p in [self.paper_pdf, self.paper_md]}}
+        self.papers = {'papers': 1, 'physical_pages': 1, 'semantic_fidelity_certified': False,
+                       'records': [self.paper_row]}
+        self.save_papers()
+
+    def save_papers(self):
+        (self.paper_dir.parent / 'manifest.json').write_text(json.dumps(self.papers), encoding='utf-8')
+
+    def test_registered_paper_keeps_legacy_pdf_path(self):
+        self.add_paper()
+        report = validate(self.root)
+        self.assertEqual(report['errors'], [])
+        self.assertEqual(report.get('papers'), 1)
+        self.assertEqual(report.get('paper_physical_pages'), 1)
+        self.assertEqual(report['publications'], 1)
+
+    def test_paper_missing_image_is_detected(self):
+        self.add_paper()
+        image_path = self.paper_dir / 'images/chart.png'
+        image_path.parent.mkdir()
+        image_path.write_bytes(b'image fixture')
+        self.paper_row['artifacts'][image_path.relative_to(self.root).as_posix()] = self.digest(image_path)
+        self.paper_row['figures'] = 1
+        self.save_papers()
+        image_path.unlink()
+        self.assertIn('missing_artifact', self.errors())
+
+    def test_paper_markdown_hash_is_checked(self):
+        self.add_paper()
+        self.paper_md.write_text(self.paper_md.read_text('utf-8') + 'changed', encoding='utf-8')
+        self.assertIn('artifact_hash', self.errors())
+
+    def test_paper_physical_pages_and_anchors_are_checked(self):
+        self.add_paper()
+        self.paper_row['pages'] = 2
+        self.papers['physical_pages'] = 2
+        self.save_papers()
+        errors = self.errors()
+        self.assertIn('pdf_pages', errors)
+        self.assertIn('page_anchors', errors)
+
+    def test_paper_unregistered_file_is_detected(self):
+        self.add_paper()
+        (self.paper_dir / 'extra.txt').write_text('not registered', encoding='utf-8')
+        errors = validate(self.root)['errors']
+        self.assertTrue(any(e['code'] == 'unregistered_file' and e['path'].endswith('extra.txt') for e in errors))
+
+    def test_paper_unsafe_artifact_is_rejected(self):
+        self.add_paper()
+        self.paper_row['artifacts']['../outside.txt'] = {'bytes': 0, 'sha256': '0' * 64}
+        self.save_papers()
+        self.assertIn('unsafe_path', self.errors())
+
+    def test_paper_duplicate_ids_and_totals_are_checked(self):
+        self.add_paper()
+        self.papers['records'].append(self.paper_row.copy())
+        self.save_papers()
+        self.assertIn('duplicate_paper', self.errors())
+        self.assertIn('manifest_totals', self.errors())
+
+    def test_paper_manifest_required_when_directory_exists(self):
+        self.add_paper()
+        (self.paper_dir.parent / 'manifest.json').unlink()
+        self.assertIn('invalid_manifest', self.errors())
+
+    def test_legacy_paper_pdf_cannot_be_modified_even_with_updated_hash(self):
+        self.add_paper()
+        def git(*args):
+            return subprocess.check_output(['git', '-C', str(self.root), *args], stderr=subprocess.DEVNULL).decode().strip()
+        git('init', '-q')
+        git('add', '.')
+        git('-c', 'user.name=Test', '-c', 'user.email=test@example.invalid', 'commit', '-qm', 'baseline')
+        base = git('rev-parse', 'HEAD')
+        self.paper_pdf.write_bytes(self.paper_pdf.read_bytes() + b'changed')
+        self.paper_row['source_sha256'] = self.digest(self.paper_pdf)['sha256']
+        self.paper_row['artifacts'][self.paper_row['original_pdf']] = self.digest(self.paper_pdf)
+        self.save_papers()
+        self.assertIn('original_changed', self.errors(base=base))
+
 
 if __name__ == '__main__':
     unittest.main()

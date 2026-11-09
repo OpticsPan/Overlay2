@@ -1,0 +1,126 @@
+{
+  "title": "On the Systematic Use of Budget-Based Design",
+  "repository": "OpticsPan/Overlay2",
+  "source_commit": "61883f6693a9edf02a54b9d563dd0a33463892c8",
+  "source_commit_time_utc": "2026-11-09T01:06:32Z",
+  "source_url": "https://github.com/OpticsPan/Overlay2/blob/61883f6693a9edf02a54b9d563dd0a33463892c8/references/patents/On%20the%20Systematic%20Use%20of%20Budget-Based%20Design.pdf",
+  "source_git_blob_sha1": "77a185390ab2fdda19a19157317312b9005d80bd",
+  "source_sha256": "b5f559746fd8698e02eb88cdb39d71d03968a39f344127a7a3eab69cf6a3874f",
+  "source_pages": 16,
+  "converted_pages": 16,
+  "mineru_version": "4.0.12",
+  "tier": "standard",
+  "ocr_mode_requested": "auto",
+  "image_analysis": false,
+  "remote_service": false,
+  "mineru_metadata": {
+    "tier": "standard",
+    "parse_mode": "txt"
+  },
+  "page_stats": [
+    {
+      "page": 1,
+      "markdown_chars": 3212,
+      "image_links": 0
+    },
+    {
+      "page": 2,
+      "markdown_chars": 2855,
+      "image_links": 1
+    },
+    {
+      "page": 3,
+      "markdown_chars": 2605,
+      "image_links": 1
+    },
+    {
+      "page": 4,
+      "markdown_chars": 3846,
+      "image_links": 0
+    },
+    {
+      "page": 5,
+      "markdown_chars": 3612,
+      "image_links": 0
+    },
+    {
+      "page": 6,
+      "markdown_chars": 4049,
+      "image_links": 0
+    },
+    {
+      "page": 7,
+      "markdown_chars": 3891,
+      "image_links": 0
+    },
+    {
+      "page": 8,
+      "markdown_chars": 2561,
+      "image_links": 0
+    },
+    {
+      "page": 9,
+      "markdown_chars": 1974,
+      "image_links": 1
+    },
+    {
+      "page": 10,
+      "markdown_chars": 2387,
+      "image_links": 1
+    },
+    {
+      "page": 11,
+      "markdown_chars": 4010,
+      "image_links": 0
+    },
+    {
+      "page": 12,
+      "markdown_chars": 3821,
+      "image_links": 0
+    },
+    {
+      "page": 13,
+      "markdown_chars": 2467,
+      "image_links": 1
+    },
+    {
+      "page": 14,
+      "markdown_chars": 3616,
+      "image_links": 0
+    },
+    {
+      "page": 15,
+      "markdown_chars": 3321,
+      "image_links": 0
+    },
+    {
+      "page": 16,
+      "markdown_chars": 3089,
+      "image_links": 0
+    }
+  ],
+  "image_references": 5,
+  "unique_images": 5,
+  "missing_image_links": [],
+  "semantic_fidelity_certified": false,
+  "verification": {
+    "physical_pages": 16,
+    "ordered_page_anchors": 16,
+    "decodable_images": 5,
+    "local_links_valid": true,
+    "source_and_artifact_hashes_valid": true,
+    "visually_checked_pdf_pages": [
+      8,
+      9,
+      13
+    ]
+  },
+  "original_pdf": "references/patents/On the Systematic Use of Budget-Based Design.pdf",
+  "local_markdown_sha256_before_link_adaptation": "e09a361e0fbfe617c6954f4ec724e2807774d84dc08fe4bceaad20e52308a9c9",
+  "repository_adaptations": [
+    "Rename the delivered Markdown to mineru.md",
+    "Retarget PDF and quality links for repository browsing",
+    "Keep machine body and image bytes unchanged",
+    "Keep the previously uploaded original at its existing repository path"
+  ]
+}

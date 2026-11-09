@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-09",
+  "base_commit": "61883f6693a9edf02a54b9d563dd0a33463892c8",
+  "scope": "REQ-008 default Markdown conversion backup and first paper archive",
+  "remote_verification": "Reported separately after PR merge; this file records local verification only",
+  "semantic_fidelity_certified": false,
+  "tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "exit_code": 0,
+    "summary": [
+      "Ran 27 tests in 2.342s",
+      "",
+      "OK"
+    ]
+  },
+  "repository_validation": {
+    "command": "python tools/validate_repository.py --base 61883f6693a9edf02a54b9d563dd0a33463892c8",
+    "exit_code": 0,
+    "result": {
+      "scope": "source bytes, actual PDF pages, Markdown anchors, local links and original preservation",
+      "semantic_fidelity_certified": false,
+      "publications": 45,
+      "physical_pages": 1114,
+      "figures": 624,
+      "artifact_files": 714,
+      "markdown_files": 99,
+      "local_links": 4298,
+      "papers": 1,
+      "paper_physical_pages": 16,
+      "paper_figures": 5,
+      "paper_artifact_files": 9,
+      "baseline_checked": true,
+      "errors": [],
+      "warnings": [
+        "Structural checks do not certify OCR accuracy, formulas, reading order or technical conclusions."
+      ]
+    }
+  },
+  "review_notes": [
+    "Nine paper-specific regression tests failed before implementation and pass after implementation",
+    "Existing original PDF path and bytes retained",
+    "Previous local conversion was verified at physical PDF pages 8, 9 and 13",
+    "Only Markdown source/quality links adapted; image bytes unchanged"
+  ],
+  "independent_review": {
+    "verdict": "ready for PR and CI",
+    "critical": 0,
+    "important": 0,
+    "minor_resolved": "Clarified that the patent manifest is authoritative only for patent materials",
+    "verification": "Reviewer independently reran all 27 tests and full repository validation; checked original PDF bytes, JPEG decoding and Git text filters"
+  }
+}
