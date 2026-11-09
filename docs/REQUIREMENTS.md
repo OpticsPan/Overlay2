@@ -21,6 +21,7 @@
 | REQ-006 | 将L0—L4作为报告默认骨架 | P1 | 已确认 | Unreleased（规范） | [L0—L4骨架](../reports/STRUCTURE.md)；后续报告逐次核验 |
 | REQ-007 | 基于R3整理DUV整机准备工作报告 | P1 | 待验收 | Unreleased（报告V1） | [工作报告](../reports/whole-machine-preparation/report.md)及交付记录 |
 | REQ-008 | 每次Markdown转换完成后默认上传仓库备份 | P1 | 已确认（持续执行） | Unreleased（资料管理） | [备份规则](SOURCES.md) · [论文目录](../references/papers/README.md) |
+| REQ-009 | 每次更新的结果链接展示在main首页 | P1 | 已确认（持续执行） | Unreleased（仓库导航） | [首页结果直达](../README.md#latest-results) · [维护规则](../CONTRIBUTING.md#homepage-results) |
 
 ### REQ-001：管理基础
 
@@ -128,6 +129,15 @@
 - 首次落实：补充[代理约定](../AGENTS.md)、[资料规则](SOURCES.md)、贡献流程与论文校验；归档本次预算设计论文的16页全文及5张图片。
 - 每次验收：本地页序／依赖／哈希及代表页检查通过，资料已上传并按流程合并；远端文件回读一致，检查对应Actions，交付可访问的仓库链接。上传失败或远端核验未完成需如实标明。
 - 证据：[论文清单](../references/papers/manifest.json)、[本次本地验证](validation/2026-11-09-markdown-backup.json)；持续规则不代表未来尚未发生的转换已完成备份。
+
+### REQ-009：main首页始终展示更新结果链接
+
+来源：2026-11-09用户要求“做好仓库管理，每次更新的结果链接总是展示在main首页，方便找到直接点进去”。
+
+- 持续要求：每次更新与成果同步维护根README顶部的结果入口，记录日期、名称和直达文件／具体章节的链接，最新置顶；已有成果与历史入口保留，修订状态清晰。
+- 首次落实：补充最新论文全文、原PDF、质量记录、思维导图、V1准备工作报告及R3当前稿直达入口；管理变更直接链接到相应规则章节。
+- 每次验收：成果与首页入口同批入库；检查相对链接／锚点，通过仓库检查后合并；回读main首页及本次成果目标，在交付中给出首页链接。
+- 执行入口：[首页维护规则](../CONTRIBUTING.md#homepage-results)、[代理约定](../AGENTS.md)和PR清单；未来每次更新单独核验，不预先宣称全部后续任务完成。
 
 ## 待确认事项
 
