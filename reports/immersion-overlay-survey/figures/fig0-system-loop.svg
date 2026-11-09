@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="810" viewBox="0 0 1580 810">
+<rect width="100%" height="100%" fill="white"/>
+<text x="42" y="30" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" dominant-baseline="text-before-edge">图 0  从产品边缘要求到整机预算与验证</text>
+<text x="42" y="88" fill="#52687d" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" dominant-baseline="text-before-edge">本文综合示意；箭头表示信息或校正的传递，不代表 ASML 内部软件结构。</text>
+<rect x="42" y="170" width="390" height="187" rx="15" fill="#eff8f8" stroke="#16324f" stroke-width="2"/>
+<text x="64" y="190" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">产品与层对</text>
+<text x="64" y="236" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">电路类型、实际 CD / pitch</text>
+<text x="64" y="275" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">关键边缘间距与 EPE 限值</text>
+<text x="64" y="314" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">ADI / AEI、采样与统计量</text>
+<rect x="590" y="170" width="390" height="187" rx="15" fill="#eff8f8" stroke="#16324f" stroke-width="2"/>
+<text x="612" y="190" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">总体分配与模型</text>
+<text x="612" y="236" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">DCO → MMO → 产品套刻</text>
+<text x="612" y="275" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">误差归属、均值、协方差</text>
+<text x="612" y="314" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">校正范围与校正后残差</text>
+<rect x="1138" y="170" width="400" height="187" rx="15" fill="#eff8f8" stroke="#16324f" stroke-width="2"/>
+<text x="1160" y="190" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">量测与校准</text>
+<text x="1160" y="236" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">基准晶圆、对准标记</text>
+<text x="1160" y="275" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">网格 / 物镜 / 热模型标定</text>
+<text x="1160" y="314" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">采样覆盖与测量不确定度</text>
+<polyline points="432,260 590,260" fill="none" stroke="#087f8c" stroke-width="4"/>
+<polygon points="590,260 577.1051460839597,265.4518567923211 577.1051460839597,254.5481432076789" fill="#087f8c"/>
+<polyline points="1138,260 980,260" fill="none" stroke="#087f8c" stroke-width="4"/>
+<polygon points="980,260 992.8948539160403,254.5481432076789 992.8948539160403,265.4518567923211" fill="#087f8c"/>
+<rect x="590" y="475" width="390" height="187" rx="15" fill="#eff8f8" stroke="#087f8c" stroke-width="2"/>
+<text x="612" y="495" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">机台执行</text>
+<text x="612" y="541" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">运动台、对准、投影物镜</text>
+<text x="612" y="580" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">晶圆与掩模夹持 / 热管理</text>
+<text x="612" y="619" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">执行能力和在线补偿</text>
+<rect x="1138" y="475" width="400" height="187" rx="15" fill="#eff8f8" stroke="#087f8c" stroke-width="2"/>
+<text x="1160" y="495" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">验证与工艺反馈</text>
+<text x="1160" y="541" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">标准片 DCO / MMO</text>
+<text x="1160" y="580" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">产品 ADI → AEI → EPE</text>
+<text x="1160" y="619" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">跨批次漂移与模型复核</text>
+<polyline points="785,357 785,475" fill="none" stroke="#087f8c" stroke-width="4"/>
+<polygon points="785,475 779.5481432076789,462.1051460839596 790.4518567923211,462.1051460839596" fill="#087f8c"/>
+<polyline points="980,560 1138,560" fill="none" stroke="#087f8c" stroke-width="4"/>
+<polygon points="1138,560 1125.1051460839597,565.4518567923211 1125.1051460839597,554.5481432076789" fill="#087f8c"/>
+<polyline points="1338,475 1338,357" fill="none" stroke="#b67718" stroke-width="4"/>
+<polygon points="1338,357 1343.451856792321,369.8948539160404 1332.548143207679,369.8948539160404" fill="#b67718"/>
+<text x="1357" y="395" fill="#b67718" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" dominant-baseline="text-before-edge">反馈</text>
+<rect x="42" y="475" width="390" height="187" rx="15" fill="#fff8e9" stroke="#b67718" stroke-width="2"/>
+<text x="64" y="495" fill="#b67718" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">L4 后续技术接口</text>
+<text x="64" y="541" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">协方差识别、MA / MSD</text>
+<text x="64" y="580" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">像差敏感度、采样优化</text>
+<text x="64" y="619" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">测量偏差与工艺迁移</text>
+<polyline points="432,560 590,560" fill="none" stroke="#b67718" stroke-width="3"/>
+<polygon points="590,560 577.1051460839597,565.4518567923211 577.1051460839597,554.5481432076789" fill="#b67718"/>
+<text x="42" y="742" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">输出：可追溯的预算表 + 物理责任边界 + 整机验收条件；不能只靠预算加总证明设备达标。</text>
+</svg>

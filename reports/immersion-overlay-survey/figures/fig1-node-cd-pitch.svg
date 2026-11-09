@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1000" viewBox="0 0 1580 1000">
+<rect width="100%" height="100%" fill="white"/>
+<text x="42" y="30" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" dominant-baseline="text-before-edge">图 1  节点名称、实际线宽与周期：三个不同层面</text>
+<text x="42" y="88" fill="#52687d" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" dominant-baseline="text-before-edge">自绘概念图；几何数字仅作教学示例，不代表某一商业节点或芯片的真实设计。</text>
+<rect x="42" y="155" width="468" height="148" rx="15" fill="#eff8f8" stroke="#16324f" stroke-width="2"/>
+<text x="64" y="175" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">逻辑：CPU / GPU / ASIC</text>
+<text x="64" y="221" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">逻辑单元、互连与嵌入式 SRAM</text>
+<text x="64" y="260" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">重点：栅 / 接触孔 / 金属层对</text>
+<rect x="556" y="155" width="468" height="148" rx="15" fill="#eff8f8" stroke="#087f8c" stroke-width="2"/>
+<text x="578" y="175" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">DRAM：动态随机存储</text>
+<text x="578" y="221" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">典型存储单元为 1T1C</text>
+<text x="578" y="260" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">重点：有源区、接触孔与电容</text>
+<rect x="1070" y="155" width="468" height="148" rx="15" fill="#fff8e9" stroke="#b67718" stroke-width="2"/>
+<text x="1092" y="175" fill="#b67718" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">NAND：非易失存储</text>
+<text x="1092" y="221" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">存储串；3D NAND 沿高度堆叠</text>
+<text x="1092" y="260" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">层数与横向线宽分别描述</text>
+<text x="42" y="342" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">节点是工艺代际标识；先问电路和层，再问测量对象与真实尺寸。</text>
+<rect x="42" y="412" width="925" height="402" rx="15" fill="#f2f6fa" stroke="#98aabd" stroke-width="2"/>
+<text x="66" y="435" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">俯视：同一层的周期线 / 空图形</text>
+<rect x="140" y="540" width="156" height="165" rx="0" fill="#9edbdc" stroke="#087f8c" stroke-width="2"/>
+<rect x="400" y="540" width="156" height="165" rx="0" fill="#9edbdc" stroke="#087f8c" stroke-width="2"/>
+<rect x="660" y="540" width="156" height="165" rx="0" fill="#9edbdc" stroke="#087f8c" stroke-width="2"/>
+<polyline points="140,520 296,520" fill="none" stroke="#087f8c" stroke-width="2"/>
+<polyline points="140,510 140,530" fill="none" stroke="#087f8c" stroke-width="2"/>
+<polyline points="296,510 296,530" fill="none" stroke="#087f8c" stroke-width="2"/>
+<text x="149.0" y="483" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">CD = 24 nm</text>
+<polyline points="296,746 400,746" fill="none" stroke="#52687d" stroke-width="2"/>
+<polyline points="296,736 296,756" fill="none" stroke="#52687d" stroke-width="2"/>
+<polyline points="400,736 400,756" fill="none" stroke="#52687d" stroke-width="2"/>
+<text x="294.0" y="709" fill="#52687d" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">空隙 = 16</text>
+<polyline points="140,790 400,790" fill="none" stroke="#16324f" stroke-width="2"/>
+<polyline points="140,780 140,800" fill="none" stroke="#16324f" stroke-width="2"/>
+<polyline points="400,780 400,800" fill="none" stroke="#16324f" stroke-width="2"/>
+<text x="189.5" y="753" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">pitch = 40 nm</text>
+<text x="65" y="858" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">half-pitch = pitch / 2 = 20 nm</text>
+<text x="65" y="912" fill="#52687d" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">此例 CD 为 24 nm；只有 1:1 线 / 空时，CD 才等于半节距。</text>
+<rect x="1010" y="412" width="528" height="402" rx="15" fill="#f2f6fa" stroke="#98aabd" stroke-width="2"/>
+<text x="1034" y="435" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">截面：CD 还要注明高度</text>
+<polygon points="1150,565 1330,565 1380,740 1100,740" fill="#b7c8db" stroke="#16324f"/>
+<polyline points="1150,540 1330,540" fill="none" stroke="#16324f" stroke-width="2"/>
+<polyline points="1150,530 1150,550" fill="none" stroke="#16324f" stroke-width="2"/>
+<polyline points="1330,530 1330,550" fill="none" stroke="#16324f" stroke-width="2"/>
+<text x="1195.5" y="503" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">顶部 CD</text>
+<polyline points="1100,785 1380,785" fill="none" stroke="#16324f" stroke-width="2"/>
+<polyline points="1100,775 1100,795" fill="none" stroke="#16324f" stroke-width="2"/>
+<polyline points="1380,775 1380,795" fill="none" stroke="#16324f" stroke-width="2"/>
+<text x="1195.5" y="748" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">底部 CD</text>
+<text x="1034" y="854" fill="#52687d" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">还需记录：ADI / AEI、材料层</text>
+<text x="1034" y="900" fill="#52687d" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">测量方向、高度、方法及算法</text>
+</svg>

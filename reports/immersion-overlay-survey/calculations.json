@@ -1,0 +1,74 @@
+{
+  "unit": "nm",
+  "metric": "Q = B + 3sigma, under stated allocation assumptions",
+  "scenarios": {
+    "A": {
+      "dco_variance_3sigma_squared": 4.5375,
+      "dco_R": 2.130140840414079,
+      "dco_B": 0.25,
+      "dco_Q": 2.380140840414079,
+      "dco_arithmetic_headroom": 0.11985915958592071,
+      "mmo_variance_3sigma_squared": 25.2175,
+      "mmo_R": 5.021702898420017,
+      "mmo_B": 0.35,
+      "mmo_Q": 5.3717028984200175,
+      "mmo_arithmetic_headroom": 0.12829710157998295,
+      "stage_children_R": 1.3955285736952863,
+      "dco_variance_shares_percent": {
+        "stage": 43.19559228650138,
+        "alignment": 14.104683195592287,
+        "optical_column": 10.798898071625345,
+        "wafer_heat_immersion": 15.922865013774105,
+        "wafer_clamping": 6.666666666666667,
+        "reticle_clamp_heat": 9.31129476584022
+      },
+      "sensitivity_stage_alignment_rho_0_3": {
+        "dco_Q": 2.532432912486148,
+        "mmo_Q": 5.438172559966889,
+        "dco_anchor_exceeded": true
+      }
+    },
+    "B": {
+      "dco_variance_3sigma_squared": 1.7075,
+      "dco_R": 1.306713434537198,
+      "dco_B": 0.15,
+      "dco_Q": 1.456713434537198,
+      "dco_arithmetic_headroom": 0.14328656546280202,
+      "mmo_variance_3sigma_squared": 4.855,
+      "mmo_R": 2.2034064536530704,
+      "mmo_B": 0.2,
+      "mmo_Q": 2.40340645365307,
+      "mmo_arithmetic_headroom": 0.09659354634692967,
+      "stage_children_R": 0.8440971508067067,
+      "dco_variance_shares_percent": {
+        "stage": 42.31332357247438,
+        "alignment": 14.641288433382138,
+        "optical_column": 11.859443631039532,
+        "wafer_heat_immersion": 14.641288433382138,
+        "wafer_clamping": 7.174231332357247,
+        "reticle_clamp_heat": 9.370424597364568
+      },
+      "sensitivity_stage_alignment_rho_0_3": {
+        "dco_Q": 1.55089257261219,
+        "mmo_Q": 2.460530911091463,
+        "dco_anchor_exceeded": false
+      }
+    }
+  },
+  "edge_example": {
+    "center_shift": 2.0,
+    "CD_change": 4.0,
+    "left_edge_shift_positive_x": 0.0,
+    "right_edge_shift_positive_x": 4.0
+  },
+  "epe_sigma_example": {
+    "inputs_1sigma": [
+      1.0,
+      2.0,
+      0.5
+    ],
+    "EPE_1sigma": 1.5,
+    "EPE_3sigma": 4.5
+  },
+  "limits": "Arithmetic consistency only; correlations, distributions, spatial sampling and device performance require data."
+}

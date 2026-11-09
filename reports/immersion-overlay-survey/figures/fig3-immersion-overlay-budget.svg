@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1810" height="1340" viewBox="0 0 1810 1340">
+<rect width="100%" height="100%" fill="white"/>
+<text x="42" y="30" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" dominant-baseline="text-before-edge">图 3  浸没式 ArF 套刻建议预算：1950i 水平与 1980Di 水平</text>
+<text x="42" y="88" fill="#52687d" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" dominant-baseline="text-before-edge">A | B = NXT:1950i 历史基线 | NXT:1980Di；内部配额均为本文建议值，不是 ASML 披露值。</text>
+<rect x="42" y="140" width="1726" height="102" rx="15" fill="#fff8e9" stroke="#b67718" stroke-width="2"/>
+<text x="64" y="158" fill="#b67718" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">子项 u = 3σ，晶圆面单轴、曝光对之差、校正后残差；初始假设各桶不相关。</text>
+<text x="64" y="201" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">均值界 B 在各输出单列；Q = B + R，R = RSS(u)。厂家指标仅作为数值锚点，统计口径尚需对齐。</text>
+<text x="42" y="280" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">整机匹配输出</text>
+<text x="600" y="280" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">单机基线 + 新增匹配残差</text>
+<text x="1200" y="280" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">DCO：六类物理贡献</text>
+<polyline points="480,650 540,650 540,440 600,440" fill="none" stroke="#16324f" stroke-width="3"/>
+<polygon points="600,440 587.1051460839597,445.4518567923211 587.1051460839597,434.5481432076789" fill="#16324f"/>
+<polyline points="540,650 540,1055" fill="none" stroke="#16324f" stroke-width="3"/>
+<polyline points="540,735 600,735" fill="none" stroke="#16324f" stroke-width="3"/>
+<polygon points="600,735 587.1051460839597,740.4518567923211 587.1051460839597,729.5481432076789" fill="#16324f"/>
+<polyline points="540,895 600,895" fill="none" stroke="#16324f" stroke-width="3"/>
+<polygon points="600,895 587.1051460839597,900.4518567923211 587.1051460839597,889.5481432076789" fill="#16324f"/>
+<polyline points="540,1055 600,1055" fill="none" stroke="#16324f" stroke-width="3"/>
+<polygon points="600,1055 587.1051460839597,1060.451856792321 587.1051460839597,1049.548143207679" fill="#16324f"/>
+<polyline points="1080,440 1140,440 1140,1094" fill="none" stroke="#087f8c" stroke-width="3"/>
+<polyline points="1140,440 1140,394 1200,394" fill="none" stroke="#087f8c" stroke-width="3"/>
+<polygon points="1200,394 1187.1051460839597,399.4518567923211 1187.1051460839597,388.5481432076789" fill="#087f8c"/>
+<polyline points="1140,534 1200,534" fill="none" stroke="#087f8c" stroke-width="3"/>
+<polygon points="1200,534 1187.1051460839597,539.4518567923211 1187.1051460839597,528.5481432076789" fill="#087f8c"/>
+<polyline points="1140,674 1200,674" fill="none" stroke="#087f8c" stroke-width="3"/>
+<polygon points="1200,674 1187.1051460839597,679.4518567923211 1187.1051460839597,668.5481432076789" fill="#087f8c"/>
+<polyline points="1140,814 1200,814" fill="none" stroke="#087f8c" stroke-width="3"/>
+<polygon points="1200,814 1187.1051460839597,819.4518567923211 1187.1051460839597,808.5481432076789" fill="#087f8c"/>
+<polyline points="1140,954 1200,954" fill="none" stroke="#087f8c" stroke-width="3"/>
+<polygon points="1200,954 1187.1051460839597,959.4518567923211 1187.1051460839597,948.5481432076789" fill="#087f8c"/>
+<polyline points="1140,1094 1200,1094" fill="none" stroke="#087f8c" stroke-width="3"/>
+<polygon points="1200,1094 1187.1051460839597,1099.451856792321 1187.1051460839597,1088.548143207679" fill="#087f8c"/>
+<rect x="42" y="520" width="438" height="226" rx="15" fill="#eff8f8" stroke="#16324f" stroke-width="2"/>
+<text x="64" y="540" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">MMO 数值锚点</text>
+<text x="64" y="586" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">≤ 5.50 | ≤ 2.50 nm</text>
+<text x="64" y="625" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">R = 5.022 | 2.203 nm</text>
+<text x="64" y="664" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">B = 0.35 | 0.20 nm</text>
+<text x="64" y="703" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">Q = 5.372 | 2.403 nm</text>
+<text x="60" y="797" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="700" dominant-baseline="text-before-edge">上层 RSS 只传递 R。</text>
+<text x="60" y="842" fill="#52687d" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">B 为该输出的总均值界，</text>
+<text x="60" y="883" fill="#52687d" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">不把下层 B 再加一遍。</text>
+<rect x="600" y="340" width="480" height="226" rx="15" fill="#eff8f8" stroke="#16324f" stroke-width="2"/>
+<text x="622" y="360" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">DCO 数值锚点</text>
+<text x="622" y="406" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">≤ 2.50 | ≤ 1.60 nm</text>
+<text x="622" y="445" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">R = 2.130 | 1.307 nm</text>
+<text x="622" y="484" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">B = 0.25 | 0.15 nm</text>
+<text x="622" y="523" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">Q = 2.380 | 1.457 nm</text>
+<rect x="600" y="680" width="480" height="109" rx="15" fill="#eff8f8" stroke="#16324f" stroke-width="2"/>
+<text x="622" y="700" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">新增网格匹配残差</text>
+<text x="622" y="746" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">3.60  |  1.35 nm</text>
+<rect x="600" y="840" width="480" height="109" rx="15" fill="#eff8f8" stroke="#16324f" stroke-width="2"/>
+<text x="622" y="860" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">新增物镜指纹差残差</text>
+<text x="622" y="906" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">2.40  |  0.95 nm</text>
+<rect x="600" y="1000" width="480" height="109" rx="15" fill="#eff8f8" stroke="#16324f" stroke-width="2"/>
+<text x="622" y="1020" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">匹配设定 / 迁移残差</text>
+<text x="622" y="1066" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">1.40  |  0.65 nm</text>
+<rect x="1200" y="340" width="568" height="109" rx="15" fill="#eff8f8" stroke="#087f8c" stroke-width="2"/>
+<text x="1222" y="360" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">运动台定位</text>
+<text x="1222" y="406" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">1.40  |  0.85 nm</text>
+<rect x="1200" y="480" width="568" height="109" rx="15" fill="#eff8f8" stroke="#087f8c" stroke-width="2"/>
+<text x="1222" y="500" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">晶圆 / 掩模对准</text>
+<text x="1222" y="546" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">0.80  |  0.50 nm</text>
+<rect x="1200" y="620" width="568" height="109" rx="15" fill="#eff8f8" stroke="#087f8c" stroke-width="2"/>
+<text x="1222" y="640" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">投影光学</text>
+<text x="1222" y="686" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">0.70  |  0.45 nm</text>
+<rect x="1200" y="760" width="568" height="109" rx="15" fill="#eff8f8" stroke="#087f8c" stroke-width="2"/>
+<text x="1222" y="780" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">晶圆热 / 浸没扰动</text>
+<text x="1222" y="826" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">0.85  |  0.50 nm</text>
+<rect x="1200" y="900" width="568" height="109" rx="15" fill="#eff8f8" stroke="#087f8c" stroke-width="2"/>
+<text x="1222" y="920" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">晶圆夹持</text>
+<text x="1222" y="966" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">0.55  |  0.35 nm</text>
+<rect x="1200" y="1040" width="568" height="109" rx="15" fill="#eff8f8" stroke="#087f8c" stroke-width="2"/>
+<text x="1222" y="1060" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">掩模夹持 / 热</text>
+<text x="1222" y="1106" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">0.65  |  0.40 nm</text>
+<rect x="42" y="1195" width="1726" height="99" rx="15" fill="#f2f6fa" stroke="#98aabd" stroke-width="2"/>
+<text x="64" y="1213" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">依据：六类物理分支参考 1950i 技术论文图 3；整机锚点来自 ASML 官方资料（正文表 1）。</text>
+<text x="64" y="1255" fill="#52687d" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">本图止于机台层；产品掩模、前道 / 刻蚀、EPE 与量测验收不确定度需另建边界，不是本图结果。</text>
+</svg>

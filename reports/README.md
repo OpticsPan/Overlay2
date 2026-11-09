@@ -4,6 +4,10 @@
 
 ## 当前报告
 
+- [浸没式 ArF 套刻预算与建模控制调研 · R2](immersion-overlay-survey/report.md) · [预算图3](immersion-overlay-survey/figures/fig3-immersion-overlay-budget.png) · [文献获取清单](immersion-overlay-survey/references.md) · [来源](immersion-overlay-survey/sources.json) · [交付](immersion-overlay-survey/delivery.json)
+
+《浸没式 ArF 套刻预算与建模控制调研》R2复制用户最新上传的调研稿后修订，保留原文件；补充节点/电路类型/CD/套刻/EPE概念及示意图，采用1950i—1980Di公开机台水平建立明确标注假设的候选预算。原稿31个引用入口逐项登记获取状态和纠错，新补机型关键论文；内部配额不冒充厂家数据。尚未开展设备验证，待用户内容审阅，未生成报告PDF。
+
 - [预算式设计论文图3套刻预算分配审阅 · V1](budget-based-design-figure3-review/report.md) · [数值复算](budget-based-design-figure3-review/calculations.json) · [来源](budget-based-design-figure3-review/sources.json) · [交付记录](budget-based-design-figure3-review/delivery.json)
 
 - [整机需要准备的工作 · V1（基于R3的独立准备工作报告）](whole-machine-preparation/report.md) · [思维导图](whole-machine-preparation/mind-map.md) · [来源](whole-machine-preparation/sources.json) · [交付记录](whole-machine-preparation/delivery.json)

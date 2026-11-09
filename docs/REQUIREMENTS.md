@@ -23,6 +23,7 @@
 | REQ-008 | 每次Markdown转换完成后默认上传仓库备份 | P1 | 已确认（持续执行） | Unreleased（资料管理） | [备份规则](SOURCES.md) · [论文目录](../references/papers/README.md) |
 | REQ-009 | 每次更新的结果链接展示在main首页 | P1 | 已确认（持续执行） | Unreleased（仓库导航） | [首页结果直达](../README.md#latest-results) · [维护规则](../CONTRIBUTING.md#homepage-results) |
 | REQ-010 | 学习最新上传论文并分析图3套刻预算分配合理性 | P1 | 待验收 | Unreleased（专题V1） | [专题报告](../reports/budget-based-design-figure3-review/report.md) · [交付记录](../reports/budget-based-design-figure3-review/delivery.json) |
+| REQ-011 | 修订套刻调研稿、补概念示意、按1950i—1980Di重绘预算并获取文献 | P1 | 待验收 | Unreleased（调研R2） | [报告](../reports/immersion-overlay-survey/report.md) · [图3](../reports/immersion-overlay-survey/figures/fig3-immersion-overlay-budget.png) · [文献](../reports/immersion-overlay-survey/references.md) |
 
 ### REQ-001：管理基础
 
@@ -148,6 +149,14 @@
 - 实施：保留原图，逐层复算并标明原文明确运算与候选假设；讨论单机2 nm差额、共享测量链、统计量、转角与坐标面。记录公开图保密修改的来源背景，不把示例配额当作真实设备验收规格。
 - 验收：原文事实、计算和推断可区分；数值、公式、原页与来源可追溯；结果保存到仓库且main首页有直达链接，通过实际检查并核对远端。交付不代表用户内容验收，不扩展为设备实验、内部模型复现或新设备指标承诺。
 - 记录：[报告](../reports/budget-based-design-figure3-review/report.md)、[来源](../reports/budget-based-design-figure3-review/sources.json)、[复算](../reports/budget-based-design-figure3-review/calculations.json)、[交付](../reports/budget-based-design-figure3-review/delivery.json)。
+
+## REQ-011：套刻调研稿修订实施与验收边界
+
+- 来源：2026-11-09用户明确要求补充最新调研Markdown、节点/电路类型/物理线宽/套刻/EPE概念与示意图，按immersion ArF ASML 1950i—1980i水平重绘图3类预算，并用互联网和Sci-Bot获取原稿引用。
+- 实施：按正式型号NXT:1980Di处理，复制原稿后修订为R2；保存四张原创PNG/SVG、建议配额、标准库数值复算及31个原引用逐项获取记录，新补两篇机型论文和官方依据。
+- 验收：定义、单位、统计口径和型号/年份可追溯；厂家数字与内部建议配额清楚分开；文献PDF/提取文本/缺全文/目录网页分别登记；原稿保持原字节；通过图稿、数值和仓库检查，main首页有结果直达并经远端回读。
+- 边界：本次不证明设备达标、EPE良率或最优分配；未取得全文条目不作为精确结论的核验依据；本地文献包在D盘，仓库保存原创报告/图稿和来源索引，未新增MinerU转换件或报告PDF。交付不等于用户内容验收。
+- 记录：[来源与哈希](../reports/immersion-overlay-survey/sources.json)、[复算](../reports/immersion-overlay-survey/calculations.json)、[交付检查](../reports/immersion-overlay-survey/delivery.json)。
 
 ## 待确认事项
 

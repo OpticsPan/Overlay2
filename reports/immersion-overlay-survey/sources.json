@@ -1,0 +1,845 @@
+{
+  "revision": "R2",
+  "date": "2026-11-09",
+  "repository_baseline": "1a7e0f671cdfc84f132bebf6222470a9aeaf16dc",
+  "parent_report": {
+    "path": "../../references/lithography_overlay_error_allocation_survey.md",
+    "introduced_by": "4f35fa464981e10991e331bc2ce9e7460364a837",
+    "sha256": "1e0c84264ffd33daea9151a642cdc3f90fe523e587e9565290b96f506ebe73b3",
+    "method": "copied before revision; original retained byte-for-byte"
+  },
+  "retrieval_methods": [
+    "Internet: publisher, institution, official vendor/SEC pages and DOI/Crossref metadata",
+    "Sci-Bot search and read by DOI; nonempty responses distinguished from empty responses"
+  ],
+  "counts": {
+    "original_unique_urls": 31,
+    "original_pdfs": 8,
+    "original_pdf_physical_pages": 224,
+    "original_scibot_texts": 8,
+    "original_specific_papers_without_fulltext": 7,
+    "original_volume_placeholders": 3,
+    "original_web_pages": 5,
+    "additional_scibot_machine_papers": 2,
+    "additional_official_web_sources": 8
+  },
+  "limits": [
+    "Sci-Bot extracted text does not certify PDF layout, figures, equation completeness or full-text fidelity.",
+    "Publisher HTML/challenge responses were not treated as PDFs.",
+    "Sci-Bot cite attempted for 10 used DOIs and returned HTTP 500; bibliography was assembled from verified source metadata instead.",
+    "Full source PDFs and Sci-Bot responses remain in the local D: acquisition bundle. This repository contains the report, original diagrams, source links and audit metadata; no new MinerU conversions were performed in this task."
+  ],
+  "records": [
+    {
+      "id": "R01",
+      "title": "Advance overlay correction beyond 32nm DRAM process",
+      "author_label": "Chia Tsung Hung 等",
+      "year": "2008",
+      "doi": "10.1117/12.804663",
+      "status": "scibot",
+      "status_label": "已取得 Sci-Bot 提取文本",
+      "notes": "特定年代 DRAM 的预算/校正背景；20% 不是所有产品的通则。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Advance Overlay Correction beyond 32nm DRAM Process"
+      ],
+      "original_url": "https://www.researchgate.net/publication/253248919_Advance_Overlay_Correction_beyond_32nm_DRAM_Process",
+      "primary_url": "https://doi.org/10.1117/12.804663",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": true,
+        "returned_characters": 8430,
+        "raw_response_sha256": "d993fac8c328febc07cdd31fa35a183814666a4f2ec95df0f033ed2d4cec4a5f",
+        "pdf_obtained": false,
+        "local_bundle_path": "scibot-text/R01.txt",
+        "text_sha256": "825094d8d0efb0192c1da7ba4762b69fba07ceac6b1c08fb86a3fa1faa6a1235"
+      }
+    },
+    {
+      "id": "R02",
+      "title": "Overlay deviation caused by mask heating during EUV exposure",
+      "author_label": "Ji-won Kang 等",
+      "year": "2025",
+      "doi": "10.1117/12.3072300",
+      "status": "unavailable",
+      "status_label": "未取得可核查全文",
+      "notes": "已查作者机构摘要；EUV/High-NA 热变形，不作为 ArF 定量配额。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Overlay deviation caused by mask heating during EUV exposure, SPIE 13687",
+        "Overlay deviation caused by mask heating during EUV exposure"
+      ],
+      "original_url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13687/136870K/Overlay-deviation-caused-by-mask-heating-during-EUV-exposure/10.1117/12.3072300.full",
+      "primary_url": "https://erica.scholarworks.kr/item/32461f66-0574-48c6-ac16-2720176aaffc",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": false,
+        "returned_characters": 0,
+        "raw_response_sha256": "af47175eb873b68642182dae95ad1152cecbefcc14ee59891b5c519acbecf9c2",
+        "pdf_obtained": false
+      }
+    },
+    {
+      "id": "R03",
+      "title": "Overlay and edge placement control strategies for the 7nm node using EUV and ArF lithography",
+      "author_label": "Jan Mulkens 等",
+      "year": "2015",
+      "doi": "10.1117/12.2085761",
+      "status": "scibot",
+      "status_label": "已取得 Sci-Bot 提取文本",
+      "notes": "区分 overlay 与具体图形边缘/间隙；论文的实验/外推条件不可混用。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Overlay and edge placement control strategies for the 7nm node using EUV and ArF lithography"
+      ],
+      "original_url": "https://www.researchgate.net/publication/280245696_Overlay_and_edge_placement_control_strategies_for_the_7nm_node_using_EUV_and_ArF_lithography",
+      "primary_url": "https://doi.org/10.1117/12.2085761",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": true,
+        "returned_characters": 28226,
+        "raw_response_sha256": "28b7215ecd48036a153ece5930d975f33735db119c7ba8be6aaf8ad6e8b14286",
+        "pdf_obtained": false,
+        "local_bundle_path": "scibot-text/R03.txt",
+        "text_sha256": "68bcda8220d9f75b33bc22100a76416e21a48e372c9e0e411a006c25c5b7db0e"
+      }
+    },
+    {
+      "id": "R04",
+      "title": "Metrology, Inspection, and Process Control for Microlithography XXXVIII，SPIE 12955",
+      "author_label": "SPIE",
+      "year": "2024",
+      "doi": null,
+      "status": "volume",
+      "status_label": "论文集目录，非单篇文献",
+      "notes": "这是整卷目录，不是可定位的单篇研究；删除其对具体结果的支撑。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Metrology, Inspection, and Process Control XXXVIII, SPIE 12955"
+      ],
+      "original_url": "https://spie.org/Publications/Proceedings/Volume/12955",
+      "primary_url": "https://spie.org/Publications/Proceedings/Volume/12955"
+    },
+    {
+      "id": "R05",
+      "title": "Photolithography Explained: Contact Printing to DUV Immersion and Overlay",
+      "author_label": "Safeguard",
+      "year": "网页",
+      "doi": null,
+      "status": "web",
+      "status_label": "网页/新闻，非原始论文",
+      "notes": "二手科普网页；本次机台参数改用 ASML 官方资料。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Photolithography Explained: Contact Printing to DUV Immersion and Overlay"
+      ],
+      "original_url": "https://safeguard.sh/resources/blog/photolithography-explained-from-contact-printing-to-duv-immersion-multi-patterning-photoresists-and-overlay",
+      "primary_url": "https://safeguard.sh/resources/blog/photolithography-explained-from-contact-printing-to-duv-immersion-multi-patterning-photoresists-and-overlay"
+    },
+    {
+      "id": "R06",
+      "title": "ASML EUV Update at SPIE",
+      "author_label": "SemiWiki / TechInsights",
+      "year": "网页",
+      "doi": null,
+      "status": "web",
+      "status_label": "网页/新闻，非原始论文",
+      "notes": "行业报道且对象为 EUV；不用于本次浸没式 ArF 配额。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "ASML EUV Update at SPIE"
+      ],
+      "original_url": "https://semiwiki.com/semiconductor-services/techinsights/314387-asml-euv-update-at-spie/",
+      "primary_url": "https://semiwiki.com/semiconductor-services/techinsights/314387-asml-euv-update-at-spie/"
+    },
+    {
+      "id": "R07",
+      "title": "Reticle side wall clamping",
+      "author_label": "G. P. Naaijkens",
+      "year": "2013",
+      "doi": "10.6100/IR756525",
+      "status": "pdf",
+      "status_label": "已取得原 PDF",
+      "notes": "TU/e 博士论文，155 个物理页；研究掩模夹持，不等于厂家整机预算。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Reticle side wall clamping, TU/e"
+      ],
+      "original_url": "https://pure.tue.nl/ws/files/3578336/756525.pdf",
+      "primary_url": "https://pure.tue.nl/ws/files/3578336/756525.pdf",
+      "pdf": {
+        "pages": 155,
+        "bytes": 13534404,
+        "sha256": "2cf70b4ec2781f59cecced229e0b50b5510caddaa88914199bcee9463c306bf4",
+        "local_bundle_path": "pdf/R07.pdf",
+        "source_url": "https://pure.tue.nl/ws/files/3578336/756525.pdf"
+      }
+    },
+    {
+      "id": "R08",
+      "title": "BACUS Newsletter July 2018；首篇 Intra-field mask-to-mask overlay, separating the mask writing from the dynamic pellicle contribution",
+      "author_label": "Richard van Haren、Orion Mouraille 等",
+      "year": "2018",
+      "doi": null,
+      "status": "pdf",
+      "status_label": "已取得原 PDF",
+      "notes": "SPIE 通讯 11 页；相同/不同平台下 pellicle 共同影响的抵消条件要区分。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "BACUS Newsletter July 2018, SPIE"
+      ],
+      "original_url": "https://spie.org/documents/Membership/BacusNewsletters/BACUS-Newsletter-July-2018.pdf",
+      "primary_url": "https://spie.org/documents/Membership/BacusNewsletters/BACUS-Newsletter-July-2018.pdf",
+      "pdf": {
+        "pages": 11,
+        "bytes": 3268830,
+        "sha256": "19109c4363b42f1cf4657ac408b4c136393be6b154d150f8d2dfcfca4e0c9398",
+        "local_bundle_path": "pdf/R08.pdf",
+        "source_url": "https://spie.org/documents/Membership/BacusNewsletters/BACUS-Newsletter-July-2018.pdf"
+      }
+    },
+    {
+      "id": "R09",
+      "title": "Accuracy In Optical Overlay Metrology",
+      "author_label": "Semiconductor Engineering",
+      "year": "网页",
+      "doi": null,
+      "status": "web",
+      "status_label": "网页/新闻，非原始论文",
+      "notes": "行业文章；本报告量测定义与模型主要改用 R13/R30/R31。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Accuracy In Optical Overlay Metrology"
+      ],
+      "original_url": "https://semiengineering.com/accuracy-in-optical-overlay-metrology/",
+      "primary_url": "https://semiengineering.com/accuracy-in-optical-overlay-metrology/"
+    },
+    {
+      "id": "R10",
+      "title": "Metrology, Inspection, and Process Control for Microlithography XXIX，SPIE 9424",
+      "author_label": "SPIE",
+      "year": "2015",
+      "doi": null,
+      "status": "volume",
+      "status_label": "论文集目录，非单篇文献",
+      "notes": "原稿仅引用整卷；不能据此核实具体卡盘/PWG 性能。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "SPIE Vol. 9424"
+      ],
+      "original_url": "https://spie.org/Publications/Proceedings/Volume/9424",
+      "primary_url": "https://spie.org/Publications/Proceedings/Volume/9424"
+    },
+    {
+      "id": "R11",
+      "title": "Reducing the impact of etch-induced pattern shift on overlay by using lithography and etch tool corrections",
+      "author_label": "Michael Kubis 等",
+      "year": "2017",
+      "doi": "10.1117/12.2260000",
+      "status": "scibot",
+      "status_label": "已取得 Sci-Bot 提取文本",
+      "notes": "支持区分显影/刻蚀阶段及工艺诱导位移。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Reducing the impact of etch-induced pattern shift on overlay, ResearchGate"
+      ],
+      "original_url": "https://www.researchgate.net/publication/315442219_Reducing_the_impact_of_etch-induced_pattern_shift_on_overlay_by_using_lithography_and_etch_tool_corrections",
+      "primary_url": "https://doi.org/10.1117/12.2260000",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": true,
+        "returned_characters": 19262,
+        "raw_response_sha256": "634f41c89eea9822945f77af77ff7469c36951e95b61cb9c762a5cbf750456ad",
+        "pdf_obtained": false,
+        "local_bundle_path": "scibot-text/R11.txt",
+        "text_sha256": "5a65ce2b999f878e321e4cc97770a6d101ceccac7be458c8521924bbec5fdafa"
+      }
+    },
+    {
+      "id": "R12",
+      "title": "Performance of a step-and-scan system for DUV lithography",
+      "author_label": "Gerard de Zwart 等",
+      "year": "1997",
+      "doi": "10.1117/12.276002",
+      "status": "unavailable",
+      "status_label": "未取得可核查全文",
+      "notes": "题名、作者与出版信息已核实；早期 248 nm DUV 架构，不是 NXT 浸没式规格。Sci-Bot 只返回空白。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Performance of a step-and-scan system for DUV lithography, SPIE Vol. 3051",
+        "Performance of a step-and-scan system for DUV lithography"
+      ],
+      "original_url": "https://www.researchgate.net/publication/241516869_Performance_of_a_step-and-scan_system_for_DUV_lithography",
+      "primary_url": "https://doi.org/10.1117/12.276002",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": false,
+        "returned_characters": 0,
+        "raw_response_sha256": "6637fd6f9a9d7a9661ade14e24b4975d62781f1ed115ca4dd0c4e5c9b8782161",
+        "pdf_obtained": false
+      }
+    },
+    {
+      "id": "R13",
+      "title": "套刻标记光学模型建立及性能参数仿真方法",
+      "author_label": "邱俊、齐月静等",
+      "year": "2025",
+      "doi": "10.3788/AOS241643",
+      "status": "pdf",
+      "status_label": "已取得原 PDF",
+      "notes": "《光学学报》45(4):0405001，10 页；原稿另一题名“光刻对准关键技术的发展与挑战（2023）”误引此 PDF。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "光刻对准关键技术的发展与挑战, 《光学学报》 2023",
+        "套刻标记光学模型建立及性能参数仿真方法, 2025"
+      ],
+      "original_url": "https://www.researching.cn/ArticlePdf/m00006/2025/45/4/0405001.pdf",
+      "primary_url": "https://www.researching.cn/ArticlePdf/m00006/2025/45/4/0405001.pdf",
+      "pdf": {
+        "pages": 10,
+        "bytes": 7060281,
+        "sha256": "3e8712e51211e84a7239b08a8c6efca0a65da00bbf146626bc738358a5b116bf",
+        "local_bundle_path": "pdf/R13.pdf",
+        "source_url": "https://www.researching.cn/ArticlePdf/m00006/2025/45/4/0405001.pdf"
+      },
+      "visual_checks": [
+        "PDF physical page 1: title, authors, DOI"
+      ]
+    },
+    {
+      "id": "R14",
+      "title": "光刻制造工艺：面向量产的对准套刻问题和技术 |《光学学报（网络版）》封面",
+      "author_label": "中国激光杂志社／新光学",
+      "year": "2025",
+      "doi": null,
+      "status": "web",
+      "status_label": "网页/新闻，非原始论文",
+      "notes": "原链接为封面新闻，原站未返回文章正文；通过发布方账号转载读到介绍，尚未定位对应论文 DOI/全文。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "光刻制造工艺：面向量产的对准套刻问题和技术, 《光学学报（网络版）》 2025",
+        "光刻制造工艺：面向量产的对准套刻问题和技术"
+      ],
+      "original_url": "https://clp.ac.cn/M/News/Details?id=PT250705000006mJpLr",
+      "primary_url": "https://www.sohu.com/a/910691531_121679925"
+    },
+    {
+      "id": "R15",
+      "title": "Improvement of EUV mix-match overlay for production implementation",
+      "author_label": "Sarohan Park 等",
+      "year": "2016",
+      "doi": "10.1117/12.2219169",
+      "status": "scibot",
+      "status_label": "已取得 Sci-Bot 提取文本",
+      "notes": "EUV/ArF 跨平台匹配案例；不直接移植性能到纯 NXT 平台。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Improvement of EUV mix-match overlay for production implementation"
+      ],
+      "original_url": "https://www.researchgate.net/publication/299644652_Improvement_of_EUV_mix-match_overlay_for_production_implementation",
+      "primary_url": "https://doi.org/10.1117/12.2219169",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": true,
+        "returned_characters": 11528,
+        "raw_response_sha256": "e2e125682be20f2fb427a5c97af5e46dae380d737ace20eea76396ac50d3f36a",
+        "pdf_obtained": false,
+        "local_bundle_path": "scibot-text/R15.txt",
+        "text_sha256": "49d1f82a6295dd263318f0ff27e0a97195cf5d3d770521d06b54459947fc06b7"
+      }
+    },
+    {
+      "id": "R16",
+      "title": "Position Control in Lithographic Equipment [Applications of Control]",
+      "author_label": "Hans Butler",
+      "year": "2011",
+      "doi": "10.1109/MCS.2011.941882",
+      "status": "scibot",
+      "status_label": "已取得 Sci-Bot 提取文本",
+      "notes": "IEEE Control Systems 31(5):28–47；修正原稿非正式题名，用作运动控制和 MA/MSD 背景。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Position Control in Lithography Systems, IEEE Control Systems Magazine"
+      ],
+      "original_url": "https://www.scribd.com/document/972116626/Position-Control-in-Lithographic-Equipment",
+      "primary_url": "https://research.tue.nl/en/publications/position-control-in-lithographic-equipment-an-enabler-for-current/",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": true,
+        "returned_characters": 71001,
+        "raw_response_sha256": "58e81a3bd9fccd2745680306f7c4211dc231b8ca0dfab4d4d00f0e381abb0e22",
+        "pdf_obtained": false,
+        "local_bundle_path": "scibot-text/R16.txt",
+        "text_sha256": "770454444519ca664c61cd3d82065733612572d1268bf5aa46f530df8db0f25b"
+      }
+    },
+    {
+      "id": "R17",
+      "title": "光刻机精密机电部件的调试与校准技术研究",
+      "author_label": "魏克温、杨彬",
+      "year": "2026",
+      "doi": "10.37155/2717-5197-0802-37",
+      "status": "pdf",
+      "status_label": "已取得原 PDF",
+      "notes": "机械与电子控制工程 8(2)，3 页，发布页标明 CC BY 4.0；泛述性文章不作 ASML 型号定量依据，其中“EUV 唯一量产 7nm 以下”等概括不采纳。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "光刻机精密机电部件的调试与校准技术研究"
+      ],
+      "original_url": "https://www.researchgate.net/publication/403312741_guangkejijingmijidianbujiandediaoshiyuxiaozhunjishuyanjiu",
+      "primary_url": "https://ojs.omniscient.sg/index.php/mece/article/download/73397/71833/",
+      "pdf": {
+        "pages": 3,
+        "bytes": 284995,
+        "sha256": "757741944a6cdcd9cd6398224d49ad71f6abc192d4bb8004156ef9ed0e919796",
+        "local_bundle_path": "pdf/R17.pdf",
+        "source_url": "https://ojs.omniscient.sg/index.php/mece/article/download/73397/71833/"
+      }
+    },
+    {
+      "id": "R18",
+      "title": "Influence of the vibration of extreme ultraviolet lithographic tool stages on imaging",
+      "author_label": "Hao Shen、Libin Zhang 等",
+      "year": "2023",
+      "doi": "10.1364/OE.493210",
+      "status": "unavailable",
+      "status_label": "未取得可核查全文",
+      "notes": "Optics Express 31(14):22358 起；仅取得元数据/摘要，出版社 PDF 返回验证页面，Sci-Bot 无正文。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Influence of the vibration of extreme ultraviolet lithographic tool, Optics Express 2023",
+        "Optics Express 2023",
+        "Influence of the vibration of extreme ultraviolet lithographic tool"
+      ],
+      "original_url": "https://opg.optica.org/abstract.cfm?uri=oe-31-14-22358",
+      "primary_url": "https://doi.org/10.1364/OE.493210",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": false,
+        "returned_characters": 0,
+        "raw_response_sha256": "af47175eb873b68642182dae95ad1152cecbefcc14ee59891b5c519acbecf9c2",
+        "pdf_obtained": false
+      }
+    },
+    {
+      "id": "R19",
+      "title": "Source and mask optimization for stability of reticle and wafer stages",
+      "author_label": "Hao Shen 等",
+      "year": "2024",
+      "doi": "10.1364/OE.535075",
+      "status": "unavailable",
+      "status_label": "未取得可核查全文",
+      "notes": "Optics Express 32(19):33603 起；全文未得，不采纳未经复核的 0–6 nm 放宽结论。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Source and mask optimization for stability of reticle and wafer stages, Optics Express 2024",
+        "Source and mask optimization for stability of reticle and wafer stages",
+        "Optics Express 2024"
+      ],
+      "original_url": "https://opg.optica.org/abstract.cfm?uri=oe-32-19-33603",
+      "primary_url": "https://doi.org/10.1364/OE.535075",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": false,
+        "returned_characters": 0,
+        "raw_response_sha256": "af47175eb873b68642182dae95ad1152cecbefcc14ee59891b5c519acbecf9c2",
+        "pdf_obtained": false
+      }
+    },
+    {
+      "id": "R20",
+      "title": "Study on the imaging of bright-field and dark-field for contact holes in extreme ultraviolet lithography considering stage vibration effects",
+      "author_label": "Hao Shen 等",
+      "year": "2026",
+      "doi": "10.1116/6.0005261",
+      "status": "unavailable",
+      "status_label": "未取得可核查全文",
+      "notes": "JVST B 44(3):032601；已核 DOI 与元数据，Sci-Bot 返回空正文。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Study on the imaging of bright-field and dark-field for contact holes, JVST B 2026"
+      ],
+      "original_url": "https://pubs.aip.org/avs/jvb/article/44/3/032601/3384787/Study-on-the-imaging-of-bright-field-and-dark",
+      "primary_url": "https://doi.org/10.1116/6.0005261",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": false,
+        "returned_characters": 0,
+        "raw_response_sha256": "af47175eb873b68642182dae95ad1152cecbefcc14ee59891b5c519acbecf9c2",
+        "pdf_obtained": false
+      }
+    },
+    {
+      "id": "R21",
+      "title": "光刻投影物镜畸变检测中的位移测量误差分析",
+      "author_label": "杜婧、刘俊伯、全海洋、胡松",
+      "year": "2023",
+      "doi": "10.12086/oee.2023.220226",
+      "status": "pdf",
+      "status_label": "已取得原 PDF",
+      "notes": "光电工程 50(2):220226，14 个物理页；表 1/2 位于物理第 7/8 页。离线物镜检测台，不是 NXT 编码器。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "光刻投影物镜畸变检测中的位移测量误差分析, 《光电工程》 2023",
+        "光刻投影物镜畸变检测中的位移测量误差分析"
+      ],
+      "original_url": "https://www.researching.cn/ArticlePdf/m00029/2023/50/2/220226.pdf",
+      "primary_url": "https://www.researching.cn/ArticlePdf/m00029/2023/50/2/220226.pdf",
+      "pdf": {
+        "pages": 14,
+        "bytes": 8691195,
+        "sha256": "68c8bda4102a458fced7460e4c4d64d0aca71e53c18da80218f5c5a8ffa6f42f",
+        "local_bundle_path": "pdf/R21.pdf",
+        "source_url": "https://www.researching.cn/ArticlePdf/m00029/2023/50/2/220226.pdf"
+      },
+      "visual_checks": [
+        "PDF physical page 7 / printed 220226-6, Table 1",
+        "PDF physical page 8 / printed 220226-7, Table 2"
+      ]
+    },
+    {
+      "id": "R22",
+      "title": "Wafer-based aberration metrology for lithographic systems using overlay measurements on targets imaged from phase-shift gratings",
+      "author_label": "S. van Haver 等",
+      "year": "2014",
+      "doi": "10.1364/AO.53.002562",
+      "status": "scibot",
+      "status_label": "已取得 Sci-Bot 提取文本",
+      "notes": "Applied Optics 53(12):2562–2582；修正第一作者，原 PDF 暂未取得，Sci-Bot 文本用于方法核对。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Wafer-based aberration metrology for lithographic systems, Applied Optics 2014",
+        "Wafer-based aberration metrology for lithographic systems using PSG targets",
+        "Applied Optics 2014"
+      ],
+      "original_url": "https://opg.optica.org/abstract.cfm?uri=ao-53-12-2562",
+      "primary_url": "https://research.tue.nl/en/publications/wafer-based-aberration-metrology-for-lithographic-systems-using-o/",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": true,
+        "returned_characters": 80072,
+        "raw_response_sha256": "05143392235736354d946cb384d48463e6d32863616b3064101870608e9ca066",
+        "pdf_obtained": false,
+        "local_bundle_path": "scibot-text/R22.txt",
+        "text_sha256": "956ed0aa7a6857cadbe0256ec3d48195796f920f3d5cec8c492a75f98750ae94"
+      }
+    },
+    {
+      "id": "R23",
+      "title": "Holistic analysis of aberration induced overlay error in EUV lithography",
+      "author_label": "Yulu Chen、Lars Liebmann 等",
+      "year": "2018",
+      "doi": "10.1117/12.2297027",
+      "status": "unavailable",
+      "status_label": "未取得可核查全文",
+      "notes": "DOI 与元数据核实；Sci-Bot 空正文，仅保留扩展方向。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Holistic analysis of aberration induced overlay error in EUV lithography, SPIE 2018"
+      ],
+      "original_url": "https://www.researchgate.net/publication/323863217_Holistic_analysis_of_aberration_induced_overlay_error_in_EUV_lithography",
+      "primary_url": "https://doi.org/10.1117/12.2297027",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": false,
+        "returned_characters": 0,
+        "raw_response_sha256": "af47175eb873b68642182dae95ad1152cecbefcc14ee59891b5c519acbecf9c2",
+        "pdf_obtained": false
+      }
+    },
+    {
+      "id": "R24",
+      "title": "Impact of aberrations in EUV lithography: metal to via edge placement control",
+      "author_label": "作者以出版方记录为准",
+      "year": "2018",
+      "doi": "10.1117/12.2299872",
+      "status": "unavailable",
+      "status_label": "未取得可核查全文",
+      "notes": "SPIE 10583:105830Q；原稿简称 metal to via EPE，现修正正式题名；全文未得。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Impact of aberrations in EUV lithography: metal to via EPE, SPIE 10583"
+      ],
+      "original_url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10583/105830Q/Impact-of-aberrations-in-EUV-lithography--metal-to-via/10.1117/12.2299872.full",
+      "primary_url": "https://doi.org/10.1117/12.2299872",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": false,
+        "returned_characters": 0,
+        "raw_response_sha256": "af47175eb873b68642182dae95ad1152cecbefcc14ee59891b5c519acbecf9c2",
+        "pdf_obtained": false
+      }
+    },
+    {
+      "id": "R25",
+      "title": "The impact of the reticle and wafer alignment mark placement accuracy on the intra-field mask-to-mask overlay",
+      "author_label": "Richard van Haren 等",
+      "year": "2019",
+      "doi": "10.1117/12.2535900",
+      "status": "pdf",
+      "status_label": "已取得原 PDF",
+      "notes": "SPIE 11178:111780R，13 个物理页；与原稿汇总表题名不同，已核原 PDF 首页。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Proceedings of SPIE 11178, Zeiss 2019",
+        "Mask-to-mask overlay compared to on-wafer scanner overlay measurements"
+      ],
+      "original_url": "https://asset-downloads.zeiss.com/catalogs/download/smt2/20a20e0a-dff8-4477-b03a-e1db12899c8c/vol11178pmj2019111780r_625586_0.pdf",
+      "primary_url": "https://asset-downloads.zeiss.com/catalogs/download/smt2/20a20e0a-dff8-4477-b03a-e1db12899c8c/vol11178pmj2019111780r_625586_0.pdf",
+      "pdf": {
+        "pages": 13,
+        "bytes": 1773967,
+        "sha256": "a8de92bd32698efe185064530c47b8846d7eddb7488211fbb2aa73fef06e7b41",
+        "local_bundle_path": "pdf/R25.pdf",
+        "source_url": "https://asset-downloads.zeiss.com/catalogs/download/smt2/20a20e0a-dff8-4477-b03a-e1db12899c8c/vol11178pmj2019111780r_625586_0.pdf"
+      },
+      "visual_checks": [
+        "PDF physical page 1: title, authors, DOI"
+      ]
+    },
+    {
+      "id": "R26",
+      "title": "Mask contribution on CD and OVL errors budgets for double patterning lithography",
+      "author_label": "I. Servin、C. Lapeyre 等",
+      "year": "2009",
+      "doi": "10.1117/12.835171",
+      "status": "scibot",
+      "status_label": "已取得 Sci-Bot 提取文本",
+      "notes": "双重图形化的掩模 CD/OVL 贡献；必须保留掩模面与晶圆面的换算。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Mask contribution on CD and OVL errors budgets for double patterning lithography"
+      ],
+      "original_url": "https://www.researchgate.net/publication/224234268_Mask_contribution_on_CD_and_OVL_errors_budgets_for_double_patterning_lithography",
+      "primary_url": "https://doi.org/10.1117/12.835171",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": true,
+        "returned_characters": 23414,
+        "raw_response_sha256": "ff4bbbb95a6be66cd25b6bdd1b8a2e9b24ad4d0434da9f5601e9df2e0ba57109",
+        "pdf_obtained": false,
+        "local_bundle_path": "scibot-text/R26.txt",
+        "text_sha256": "d13f767123b4f75e3cb6385875b9bed6ce49b39a52af90f2ddcc4b84a6ca2e7b"
+      }
+    },
+    {
+      "id": "R27",
+      "title": "High-Volume Manufacturing Device Overlay Process Control",
+      "author_label": "Semiconductor Engineering",
+      "year": "网页",
+      "doi": null,
+      "status": "web",
+      "status_label": "网页/新闻，非原始论文",
+      "notes": "行业文章；量产问题背景，不作精确配额或特定模型收益的原始证据。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "High-Volume Manufacturing Device Overlay Process Control"
+      ],
+      "original_url": "https://semiengineering.com/high-volume-manufacturing-device-overlay-process-control/",
+      "primary_url": "https://semiengineering.com/high-volume-manufacturing-device-overlay-process-control/"
+    },
+    {
+      "id": "R28",
+      "title": "High order overlay modeling and APC simulation with Zernike-Legendre polynomials",
+      "author_label": "Jaw Wuk Ju、Min Gyu Kim 等",
+      "year": "2015",
+      "doi": "10.1117/12.2085074",
+      "status": "scibot",
+      "status_label": "已取得 Sci-Bot 提取文本",
+      "notes": "正交基与采样联合考虑，合适条件下可减少对级联拟合依赖；原稿结论写反。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "High order overlay modeling and APC simulation with Zernike-Legendre polynomials, SPIE",
+        "High order overlay modeling and APC simulation with Zernike-Legendre polynomials"
+      ],
+      "original_url": "https://www.researchgate.net/publication/283883365_High_order_overlay_modeling_and_APC_simulation_with_Zernike-Legendre_polynomials",
+      "primary_url": "https://doi.org/10.1117/12.2085074",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": true,
+        "returned_characters": 22878,
+        "raw_response_sha256": "a0f78f3ad09d950138f979ec79413f2377d2633af2158fd49060e7e06720ffa8",
+        "pdf_obtained": false,
+        "local_bundle_path": "scibot-text/R28.txt",
+        "text_sha256": "930069b654ef1bbc9afc4b5d1c75add62a44c99be6f6634c639e61f21fb9cec0"
+      }
+    },
+    {
+      "id": "R29",
+      "title": "Metrology, Inspection, and Process Control for Microlithography XXXI，SPIE 10145",
+      "author_label": "SPIE",
+      "year": "2017",
+      "doi": null,
+      "status": "volume",
+      "status_label": "论文集目录，非单篇文献",
+      "notes": "整卷目录，未定位支撑原稿 PWG 聚类定量收益的具体论文。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "Metrology, Inspection, and Process Control for Microlithography XXXI, SPIE Vol. 10145"
+      ],
+      "original_url": "https://spie.org/Publications/Proceedings/Volume/10145",
+      "primary_url": "https://spie.org/Publications/Proceedings/Volume/10145"
+    },
+    {
+      "id": "R30",
+      "title": "光刻套刻误差测量技术",
+      "author_label": "李一鸣等",
+      "year": "2022",
+      "doi": "10.3788/LOP202259.0922023",
+      "status": "pdf",
+      "status_label": "已取得原 PDF",
+      "notes": "激光与光电子学进展 59(9):0922023，12 页；IBO/DBO 综述。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "光刻套刻误差测量技术, 《激光与光电子学进展》 2022",
+        "光刻套刻误差测量技术"
+      ],
+      "original_url": "https://www.researching.cn/ArticlePdf/m00002/2022/59/9/0922023.pdf",
+      "primary_url": "https://www.researching.cn/ArticlePdf/m00002/2022/59/9/0922023.pdf",
+      "pdf": {
+        "pages": 12,
+        "bytes": 4735785,
+        "sha256": "e467f927e0e737208452a078ed55ddededee7ffabb2ab8e6cf26622afe09102e",
+        "local_bundle_path": "pdf/R30.pdf",
+        "source_url": "https://www.researching.cn/ArticlePdf/m00002/2022/59/9/0922023.pdf"
+      }
+    },
+    {
+      "id": "R31",
+      "title": "基于二维周期结构衍射的套刻测量技术研究",
+      "author_label": "彭博方、陆海亮、王帆、许琦欣、侯文玫",
+      "year": "2014",
+      "doi": "10.3788/LOP51.021201",
+      "status": "pdf",
+      "status_label": "已取得原 PDF",
+      "notes": "激光与光电子学进展 51(2):021201，6 页；原 opticsjournal 链接未返回 PDF，改从 researching.cn 取得同文。",
+      "accessed": "2026-11-09",
+      "original_labels": [
+        "基于二维周期结构衍射的套刻测量技术研究"
+      ],
+      "original_url": "https://www.opticsjournal.net/Articles/GetArticlePDF/OJ60a404ed4ed74cf3",
+      "primary_url": "https://www.researching.cn/ArticlePdf/m00002/2014/51/2/021201.pdf",
+      "pdf": {
+        "pages": 6,
+        "bytes": 590047,
+        "sha256": "025571e2810e9a657ae0ecdb370c912ce87f3967215ce5eaf202f53c4599693a",
+        "local_bundle_path": "pdf/R31.pdf",
+        "source_url": "https://www.researching.cn/ArticlePdf/m00002/2014/51/2/021201.pdf"
+      }
+    },
+    {
+      "id": "A01",
+      "title": "Towards ultimate optical lithography with NXT:1950i dual stage immersion platform",
+      "author_label": "Tom Castenmiller 等",
+      "year": "2010",
+      "doi": "10.1117/12.847025",
+      "status": "scibot",
+      "status_label": "已取得 Sci-Bot 提取文本",
+      "notes": "SPIE 7640:76401N；第 2 节/图 3 文本给出六类单机贡献；原始图像未取得，未反读分支数值。",
+      "accessed": "2026-11-09",
+      "primary_url": "https://doi.org/10.1117/12.847025",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": true,
+        "returned_characters": 25024,
+        "raw_response_sha256": "1c9cefd7d4af2cec817fb610614cc953f74e69f7bc259ba500424e0393bb225c",
+        "pdf_obtained": false,
+        "local_bundle_path": "scibot-text/A01.txt",
+        "text_sha256": "047efd77e162656f3fd5bdc48395dde2a6e9c308ec86631e2114c7fdb12e3800"
+      }
+    },
+    {
+      "id": "A02",
+      "title": "NXT:1980Di immersion scanner for 7nm and 5nm production nodes",
+      "author_label": "Roelof de Graaf 等",
+      "year": "2016",
+      "doi": "10.1117/12.2220589",
+      "status": "scibot",
+      "status_label": "已取得 Sci-Bot 提取文本",
+      "notes": "SPIE 9780:978011；第 2.3 节参考晶圆匹配，第 2 节系统改进；按出版方完整题名登记。",
+      "accessed": "2026-11-09",
+      "primary_url": "https://doi.org/10.1117/12.2220589",
+      "scibot": {
+        "attempted": true,
+        "nonempty_text": true,
+        "returned_characters": 14104,
+        "raw_response_sha256": "6f801fe3e419f96389bfe18f139e4974c2727ea0e582f81979ab9dd386e058a6",
+        "pdf_obtained": false,
+        "local_bundle_path": "scibot-text/A02.txt",
+        "text_sha256": "b89f0fecf30105ddcc164362c3cceb2ec4e2a9cc3afa845377239b6a084a03b8"
+      }
+    },
+    {
+      "id": "B01",
+      "title": "ASML launches the TWINSCAN NXT:1950i immersion lithography system",
+      "primary_url": "https://www.asml.com/en/news/press-releases/2008/asml-launches-the-twinscan-nxt1950i-immersion-lithography-system",
+      "status": "official_web",
+      "status_label": "已访问官方/标准原始网页",
+      "notes": "2008 发布资料；NA 1.35 / 38 nm 等，不能混同后续升级版。",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "B02",
+      "title": "TWINSCAN NXT:1980Di — ASML official product page",
+      "primary_url": "https://www.asml.com/en/en/products/duv-lithography-systems/twinscan-nxt1980di",
+      "status": "official_web",
+      "status_label": "已访问官方/标准原始网页",
+      "notes": "193 nm、NA 1.35、4×、全片 dedicated-chuck ≤1.6 nm、相对参考晶圆 matched ≤2.5 nm。",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "B03",
+      "title": "ASML 2010 presentation filed with SEC",
+      "primary_url": "https://www.sec.gov/Archives/edgar/data/937966/000095012310057756/u09166exv99w1.htm",
+      "status": "official_web",
+      "status_label": "已访问官方/标准原始网页",
+      "notes": "Slide 21：NXT1950i DCO 2.5 nm；邻列 XT1950Hi DCO 3.5 nm 不得误配。网页可读，原幻灯片图片未另存。",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "B04",
+      "title": "ASML 2013 presentation filed with SEC",
+      "primary_url": "https://www.sec.gov/Archives/edgar/data/937966/000119312513102119/d500315dex991.htm",
+      "status": "official_web",
+      "status_label": "已访问官方/标准原始网页",
+      "notes": "Slide 7：NXT1950i MMO 的 2011 / 2012 扩展 / 2013+ 扩展列分别为 5.5 / 4.5 / 3.5 nm。",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "B05",
+      "title": "Intel Accelerates Process and Packaging Innovations",
+      "primary_url": "https://www.intc.com/news-events/press-releases/detail/1486/intel-accelerates-process-and-packaging-innovations",
+      "status": "official_web",
+      "status_label": "已访问官方/标准原始网页",
+      "notes": "节点命名与物理尺寸不能直接等同。",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "B06",
+      "title": "Microchip basics — ASML",
+      "primary_url": "https://www.asml.com/en/technology/all-about-microchips/microchip-basics",
+      "status": "official_web",
+      "status_label": "已访问官方/标准原始网页",
+      "notes": "逻辑和存储芯片概念。",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "B07",
+      "title": "DDR5 SDRAM — Micron",
+      "primary_url": "https://www.micron.com/content/micron/us/en/products/memory/dram-components/ddr5-sdram.html",
+      "status": "official_web",
+      "status_label": "已访问官方/标准原始网页",
+      "notes": "DRAM 与 1T1C 基本结构。",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "B08",
+      "title": "JCGM 100 / GUM, chapter 5: determining combined standard uncertainty",
+      "primary_url": "https://www.iso.org/sites/JCGM/GUM/JCGM100/C045315e-html/C045315e_FILES/MAIN_C045315e/05_e.html",
+      "status": "official_web",
+      "status_label": "已访问官方/标准原始网页",
+      "notes": "不相关/相关输入的误差传播；不是套刻验收标准。",
+      "accessed": "2026-11-09"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "revision": "R2",
+  "date": "2026-11-09",
+  "repository_baseline": "1a7e0f671cdfc84f132bebf6222470a9aeaf16dc",
+  "content_status": "Awaiting user technical review; proposed engineering budget, no device performance certification",
+  "checks": [
+    {
+      "check": "budget_arithmetic",
+      "command": "python reports/immersion-overlay-survey/verify_budget.py",
+      "result": "Passed: DCO/MMO random variance, total mean bookkeeping, stage closure, variance shares, rho sensitivity and edge geometry examples; 40-digit Decimal arithmetic."
+    },
+    {
+      "check": "source_visual_verification",
+      "result": "R13 and R25 physical page 1 checked for title/DOI; R21 physical pages 7/8 checked against Table 1/2 and stated test geometry."
+    },
+    {
+      "check": "figure_visual_verification",
+      "result": "All four PNG diagrams inspected. Text nodes and connectors complete; figure 2 separates center-mark illustration from product-edge geometry. PNG is embedded for stable typography; editable SVG companions retained."
+    },
+    {
+      "check": "web_preview",
+      "result": "Local desktop 1440px and narrow 600px previews inspected; concept formula/figure and budget formula/tables inspected. 14 concept and 15 budget KaTeX expressions rendered without errors. Wide diagrams have direct enlargement links. Not a claim of identical GitHub rendering.",
+      "screenshots": [
+        "desktop.png",
+        "narrow.png",
+        "concept.png",
+        "budget.png"
+      ]
+    },
+    {
+      "check": "reference_package_integrity",
+      "result": "ZIP CRC passed; 8 PDFs / 224 physical pages and 10 Sci-Bot extracted texts including 2 new machine papers; source file hashes recorded in sources.json.",
+      "archive_sha256": "ffe58981355d6b0e21c1f1b1897c4dcf72e782a0c7e5bc9e388a9d8d1590cf40",
+      "archive_bytes": 36295837
+    },
+    {
+      "check": "independent_technical_review",
+      "result": "No unresolved findings. Public vendor/history references, all key calculations, source hashes/statuses and four PNGs checked independently. One minor source locator corrected to A01 section 2 / Figure 3 and re-read.",
+      "review_record_sha256": "80420b1d77f1e6ca9493e90830e1bc6e71c641f7a3843322ef70d40e5e57caca"
+    },
+    {
+      "check": "unit_tests",
+      "command": "python -m unittest discover -s tests -v",
+      "result": "27 tests passed."
+    },
+    {
+      "check": "repository_validation",
+      "command": "python tools/validate_repository.py --base 1a7e0f671cdfc84f132bebf6222470a9aeaf16dc",
+      "result": "No errors; 103 Markdown files, 4442 local links; all existing reference originals protected. 45 patents / 1114 pages / 624 figures plus 1 converted paper / 16 pages / 5 figures unchanged.",
+      "limit": "Structural checks do not certify technical conclusions or OCR fidelity."
+    },
+    {
+      "check": "diff_whitespace",
+      "command": "git diff --check",
+      "result": "Passed."
+    },
+    {
+      "check": "svg_preview",
+      "result": "Budget SVG opened in local Chrome and visually checked at native size; labels and connectors remain complete.",
+      "screenshot": "svg-budget.png"
+    }
+  ],
+  "environment": {
+    "python": "3.12.15",
+    "numerical_dependencies": "Python standard library only",
+    "figure_dependencies": "Pillow, Microsoft YaHei fonts; editable SVG and stable PNG export",
+    "storage": "All project outputs, reference downloads, browser preview profile and process temporary/cache paths on D:"
+  },
+  "scope_limits": [
+    "No new MinerU conversions or report PDF generated.",
+    "Seven specific original references lack usable full text; 3 original links are volume placeholders, 5 are media/news pages.",
+    "Sci-Bot text can omit figures or equations; no internal budgets digitized from A01/A02.",
+    "Public machine figures are numeric anchors; statistical equivalence with the proposed Q metric remains unverified."
+  ],
+  "artifacts": {
+    "budget.json": {
+      "bytes": 2770,
+      "sha256": "e22099f43e7c1335460781ef6c90db9c2db5ad2d8379d0f628f2dd432a7b7292"
+    },
+    "calculations.json": {
+      "bytes": 2358,
+      "sha256": "e2fa05e1bee299c3eccfc94125af39023890f6f136699bc7cf63f9c160c5fe1e"
+    },
+    "draw_figures.py": {
+      "bytes": 12885,
+      "sha256": "ffa17a43f02a0c308a11651f5e98a441c9bfd5ded747b93adf8796e0e97f74cf"
+    },
+    "figure-checks.json": {
+      "bytes": 584,
+      "sha256": "67dc2ce300aae5c56e2ea37607f46a7b78c3d5ed01a660a9634af4e567cfa5e2"
+    },
+    "figures/fig0-system-loop.png": {
+      "bytes": 180530,
+      "sha256": "5cdb78b3f31856a4642c9c5b8269ecd6b2d41c100c8744bf1eaa181cdc4a4b32"
+    },
+    "figures/fig0-system-loop.svg": {
+      "bytes": 7725,
+      "sha256": "2610634ef87e9ef18ba5aca11aafd9fba0a579519676598170c7a9fa740982e8"
+    },
+    "figures/fig1-node-cd-pitch.png": {
+      "bytes": 161545,
+      "sha256": "4a5345319ed23519d47cfb61cec3d1efde768eb68b593f5d379baef64a9c68e6"
+    },
+    "figures/fig1-node-cd-pitch.svg": {
+      "bytes": 7162,
+      "sha256": "89f41c8b7c3ae610bb69faed5be82318e1b6c3557cc2f38bbf86dd2a0f3e9f5b"
+    },
+    "figures/fig2-overlay-epe.png": {
+      "bytes": 129495,
+      "sha256": "37289eb044b036ee92a939c0c342ba6af2a1c0f6838b6afc62e8f3461fcd2c65"
+    },
+    "figures/fig2-overlay-epe.svg": {
+      "bytes": 5654,
+      "sha256": "d53341e9ea093030079ebef910abbaa22ecc44bda32aff4ddd042d36de8612a0"
+    },
+    "figures/fig3-immersion-overlay-budget.png": {
+      "bytes": 263982,
+      "sha256": "74cc12b66ba8b5d91076d434622c89afed007f724a1796988ff5a8b11e1ebb8f"
+    },
+    "figures/fig3-immersion-overlay-budget.svg": {
+      "bytes": 11994,
+      "sha256": "51a7669d739b44abb3fa8850d8bc612914c712420f8f6ed225d322b3cf01542f"
+    },
+    "references.md": {
+      "bytes": 27653,
+      "sha256": "f16e13239bbeefef7d59defe1e7f9e1eb9724d90da8ec24cc9eb610cd97471e9"
+    },
+    "report.md": {
+      "bytes": 31312,
+      "sha256": "6babbb57698921a059345903881e0adf85351fa8edb667c05d5a695eeabdbf4c"
+    },
+    "sources.json": {
+      "bytes": 39096,
+      "sha256": "aa2205ca9ef4e4cb21f63714dd03ab7575d02eab8cb0caf45578031815a53be4"
+    },
+    "verify_budget.py": {
+      "bytes": 3920,
+      "sha256": "196b7dc6b2f97463b58d9f36ea29bcf827ad6b6d34afaffc734778c388e2fc52"
+    },
+    ".gitattributes": {
+      "bytes": 45,
+      "sha256": "d31515c6f7201798de1e9465217c85f323be66faed8d7994b1c5280cc338110d"
+    }
+  },
+  "remote_evidence": "Associated PR will record actual PR/main Actions and main homepage/artifact readback after merge; local record alone does not prove remote delivery.",
+  "local_check_logs": {
+    "unittest.log": {
+      "sha256": "411e49f4c4994d8695ad15f042bd742546436a971b4d09fdb38279fd8f407e61"
+    },
+    "repository-validation.log": {
+      "sha256": "03437bbc898172b409ce11b32a02e5c22b296941d9f995ca722ac77c1d4b91d7"
+    },
+    "independent-review.md": {
+      "sha256": "80420b1d77f1e6ca9493e90830e1bc6e71c641f7a3843322ef70d40e5e57caca"
+    }
+  }
+}

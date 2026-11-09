@@ -1,0 +1,38 @@
+{
+  "revision": "R2",
+  "date": "2026-11-09",
+  "status": "proposed engineering allocation; not ASML internal data or verified acceptance criteria",
+  "unit": "nm at wafer plane, one axis, already differential between exposures",
+  "statistic": "component u = 3 sigma after specified corrections; Q = total absolute mean bound B + RSS(u); zero inter-bucket covariance is an initial assumption",
+  "scenarios": {
+    "A": {
+      "label": "NXT:1950i level (historical baseline)",
+      "dco_numeric_anchor": 2.5,
+      "mmo_numeric_anchor": 5.5,
+      "anchor_sources": ["B03 slide 21 (2010 DCO)", "B04 slide 7 (2011 MMO baseline shown in 2013)"],
+      "dco_total_mean_bound": 0.25,
+      "mmo_total_mean_bound": 0.35,
+      "dco_3sigma": {"stage": 1.40, "alignment": 0.80, "optical_column": 0.70, "wafer_heat_immersion": 0.85, "wafer_clamping": 0.55, "reticle_clamp_heat": 0.65},
+      "matching_increment_3sigma": {"grid_matching": 3.60, "lens_fingerprint": 2.40, "matching_setup": 1.40},
+      "stage_children_3sigma": {"encoder_calibration": 0.45, "exposure_weighted_sync_MA": 1.15, "structure_rotation_projection": 0.65}
+    },
+    "B": {
+      "label": "NXT:1980Di level",
+      "dco_numeric_anchor": 1.6,
+      "mmo_numeric_anchor": 2.5,
+      "anchor_sources": ["B02 ASML official product page, full-wafer dedicated-chuck / reference-wafer matched specifications"],
+      "dco_total_mean_bound": 0.15,
+      "mmo_total_mean_bound": 0.20,
+      "dco_3sigma": {"stage": 0.85, "alignment": 0.50, "optical_column": 0.45, "wafer_heat_immersion": 0.50, "wafer_clamping": 0.35, "reticle_clamp_heat": 0.40},
+      "matching_increment_3sigma": {"grid_matching": 1.35, "lens_fingerprint": 0.95, "matching_setup": 0.65},
+      "stage_children_3sigma": {"encoder_calibration": 0.25, "exposure_weighted_sync_MA": 0.70, "structure_rotation_projection": 0.40}
+    }
+  },
+  "scope_notes": [
+    "Public product pages do not completely define statistical metric, sampling, correction state or acceptance protocol. Numeric anchors are not asserted to be equivalent to the working Q metric.",
+    "Matching increments are disjoint residual buckets on top of the defined DCO baseline, not a second copy of each scanner's full error. This is a proposed bookkeeping model, not a universal physical identity.",
+    "Parent propagation uses random variance R squared, never the bias-including Q squared. B at each level is the total bound, not an additional independent branch.",
+    "Stage parent caps are used conservatively above the stage level; three child allocations close below their caps.",
+    "Product mask writing, product process distortion, etch shifts and measurement acceptance uncertainty require separate characterization. No product EPE or yield is certified."
+  ]
+}
