@@ -20,6 +20,7 @@
 | REQ-005 | 后续PDF的中文学术论文排版规范 | P1 | 已确认 | Unreleased（规范） | [报告维护规范](../reports/README.md)；后续PDF逐次验收 |
 | REQ-006 | 将L0—L4作为报告默认骨架 | P1 | 已确认 | Unreleased（规范） | [L0—L4骨架](../reports/STRUCTURE.md)；后续报告逐次核验 |
 | REQ-007 | 基于R3整理DUV整机准备工作报告 | P1 | 待验收 | Unreleased（报告V1） | [工作报告](../reports/whole-machine-preparation/report.md)及交付记录 |
+| REQ-008 | 每次Markdown转换完成后默认上传仓库备份 | P1 | 已确认（持续执行） | Unreleased（资料管理） | [备份规则](SOURCES.md) · [论文目录](../references/papers/README.md) |
 
 ### REQ-001：管理基础
 
@@ -118,6 +119,15 @@
 - 本稿目录特例仅适用于本报告，不修改REQ-006的默认骨架；原披露与工程建议分开，数值门限、机型条件和实际分工待项目确定。
 - 验收：正文能支持任务细化和分工，依据可追溯，硬件示例未被写成强制选型，依赖和独立验证清楚，图示完整可读，仓库版本和检查有记录。报告交付不等于设备任务完成，待用户内容审阅。
 - 记录：[报告](../reports/whole-machine-preparation/report.md)、[来源](../reports/whole-machine-preparation/sources.json)、[交付与核验](../reports/whole-machine-preparation/delivery.json)。
+
+### REQ-008：Markdown转换后的默认仓库备份
+
+来源：2026-11-09用户明确要求“做好仓库管理：每次完成md文件转换，也总是上传到仓库备份”。
+
+- 持续要求：每次转换完成后，默认备份全文、图片、来源清单及转换／质量记录；未入库的原件同时保存，已有原件保持原路径和字节。无需逐次询问上传授权；当次明确要求仅本地或不上传时例外。
+- 首次落实：补充[代理约定](../AGENTS.md)、[资料规则](SOURCES.md)、贡献流程与论文校验；归档本次预算设计论文的16页全文及5张图片。
+- 每次验收：本地页序／依赖／哈希及代表页检查通过，资料已上传并按流程合并；远端文件回读一致，检查对应Actions，交付可访问的仓库链接。上传失败或远端核验未完成需如实标明。
+- 证据：[论文清单](../references/papers/manifest.json)、[本次本地验证](validation/2026-11-09-markdown-backup.json)；持续规则不代表未来尚未发生的转换已完成备份。
 
 ## 待确认事项
 

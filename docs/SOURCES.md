@@ -1,13 +1,23 @@
 # 资料维护规则
 
-日期：2026-10-27 · [资料目录](../references/patents/README.md) · [需求](REQUIREMENTS.md) · [维护状态](STATUS.md)
+日期：2026-11-09 · [资料目录](../references/patents/README.md) · [需求](REQUIREMENTS.md) · [维护状态](STATUS.md)
 
 ## 来源与目录
 
 - 以明确公开号及种类代码标识专利版本；同族不同公开号分别登记。
 - `references/patents/<公开号>/original.pdf`保存原件；`mineru.md`保存原语言机器全文；`figures/`保存正文引用图像。
-- [manifest.json](../references/patents/manifest.json)是资料文件、页数和SHA-256的唯一机器清单；首页数字是带日期的摘要，更新清单时同步摘要。
+- [manifest.json](../references/patents/manifest.json)是专利资料文件、页数和SHA-256的唯一机器清单；首页数字是带日期的摘要，更新清单时同步摘要。
 - 参考资料是正式版本内容；本机下载、模型、缓存、转换中间输出和环境不进入仓库。
+
+## Markdown转换后的默认仓库备份
+
+用户于2026-11-09明确要求：每次完成Markdown转换，总是上传仓库备份。这是持续授权，后续任务无需逐次询问；用户明确要求仅本地或不上传时，以当次要求为准。
+
+1. 转换完成后，将Markdown、全部图片依赖、原件来源与哈希、工具版本／参数及质量记录整理入库。原PDF尚未入库时一起备份；已有原件不重复复制、不改路径或字节。
+2. 论文进入`references/papers/<稳定标识>/`，使用`mineru.md`、`images/`、`conversion.json`及`QUALITY.md`；独立[论文清单](../references/papers/manifest.json)登记实际页数及各文件哈希。清单`original_pdf`和`artifacts`路径相对仓库根，`markdown`路径相对论文目录根。
+3. 为保留历史链接，已经放在其他`references/`位置的原PDF可由论文清单引用；不把论文计入专利统计。新论文原件应放在其论文目录中。
+4. 检查完整页序、图像依赖、相对链接和代表页；同步目录、Unreleased、需求与维护状态。模型、环境、缓存、运行日志及不需交付的分析中间文件留在本地D盘。
+5. 按短期分支与PR流程上传，经自审及对应检查后合并；回读远端main的文件哈希及Actions结果，并在交付中提供全文和提交／PR链接。上传或检查未完成时标明待备份／待核验，不报告备份完成。
 
 ## 新资料入库
 
@@ -45,4 +55,4 @@ GitHub Actions对PR、main推送和手动运行执行相同检查。PR采用目�
 
 ## 已知问题和后续资料
 
-当前转换限制统一见[QUALITY.md](../references/patents/QUALITY.md)，不得仅因为CI通过而移除已知问题。新增论文、报告或业务代码时，先补充对应的目录、清单与验收范围，不把专利校验结果外推到其他类型。
+专利转换限制见[专利QUALITY.md](../references/patents/QUALITY.md)，论文限制见各论文目录内的QUALITY.md，不得仅因为CI通过而移除已知问题。校验器分别统计专利和论文，检查两类清单、源文件哈希、完整页序、图像数量及依赖，并保护`references/`下既有PDF不被改写、删除或改名；其他资料类型须另行补充清单和验收范围。

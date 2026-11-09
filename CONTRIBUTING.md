@@ -44,7 +44,7 @@ python tools/validate_repository.py --base <变更前SHA>
 
 - 通用文本使用 UTF-8 和 LF；Windows 命令脚本按 .gitattributes 处理。
 - 生成物放在 work/ 或 outputs/，默认不进入 Git；需保留的小型基准结果应明确存入版本管理目录并说明来源。
-- 正式参考资料是明确例外，存入 `references/patents/`，包含原件、全文与其图像依赖。OCR缓存、模型、虚拟环境和运行日志不入库。
+- 正式参考资料是明确例外：专利存入`references/patents/`，论文派生文件存入`references/papers/`。每次Markdown转换完成后默认上传全文、图像依赖和来源／转换／质量记录；未入库原件一并备份，已有原件保持原路径与字节。执行[资料规则](docs/SOURCES.md)，无需重复请求上传确认。OCR缓存、模型、虚拟环境和运行日志不入库。
 - 依赖变更记录用途、版本影响和验证结果；接入技术栈后维护对应锁文件。
 - `requirements-validation.txt`固定PDF页数校验依赖；仅服务于管理工具，不确定后续业务技术栈。
 - 许可证由仓库所有者明确选择；当前不代为决定授权条款。
