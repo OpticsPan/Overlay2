@@ -50,6 +50,11 @@
       "check": "diff_whitespace",
       "command": "git diff --check",
       "result": "passed"
+    },
+    {
+      "check": "integrated_repository_validation",
+      "command": "python tools/validate_repository.py --base 4f35fa464981e10991e331bc2ce9e7460364a837",
+      "result": "No errors; 101 Markdown files and 4361 local links; all original reference artifacts protected. Test/validator implementation unchanged by concurrent upload."
     }
   ],
   "artifacts": {
@@ -90,6 +95,11 @@
     },
     "calculations-rerun.log": {
       "sha256": "71a7ae11ff6b5f68e0b1835dbc6e40ec12e35ad9cc4f2795b567bdeee0997f36"
+    },
+    "repository-validation-integrated.log": {
+      "sha256": "7a613d9cfb999350dff2269c5247fb2977b30cea7768133e6970e1b855f43cc5"
     }
-  }
+  },
+  "integration_baseline": "4f35fa464981e10991e331bc2ce9e7460364a837",
+  "concurrent_change": "Preserved newly uploaded references/lithography_overlay_error_allocation_survey.md byte-for-byte and added homepage link; not treated as verified evidence for this report."
 }
