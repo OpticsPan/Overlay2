@@ -10,6 +10,8 @@ Overlay2 用于整机套刻调研资料的保存和持续维护。当前已收�
 
 | 更新日期 | 更新结果 | 直接打开 |
 | --- | --- | --- |
+| 2026-11-09 | 预算式设计论文图3：套刻预算分配合理性分析 · V1 | **[阅读全文](reports/budget-based-design-figure3-review/report.md)** · [逐层数值核验](reports/budget-based-design-figure3-review/report.md#arithmetic) |
+| 2026-11-09 | 用户上传：光刻机套刻误差分配与建模控制文献调研稿 | [打开文档](references/lithography_overlay_error_allocation_survey.md) |
 | 2026-11-09 | main首页结果入口与持续维护规则 | [查看规则](CONTRIBUTING.md#homepage-results) |
 | 2026-11-09 | 预算式设计论文：On the Systematic Use of Budget-Based Design（16页、5图） | **[阅读全文](references/papers/on-the-systematic-use-of-budget-based-design/mineru.md)** · [原PDF](references/patents/On%20the%20Systematic%20Use%20of%20Budget-Based%20Design.pdf) · [转换质量](references/papers/on-the-systematic-use-of-budget-based-design/QUALITY.md) |
 | 2026-11-09 | 每次Markdown转换后默认上传仓库备份 | [查看规则](docs/SOURCES.md#markdown-backup) |
@@ -21,6 +23,7 @@ Overlay2 用于整机套刻调研资料的保存和持续维护。当前已收�
 
 ## 研究报告
 
+- [预算式设计论文图3套刻预算分配审阅 · V1](reports/budget-based-design-figure3-review/report.md)
 - [整机需要准备的工作 · V1（DUV研发工作清单）](reports/whole-machine-preparation/report.md) · [思维导图](reports/whole-machine-preparation/mind-map.md)
 
 - [先进光刻机套刻管理架构 · R3（Markdown，当前稿）](reports/advanced-overlay-management/r3/report.md)

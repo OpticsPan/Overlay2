@@ -1,0 +1,152 @@
+{
+  "purpose": "Arithmetic and sensitivity audit of Figure 3; not reconstruction or validation of the confidential ASML model",
+  "length_unit": "nm",
+  "rows": [
+    {
+      "id": "process_overlay",
+      "parent_nm": 80,
+      "children_nm": [
+        15,
+        60,
+        5
+      ],
+      "rule_status": "linear_candidate",
+      "calculated_nm": 80,
+      "parent_minus_calculated_nm": 0
+    },
+    {
+      "id": "matched_machine",
+      "parent_nm": 60,
+      "children_nm": [
+        25,
+        30,
+        5
+      ],
+      "rule_status": "linear_candidate",
+      "calculated_nm": 60,
+      "parent_minus_calculated_nm": 0
+    },
+    {
+      "id": "single_machine",
+      "parent_nm": 30,
+      "children_nm": [
+        6,
+        12,
+        5,
+        5
+      ],
+      "rule_status": "linear_candidate",
+      "calculated_nm": 28,
+      "parent_minus_calculated_nm": 2
+    },
+    {
+      "id": "global_alignment",
+      "parent_nm": 6,
+      "children_nm": [
+        4,
+        4,
+        2
+      ],
+      "rule_status": "rss_explicit_in_paper",
+      "calculated_nm": 6.0,
+      "parent_minus_calculated_nm": 0.0
+    },
+    {
+      "id": "stage_overlay",
+      "parent_nm": 12,
+      "children_nm": [
+        7,
+        5
+      ],
+      "rule_status": "linear_explicit_in_paper",
+      "calculated_nm": 12,
+      "parent_minus_calculated_nm": 0
+    },
+    {
+      "id": "position_measurement",
+      "parent_nm": 4,
+      "children_nm": [
+        3,
+        1,
+        2.5
+      ],
+      "rule_status": "rss_hypothesis",
+      "calculated_nm": 4.031128874149275,
+      "parent_minus_calculated_nm": -0.031128874149274566
+    },
+    {
+      "id": "alignment_repeatability",
+      "parent_nm": 5,
+      "children_nm": [
+        3,
+        3
+      ],
+      "rule_status": "rss_hypothesis",
+      "calculated_nm": 4.242640687119285,
+      "parent_minus_calculated_nm": 0.7573593128807152
+    },
+    {
+      "id": "tracking_xy",
+      "parent_nm": 2.5,
+      "children_nm": [
+        2,
+        1
+      ],
+      "rule_status": "same_plane_uncorrelated_rss_hypothesis",
+      "calculated_nm": 2.23606797749979,
+      "parent_minus_calculated_nm": 0.2639320225002102
+    }
+  ],
+  "global_alignment_correlation_example": {
+    "assumptions": "4,4,2 nm interpreted as standard deviations; positive unit sensitivities; only the two 4 nm inputs correlated",
+    "cases": [
+      {
+        "rho": 0,
+        "sigma_nm": 6.0
+      },
+      {
+        "rho": 0.25,
+        "sigma_nm": 6.6332495807108
+      },
+      {
+        "rho": 0.5,
+        "sigma_nm": 7.211102550927978
+      }
+    ]
+  },
+  "rotation_example": {
+    "assumptions": "Hypothetical effective lever arms, not machine geometry; small-angle displacement magnitude r*theta",
+    "theta_nrad": 75,
+    "cases": [
+      {
+        "lever_arm_mm": 10,
+        "displacement_nm": 0.75
+      },
+      {
+        "lever_arm_mm": 20,
+        "displacement_nm": 1.5
+      },
+      {
+        "lever_arm_mm": 100,
+        "displacement_nm": 7.5
+      }
+    ],
+    "counterexample_to_inferring_geometry_from_closure": {
+      "linear_r_mm": 13.333333333333334,
+      "rss_r_mm": 79.44250191875322,
+      "warning": "Two different assumed rules fit 7 nm with different lever arms; neither establishes the physical geometry"
+    }
+  },
+  "rounding": {
+    "display_decimal_places": 3,
+    "numeric_comparison_absolute_tolerance_nm": 1e-12,
+    "note": "Tolerance is computational only, not an engineering acceptance tolerance; 4.031 nm is not <=4.000 nm"
+  },
+  "not_proven": [
+    "2 nm is a design reserve",
+    "all input values are standard deviations",
+    "all shared inputs are uncorrelated",
+    "the public values are unmodified commercial specifications",
+    "a device meets the allocated budget"
+  ]
+}

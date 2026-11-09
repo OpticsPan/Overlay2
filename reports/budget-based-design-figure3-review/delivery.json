@@ -1,0 +1,105 @@
+{
+  "report": "预算设计论文图3套刻预算分配审阅",
+  "revision": "V1",
+  "date": "2026-11-09",
+  "timezone": "Asia/Shanghai",
+  "status": "已完成撰写与本地核验；待用户内容审阅",
+  "baseline": "3701fcd767e84abe8afb0177c668e2afd3bceae4",
+  "writing_mode": "New focused paper review; not inherited architecture-report prose or a repeat review of all 45 patents",
+  "format": "GitHub-friendly Markdown",
+  "pdf_generated": false,
+  "validation": [
+    {
+      "check": "source_visual_review",
+      "result": "passed",
+      "scope": "Original Figure 3 and main-paper formula; supplemental physical page 11 provenance text"
+    },
+    {
+      "check": "numerical_recalculation",
+      "command": "python reports/budget-based-design-figure3-review/verify_budget.py --output <project-work>/calculations-rerun.json",
+      "result": "passed; byte-identical to committed calculations.json",
+      "scope": "8 scalar allocation checks, covariance sensitivity and angle-to-displacement examples; no device model"
+    },
+    {
+      "check": "independent_technical_review",
+      "result": "No unresolved technical findings; arithmetic independently recalculated using 50-digit Decimal, all errors below 1e-12 nm. Section 5.1 link improved and source hashes verified.",
+      "scope": "Facts, hypotheses, units, geometry, shared error sources and evidence boundaries; final record confirmation in associated PR"
+    },
+    {
+      "check": "unit_tests",
+      "command": "python -m unittest discover -s tests -v",
+      "result": "27 tests passed"
+    },
+    {
+      "check": "repository_validation",
+      "command": "python tools/validate_repository.py --base 3701fcd767e84abe8afb0177c668e2afd3bceae4",
+      "result": "No errors; 100 Markdown files and 4360 local links; 45 patents/1114 pages/624 figures plus 1 paper/16 pages/5 figures; baseline protected",
+      "warning": "Structural checks do not certify OCR accuracy or technical conclusions"
+    },
+    {
+      "check": "visual_preview",
+      "result": "Desktop 1440 px and narrow 600 px local previews inspected; original figure, headings and navigation readable. Arithmetic table and both displayed formulas inspected at 1440 px.",
+      "scope": "Local CommonMark/table and KaTeX preview; not a claim of exact GitHub renderer equivalence. Large original image has a direct link for enlargement. No report PDF generated.",
+      "screenshots": [
+        "desktop.png",
+        "narrow.png",
+        "arithmetic-verified.png"
+      ]
+    },
+    {
+      "check": "diff_whitespace",
+      "command": "git diff --check",
+      "result": "passed"
+    },
+    {
+      "check": "integrated_repository_validation",
+      "command": "python tools/validate_repository.py --base 4f35fa464981e10991e331bc2ce9e7460364a837",
+      "result": "No errors; 101 Markdown files and 4361 local links; all original reference artifacts protected. Test/validator implementation unchanged by concurrent upload."
+    }
+  ],
+  "artifacts": {
+    "report.md": {
+      "sha256": "0b0c23c7c1d2190de7a2890247b3051de7b911e71c6639458d761ace3af83f52",
+      "bytes": 18062
+    },
+    "verify_budget.py": {
+      "sha256": "3358234d0d98b1bc87c6549fff37baefd9cd6b58fd9690e243e7b9093a9ab774",
+      "bytes": 3142
+    },
+    "calculations.json": {
+      "sha256": "f4635803670412fd73dd8163ca41a17955c7b66b67a5e9d114e099005bd0cb77",
+      "bytes": 3764
+    },
+    "sources.json": {
+      "sha256": "988b0a75dd2a78ab50720d3873b4c627bedba954d1b997635ab158ba9cad98b3",
+      "bytes": 3588
+    }
+  },
+  "remote_evidence": "The associated pull request records actual PR/main Actions results and main readback after merge; this local record alone does not establish remote delivery.",
+  "limits": [
+    "No internal ASML model or device data reproduced",
+    "Hypothetical correlations and lever arms do not describe an actual machine",
+    "Repository and arithmetic validation do not replace user review of technical conclusions"
+  ],
+  "environment": {
+    "python": "3.12.15",
+    "calculation_dependencies": "Python standard library only",
+    "execution_storage": "Project, scratch files and configurable process caches on D:"
+  },
+  "local_check_logs": {
+    "unittest.log": {
+      "sha256": "102f06c9076fdb9553ce973b149c623cc52886bea72c58d0974938c72cb877c9"
+    },
+    "repository-validation.log": {
+      "sha256": "80d94d6709aa3f1acfee6e30961d33a66be4eac20a12141b5f22500d9031c9dd"
+    },
+    "calculations-rerun.log": {
+      "sha256": "71a7ae11ff6b5f68e0b1835dbc6e40ec12e35ad9cc4f2795b567bdeee0997f36"
+    },
+    "repository-validation-integrated.log": {
+      "sha256": "7a613d9cfb999350dff2269c5247fb2977b30cea7768133e6970e1b855f43cc5"
+    }
+  },
+  "integration_baseline": "4f35fa464981e10991e331bc2ce9e7460364a837",
+  "concurrent_change": "Preserved newly uploaded references/lithography_overlay_error_allocation_survey.md byte-for-byte and added homepage link; not treated as verified evidence for this report."
+}
