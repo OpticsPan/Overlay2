@@ -2,6 +2,23 @@
 
 Overlay2 用于整机套刻调研资料的保存和持续维护。当前已收录45件专利的原始PDF、MinerU全文Markdown及其图像资料，共1,114个物理页；另收录1篇论文及其MinerU全文、16页和5张图片。每次Markdown转换完成后默认上传本仓库备份。研究报告和业务程序的后续范围由具体任务确定。
 
+<a id="latest-results"></a>
+
+## 最新更新 · 直接打开
+
+每次更新的结果都在这里提供直达链接，最新条目置顶。点击“阅读全文”或“查看结果”即可打开成果。
+
+| 更新日期 | 更新结果 | 直接打开 |
+| --- | --- | --- |
+| 2026-11-09 | main首页结果入口与持续维护规则 | [查看规则](CONTRIBUTING.md#homepage-results) |
+| 2026-11-09 | 预算式设计论文：On the Systematic Use of Budget-Based Design（16页、5图） | **[阅读全文](references/papers/on-the-systematic-use-of-budget-based-design/mineru.md)** · [原PDF](references/patents/On%20the%20Systematic%20Use%20of%20Budget-Based%20Design.pdf) · [转换质量](references/papers/on-the-systematic-use-of-budget-based-design/QUALITY.md) |
+| 2026-11-09 | 每次Markdown转换后默认上传仓库备份 | [查看规则](docs/SOURCES.md#markdown-backup) |
+| 2026-10-30 | DUV整机准备工作思维导图 | **[查看结果](reports/whole-machine-preparation/mind-map.md)** · [打开原图](reports/whole-machine-preparation/figures/work-mindmap.svg) |
+| 2026-10-29 | 整机需要准备的工作 · V1 | **[阅读全文](reports/whole-machine-preparation/report.md)** |
+| 2026-10-29 | 先进光刻机套刻管理架构 · R3（当前稿） | **[阅读全文](reports/advanced-overlay-management/r3/report.md)** |
+
+[历史变更记录](CHANGELOG.md) · [论文资料](references/papers/README.md) · [专利资料](references/patents/README.md)
+
 ## 研究报告
 
 - [整机需要准备的工作 · V1（DUV研发工作清单）](reports/whole-machine-preparation/report.md) · [思维导图](reports/whole-machine-preparation/mind-map.md)
@@ -50,7 +67,7 @@ Overlay2 用于整机套刻调研资料的保存和持续维护。当前已收�
 
 1. 用 Issue 或需求台账记录目标、范围、验收标准及优先级。
 2. 从最新 main 创建短期工作分支，完成修改及适当验证。
-3. 在 PR 中关联需求、说明变更和验证证据，并更新 Unreleased。
+3. 在 PR 中关联需求、说明变更和验证证据，更新 Unreleased，并同步本页顶部的“最新更新 · 直接打开”结果链接。
 4. 合并后更新需求状态；发布时整理版本记录、标签和 Release。
 
 小型文档修正可直接在 PR 中说明，无需额外创建 Issue。完整规则见上方文档。
