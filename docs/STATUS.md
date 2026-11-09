@@ -2,6 +2,13 @@
 
 更新：2026-11-09（Asia/Shanghai） · [需求台账](REQUIREMENTS.md) · [变更日志](../CHANGELOG.md)
 
+## 套刻调研稿修订R2（2026-11-09，待内容审阅）
+
+- REQ-011形成[浸没式ArF调研R2](../reports/immersion-overlay-survey/report.md)，补充节点、电路类型、CD/pitch/半节距、套刻/EPE概念，保存四张原创示意图。
+- [图3](../reports/immersion-overlay-survey/figures/fig3-immersion-overlay-budget.png)将1950i历史数值基线与1980Di并列；分支配额是明确标注统计和独立性假设的工程建议，并非厂家内部预算或设备验收结果。
+- [文献清单](../reports/immersion-overlay-survey/references.md)登记原稿31个独立链接；本地取得8份PDF及10篇Sci-Bot文本（含新增2篇机型论文），另列缺全文、目录与网页；修正题名错配、EPE统计量和Zernike–Legendre方法表述。
+- 原稿保留，根README最新入口置顶；[交付检查](../reports/immersion-overlay-survey/delivery.json)记录实际本地验证，远端PR/Actions与main回读证据记录在对应PR。未新增资料全文转换或报告PDF。
+
 ## 预算设计论文图3审阅（2026-11-09，待内容审阅）
 
 - REQ-010形成[专题报告V1](../reports/budget-based-design-figure3-review/report.md)：分层方法基本合理，公开数值只能做有条件的自洽检查，尚不足以直接作为设备验收规格。

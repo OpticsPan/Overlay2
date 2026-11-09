@@ -10,6 +10,7 @@ Overlay2 用于整机套刻调研资料的保存和持续维护。当前已收�
 
 | 更新日期 | 更新结果 | 直接打开 |
 | --- | --- | --- |
+| 2026-11-09 | 套刻调研修订 · R2：概念、1950i—1980Di 预算与参考文献 | **[阅读全文](reports/immersion-overlay-survey/report.md)** · [预算图3](reports/immersion-overlay-survey/figures/fig3-immersion-overlay-budget.png) · [文献获取清单](reports/immersion-overlay-survey/references.md) |
 | 2026-11-09 | 预算式设计论文图3：套刻预算分配合理性分析 · V1 | **[阅读全文](reports/budget-based-design-figure3-review/report.md)** · [逐层数值核验](reports/budget-based-design-figure3-review/report.md#arithmetic) |
 | 2026-11-09 | 用户上传：光刻机套刻误差分配与建模控制文献调研稿 | [打开文档](references/lithography_overlay_error_allocation_survey.md) |
 | 2026-11-09 | main首页结果入口与持续维护规则 | [查看规则](CONTRIBUTING.md#homepage-results) |
@@ -23,6 +24,7 @@ Overlay2 用于整机套刻调研资料的保存和持续维护。当前已收�
 
 ## 研究报告
 
+- [浸没式 ArF 套刻预算与建模控制调研 · R2](reports/immersion-overlay-survey/report.md) · [建议配额与复算](reports/immersion-overlay-survey/calculations.json)
 - [预算式设计论文图3套刻预算分配审阅 · V1](reports/budget-based-design-figure3-review/report.md)
 - [整机需要准备的工作 · V1（DUV研发工作清单）](reports/whole-machine-preparation/report.md) · [思维导图](reports/whole-machine-preparation/mind-map.md)
 

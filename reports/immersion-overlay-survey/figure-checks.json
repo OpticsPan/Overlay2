@@ -1,0 +1,38 @@
+[
+  {
+    "name": "fig0-system-loop",
+    "size": [
+      1580,
+      810
+    ],
+    "text_items": 28,
+    "all_text_within_canvas": true
+  },
+  {
+    "name": "fig1-node-cd-pitch",
+    "size": [
+      1580,
+      1000
+    ],
+    "text_items": 23,
+    "all_text_within_canvas": true
+  },
+  {
+    "name": "fig2-overlay-epe",
+    "size": [
+      1580,
+      980
+    ],
+    "text_items": 18,
+    "all_text_within_canvas": true
+  },
+  {
+    "name": "fig3-immersion-overlay-budget",
+    "size": [
+      1810,
+      1340
+    ],
+    "text_items": 40,
+    "all_text_within_canvas": true
+  }
+]

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="980" viewBox="0 0 1580 980">
+<rect width="100%" height="100%" fill="white"/>
+<text x="42" y="30" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" dominant-baseline="text-before-edge">图 2  套刻看相对位置，EPE 看具体边缘</text>
+<text x="42" y="88" fill="#52687d" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" dominant-baseline="text-before-edge">一维几何示例：下层参考固定，上层中心右移 2 nm，同时线宽增加 4 nm；边缘误差按 +x 记号。</text>
+<text x="42" y="154" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="700" dominant-baseline="text-before-edge">A  中心位置读数（标记示意）</text>
+<text x="830" y="154" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="700" dominant-baseline="text-before-edge">B  同样的中心位移，左右边缘结果不同</text>
+<rect x="42" y="212" width="700" height="500" rx="15" fill="#f2f6fa" stroke="#98aabd" stroke-width="2"/>
+<rect x="830" y="212" width="708" height="500" rx="15" fill="#f2f6fa" stroke="#98aabd" stroke-width="2"/>
+<text x="74" y="240" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">设计中心</text>
+<text x="432" y="240" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">实际中心</text>
+<rect x="280" y="323" width="160" height="180" rx="0" fill="#dce6f0" stroke="#16324f" stroke-width="2"/>
+<rect x="360" y="355" width="160" height="180" rx="0" fill="#a4dddc" stroke="#087f8c" stroke-width="2"/>
+<polyline points="360,300 360,610" fill="none" stroke="#16324f" stroke-width="3" stroke-dasharray="10 8"/>
+<polyline points="440,300 440,610" fill="none" stroke="#087f8c" stroke-width="3" stroke-dasharray="10 8"/>
+<polyline points="360,652 440,652" fill="none" stroke="#087f8c" stroke-width="2"/>
+<polyline points="360,642 360,662" fill="none" stroke="#087f8c" stroke-width="2"/>
+<polyline points="440,642 440,662" fill="none" stroke="#087f8c" stroke-width="2"/>
+<text x="281.0" y="615" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">中心偏移 δx = +2 nm</text>
+<text x="74" y="555" fill="#52687d" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">中心读数不包含产品线宽变化</text>
+<text x="860" y="240" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">设计：CD = 20 nm</text>
+<rect x="890" y="304" width="400" height="90" rx="0" fill="#dce6f0" stroke="#16324f" stroke-width="2"/>
+<text x="860" y="429" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">实际：CD = 24 nm；中心 +2 nm</text>
+<rect x="890" y="488" width="480" height="90" rx="0" fill="#a4dddc" stroke="#087f8c" stroke-width="2"/>
+<polyline points="890,286 890,618" fill="none" stroke="#16324f" stroke-width="2" stroke-dasharray="10 8"/>
+<polyline points="1290,286 1290,618" fill="none" stroke="#16324f" stroke-width="2" stroke-dasharray="10 8"/>
+<polyline points="1290,650 1370,650" fill="none" stroke="#087f8c" stroke-width="2"/>
+<polyline points="1290,640 1290,660" fill="none" stroke="#087f8c" stroke-width="2"/>
+<polyline points="1370,640 1370,660" fill="none" stroke="#087f8c" stroke-width="2"/>
+<text x="1252.5" y="613" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">右边缘 +4 nm</text>
+<text x="860" y="650" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">左边缘 0 nm</text>
+<rect x="42" y="762" width="700" height="148" rx="15" fill="#eff8f8" stroke="#16324f" stroke-width="2"/>
+<text x="64" y="782" fill="#16324f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">单条线的几何关系</text>
+<text x="64" y="828" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">eL = δx − δCD / 2 = 0 nm</text>
+<text x="64" y="867" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">eR = δx + δCD / 2 = 4 nm</text>
+<rect x="830" y="762" width="708" height="148" rx="15" fill="#eff8f8" stroke="#087f8c" stroke-width="2"/>
+<text x="852" y="782" fill="#087f8c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" dominant-baseline="text-before-edge">产品评价还要增加</text>
+<text x="852" y="828" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">局部边缘变化、工艺偏差及相关性</text>
+<text x="852" y="867" fill="#172e46" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">线 / 孔实际间隙或包围量的联合统计</text>
+</svg>
